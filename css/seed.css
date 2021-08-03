@@ -139,8 +139,11 @@ navigation
 }
 .menu {
   position: fixed;
- top: -100%;
+  top: -100%;
   z-index: 90;
+}
+.menu.active {
+  top: 0%;
 }
 .united, .group {
   margin: 0 !important;
