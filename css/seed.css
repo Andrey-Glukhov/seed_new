@@ -28,6 +28,77 @@ fonts
   }
 
 /*--------------------------------------------------------------
+home
+--------------------------------------------------------------*/
+
+.scroll-wraper{
+position: relative;
+width: 100vw;
+height: 100vh;
+background-color: #0000cc;
+}
+.scroll-canvas{
+  background-color: rgba(255,245,215,.5);
+  width: 200vw;
+  height: 500vh;
+}
+.seed-opener{
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a6149;
+  display: flex;
+  justify-content: center;
+}
+.seed-opener>img{
+  height: 80vh;
+  width: auto;
+}
+.slogan-wrapper{
+color: #ffffff;
+width: 100vw;
+height: fit-content;
+position: absolute;
+left: 0;
+bottom: 0;
+background-color: #d2b48c;
+}
+.slogan-wrapper h2{
+text-align: center;
+font-family: 'Oswald', sans-serif;
+font-weight: 500;
+font-size: 2.5rem;
+}
+.seed-gate{
+  height: 100vh;
+  width: 200vw;
+  display: flex;
+}
+.gate-wrapper{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gate-wrapper>svg{
+  height: 70%;
+  width: auto;
+}
+.gate-text{
+  width: 100vw;
+  height: 100vh;
+}
+.gate-content{
+  background-color: #0a6149;
+  height: 100vh;
+}
+.gate-content p{
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+font-weight: 400;
+font-size: 1rem;
+}
+/*--------------------------------------------------------------
 navigation
 --------------------------------------------------------------*/
 /*new*/
