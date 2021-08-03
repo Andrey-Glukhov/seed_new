@@ -52,7 +52,7 @@
                             }
                             </style>
                         </defs>
-                        <g>
+                        <g id="gate_left">
                             <path class="cls-1" d="M425.67,287.59S717.72,37,944.87,76.34v985H425.67V287.59" transform="translate(-75.54 -36.35)"/>
                             <path class="cls-2" d="M441.33,393.31s283.1-214.13,510.26-194.15V699.91H441.33l1.12-307.2" transform="translate(-75.54 -36.35)"/>
                             <rect class="cls-3" x="378.1" y="696.01" width="59.31" height="139.87"/>
@@ -92,7 +92,7 @@
                             <path class="cls-6" d="M879.62,674.68V306.07h54.11V358H904.91V467.72h22.22v19.5H904.91V623.71H934v51Z" transform="translate(-75.54 -36.35)"/>
                             </g>
                         </g>
-                        <g>
+                        <g id="gate_right">
                             <path class="cls-1" d="M1490.94,287.59S1198.88,37,971.73,76.34v985h519.21V287.59" transform="translate(-75.54 -36.35)"/>
                             <path class="cls-2" d="M1501,393.31s-283.1-214.13-510.26-194.15V699.91H1501l-1.12-307.2" transform="translate(-75.54 -36.35)"/>
                             <rect class="cls-3" x="931.99" y="696.01" width="59.31" height="139.87"/>
@@ -191,6 +191,6 @@
     </div>
 
 </div>
-
+<div class="scroll_line"></div>
 
 <?php get_footer(); ?>
