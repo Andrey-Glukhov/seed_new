@@ -37,12 +37,24 @@ svg {
 #gate_left {
   transform-origin: 0px 0px;
   transform-box: fill-box;
+  transform-origin: 0% 0%;
+  transform: rotate3d(0,1,0, 0deg);
+  transition: all 3s;
 }
-#gate-right {
+#gate_right {
   transform-origin: 100% 100%;
   transform-box: fill-box;
+  transform-origin: 100% 100%;
+  transform: rotate3d(0,1,0, 0deg);
+  transition: all 3s;
 }
 
+#gate_left.open { 
+  transform: rotate3d(0,1,0, -90deg)
+}  
+#gate_right.open { 
+  transform: rotate3d(0,1,0, 90deg)
+}
 .scroll-wraper{
 position: fixed;
 width: 100vw;
