@@ -25,4 +25,5 @@ endif;
 
 <body>
   <header>
-	</header>
+  </header>
+  <?php include (TEMPLATEPATH . '/navigation.php'); ?>
