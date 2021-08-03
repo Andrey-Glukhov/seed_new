@@ -76,11 +76,12 @@ jQuery(function($) {
     //       }
 
     //   }
-      
+    $( window ).resize(function() {
+       calcPoints(scrollArray);
+      });
+    
 });
-window.onresize(function() {
-    calcPoints(scrollArray);
-});
+
 function calcPoints(pointsArray) {
           for(var el of pointsArray) {
               el.x1 = el.x1 * document.documentElement.clientWidth / templateWidth;

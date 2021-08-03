@@ -63,7 +63,7 @@
 
 <script>
 
-var t1 = new TimelineMax({paused: true});
+var t1 = new gsap.timeline({paused: true});
 
 t1.to(".overlay", 1.6, {
 
