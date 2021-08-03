@@ -49,38 +49,74 @@ jQuery(function($) {
 
     gateObserver.observe($('.gate-wrapper').get(0));
 
-    //Additional functions 
-
-    function getIntervalValue(offset) {
-        if (offset > 100 ) {
-          return {x:scrollArray[scrollArray.length-1].x2, y: scrollArray[scrollArray.length-1].y2};
-        }
-        if (offset <= 0 || scrollArray.length === 0) {
-          return {x:scrollArray[0].x1, y: scrollArray[0].y1};
-        }
-        //console.log(offset);
-        var interval = Math.floor(offset * scrollArray.length / offsetRange);
-        var persent = offset % (offsetRange /scrollArray.length  ) / (offsetRange /scrollArray.length  ) ;
-        //le.log(interval);
-        //console.log(persent*100);
-        var newX = Math.floor(scrollArray[interval].x1 + (scrollArray[interval].x2 - scrollArray[interval].x1)*persent);
-        var newY = Math.floor(scrollArray[interval].y1 + (scrollArray[interval].y2 - scrollArray[interval].y1)*persent);
-        return {x: newX, y: newY};
-      }
     
-    //   function calcPoints(pointsArray) {
-    //       for(var el of pointsArray) {
-    //           for (var point in el) {
-    //               console.log(point);
-    //           }
-    //       }
-
-    //   }
+        
     $( window ).resize(function() {
        calcPoints(scrollArray);
       });
     
+     
+    var t1 = new gsap.timeline({paused: true});
+    t1.to(".overlay", 1.6, {
+    
+      top: 0,
+      ease: Expo.easeInOut
+    
+    });
+    
+    t1.staggerFrom(".menu ul li", 1, {y: 100, opacity: 0, ease: Expo.easeOut}, 0.1);
+    
+    t1.reverse();
+    $(document).on("click", ".menu-btn", function() {
+      t1.reversed(!t1.reversed());
+    });
+    
+    t1.reverse();
+    $(document).on("click", "li", function() {
+      t1.reversed(!t1.reversed());
+    
+    //   $('.menu-btn').on('click', function () {
+    //     if ($('.animated-icon1').hasClass('open')) {
+    //       $('.animated-icon1').removeClass('open');
+    //       $('.menu').removeClass('active');
+    //     }else{
+    //       $('.animated-icon1').addClass('open');
+    //       $('.menu').addClass('active');
+    //     };
+    //   });
+    });
+
+    $('.menu-btn').on('click', function () {
+      if ($('.animated-icon1').hasClass('open')) {
+        $('.animated-icon1').removeClass('open');
+        $('.menu').removeClass('active');
+      }else{
+        $('.animated-icon1').addClass('open');
+        $('.menu').addClass('active');
+      };
+    });
+
+//Additional functions 
+
+function getIntervalValue(offset) {
+    if (offset > 100 ) {
+      return {x:scrollArray[scrollArray.length-1].x2, y: scrollArray[scrollArray.length-1].y2};
+    }
+    if (offset <= 0 || scrollArray.length === 0) {
+      return {x:scrollArray[0].x1, y: scrollArray[0].y1};
+    }
+    //console.log(offset);
+    var interval = Math.floor(offset * scrollArray.length / offsetRange);
+    var persent = offset % (offsetRange /scrollArray.length  ) / (offsetRange /scrollArray.length  ) ;
+    //le.log(interval);
+    //console.log(persent*100);
+    var newX = Math.floor(scrollArray[interval].x1 + (scrollArray[interval].x2 - scrollArray[interval].x1)*persent);
+    var newY = Math.floor(scrollArray[interval].y1 + (scrollArray[interval].y2 - scrollArray[interval].y1)*persent);
+    return {x: newX, y: newY};
+  }
+
 });
+
 
 function calcPoints(pointsArray) {
           for(var el of pointsArray) {
