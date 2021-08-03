@@ -47,7 +47,6 @@ svg {
 position: fixed;
 width: 100vw;
 height: 100vh;
-background-color: #0000cc;
 overflow: hidden;
 }
 
@@ -56,7 +55,7 @@ overflow: hidden;
   height: 400vh;
   }
 .scroll-canvas{
-  background-color: rgba(255,245,215,.5);
+  background-color:#fffbef;
   width: 200vw;
   height: 500vh;
   position: absolute;
@@ -102,6 +101,7 @@ font-size: 2.5rem;
 .gate-wrapper>svg{
   height: 70%;
   width: auto;
+  z-index: 10;
 }
 .gate-text{
   width: 100vw;
@@ -116,6 +116,15 @@ font-size: 2.5rem;
   font-family: 'Oswald', sans-serif;
 font-weight: 400;
 font-size: 1rem;
+}
+.gate-wrapper h2{
+  position: absolute;
+  width: 300px;
+  font-family: 'Oswald', sans-serif;
+font-weight: 500;
+font-size: 2rem;
+color: #0e624a;
+text-align: center;
 }
 /*--------------------------------------------------------------
 navigation
@@ -156,7 +165,7 @@ navigation
   width: 100%;
 }
 .group.overlay {
-  background: #076149;
+  background: #d2b48c;
   position: absolute;
   top: -100%;
 }
