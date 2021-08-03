@@ -1,15 +1,16 @@
-var scrollArray = [
+var scrollArrayInit = [
     {x1: 0, y1: 0, x2: 0, y2: -1024 },
     {x1: 0, y1: -1024, x2: -1920, y2: -1024 } //,
     //{x1: -1920, y1: -1024, x2: 0, y2: -1024 }
   ];
+  var scrollArray;
   var offsetRange = 101;
 
   var templateWidth = 1920;
   var templateHeight = 1024;
 
 jQuery(function($) {
-    calcPoints(scrollArray);
+    scrollArray = calcPoints(scrollArrayInit);
     var scrollProgress = 0;
         $(window).on('scroll',  function(e) {
           var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -35,12 +36,13 @@ jQuery(function($) {
           elements.forEach( function(element) {
             //var isAbove = element.boundingClientRect.y < element.rootBounds.y; 
             if (element.intersectionRatio > 0.5) {
-                gsap.to('#gate_left', {transform: 'rotateY(-90deg)', transformOrigin: '0 0', duration: 3});
-               // $('#gate_right').css('transform-origin', '100% 100%')
-                gsap.to('#gate_right', {transform: 'rotateY(90deg)', transformOrigin: '100% 100%', duration: 3});
+                // gsap.to('#gate_left', {transform: 'rotate3d(0,1,0, -90deg)', duration: 3});
+                // gsap.to('#gate_right', {transform: 'rotate3d(0,1,0, 90deg)', duration: 3});
+                $('#gate_left, #gate_right').addClass('open')
             } else {
-                gsap.to('#gate_left', {transform: 'rotateY(0deg)', duration: 3});
-                gsap.to('#gate_right', {transform: 'rotateY(0deg)', duration: 3});
+                // gsap.to('#gate_left', {transform: 'rotate3d(0,1,0, 0', duration: 3});
+                // gsap.to('#gate_right', {transform: 'rotate3d(0,1,0, 0)', duration: 3});
+                $('#gate_left, #gate_right').removeClass('open')
             }
 
             //console.log("element", element);
@@ -52,7 +54,7 @@ jQuery(function($) {
     
         
     $( window ).resize(function() {
-       calcPoints(scrollArray);
+       scrollArray = calcPoints(scrollArrayInit);
       });
     
      
@@ -74,16 +76,7 @@ jQuery(function($) {
     t1.reverse();
     $(document).on("click", "li", function() {
       t1.reversed(!t1.reversed());
-    
-    //   $('.menu-btn').on('click', function () {
-    //     if ($('.animated-icon1').hasClass('open')) {
-    //       $('.animated-icon1').removeClass('open');
-    //       $('.menu').removeClass('active');
-    //     }else{
-    //       $('.animated-icon1').addClass('open');
-    //       $('.menu').addClass('active');
-    //     };
-    //   });
+   
     });
 
     $('.menu-btn').on('click', function () {
@@ -118,14 +111,17 @@ function getIntervalValue(offset) {
 });
 
 
-function calcPoints(pointsArray) {
-          for(var el of pointsArray) {
-              el.x1 = el.x1 * document.documentElement.clientWidth / templateWidth;
-              el.y1 = el.y1 * document.documentElement.clientHeight / templateHeight;
-              el.x2 = el.x2 * document.documentElement.clientWidth / templateWidth;
-              el.y2 = el.y2 * document.documentElement.clientHeight / templateHeight;
+function calcPoints(pointsArrayInit) {
+        pointsArray = [];
+          for(var el of pointsArrayInit) {
+              var x1 = el.x1 * document.documentElement.clientWidth / templateWidth;
+              var y1 = el.y1 * document.documentElement.clientHeight / templateHeight;
+              var x2 = el.x2 * document.documentElement.clientWidth / templateWidth;
+              var y2 = el.y2 * document.documentElement.clientHeight / templateHeight;
+              pointsArray.push({x1: x1, y1: y1, x2: x2, y2: y2})
                   //console.log(el[point]);
               
           }
+         return pointsArray; 
 
       }
