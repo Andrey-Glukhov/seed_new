@@ -1,5 +1,6 @@
 var scrollArrayInit = [
     {x1: 0, y1: 0, x2: 0, y2: -1024 },
+    {x1: 0, y1: -1024, x2: 0, y2: -1024 },
     {x1: 0, y1: -1024, x2: -1920, y2: -1024 } //,
     //{x1: -1920, y1: -1024, x2: 0, y2: -1024 }
   ];
@@ -22,8 +23,16 @@ jQuery(function($) {
           
           var offset = 100 * scrollTop / (scrollHeight - document.documentElement.clientHeight);
           var translate = getIntervalValue(offset);
-          $('.scroll-canvas').css('transform', 'translate(' + translate.x + 'px, ' + translate.y + 'px)');
-          
+          if (translate.scale)  {
+            $('#Camada_2').css('transform', 'scale(' + translate.scale + ')');
+          } else { 
+            if (translate.hide) { 
+              $('#Camada_2').css('display', 'none');
+            } else {
+              $('#Camada_2').css('display', 'block');
+            } 
+            $('.scroll-canvas').css('transform', 'translate(' + translate.x + 'px, ' + translate.y + 'px)');
+          }
         });
 
 
@@ -103,9 +112,22 @@ function getIntervalValue(offset) {
     var persent = offset % (offsetRange /scrollArray.length  ) / (offsetRange /scrollArray.length  ) ;
     //le.log(interval);
     //console.log(persent*100);
-    var newX = Math.floor(scrollArray[interval].x1 + (scrollArray[interval].x2 - scrollArray[interval].x1)*persent);
-    var newY = Math.floor(scrollArray[interval].y1 + (scrollArray[interval].y2 - scrollArray[interval].y1)*persent);
-    return {x: newX, y: newY};
+    var result = {
+      scale: false,
+      hide: false,
+      x: 0,
+      y: 0
+    };
+    if (interval == 1)  {
+      result.scale = 1 + (2.5 - 1) * persent;
+    } else { 
+        if (interval > 1) {
+          result.hide = true;
+        }
+        result.x = Math.floor(scrollArray[interval].x1 + (scrollArray[interval].x2 - scrollArray[interval].x1)*persent);
+        result.y = Math.floor(scrollArray[interval].y1 + (scrollArray[interval].y2 - scrollArray[interval].y1)*persent);
+    }
+    return result;
   }
 
 });
