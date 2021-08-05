@@ -65,7 +65,8 @@ function seed_scripts() {
 
 
 	 // Gsap
-	 wp_enqueue_script( 'gsap-js', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js', array('jquery'), null, true );
+	 //wp_enqueue_script( 'gsap-js', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js', array('jquery'), null, true );
+	 wp_enqueue_script( 'gsap-js', get_template_directory_uri() . '/js/gsap.js', array('jquery'), null, true );
 	
 	wp_enqueue_script( 'seed-javascript', get_template_directory_uri() . '/js/seed.js', array( 'jquery', 'bootstrap-js', 'gsap-js'), '20210606', true );
 

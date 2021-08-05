@@ -39,14 +39,14 @@ svg {
   transform-box: fill-box;
   transform-origin: 0% 0%;
   transform: rotate3d(0,1,0, 0deg);
-  transition: all 3s;
+  /* transition: all 3s; */
 }
 #gate_right {
   transform-origin: 100% 100%;
   transform-box: fill-box;
   transform-origin: 100% 100%;
   transform: rotate3d(0,1,0, 0deg);
-  transition: all 3s;
+  /* transition: all 3s; */
 }
 
 #gate_left.open { 
@@ -128,6 +128,21 @@ font-size: 2.5rem;
   font-family: 'Oswald', sans-serif;
 font-weight: 400;
 font-size: 1rem;
+}
+
+
+.svg_wrapper {
+  width: 100%;
+  height: 100vh;
+}
+.svg_wrapper svg {
+  width: 100%;
+  height: 100%;
+}
+.leaf_lite {
+  animation: leaf_anim_lite 3s infinite;
+  transform-origin: 100% 100%;
+  transform-box: fill-box;
 }
 /*--------------------------------------------------------------
 navigation
@@ -746,3 +761,10 @@ animation
 .k1 {
   animation: bounce 2s infinite ;
 }
+
+@keyframes leaf_anim_lite {
+  0% {transform: rotate(0);}
+  50% {transform: rotate(5deg);}
+  100% {transform: rotate(0);}
+}
+
