@@ -175,11 +175,11 @@ navigation
 }
 .menu {
   position: fixed;
-  top: -100%;
+  transform: translate(0px, -100%);
   z-index: 90;
 }
 .menu.active {
-  top: 0%;
+  transform: translate(0px, 0px);
 }
 .united, .group {
   margin: 0 !important;
