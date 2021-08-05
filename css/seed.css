@@ -178,22 +178,21 @@ navigation
 }
 .group.overlay {
   background: #d2b48c;
-  position: absolute;
+  padding-top: 50px !important;
   top: -100%;
 }
 
 .nav_content ul {
-  position: absolute;
+  /*position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
   list-style: none;
   margin: 0;
   padding: 0;
 }
 .nav_content li {
-  font-family: Poppins;
-  display: inline-block;
+  display: block;
 }
 .navigation-bar{
   display: flex;
@@ -278,146 +277,84 @@ font-size: 3rem;
 color: white;
 }
 
-/*new-until here
+.nf-before-form-content{
+display: none;
+}
 
-nav{
-width: 100%;
-z-index: 200;
-position: fixed;
+#nf-field-1,
+#nf-field-2,
+#nf-field-5{
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #000000;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #ffffff !important;
+  padding-bottom: 0px;
 }
-.menu-item{
-text-align: center;
+#nf-field-1::placeholder,
+#nf-field-2::placeholder,
+#nf-field-3::placeholder,
+#nf-field-5::placeholder{
+  color: #ffffff !important;
 }
-.menu-item>a{
-text-decoration: none;
-padding: 15px 25px;
-font-size: 0.9rem;
-color: #ffffff;
-letter-spacing: 0.04rem;
-}
-.menu-item>a:hover{
-background-color: white;
-color: black;
-}*/
+.nf-error .nf-error-msg,
+.nf-error-msg, .ninja-forms-req-symbol{
+  color: #ce6149 !important;
 
+}
+.nf-error.field-wrap .nf-field-element:after{
+  background: #ce6149 !important;
+}
+.nf-error #nf-field-1,
+.nf-error #nf-field-2{
+  border-bottom-color: #ce6149 !important;
+}
+#nf-field-3{
+  background: transparent;
+  border: 1px solid #000000;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #ffffff !important;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  height: 160px;
+}
+
+.nf-field-label,
+.nf-label-field-2,
+.nf-label-field-5{
+  display: none;
+}
+li.page_item{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 2.3rem;
+  color: #ffffff !important;
+  text-transform: uppercase;
+}
+li.page_item a{
+  text-decoration: none;
+  color: #ffffff;
+}
+#nf-form-title-1>h3{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 2.3rem;
+  color: #ce6149;
+}
+.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit]{
+background-color: #ce6149 !important;
+border-radius: 26px;
+padding: 10px 50px;
+}
 /*--------------------------------------------------------------
 home
 --------------------------------------------------------------*/
-.page_container {
-  /* position: fixed;
-  overflow-y: scroll;
-  overflow-x: hidden; */
-}
-.page_block {
-  width: 100%;
-  height: 600vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #210891;
-  position: relative;
-}
-.grass_block {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #210891;
-  background-image: url(http://localhost:8888/sid/wordpress/wp-content/uploads/2020/08/grass-01.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-}
-.left_overlay {
-  width:50%;
-  height: 100vh;
-  position: fixed;
-  top:0;
-  left: 0;
-  background-color: #ffffff;
-  background-image: url(http://localhost:8888/sid/wordpress/wp-content/uploads/2020/10/gate_left-01.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: center;
-
-
-  z-index: 80;
-}
-.right_overlay {
-  width: 50%;
-  height: 100vh;
-  position: fixed;
-  top:0;
-  /* left: 50vw; */
-  right: 0;
-  background-color: #ffffff;
-  background-image: url(http://localhost:8888/sid/wordpress/wp-content/uploads/2020/10/gate_right-01.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: left;
-  background-position-y: center;
-
-  z-index: 80;
-}
-
-.nav_svg_block {
-  position: fixed;
-  top:0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 50;
-}
-
-#road {
-  width: 100vw;
-  height: 100vh;
-}
-
-#text3336{
-  -webkit-transform-origin: 100% 100%;
-  -moz-transform-origin: 100% 100%;
-  -o-transform-origin: 100% 100%;
-  -ms-transform-origin: 100% 100%;
-  transform-origin: 100% 100%;
-}
-/*--------------------------------------------------------------
-about
---------------------------------------------------------------*/
-.about_wrap {
-  overflow:hidden;
-}
-
-.about_popup_1{
-  width: 80vw;
-  padding: 15px;
-  border: 3px solid #0000cc;
-  border-radius: 10px;
-  color: #0000cc;
-  position: fixed;
-  z-index: 99;
-  display: none;
-  overflow:hidden;
-  top:10vh;
-  left:10vw;
-  background-color:white;
-}
-.about_popup_2{
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  z-index: 99;
-  display: none;
-  overflow:hidden;
-  top:0vh;
-  left:0vw;
-  background-color:white;
-}
 
 /*--------------------------------------------------------------
 servicies
