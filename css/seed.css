@@ -159,14 +159,19 @@ navigation
 /*new*/
 .wrapper {
   width: 100%;
-  height: auto;
+  height: 100vh;
   margin: 0;
   padding: 0;
-  /* position: fixed; */
+  position: fixed;
   /* top: 0; */
   left: 0;
   z-index: 90;
+  overflow: scroll;
 }
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+  }
 .menu-btn {
   position: fixed;
   margin: 1.2em;
@@ -174,7 +179,7 @@ navigation
   z-index: 95;
 }
 .menu {
-  position: fixed;
+  position: relative;
   transform: translate(0px, -100%);
   z-index: 90;
 }
