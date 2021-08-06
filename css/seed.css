@@ -103,6 +103,23 @@ font-size: 2.5rem;
   width: 200vw;
   display: flex;
 }
+.seed-greenhouse {
+  height: 100vh;
+  width: 300vw;
+  display: flex;
+  transform: translateX( -100vw);
+}
+.greenhouse_wrapper {
+  height: 100vh;
+  width: 100vw;
+  /* transform: translate( 100vw 0); */
+  background-color: aqua;
+}
+.greenhouse_right, .greenhouse_left {
+  height: 100vh;
+  width: 100vw;
+  background-color: #d2b48c;
+}
 .gate-wrapper{
   height: 100vh;
   width: 100vw;

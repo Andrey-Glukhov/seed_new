@@ -187,6 +187,8 @@
             </div>   <!-- gate-text -->
         </div> <!-- seed-gate -->
         <div class="seed-greenhouse">
+        <div class="greenhouse_left"></div> 
+        <div class="greenhouse_wrapper">  
         <svg id="svg216" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 749">
             <defs>
               <style>
@@ -363,6 +365,8 @@
               <rect id="rect213" class="svg216_cls-2" x="12.5" y="260.5" width="176" height="325"/>
             </g>
           </svg>
+          </div>
+          <div class="greenhouse_right"></div>
         </div>
         <?php endwhile; 
         endif; ?>

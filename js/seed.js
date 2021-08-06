@@ -2,7 +2,9 @@ var scrollArrayInit = [
   { x1: 0, y1: 0, x2: 0, y2: -1024 },
   { x1: 0, y1: -1024, x2: 0, y2: -1024 },
   { x1: 0, y1: -1024, x2: -1920, y2: -1024 },
-  {x1: -1920, y1: -1024, x2: -1920, y2: -2048 }
+  {x1: -1920, y1: -1024, x2: -1920, y2: -2048 },
+  {x1: -1920, y1: -2048, x2: 0, y2: -2048 },
+  {x1: 0, y1: -2048, x2: 1920, y2: -2048 }
 ];
 var scrollArray;
 var offsetRange = 100;
@@ -198,9 +200,13 @@ jQuery(function ($) {
       x: 0,
       y: 0,
     };
-    if (offset > 100) {      
+    if (offset >= 100) {      
         result.x = scrollArray[scrollArray.length - 1].x2;
         result.y = scrollArray[scrollArray.length - 1].y2;
+        result.interval = scrollArray.length - 1;
+        if (result.interval > 1){
+          result.hide = true;
+        }  
         return result;
     }
     if (offset <= 0 || scrollArray.length === 0) {
