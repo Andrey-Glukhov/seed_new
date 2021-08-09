@@ -1,6 +1,7 @@
 var scrollArrayInit = [
   { x1: 0, y1: 0, x2: 0, y2: -1024 },
   { x1: 0, y1: -1024, x2: 0, y2: -1024 },
+  { x1: 0, y1: -1024, x2: 0, y2: -1024 },
   { x1: 0, y1: -1024, x2: -1920, y2: -1024 },
   {x1: -1920, y1: -1024, x2: -1920, y2: -2048 },
   {x1: -1920, y1: -2048, x2: 0, y2: -2048 },
@@ -43,53 +44,60 @@ jQuery(function ($) {
       } 
       scrollProgress = offset;
     var translate = getIntervalValue(offset,directionDown) ;
-    if (currentInterval==0 && translate.interval == 1) {
-      //stopScroll = true;
-      document.body.style.overflow = "hidden";
-        gsap.to("#gate_left", {
-          transform: "rotate3d(0, 1, 0, -90deg)",
-          duration: 3,
-          onComplete: function () {
-            //stopScroll = false;
-            document.body.style.overflow = "inherit";
-          },
-        });
-        gsap.to("#gate_right", {
-          transform: "rotate3d(0, 1, 0, 90deg)",
-          duration: 3,
-          onComplete: function () {
-           // stopScroll = false;
-            document.body.style.overflow = "inherit";
-          },
-         });
-    } else if (currentInterval==1 && translate.interval == 0) {
-      document.body.style.overflow = "hidden";
-      gsap.to("#gate_left", {
-                transform: "rotate3d(0, 1, 0, 0deg)",
-                duration: 3,
-                onComplete: function () {
-                 // stopScroll = false;
-                  document.body.style.overflow = "inherit";
-                },
-              });
-              gsap.to("#gate_right", {
-                transform: "rotate3d(0, 1, 0, 0deg)",
-                duration: 3,
-                onComplete: function () {
-                  //stopScroll = false;
-                  document.body.style.overflow = "inherit";
-                },
-              });
-    }
+    // if (currentInterval==0 && translate.interval == 1) {
+    //   //stopScroll = true;
+    //   document.body.style.overflow = "hidden";
+    //     gsap.to("#gate_left", {
+    //       transform: "rotate3d(0, 1, 0, -90deg)",
+    //       duration: 3,
+    //       onComplete: function () {
+    //         //stopScroll = false;
+    //         document.body.style.overflow = "inherit";
+    //       },
+    //     });
+    //     gsap.to("#gate_right", {
+    //       transform: "rotate3d(0, 1, 0, 90deg)",
+    //       duration: 3,
+    //       onComplete: function () {
+    //        // stopScroll = false;
+    //         document.body.style.overflow = "inherit";
+    //       },
+    //      });
+    // } else if (currentInterval==1 && translate.interval == 0) {
+    //   document.body.style.overflow = "hidden";
+    //   gsap.to("#gate_left", {
+    //             transform: "rotate3d(0, 1, 0, 0deg)",
+    //             duration: 3,
+    //             onComplete: function () {
+    //              // stopScroll = false;
+    //               document.body.style.overflow = "inherit";
+    //             },
+    //           });
+    //           gsap.to("#gate_right", {
+    //             transform: "rotate3d(0, 1, 0, 0deg)",
+    //             duration: 3,
+    //             onComplete: function () {
+    //               //stopScroll = false;
+    //               document.body.style.overflow = "inherit";
+    //             },
+    //           });
+    // }
     currentInterval = translate.interval;
     if (translate.scale) {
       $("#Camada_2").css("transform", "scale(" + translate.scale + ")");
      } //else {
-      if (translate.hide) {
+    if (translate.hide) {
         $("#Camada_2").css("display", "none");
-      } else {
+     } else {
         $("#Camada_2").css("display", "block");
-      }
+     }
+     if (translate.open) {
+        $('#gate_left').css('transform', 'rotate3d(0, 1, 0, ' + translate.open.left + 'deg)');
+        $('#gate_right').css('transform', 'rotate3d(0, 1, 0, ' + translate.open.right + 'deg)');
+     } else {
+      $('#gate_left').css('transform', 'rotate3d(0, 1, 0,  0deg)');
+      $('#gate_right').css('transform', 'rotate3d(0, 1, 0, 0deg)');
+     }
       // $('.scroll-canvas').css('transform', 'translate(' + translate.x + 'px, ' + translate.y + 'px)');
     // }
     $(".scroll-canvas").css(
@@ -197,6 +205,7 @@ jQuery(function ($) {
       interval: 0,
       scale: false,
       hide: false,
+      open:false,
       x: 0,
       y: 0,
     };
@@ -229,8 +238,18 @@ jQuery(function ($) {
 
     if (result.interval == 1 ) {
       result.hide = false;
+      result.open = {
+        left: -90 * persent, 
+        right: 90 * persent
+      };
+    } else if (result.interval == 2) {  
+      result.hide = false;
+      result.open = {
+        left: -90, 
+        right: 90
+      };
       result.scale = 1 + (2.5 - 1) * persent;
-    } else if (result.interval > 1){
+    } else if (result.interval > 2){
       
         result.hide = true;
       // } else if (interval == 1 && directionDown) {
