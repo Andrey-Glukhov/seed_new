@@ -3,14 +3,14 @@
 *Template Name: Home
 */
  get_header(); ?>
-
+ <div class="slogan-wrapper"> 
+    <h2>SPECIALIZING ON THE GROWTH OF BRAND CULTURES</h2>
+  </div>
 <div class="scroll-wraper">
     <div class="scroll-canvas">
         <div class="seed-opener">
             <img src="http://localhost:8888/seed/wordpress/wp-content/uploads/2021/08/logo_big_transparent-01.png"/>
-            <div class="slogan-wrapper"> 
-                <h2>SPECIALIZING ON THE GROWTH OF BRAND CULTURES</h2>
-            </div>
+           
         </div>
 
         <?php $home = new WP_Query( array( 'page_id' => 12 ) );

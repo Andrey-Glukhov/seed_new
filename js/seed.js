@@ -82,6 +82,22 @@ jQuery(function ($) {
     //             },
     //           });
     // }
+    if (currentInterval==3 && translate.interval == 4) {
+      $('.slogan-wrapper').after($('.gate-text'));
+      $('.gate-text').attr('style', 'position: fixed; top:0; right:0; z-index:5;');
+    }  
+    if (currentInterval==4 && translate.interval == 5) {
+      $('.gate-text').appendTo('.greenhouse_right');
+      $('.gate-text').attr('style', '');
+    } 
+    if (currentInterval==5 && translate.interval == 4) {
+      $('.slogan-wrapper').after($('.gate-text'));
+      $('.gate-text').attr('style', 'position: fixed; top:0; right:0;z-index:5;');
+    } 
+    if (currentInterval==4 && translate.interval == 3) {
+      $('.gate-text').appendTo('.seed-gate');
+      $('.gate-text').attr('style', '');
+    } 
     currentInterval = translate.interval;
     if (translate.scale) {
       $("#Camada_2").css("transform", "scale(" + translate.scale + ")");
@@ -98,6 +114,12 @@ jQuery(function ($) {
       $('#gate_left').css('transform', 'rotate3d(0, 1, 0,  0deg)');
       $('#gate_right').css('transform', 'rotate3d(0, 1, 0, 0deg)');
      }
+    //  if (translate.interval == 4) {
+    //    $('.gate-text').attr('style', 'position: fixed; top:100vh; right:0; -webkit-transform: translateZ(0);');
+    //  }
+    //  else {
+    //   $('.gate-text').attr('style', '');
+    //  }
       // $('.scroll-canvas').css('transform', 'translate(' + translate.x + 'px, ' + translate.y + 'px)');
     // }
     $(".scroll-canvas").css(
