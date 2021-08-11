@@ -69,7 +69,7 @@ overflow: hidden;
 .scroll-canvas{
   background-color:#fffbef;
   width: 200vw;
-  height: 500vh;
+  height: 700vh;
   position: absolute;
 }
 .seed-opener{
@@ -78,6 +78,7 @@ overflow: hidden;
   background-color: #0a6149;
   display: flex;
   justify-content: center;
+  padding-top: 3rem;
 }
 .seed-opener>img{
   height: 80vh;
@@ -135,6 +136,7 @@ font-size: 2.5rem;
 }
 .gate-text{
   /* display: none; */
+  padding-top: 3rem;
   width: 100vw;
   height: 100vh;
 }

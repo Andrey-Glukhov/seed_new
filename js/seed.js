@@ -84,7 +84,7 @@ jQuery(function ($) {
     // }
     if (currentInterval==3 && translate.interval == 4) {
       $('.slogan-wrapper').after($('.gate-text'));
-      $('.gate-text').attr('style', 'position: fixed; top:0; right:0; z-index:5;');
+      $('.gate-text').attr('style', 'position: fixed; top:0; right:0; z-index:2;');
     }  
     if (currentInterval==4 && translate.interval == 5) {
       $('.gate-text').appendTo('.greenhouse_right');
@@ -92,7 +92,7 @@ jQuery(function ($) {
     } 
     if (currentInterval==5 && translate.interval == 4) {
       $('.slogan-wrapper').after($('.gate-text'));
-      $('.gate-text').attr('style', 'position: fixed; top:0; right:0;z-index:5;');
+      $('.gate-text').attr('style', 'position: fixed; top:0; right:0;z-index:2;');
     } 
     if (currentInterval==4 && translate.interval == 3) {
       $('.gate-text').appendTo('.seed-gate');
@@ -101,8 +101,10 @@ jQuery(function ($) {
     currentInterval = translate.interval;
     if (translate.scale) {
       $("#Camada_2").css("transform", "scale(" + translate.scale + ")");
-     } //else {
-    if (translate.hide) {
+     } else {
+        $("#Camada_2").css("transform", "scale(1)");
+     } 
+      if (translate.hide) {
         $("#Camada_2").css("display", "none");
      } else {
         $("#Camada_2").css("display", "block");
@@ -274,14 +276,8 @@ jQuery(function ($) {
     } else if (result.interval > 2){
       
         result.hide = true;
-      // } else if (interval == 1 && directionDown) {
-      //   result.hide = true;
-      // } else {
-      //   result.hide = false;
-      // }      
-    } else {
-
-    }
+        
+    } 
 
     result.x = Math.floor(
       scrollArray[result.interval].x1 +
