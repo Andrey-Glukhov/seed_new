@@ -55,7 +55,7 @@ svg {
 #gate_right.open { 
   transform: rotate3d(0,1,0, 90deg)
 }
-.scroll-wraper{
+.scroll_wraper{
 position: fixed;
 width: 100vw;
 height: 100vh;
@@ -64,46 +64,48 @@ overflow: hidden;
 
 .scroll_line {
   width: 100%;
-  height: 400vh;
+  height: 700vh;
   }
-.scroll-canvas{
+.scroll_canvas{
   background-color:#fffbef;
   width: 200vw;
-  height: 500vh;
+  height: 700vh;
   position: absolute;
 }
-.seed-opener{
+.seed_opener{
   height: 100vh;
   width: 100vw;
   background-color: #0a6149;
   display: flex;
   justify-content: center;
+  padding-top: 3rem;
 }
-.seed-opener>img{
+.seed_opener>img{
   height: 80vh;
   width: auto;
 }
-.slogan-wrapper{
+.slogan_wrapper{
 color: #ffffff;
 width: 100vw;
 height: fit-content;
-position: absolute;
+position: fixed;
 left: 0;
-bottom: 0;
+top: 0;
+z-index: 3;
 background-color: #d2b48c;
 }
-.slogan-wrapper h2{
+.slogan_wrapper h2{
 text-align: center;
 font-family: 'Oswald', sans-serif;
 font-weight: 500;
 font-size: 2.5rem;
 }
-.seed-gate{
+.seed_gate{
   height: 100vh;
   width: 200vw;
   display: flex;
 }
-.seed-greenhouse {
+.seed_greenhouse {
   height: 100vh;
   width: 300vw;
   display: flex;
@@ -113,34 +115,61 @@ font-size: 2.5rem;
   height: 100vh;
   width: 100vw;
   /* transform: translate( 100vw 0); */
-  background-color: aqua;
+  background-color: aqua; 
+  display: flex;
+  justify-content: center;
 }
+.greenhouse_wrapper svg{
+  height: 100%;
+  width: auto;
+}  
 .greenhouse_right, .greenhouse_left {
   height: 100vh;
   width: 100vw;
   background-color: #d2b48c;
 }
-.gate-wrapper{
+
+.greenhouse_text {
+  padding-top: 3rem;
+  width: 25vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left:  0;
+  background-color: #0a6149;
+  color: #fff;
+  
+}
+.gate_wrapper{
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.gate-wrapper>svg{
+.gate_wrapper>svg{
   height: 70%;
   width: auto;
   z-index: 10;
 }
-.gate-text{
-  width: 100vw;
+.gate_text{
+  /* display: none; */
+  padding-top: 3rem;
+  width: 25vw;
   height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+
 }
-.gate-content{
+.gate_content{
   background-color: #0a6149;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
+  /* margin: 0 0 0 auto; */
+  padding: 20px;
 }
-.gate-content p{
+.gate_content p{
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
 font-weight: 400;
@@ -161,7 +190,7 @@ font-size: 1rem;
   transform-origin: 100% 100%;
   transform-box: fill-box;
 } 
-.gate-wrapper h2{
+.gate_wrapper h2{
   position: absolute;
   width: 300px;
   font-family: 'Oswald', sans-serif;
@@ -170,6 +199,52 @@ font-size: 2rem;
 color: #0e624a;
 text-align: center;
 }
+
+.seed_garden { 
+  height: 100vh;
+  width: 300vw;
+  display: flex;
+  transform: translateX( -100vw);
+}
+.garden_left { 
+  height: 100vh;
+  width: 100vw;
+  background-color: #d2008c;
+}
+.garden_rignt { 
+  height: 100vh;
+  width: 100vw;
+  background-color: #d2b400;
+}
+.garden_wrapper { 
+  height: 100vh;
+  width: 100vw;
+  /* transform: translate( 100vw 0); */
+  background-color: aqua; 
+  display: flex;
+  justify-content: center; 
+  
+}
+.garden_wrapper svg {
+  width: 100%;
+  height: auto;
+}
+/* #grape>path {
+  animation: grape_anim 5s infinite;
+  transform-origin: 100% 100%;
+  transform-box: fill-box;
+} */
+#crown_left>path {
+  animation: crown 5s infinite;
+}
+#crown_right>path {
+  animation: crown 5s 1s infinite;
+}
+#single {
+  animation: fall 5s  2s infinite;
+}
+
+
 /*--------------------------------------------------------------
 navigation
 --------------------------------------------------------------*/
@@ -468,6 +543,10 @@ animation
   100% { fill: #1bce4f; }
 }
 
+/* .k1 {
+  animation: bounce 2s infinite ;
+}
+
 @keyframes bounce {
   from {
    transform: translate(0);
@@ -484,14 +563,27 @@ animation
   to {
     transform: translate(0);
   }
-}
-.k1 {
-  animation: bounce 2s infinite ;
-}
+} */
 
+@keyframes crown {
+  0% {transform: translateX(0px); }
+  5% {transform: translateX(20px); }
+  10% {transform: translateX(0px); }
+  100% {transform: translateX(0px); }
+}
+@keyframes fall {
+  0% {transform: translateY(0px);}
+  30% {transform: translateY(150vh);} 
+  100% {transform: translateY(150vh);}    
+}
 @keyframes leaf_anim_lite {
   0% {transform: rotate(0);}
   50% {transform: rotate(5deg);}
   100% {transform: rotate(0);}
 }
-
+@keyframes grape_anim {
+  0% {transform: rotate(0);}
+  5% {transform: rotate(30deg);}
+  10% {transform: rotate(0deg);}
+  100% {transform: rotate(0);}
+}

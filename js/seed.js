@@ -1,10 +1,14 @@
 var scrollArrayInit = [
   { x1: 0, y1: 0, x2: 0, y2: -1024 },
   { x1: 0, y1: -1024, x2: 0, y2: -1024 },
+  { x1: 0, y1: -1024, x2: 0, y2: -1024 },
   { x1: 0, y1: -1024, x2: -1920, y2: -1024 },
   {x1: -1920, y1: -1024, x2: -1920, y2: -2048 },
   {x1: -1920, y1: -2048, x2: 0, y2: -2048 },
-  {x1: 0, y1: -2048, x2: 1920, y2: -2048 }
+  {x1: 0, y1: -2048, x2: 1920, y2: -2048 },
+  {x1: 1920, y1: -2048, x2: 1920, y2: -3072},
+  {x1: 1920, y1: -3072, x2: 0, y2: -3072},
+  {x1: 0, y1: -3072, x2: -1920, y2: -3072}
 ];
 var scrollArray;
 var offsetRange = 100;
@@ -43,118 +47,90 @@ jQuery(function ($) {
       } 
       scrollProgress = offset;
     var translate = getIntervalValue(offset,directionDown) ;
-    if (currentInterval==0 && translate.interval == 1) {
-      //stopScroll = true;
-      document.body.style.overflow = "hidden";
-        gsap.to("#gate_left", {
-          transform: "rotate3d(0, 1, 0, -90deg)",
-          duration: 3,
-          onComplete: function () {
-            //stopScroll = false;
-            document.body.style.overflow = "inherit";
-          },
-        });
-        gsap.to("#gate_right", {
-          transform: "rotate3d(0, 1, 0, 90deg)",
-          duration: 3,
-          onComplete: function () {
-           // stopScroll = false;
-            document.body.style.overflow = "inherit";
-          },
-         });
-    } else if (currentInterval==1 && translate.interval == 0) {
-      document.body.style.overflow = "hidden";
-      gsap.to("#gate_left", {
-                transform: "rotate3d(0, 1, 0, 0deg)",
-                duration: 3,
-                onComplete: function () {
-                 // stopScroll = false;
-                  document.body.style.overflow = "inherit";
-                },
-              });
-              gsap.to("#gate_right", {
-                transform: "rotate3d(0, 1, 0, 0deg)",
-                duration: 3,
-                onComplete: function () {
-                  //stopScroll = false;
-                  document.body.style.overflow = "inherit";
-                },
-              });
-    }
+    // if (currentInterval==0 && translate.interval == 1) {
+    //   //stopScroll = true;
+    //   document.body.style.overflow = "hidden";
+    //     gsap.to("#gate_left", {
+    //       transform: "rotate3d(0, 1, 0, -90deg)",
+    //       duration: 3,
+    //       onComplete: function () {
+    //         //stopScroll = false;
+    //         document.body.style.overflow = "inherit";
+    //       },
+    //     });
+    //     gsap.to("#gate_right", {
+    //       transform: "rotate3d(0, 1, 0, 90deg)",
+    //       duration: 3,
+    //       onComplete: function () {
+    //        // stopScroll = false;
+    //         document.body.style.overflow = "inherit";
+    //       },
+    //      });
+    // } else if (currentInterval==1 && translate.interval == 0) {
+    //   document.body.style.overflow = "hidden";
+    //   gsap.to("#gate_left", {
+    //             transform: "rotate3d(0, 1, 0, 0deg)",
+    //             duration: 3,
+    //             onComplete: function () {
+    //              // stopScroll = false;
+    //               document.body.style.overflow = "inherit";
+    //             },
+    //           });
+    //           gsap.to("#gate_right", {
+    //             transform: "rotate3d(0, 1, 0, 0deg)",
+    //             duration: 3,
+    //             onComplete: function () {
+    //               //stopScroll = false;
+    //               document.body.style.overflow = "inherit";
+    //             },
+    //           });
+    // }
+    if (currentInterval==3 && translate.interval == 4) {
+      $('.slogan_wrapper').after($('.gate_text'));
+      $('.gate_text').attr('style', 'position: fixed; top:0; right:0; z-index:2;');
+    }  
+    if (currentInterval==4 && translate.interval == 5) {
+      $('.gate_text').appendTo('.greenhouse_right');
+      $('.gate_text').attr('style', '');
+    } 
+    if (currentInterval==5 && translate.interval == 4) {
+      $('.slogan_wrapper').after($('.gate_text'));
+      $('.gate_text').attr('style', 'position: fixed; top:0; right:0;z-index:2;');
+    } 
+    if (currentInterval==4 && translate.interval == 3) {
+      $('.gate_text').appendTo('.seed-gate');
+      $('.gate_text').attr('style', '');
+    } 
     currentInterval = translate.interval;
     if (translate.scale) {
       $("#Camada_2").css("transform", "scale(" + translate.scale + ")");
-     } //else {
+     } else {
+        $("#Camada_2").css("transform", "scale(1)");
+     } 
       if (translate.hide) {
         $("#Camada_2").css("display", "none");
-      } else {
+     } else {
         $("#Camada_2").css("display", "block");
-      }
-      // $('.scroll-canvas').css('transform', 'translate(' + translate.x + 'px, ' + translate.y + 'px)');
-    // }
-    $(".scroll-canvas").css(
+     }
+     if (translate.open) {
+        $('#gate_left').css('transform', 'rotate3d(0, 1, 0, ' + translate.open.left + 'deg)');
+        $('#gate_right').css('transform', 'rotate3d(0, 1, 0, ' + translate.open.right + 'deg)');
+     } else {
+      $('#gate_left').css('transform', 'rotate3d(0, 1, 0,  0deg)');
+      $('#gate_right').css('transform', 'rotate3d(0, 1, 0, 0deg)');
+     }
+    
+    $(".scroll_canvas").css(
       "transform",
       "translate(" + translate.x + "px, " + translate.y + "px)"
     );
   });
 
-  // var options = {
-  //   rootMargin: "5px",
-  //   threshold: 0.5,
-  // };
-
-  // var gateObserver = new IntersectionObserver(function (elements) {
-  //   elements.forEach(function (element) {
-  //     //var isAbove = element.boundingClientRect.y < element.rootBounds.y;
-  //     stopScroll = true;
-  //     // document.body.style.overflow = "hidden";
-  //     if (element.intersectionRatio > 0.5) {
-  //       document.body.style.overflow = "hidden";
-  //       gsap.to("#gate_left", {
-  //         transform: "rotate3d(0, 1, 0, -90deg)",
-  //         duration: 3,
-  //         onComplete: function () {
-  //           stopScroll = false;
-  //           document.body.style.overflow = "inherit";
-  //         },
-  //       });
-  //       gsap.to("#gate_right", {
-  //         transform: "rotate3d(0, 1, 0, 90deg)",
-  //         duration: 3,
-  //         onComplete: function () {
-  //           stopScroll = false;
-  //           document.body.style.overflow = "inherit";
-  //         },
-  //       });
-  //       //$('#gate_left, #gate_right').addClass('open')
-  //     } else {
-  //       gsap.to("#gate_left", {
-  //         transform: "rotate3d(0, 1, 0, 0deg)",
-  //         duration: 3,
-  //         onComplete: function () {
-  //           stopScroll = false;
-  //           document.body.style.overflow = "inherit";
-  //         },
-  //       });
-  //       gsap.to("#gate_right", {
-  //         transform: "rotate3d(0, 1, 0, 0deg)",
-  //         duration: 3,
-  //         onComplete: function () {
-  //           stopScroll = false;
-  //           document.body.style.overflow = "inherit";
-  //         },
-  //       });
-  //       //$('#gate_left, #gate_right').removeClass('open')
-  //     }
-
-  //     //console.log("element", element);
-  //   });
-  // }, options);
-
-  // gateObserver.observe($(".gate-wrapper").get(0));
+  
 
   $(window).resize(function () {
     scrollArray = calcPoints(scrollArrayInit);
+    window.scrollTo(window.scrollX, window.scrollY - 1);
   });
 
   var t1 = new gsap.timeline({ paused: true });
@@ -197,6 +173,7 @@ jQuery(function ($) {
       interval: 0,
       scale: false,
       hide: false,
+      open:false,
       x: 0,
       y: 0,
     };
@@ -226,21 +203,29 @@ jQuery(function ($) {
     console.log("offset", offset);
     console.log("interval", result.interval);
     console.log("persent", persent);
-
+    if (persent >0 && persent < 0.4) {
+      persent = 0;
+    } else if (persent > 0.6) {
+      persent = 1;
+    }
     if (result.interval == 1 ) {
       result.hide = false;
+      result.open = {
+        left: -90 * persent, 
+        right: 90 * persent
+      };
+    } else if (result.interval == 2) {  
+      result.hide = false;
+      result.open = {
+        left: -90, 
+        right: 90
+      };
       result.scale = 1 + (2.5 - 1) * persent;
-    } else if (result.interval > 1){
+    } else if (result.interval > 2){
       
         result.hide = true;
-      // } else if (interval == 1 && directionDown) {
-      //   result.hide = true;
-      // } else {
-      //   result.hide = false;
-      // }      
-    } else {
-
-    }
+        
+    } 
 
     result.x = Math.floor(
       scrollArray[result.interval].x1 +
@@ -252,6 +237,7 @@ jQuery(function ($) {
     );
     return result;
   }
+  window.scrollTo(window.scrollX, window.scrollY - 1);
 });
 
 function calcPoints(pointsArrayInit) {
