@@ -5,7 +5,10 @@ var scrollArrayInit = [
   { x1: 0, y1: -1024, x2: -1920, y2: -1024 },
   {x1: -1920, y1: -1024, x2: -1920, y2: -2048 },
   {x1: -1920, y1: -2048, x2: 0, y2: -2048 },
-  {x1: 0, y1: -2048, x2: 1920, y2: -2048 }
+  {x1: 0, y1: -2048, x2: 1920, y2: -2048 },
+  {x1: 1920, y1: -2048, x2: 1920, y2: -3072},
+  {x1: 1920, y1: -3072, x2: 0, y2: -3072},
+  {x1: 0, y1: -3072, x2: -1920, y2: -3072}
 ];
 var scrollArray;
 var offsetRange = 100;
@@ -83,20 +86,20 @@ jQuery(function ($) {
     //           });
     // }
     if (currentInterval==3 && translate.interval == 4) {
-      $('.slogan-wrapper').after($('.gate-text'));
-      $('.gate-text').attr('style', 'position: fixed; top:0; right:0; z-index:2;');
+      $('.slogan_wrapper').after($('.gate_text'));
+      $('.gate_text').attr('style', 'position: fixed; top:0; right:0; z-index:2;');
     }  
     if (currentInterval==4 && translate.interval == 5) {
-      $('.gate-text').appendTo('.greenhouse_right');
-      $('.gate-text').attr('style', '');
+      $('.gate_text').appendTo('.greenhouse_right');
+      $('.gate_text').attr('style', '');
     } 
     if (currentInterval==5 && translate.interval == 4) {
-      $('.slogan-wrapper').after($('.gate-text'));
-      $('.gate-text').attr('style', 'position: fixed; top:0; right:0;z-index:2;');
+      $('.slogan_wrapper').after($('.gate_text'));
+      $('.gate_text').attr('style', 'position: fixed; top:0; right:0;z-index:2;');
     } 
     if (currentInterval==4 && translate.interval == 3) {
-      $('.gate-text').appendTo('.seed-gate');
-      $('.gate-text').attr('style', '');
+      $('.gate_text').appendTo('.seed-gate');
+      $('.gate_text').attr('style', '');
     } 
     currentInterval = translate.interval;
     if (translate.scale) {
@@ -116,77 +119,18 @@ jQuery(function ($) {
       $('#gate_left').css('transform', 'rotate3d(0, 1, 0,  0deg)');
       $('#gate_right').css('transform', 'rotate3d(0, 1, 0, 0deg)');
      }
-    //  if (translate.interval == 4) {
-    //    $('.gate-text').attr('style', 'position: fixed; top:100vh; right:0; -webkit-transform: translateZ(0);');
-    //  }
-    //  else {
-    //   $('.gate-text').attr('style', '');
-    //  }
-      // $('.scroll-canvas').css('transform', 'translate(' + translate.x + 'px, ' + translate.y + 'px)');
-    // }
-    $(".scroll-canvas").css(
+    
+    $(".scroll_canvas").css(
       "transform",
       "translate(" + translate.x + "px, " + translate.y + "px)"
     );
   });
 
-  // var options = {
-  //   rootMargin: "5px",
-  //   threshold: 0.5,
-  // };
-
-  // var gateObserver = new IntersectionObserver(function (elements) {
-  //   elements.forEach(function (element) {
-  //     //var isAbove = element.boundingClientRect.y < element.rootBounds.y;
-  //     stopScroll = true;
-  //     // document.body.style.overflow = "hidden";
-  //     if (element.intersectionRatio > 0.5) {
-  //       document.body.style.overflow = "hidden";
-  //       gsap.to("#gate_left", {
-  //         transform: "rotate3d(0, 1, 0, -90deg)",
-  //         duration: 3,
-  //         onComplete: function () {
-  //           stopScroll = false;
-  //           document.body.style.overflow = "inherit";
-  //         },
-  //       });
-  //       gsap.to("#gate_right", {
-  //         transform: "rotate3d(0, 1, 0, 90deg)",
-  //         duration: 3,
-  //         onComplete: function () {
-  //           stopScroll = false;
-  //           document.body.style.overflow = "inherit";
-  //         },
-  //       });
-  //       //$('#gate_left, #gate_right').addClass('open')
-  //     } else {
-  //       gsap.to("#gate_left", {
-  //         transform: "rotate3d(0, 1, 0, 0deg)",
-  //         duration: 3,
-  //         onComplete: function () {
-  //           stopScroll = false;
-  //           document.body.style.overflow = "inherit";
-  //         },
-  //       });
-  //       gsap.to("#gate_right", {
-  //         transform: "rotate3d(0, 1, 0, 0deg)",
-  //         duration: 3,
-  //         onComplete: function () {
-  //           stopScroll = false;
-  //           document.body.style.overflow = "inherit";
-  //         },
-  //       });
-  //       //$('#gate_left, #gate_right').removeClass('open')
-  //     }
-
-  //     //console.log("element", element);
-  //   });
-  // }, options);
-
-  // gateObserver.observe($(".gate-wrapper").get(0));
+  
 
   $(window).resize(function () {
     scrollArray = calcPoints(scrollArrayInit);
+    window.scrollTo(window.scrollX, window.scrollY - 1);
   });
 
   var t1 = new gsap.timeline({ paused: true });
@@ -259,7 +203,11 @@ jQuery(function ($) {
     console.log("offset", offset);
     console.log("interval", result.interval);
     console.log("persent", persent);
-
+    if (persent >0 && persent < 0.4) {
+      persent = 0;
+    } else if (persent > 0.6) {
+      persent = 1;
+    }
     if (result.interval == 1 ) {
       result.hide = false;
       result.open = {
@@ -289,6 +237,7 @@ jQuery(function ($) {
     );
     return result;
   }
+  window.scrollTo(window.scrollX, window.scrollY - 1);
 });
 
 function calcPoints(pointsArrayInit) {
