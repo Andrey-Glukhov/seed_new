@@ -238,6 +238,21 @@ jQuery(function ($) {
     return result;
   }
   window.scrollTo(window.scrollX, window.scrollY - 1);
+
+  var controller = new ScrollMagic.Controller();
+  if ($('#about-opener').length) {
+    var pinAboutScene = new ScrollMagic.Scene({
+    })
+    .setPin('#about-opener')
+    .addTo(controller);
+  }
+  if ($('#blog-wrapper').length) {
+    var pinAboutScene = new ScrollMagic.Scene({
+    })
+    .setPin('#blog-opener')
+    .addTo(controller);
+  }
+
 });
 
 function calcPoints(pointsArrayInit) {
@@ -251,3 +266,26 @@ function calcPoints(pointsArrayInit) {
   }
   return pointsArray;
 }
+
+$('#recipeCarousel').carousel({
+  interval: 10000
+})
+
+$('.carousel-inner .carousel-item:first').addClass('active');
+
+// $('.carousel .carousel-item').each(function(){
+//     var minPerSlide = 3;
+//     var next = $(this).next();
+//     if (!next.length) {
+//     next = $(this).siblings(':first');
+//     }
+//     next.children(':first-child').clone().appendTo($(this));
+    
+//     for (var i=0;i<minPerSlide;i++) {
+//         next=next.next();
+//         if (!next.length) {
+//         	next = $(this).siblings(':first');
+//       	}
+//         next.children(':first-child').clone().appendTo($(this));
+//       }
+// });
