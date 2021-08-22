@@ -200,9 +200,9 @@ jQuery(function ($) {
     var persent =
       (offset % (offsetRange / scrollArray.length)) /
       (offsetRange / scrollArray.length);
-    console.log("offset", offset);
-    console.log("interval", result.interval);
-    console.log("persent", persent);
+    // console.log("offset", offset);
+    // console.log("interval", result.interval);
+    // console.log("persent", persent);
     if (persent >0 && persent < 0.2) {
       persent = 0;
     } else if (persent > 0.8) {
