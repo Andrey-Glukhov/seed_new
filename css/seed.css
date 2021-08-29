@@ -58,7 +58,7 @@ svg {
 }
 .scroll_wraper{
 position: fixed;
-width: 100vw;
+width: 100%;
 height: 100vh;
 overflow: hidden;
 }
@@ -69,19 +69,33 @@ overflow: hidden;
   }
 .scroll_canvas{
   background-color:#fffbef;
-  width: 200vw;
+  width: 300%;
   height: 700vh;
   position: absolute;
 }
-.seed_opener{
+
+.seed_opener {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.opener_wrapper{
+  height: 100vh;
+  /* width: 100vw; */
   background-color: #0a6149;
   display: flex;
   justify-content: center;
   padding-top: 3rem;
+  flex: 33.33%;
 }
-.seed_opener>img{
+.seed_opener_left, .seed_opener_right {
+  height: 100vh;
+  /* width: 100vw; */
+  flex: 33.33%;
+}
+.opener_wrapper>img{
   height: 80vh;
   width: auto;
 }
@@ -103,47 +117,19 @@ font-size: 2.5rem;
 }
 .seed_gate{
   height: 100vh;
-  width: 200vw;
+  width: 100%;
   display: flex;
 }
-.seed_greenhouse {
+.gate_left, .gate_right {
   height: 100vh;
-  width: 300vw;
-  display: flex;
-  transform: translateX( -100vw);
-}
-.greenhouse_wrapper {
-  height: 100vh;
-  width: 100vw;
-  /* transform: translate( 100vw 0); */
-  background-color: aqua; 
-  display: flex;
-  justify-content: center;
-}
-.greenhouse_wrapper svg{
-  height: 100%;
-  width: auto;
-}  
-.greenhouse_right, .greenhouse_left {
-  height: 100vh;
-  width: 100vw;
-  background-color: #d2b48c;
+  flex: 33.33%;
+  /* width: 100vw; */
 }
 
-.greenhouse_text {
-  padding-top: 3rem;
-  width: 25vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left:  0;
-  background-color: #0a6149;
-  color: #fff;
-  
-}
 .gate_wrapper{
   height: 100vh;
-  width: 100vw;
+  flex: 33.33%;
+  /* width: 100vw; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,7 +147,6 @@ font-size: 2.5rem;
   position: absolute;
   top: 0;
   right: 0;
-
 }
 .gate_content{
   background-color: #0a6149;
@@ -176,6 +161,55 @@ font-size: 2.5rem;
 font-weight: 400;
 font-size: 1rem;
 }
+.gate_wrapper h2{
+  position: absolute;
+  width: 300px;
+  font-family: 'Oswald', sans-serif;
+font-weight: 500;
+font-size: 2rem;
+color: #0e624a;
+text-align: center;
+}
+
+.seed_greenhouse {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  /* transform: translateX( -100vw); */
+}
+.greenhouse_wrapper {
+  height: 100vh;
+  flex: 33.33%;
+  /* width: 100vw; */
+  /* transform: translate( 100vw 0); */
+  background-color: aqua; 
+  display: flex;
+  justify-content: center;
+}
+.greenhouse_wrapper svg{
+  height: 100%;
+  width: auto;
+}  
+.greenhouse_right, .greenhouse_left {
+  height: 100vh;
+  flex: 33.33%;
+  /* width: 100vw; */
+  background-color: #d2b48c;
+}
+
+.greenhouse_text {
+  padding-top: 3rem;
+  width: 25vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left:  0;
+  background-color: #0a6149;
+  color: #fff;
+  
+}
+
 
 
 .svg_wrapper {
@@ -187,34 +221,23 @@ font-size: 1rem;
   height: 100%;
 }
 .leaf_lite {
-  animation: leaf_anim_lite 3s infinite;
+  /* animation: leaf_anim_lite 3s infinite; */
   transform-origin: 100% 100%;
   transform-box: fill-box;
 } 
-.gate_wrapper h2{
-  position: absolute;
-  width: 300px;
-  font-family: 'Oswald', sans-serif;
-font-weight: 500;
-font-size: 2rem;
-color: #0e624a;
-text-align: center;
-}
+
 
 .seed_garden { 
   height: 100vh;
-  width: 300vw;
+  width: 100%;
   display: flex;
-  transform: translateX( -100vw);
+  /* transform: translateX( -100vw); */
 }
-.garden_left { 
+
+.garden_rignt, .garden_left { 
   height: 100vh;
-  width: 100vw;
-  background-color: #d2008c;
-}
-.garden_rignt { 
-  height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
+  flex: 33.33%;
   background-color: #d2b400;
 }
 .garden_wrapper { 
@@ -236,19 +259,45 @@ text-align: center;
   transform-box: fill-box;
 } */
 #crown_left>path {
-  animation: crown 5s infinite;
+  /* animation: crown 5s infinite; */
 }
 #crown_right>path {
-  animation: crown 5s 1s infinite;
+  /* animation: crown 5s 1s infinite; */
 }
 #single {
-  animation: fall 5s  2s infinite;
+  /* animation: fall 5s  2s infinite; */
 }
 
 .scroll_canvas{
   background-image: url(../img/road.svg);
   background-size: auto 100%;
   background-repeat: no-repeat;
+}
+
+
+.seed_pond{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.pond_left, .pond_right {
+  height: 100vh;
+  flex: 33.33%;
+  /* width: 100vw; */
+}
+
+.pond_wrapper{
+  height: 100vh;
+  flex: 33.33%;
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pond_wrapper>svg{
+  height: 70%;
+  width: auto;
+  z-index: 10;
 }
 
 /*--------------------------------------------------------------
