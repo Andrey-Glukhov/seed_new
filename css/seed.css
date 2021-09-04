@@ -223,8 +223,8 @@ text-align: center;
 }
 .leaf_lite {
   /* animation: leaf_anim_lite 3s infinite; */
-  transform-origin: 100% 100%;
-  transform-box: fill-box;
+  /* transform-origin: 100% 100%;
+  transform-box: fill-box; */
 } 
 
 
@@ -235,7 +235,7 @@ text-align: center;
   /* transform: translateX( -100vw); */
 }
 
-.garden_rignt, .garden_left { 
+.garden_right, .garden_left { 
   height: 100vh;
   /* width: 100vw; */
   flex: 33.33%;
@@ -339,6 +339,7 @@ navigation
   position: relative;
   transform: translate(0px, -100%);
   z-index: 90;
+  transition: all 0.3s;
 }
 .menu.active {
   transform: translate(0px, 0px);
@@ -596,6 +597,16 @@ blog
 }
 .blog_title svg{
   width: 20vw;
+}
+.blog-container{
+  background-color: #d3e1cd;
+    z-index: 1;
+    position: relative;
+    border-top-right-radius: 29px;
+    border-top-left-radius: 29px;
+    padding-top: 80px;
+    -webkit-box-shadow: 0px 1px 15px 6px #5E5E5E; 
+    box-shadow: 0px 1px 15px 6px #5E5E5E; 
 }
 /*--------------------------------------------------------------
 responsive
