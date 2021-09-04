@@ -353,6 +353,12 @@ function mapGraph(progress) {
     );
     var cloneShape = templ.clone();
     cloneShape.move(newShape.point.x, newShape.point.y);
+    cloneShape.attr({
+      fill: '#f06'
+      , 'fill-opacity': 0.5
+      , stroke: '#000'
+      , 'stroke-width': 10
+  });
     cloneShape.css({
       display: "inline"      
     });

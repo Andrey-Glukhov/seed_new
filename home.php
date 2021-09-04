@@ -17,7 +17,7 @@
                     }
                     </style>
                 </defs>
-                <g id="tmplt" style="display: none;">
+                <g id="tmplt">
                     <ellipse cx="0" cy="0" rx="50" ry="30" fill="#fff000" />
                     <ellipse cx="0" cy="55" rx="50" ry="30" fill="#000fff" />
                 </g>
