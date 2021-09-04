@@ -73,7 +73,14 @@ overflow: hidden;
   height: 700vh;
   position: absolute;
 }
-
+.scroll_svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+}
 .seed_opener {
   height: 100vh;
   width: 100%;
@@ -269,9 +276,9 @@ text-align: center;
 }
 
 .scroll_canvas{
-  background-image: url(../img/road.svg);
+  /* background-image: url(../img/road.svg);
   background-size: auto 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 
