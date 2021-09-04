@@ -15,7 +15,11 @@
 <?php endif  ?>
 
 <div class="container-fluid blog-container">
+	<div class="row justify-content-center">
+		<div class="col-10">
 
+		</div>
+	</div>
 
 
 </div>
