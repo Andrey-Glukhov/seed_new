@@ -492,16 +492,6 @@ if ($home->have_posts()): while ($home->have_posts()): $home->the_post();
         <div class="seed_garden">
             <div class="garden_left"></div>
             <div class="garden_wrapper">
-<<<<<<< HEAD
-<svg id="portfolio_garden" version="1.1" viewBox="0 0 1741.8 866.17" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <style>.grdc-1, .grdc-5, .grdc-7 {
-        fill: none;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-=======
-                <?xml version="1.0" encoding="UTF-8"?>
                 <svg id="portfolio_garden" version="1.1" viewBox="0 0 1741.8 866.17" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                         <style>
@@ -509,20 +499,6 @@ if ($home->have_posts()): while ($home->have_posts()): $home->the_post();
                         .grdc-5,
                         .grdc-7 {
                             fill: none;
-                            stroke-miterlimit: 10;
-                            stroke-width: 2px;
-                        }
->>>>>>> 788e97c0fcfdf7e107dfdc4a92ba9926d3413384
-
-                        .grdc-1 {
-                            stroke: #0a6149;
-                        }
-
-                        .grdc-2 {
-                            fill: #0a6149;
-                        }
-
-                        .grdc-3 {
                             fill: #70323b;
                         }
 
