@@ -3,7 +3,7 @@
  *Template Name: Home
  */
 get_header();?>
-<div class="slogan_wrapper">
+<div id="slogan" class="slogan_wrapper">
     <h2>SPECIALIZING ON THE GROWTH OF BRAND CULTURES</h2>
 </div>
 <div class="scroll_wraper">

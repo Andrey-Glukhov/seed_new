@@ -27,6 +27,7 @@ var pathLength;
 var shapeSize;
 
 jQuery(function ($) {
+  if ($("#slogan").length){
   scrollArray = calcPoints(scrollArrayInit);
 
   var scrollProgress = 0;
@@ -49,6 +50,24 @@ jQuery(function ($) {
   window.scrollTo(window.scrollX, window.scrollY - 1);
 
   var controller = new ScrollMagic.Controller();
+
+    // <<--- Home page
+    gsap.set(".leaf_lite", { transformOrigin: "right bottom" }); /// clip-path="url(#clip)"  clip-path="url(#frame)"
+    gsap.to(".leaf_lite", {
+      rotation: 5,
+      stagger: 0.4,
+      duration: 1,
+      yoyo: true,
+      repeat: -1,
+    });
+    var tl1 = gsap.timeline({ repeatDelay: 4, repeat: -1 });
+    gsap.set("#fish", { transformOrigin: "60% 80%" });
+    tl1.to("#fish", 1.6, { rotation: "185deg" });
+    tl1.to("#water .line", 0.6, { opacity: 1, stagger: 0.1 });
+    tl1.to("#water .line", 0.6, { opacity: 0, stagger: 0.1 });
+    scrollMove(0);
+}
+  
   // <<--- About page
   if ($("#about-opener").length) {
     var pinAboutScene = new ScrollMagic.Scene({})
@@ -82,11 +101,18 @@ jQuery(function ($) {
 
   //<<--- Blog page
   if ($("#blog-wrapper").length) {
-    var pinAboutScene = new ScrollMagic.Scene({})
+    var pinBlogScene = new ScrollMagic.Scene({})
       .setPin("#blog-opener")
       .addTo(controller);
   }
   // --->>
+    //<<--- Contact page
+    if ($("#contact-wrapper").length) {
+      var pinContactScene = new ScrollMagic.Scene({})
+        .setPin("#contact-opener")
+        .addTo(controller);
+    }
+    // --->>
 
   // <<--- Menu
   var t1 = new gsap.timeline({ paused: true });
@@ -123,20 +149,7 @@ jQuery(function ($) {
   });
   // --->>
 
-  // <<--- Home page
-  gsap.set(".leaf_lite", { transformOrigin: "right bottom" }); /// clip-path="url(#clip)"  clip-path="url(#frame)"
-  gsap.to(".leaf_lite", {
-    rotation: 5,
-    stagger: 0.4,
-    duration: 1,
-    yoyo: true,
-    repeat: -1,
-  });
-  var tl1 = gsap.timeline({ repeatDelay: 4, repeat: -1 });
-  gsap.set("#fish", { transformOrigin: "60% 80%" });
-  tl1.to("#fish", 1.6, { rotation: "185deg" });
-  tl1.to("#water .line", 0.6, { opacity: 1, stagger: 0.1 });
-  tl1.to("#water .line", 0.6, { opacity: 0, stagger: 0.1 });
+
 
   // $(".menu-btn").on("click", function () {
   //   if ($(".animated-icon1").hasClass("open")) {
@@ -292,7 +305,6 @@ jQuery(function ($) {
     );
     mapGraph(scrollProgress);
   }
-  scrollMove(0);
 });
 
 function calcPoints(pointsArrayInit) {
