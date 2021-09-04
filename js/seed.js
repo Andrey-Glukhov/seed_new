@@ -49,7 +49,7 @@ jQuery(function ($) {
 
   window.scrollTo(window.scrollX, window.scrollY - 1);
 
-  var controller = new ScrollMagic.Controller();
+  
 
     // <<--- Home page
     gsap.set(".leaf_lite", { transformOrigin: "right bottom" }); /// clip-path="url(#clip)"  clip-path="url(#frame)"
@@ -67,7 +67,9 @@ jQuery(function ($) {
     tl1.to("#water .line", 0.6, { opacity: 0, stagger: 0.1 });
     scrollMove(0);
 }
-  
+
+  // Init ScrollMagic
+  var controller = new ScrollMagic.Controller();
   // <<--- About page
   if ($("#about-opener").length) {
     var pinAboutScene = new ScrollMagic.Scene({})
