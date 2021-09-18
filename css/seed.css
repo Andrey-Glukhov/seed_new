@@ -70,7 +70,7 @@ overflow: hidden;
 .scroll_canvas{
   background-color:#fffbef;
   width: 300%;
-  height: 700vh;
+  height: 600vh;
   position: absolute;
 }
 .scroll_svg {
@@ -80,6 +80,10 @@ overflow: hidden;
   left: 0;
   right: 0;
   
+}
+.scroll_svg svg {
+  width: 100%;
+  height: 100%;
 }
 .seed_opener {
   height: 100vh;
@@ -97,7 +101,7 @@ overflow: hidden;
   padding-top: 3rem;
   flex: 33.33%;
 }
-.seed_opener_left, .seed_opener_right {
+.seed_opener_left, .seed_opener_right  {
   height: 100vh;
   /* width: 100vw; */
   flex: 33.33%;
@@ -190,7 +194,7 @@ text-align: center;
   flex: 33.33%;
   /* width: 100vw; */
   /* transform: translate( 100vw 0); */
-  background-color: aqua; 
+  /* background-color: aqua;  */
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -203,7 +207,7 @@ text-align: center;
   height: 100vh;
   flex: 33.33%;
   /* width: 100vw; */
-  background-color: #d2b48c;
+  /* background-color: #d2b48c; */
 }
 
 .greenhouse_text {
@@ -246,13 +250,13 @@ text-align: center;
   height: 100vh;
   /* width: 100vw; */
   flex: 33.33%;
-  background-color: #d2b400;
+  /* background-color: #d2b400; */
 }
 .garden_wrapper { 
   height: 100vh;
   width: 100vw;
   /* transform: translate( 100vw 0); */
-  background-color: aqua; 
+  /* background-color: aqua;  */
   display: flex;
   justify-content: center; 
   
@@ -312,6 +316,31 @@ text-align: center;
   align-items: center;
 }
 .pond_wrapper>svg{
+  height: 70%;
+  width: auto;
+  z-index: 10;
+}
+
+.seed_mailbox{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.mailbox_left, .mailbox_right {
+  height: 100vh;
+  flex: 33.33%;
+  /* width: 100vw; */
+}
+
+.mailbox_wrapper{
+  height: 100vh;
+  flex: 33.33%;
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mailbox_wrapper>svg{
   height: 70%;
   width: auto;
   z-index: 10;

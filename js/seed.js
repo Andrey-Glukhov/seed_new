@@ -11,6 +11,9 @@ var scrollArrayInit = [
   { x1: -1920, y1: -3072, x2: -3840, y2: -3072 }, //
   { x1: -3840, y1: -3072, x2: -3840, y2: -4096 },
   { x1: -3840, y1: -4096, x2: -1920, y2: -4096 },
+  { x1: -1920, y1: -4096, x2: 0, y2: -4096 },
+  { x1: 0, y1: -4096, x2: 0, y2: -5120 },
+  { x1: 0, y1: -5120, x2: -1920, y2: -5120 },
 ];
 var scrollArray;
 var offsetRange = 100;
@@ -35,7 +38,7 @@ jQuery(function ($) {
 
   mypath = document.getElementById("line");
   templ = SVG("#tmplt");
-  shapeSize = templ.bbox().width;
+  shapeSize = templ.bbox().width* 1.4;
  // console.log("size--", shapeSize);
   pathLength = mypath.getTotalLength();
   shapesArr[0] = { progress: 0, point: mypath.getPointAtLength(0), shape: templ};
@@ -47,9 +50,7 @@ jQuery(function ($) {
     window.scrollTo(window.scrollX, window.scrollY - 1);
   });
 
-  window.scrollTo(window.scrollX, window.scrollY - 1);
-
-  
+  window.scrollTo(window.scrollX, window.scrollY - 1);  
 
     // <<--- Home page
     gsap.set(".leaf_lite", { transformOrigin: "right bottom" }); /// clip-path="url(#clip)"  clip-path="url(#frame)"
@@ -273,7 +274,7 @@ jQuery(function ($) {
       );
     }
     if (currentInterval == 4 && translate.interval == 3) {
-      $(".gate_text").appendTo(".seed-gate");
+      $(".gate_text").appendTo(".seed_gate");
       $(".gate_text").attr("style", "");
     }
     currentInterval = translate.interval;
@@ -305,7 +306,9 @@ jQuery(function ($) {
       "transform",
       "translate(" + translate.x + "px, " + translate.y + "px)"
     );
-    mapGraph(scrollProgress);
+    if (currentInterval > 2) {
+    mapGraph(scrollProgress - 100 * 2 / scrollArray.length-10);
+    }
   }
 });
 
@@ -343,7 +346,7 @@ function mapGraph(progress) {
     shapesArr.length > 0 &&
     shapesArr[shapesArr.length - 1].progress > progress
   ) {
-    while (shapesArr[shapesArr.length - 1].progress > progress) {
+    while (shapesArr[shapesArr.length - 1].progress > progress && shapesArr.length > 1) {
       shapesArr[shapesArr.length - 1].shape.remove();
       shapesArr.pop();
     }
@@ -352,7 +355,7 @@ function mapGraph(progress) {
   // place shapes
   var dist = getDistance(
     shapesArr[shapesArr.length - 1].point,
-    mypath.getPointAtLength(pathLength * progress)
+    mypath.getPointAtLength(pathLength * progress/100)
   );
   var steps = Math.floor(dist / shapeSize);
   var progressStep =
@@ -367,6 +370,17 @@ function mapGraph(progress) {
     );
     var cloneShape = templ.clone();
     cloneShape.move(newShape.point.x, newShape.point.y);
+    var lastPoint = shapesArr[shapesArr.length - 1].point;
+    var distStep = getDistance(
+      shapesArr[shapesArr.length - 1].point,
+      newShape.point
+    );
+    
+    var dy = newShape.point.y - shapesArr[shapesArr.length - 1].point.y;
+    var dx = newShape.point.x - shapesArr[shapesArr.length - 1].point.x;
+    // Angle to rotate
+    var angle = Math.atan(dy/dx)*180/Math.PI;
+    cloneShape.rotate(angle);
     cloneShape.attr({
       fill: '#f06'
       , 'fill-opacity': 0.5
