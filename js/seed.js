@@ -187,7 +187,7 @@ jQuery(function ($) {
     if (offset <= 0 || scrollArray.length === 0) {
       result.x = scrollArray[0].x1;
       result.y = scrollArray[0].y1;
-      result.interval = scrollArray.length - 1;
+      result.interval = 0; // scrollArray.length - 1;
       return result;
     }
 
@@ -279,14 +279,14 @@ jQuery(function ($) {
     }
     currentInterval = translate.interval;
     if (translate.scale) {
-      $("#Camada_2").css("transform", "scale(" + translate.scale + ")");
+      $("#svg_gate").css("transform", "scale(" + translate.scale + ")");
     } else {
-      $("#Camada_2").css("transform", "scale(1)");
+      $("#svg_gate").css("transform", "scale(1)");
     }
     if (translate.hide) {
-      $("#Camada_2").css("display", "none");
+      $("#svg_gate").css("display", "none");
     } else {
-      $("#Camada_2").css("display", "block");
+      $("#svg_gate").css("display", "block");
     }
     if (translate.open) {
       $("#gate_left").css(
@@ -307,7 +307,8 @@ jQuery(function ($) {
       "translate(" + translate.x + "px, " + translate.y + "px)"
     );
     if (currentInterval > 2) {
-    mapGraph(scrollProgress - 100 * 2 / scrollArray.length-10);
+    //mapGraph(scrollProgress - 100 * 2 / scrollArray.length);
+    mapGraph(scale(scrollProgress , 100 * 2 / scrollArray.length, 100, 0, 100));
     }
   }
 });
@@ -378,15 +379,52 @@ function mapGraph(progress) {
     
     var dy = newShape.point.y - shapesArr[shapesArr.length - 1].point.y;
     var dx = newShape.point.x - shapesArr[shapesArr.length - 1].point.x;
+    var vectLength = Math.sqrt(dx**2 + dy**2);
+    var angle;
+    if (dx >= 0 && dy >= 0) {
+      angle = Math.asin(dy/vectLength )*180/Math.PI;
+     } else if (dx >= 0 && dy < 0) {
+       angle = - Math.asin(-dy/vectLength )*180/Math.PI;
+     } else if (dx < 0 && dy >= 0) {
+      angle = (Math.PI - Math.asin(dy/vectLength ))*180/Math.PI;
+     } else if (dx < 0 && dy < 0) {
+      angle = (-Math.PI + Math.asin(-dy/vectLength ))*180/Math.PI;
+     }
+    
     // Angle to rotate
-    var angle = Math.atan(dy/dx)*180/Math.PI;
-    cloneShape.rotate(angle);
-    cloneShape.attr({
-      fill: '#f06'
-      , 'fill-opacity': 0.5
-      , stroke: '#000'
-      , 'stroke-width': 10
-  });
+    // if (dx = 0 && dy > 0)   
+    // if (dx > 0 && dy > 0 || dx < 0 && dy < 0) {
+    //   angle = Math.atan(dy / dx) * 180 / Math.PI;
+    // } else if (dx>0 && dy<0) {
+
+    // } else if (dx<0 && dy>0 ) {
+      
+    // }
+    // var angle = Math.atan(dy/dx)*180/Math.PI;
+    console.log('---angle---' + angle);
+    
+     var rateXY = document.documentElement.clientWidth / document.documentElement.clientHeight;;
+     var rateX = 1;
+     var rateY = 1;
+     if (rateXY >= 1920/1024) {
+      rateX = 1920/document.documentElement.clientWidth;
+    } else {
+      rateY = 1024/document.documentElement.clientHeight;
+     }
+    //var rateX = 1920/document.documentElement.clientWidth;
+    //var rateY = 1024/document.documentElement.clientHeight;
+   // cloneShape.transform({
+   //   rotate: angle //,
+      // scaleX: rateX,
+      // scaleY: rateY
+    //});
+    cloneShape.scale(rateX,rateY).rotate(angle);
+  //   cloneShape.attr({
+  //     fill: '#f06'
+  //     , 'fill-opacity': 0.5
+  //     , stroke: '#000'
+  //     , 'stroke-width': 10
+  // });
     cloneShape.css({
       display: "inline"      
     });
@@ -397,6 +435,13 @@ function mapGraph(progress) {
 
   // set last
 }
+
+function scale(x, a , b , c , d){
+  return c+(d-c)*((x-a)/(b-a));
+}
+   // value, in_min, in_max, out_in, out_max
+
+
 /// <<< ????
 // $('#recipeCarousel').carousel({
 //   interval: 10000
