@@ -28,6 +28,8 @@ var mypath;
 var templ;
 var pathLength;
 var shapeSize;
+var rateX;
+var rateY;
 
 jQuery(function ($) {
   if ($("#slogan").length){
@@ -37,12 +39,21 @@ jQuery(function ($) {
   var currentInterval = 0;
 
   mypath = document.getElementById("line");
+  var footString = '<svg id="road" version="1.1" viewBox="0 0 ' + $('.scroll_canvas').width() + ' ' + $('.scroll_canvas').height() + '" xmlns="http://www.w3.org/2000/svg">';
+footString += '<g id="tmplt" style="display: none;" ><g id="g831"><path id="path6" d="M20.633 31.168c3.91-1.876 6.842-5.563 9.404-7.393 8.881.29 18.365.675 26.066 4.282 5.134 1.41 5.248 6.71-.987 6.777-10.903 1.316-23.004 1.423-32.85-2.762-.57-.274-1.133-.562-1.633-.904Z" fill="#231f20"/><path id="path10" d="m22.728 22.31-9.618 7.309C9.164 27.699.045 27.882.087 23.81c3.456-3.885 10.766-4.153 16.261-2.78 2.143.38 4.288.766 6.38 1.278Z" fill="#231f20"/></g><g id="g827"><path id="path8" d="M80.242 15.2c2.64-2.285 5.165-5.145 5.683-8.725 1.147-1.197 3.01-.727 4.427-1.371 7.533-1.711 15.24-3.31 23.006-2.749 1.876.263 3.892.773 5.295 2.099 1.072 1.913-1.182 3.396-2.731 3.972-6.051 3.017-12.67 4.646-19.234 6.115-5.383 1.104-11.01 1.853-16.446.659Z" fill="#231f20"/><path id="path12" d="M76.54 7.962c-5.57 1.33-11.38 1.91-16.735 3.98-3.144.76-7.619 6.448-1.738 6.51 4.876.085 9.712-.858 14.44-1.967l4.033-8.523z" fill="#231f20"/></g></g>';
+footString += '<g id="map"></g></svg>';
+$('.foot_svg').html(footString);
+
+   rateX = 1920/document.documentElement.clientWidth;
+   rateY = 1024/document.documentElement.clientHeight;
+
   templ = SVG("#tmplt");
   shapeSize = templ.bbox().width* 1.4;
  // console.log("size--", shapeSize);
   pathLength = mypath.getTotalLength();
   shapesArr[0] = { progress: 0, point: mypath.getPointAtLength(0), shape: templ};
-
+  shapesArr[0].point.x /= rateX;
+  shapesArr[0].point.y /= rateY; 
   $(window).on("scroll", scrollMove);
 
   $(window).resize(function () {
@@ -254,7 +265,7 @@ jQuery(function ($) {
     scrollProgress = offset;
     console.log('---scroll---', scrollProgress);
     var translate = getIntervalValue(offset, directionDown);
-
+    // gate text
     if (currentInterval == 3 && translate.interval == 4) {
       $(".slogan_wrapper").after($(".gate_text"));
       $(".gate_text").attr(
@@ -273,11 +284,36 @@ jQuery(function ($) {
         "position: fixed; top:0; right:0;z-index:2;"
       );
     }
-    if (currentInterval == 4 && translate.interval == 3) {
+    if ((currentInterval == 4 || currentInterval == 5 ) && translate.interval <= 3) {
       $(".gate_text").appendTo(".seed_gate");
       $(".gate_text").attr("style", "");
     }
+    // greenhouse text
+    if (currentInterval == 6 && translate.interval == 7) {
+      $(".slogan_wrapper").after($(".greenhouse_text"));
+      $(".greenhouse_text").attr(
+        "style",
+        "position: fixed; top:0; left:0; z-index:2;"
+      );
+    }
+    if (currentInterval == 7 && translate.interval == 8) {
+      $(".greenhouse_text").appendTo(".garden_left");
+      $(".greenhouse_text").attr("style", "");
+    }
+    if (currentInterval == 8 && translate.interval == 7) {
+      $(".slogan_wrapper").after($(".greenhouse_text"));
+      $(".greenhouse_text").attr(
+        "style",
+        "position: fixed; top:0; left:0;z-index:2;"
+      );
+    }
+    if ((currentInterval == 7 || currentInterval == 8 ) && translate.interval <= 6) {
+      $(".greenhouse_text").appendTo(".seed_greenhouse");
+      $(".greenhouse_text").attr("style", "");
+    }
+    // >>>
     currentInterval = translate.interval;
+    console.log('===interval===', currentInterval);
     if (translate.scale) {
       $("#svg_gate").css("transform", "scale(" + translate.scale + ")");
     } else {
@@ -311,6 +347,20 @@ jQuery(function ($) {
     mapGraph(scale(scrollProgress , 100 * 2 / scrollArray.length, 100, 0, 100));
     }
   }
+
+//   var rateXY = document.documentElement.clientWidth / document.documentElement.clientHeight;;
+//   var rateX = 1;
+//   var rateY = 1;
+//   if (rateXY >= 1920/1024) {
+//    rateX = 1920/document.documentElement.clientWidth;
+//  } else {
+//    rateY = 1024/document.documentElement.clientHeight;
+//   }
+//   templ.scale(rateX, rateY);
+//   var el = document.getElementById('road');
+//   flatten(el, true);
+
+
 });
 
 function calcPoints(pointsArrayInit) {
@@ -354,9 +404,10 @@ function mapGraph(progress) {
     return;
   }
   // place shapes
+  var linePoint = mypath.getPointAtLength(pathLength * progress/100);
   var dist = getDistance(
     shapesArr[shapesArr.length - 1].point,
-    mypath.getPointAtLength(pathLength * progress/100)
+    {x: linePoint.x / rateX, y: linePoint.y / rateY }
   );
   var steps = Math.floor(dist / shapeSize);
   var progressStep =
@@ -369,6 +420,8 @@ function mapGraph(progress) {
     newShape.point = mypath.getPointAtLength(
       (pathLength * newShape.progress) / 100
     );
+    newShape.point.x /= rateX;
+    newShape.point.y /= rateY;
     var cloneShape = templ.clone();
     cloneShape.move(newShape.point.x, newShape.point.y);
     var lastPoint = shapesArr[shapesArr.length - 1].point;
@@ -403,22 +456,22 @@ function mapGraph(progress) {
     // var angle = Math.atan(dy/dx)*180/Math.PI;
     console.log('---angle---' + angle);
     
-     var rateXY = document.documentElement.clientWidth / document.documentElement.clientHeight;;
-     var rateX = 1;
-     var rateY = 1;
-     if (rateXY >= 1920/1024) {
-      rateX = 1920/document.documentElement.clientWidth;
-    } else {
-      rateY = 1024/document.documentElement.clientHeight;
-     }
-    //var rateX = 1920/document.documentElement.clientWidth;
-    //var rateY = 1024/document.documentElement.clientHeight;
-   // cloneShape.transform({
-   //   rotate: angle //,
+    //  var rateXY = document.documentElement.clientWidth / document.documentElement.clientHeight;;
+    //  var rateX = 1;
+    //  var rateY = 1;
+    //  if (rateXY >= 1920/1024) {
+    //   rateX = 1920/document.documentElement.clientWidth;
+    // } else {
+    //   rateY = 1024/document.documentElement.clientHeight;
+    //  }
+    // var rateX = 1920/document.documentElement.clientWidth;
+    // var rateY = 1024/document.documentElement.clientHeight;
+   cloneShape.transform({
+     rotate: angle //,
       // scaleX: rateX,
       // scaleY: rateY
-    //});
-    cloneShape.scale(rateX,rateY).rotate(angle);
+    });
+    //cloneShape.rotate(angle);
   //   cloneShape.attr({
   //     fill: '#f06'
   //     , 'fill-opacity': 0.5
@@ -469,5 +522,4 @@ $('.carousel .carousel-item').each(function(){
         next.children(':first-child').clone().appendTo($(this));
       }
 });
-
 
