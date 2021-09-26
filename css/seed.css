@@ -179,7 +179,7 @@ svg {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 90%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(to right, rgba(255, 251, 239, 0) 0%, rgba(255, 251, 239, 1) 10%, rgba(255, 251, 239, 1) 90%, rgba(255, 251, 239, 0) 100%);
 }
 .greenhouse_wrapper, .garden_wrapper, .pond_wrapper, .mailbox_wrapper {
   position: relative;
@@ -197,8 +197,7 @@ svg {
   }
 }
 .gate_text, .greenhouse_text {
-  /* display: none; */
-  padding-top: 3rem;
+ padding-top: 3rem;
   width: 25vw;
   height: 100vh;
   position: absolute;
@@ -236,99 +235,7 @@ svg {
 
 .seed_greenhouse, .seed_garden {
   position: relative;
-  /* height: 100vh;
-  width: 100%;
-  display: flex; */
-  /* transform: translateX( -100vw); */
-}
-.greenhouse_wrapper {
-  /* height: 100vh;
-  flex: 33.33%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end; */
-}
-.greenhouse_wrapper svg {
-  /* height: auto;
-  width: 100%; */
-}
-.greenhouse_right,
-.greenhouse_left {
-  /* height: 100vh;
-  flex: 33.33%; */
-  /* width: 100vw; */
-  /* background-color: #d2b48c; */
-}
-
-/* .greenhouse_text {
-  padding-top: 3rem;
-  width: 25vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #0a6149;
-  color: #fff;
-} */
-
-/* .svg_wrapper {
-  width: 100%;
-  height: 100vh;
-} */
-.svg_wrapper svg {
-  /* width: 100%;
-  height: 100%; */
-}
-.leaf_lite {
-  /* animation: leaf_anim_lite 3s infinite; */
-  /* transform-origin: 100% 100%;
-  transform-box: fill-box; */
-}
-
-.seed_garden {
-  /* height: 100vh;
-  width: 100%;
-  display: flex; */
-  /* transform: translateX( -100vw); */
-}
-
-.garden_right,
-.garden_left {
-  /* height: 100vh; */
-  /* width: 100vw; */
-  /* flex: 33.33%; */
-  /* background-color: #d2b400; */
-}
-.garden_wrapper {
-  /* height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center; */
-}
-.garden_wrapper svg {
-  /* width: 100%;
-  height: auto; */
-}
-/* #grape>path {
-  animation: grape_anim 5s infinite;
-  transform-origin: 100% 100%;
-  transform-box: fill-box;
-} */
-#crown_left > path {
-  /* animation: crown 5s infinite; */
-}
-#crown_right > path {
-  /* animation: crown 5s 1s infinite; */
-}
-#single {
-  /* animation: fall 5s  2s infinite; */
-}
-
-/* .scroll_canvas{
-  background-image: url(../img/road.svg);
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-} */
+  }
 
 .road_background {
   position: absolute;
@@ -340,54 +247,8 @@ svg {
   height: 100vh;
 }
 
-.seed_pond {
-  /* height: 100vh;
-  width: 100%;
-  display: flex; */
-}
-.pond_left,
-.pond_right {
-  /* height: 100vh;
-  flex: 33.33%; */
-  /* width: 100vw; */
-}
-
-.pond_wrapper {
-  /* height: 100vh;
-  flex: 33.33%;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-.pond_wrapper > svg {
-  /* height: auto;
-  width: 100%; */
-  z-index: 10;
-}
-
-.seed_mailbox {
-  /* height: 100vh;
-  width: 100%;
-  display: flex; */
-}
-.mailbox_left,
-.mailbox_right {
-  /* height: 100vh;
-  flex: 33.33%; */
-  /* width: 100vw; */
-}
-
-.mailbox_wrapper {
-  /* height: 100vh;
-  flex: 33.33%;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-}
 .mailbox_wrapper > svg {
-  /* height: auto;
-  width: 100%; */
-  z-index: 10;
+   z-index: 10;
 }
 
 /*--------------------------------------------------------------
@@ -794,28 +655,6 @@ animation
     fill: #1bce4f;
   }
 }
-
-/* .k1 {
-  animation: bounce 2s infinite ;
-}
-
-@keyframes bounce {
-  from {
-   transform: translate(0);
-  }
-  25% {
-    transform: translate(10px);
-  }
-  50% {
-    transform: translate(50px);
-  }
-  75% {
-    transform: translate(10px);
-  }
-  to {
-    transform: translate(0);
-  }
-} */
 
 @keyframes crown {
   0% {

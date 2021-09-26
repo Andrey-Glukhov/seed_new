@@ -344,7 +344,13 @@ $('.foot_svg').html(footString);
     );
     if (currentInterval > 2) {
     //mapGraph(scrollProgress - 100 * 2 / scrollArray.length);
-    mapGraph(scale(scrollProgress , 100 * 2 / scrollArray.length, 100, 0, 100));
+    mapGraph(scale(scrollProgress , 100 * 2 / scrollArray.length-10, 100, 0, 100));
+    } else {
+      while (shapesArr.length > 1) {
+        shapesArr[shapesArr.length - 1].shape.remove();
+        shapesArr.pop();
+      }
+      
     }
   }
 
