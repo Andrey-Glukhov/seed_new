@@ -87,12 +87,12 @@ svg {
 
 .scroll_line {
   width: 100%;
-  height: 1500vh;
+  height: 1800vh;
 }
 .scroll_canvas {
   background-color: #fffbef;
   width: 300%;
-  height: 600vh;
+  height: 700vh;
   position: absolute;
 }
 .scroll_svg, .foot_svg {
@@ -132,7 +132,9 @@ svg {
 .pond_left,
 .pond_right,
 .mailbox_left,
-.mailbox_right  {
+.mailbox_right,
+.barn_left,
+.barn_right  {
   height: 100vh;
   /* width: 100vw; */
   flex: 33.33%;
@@ -161,19 +163,18 @@ svg {
 .seed_greenhouse,
 .seed_garden,
 .seed_pond,
-.seed_mailbox {
+.seed_mailbox,
+.seed_barn {
   height: 100vh;
   width: 100%;
   display: flex;
 }
-.gate_left,
-.gate_right {
-  /* height: 100vh;
-  flex: 33.33%; */
-  /* width: 100vw; */
-}
+.seed_gate, .seed_greenhouse, .seed_garden, .seed_pond, .seed_barn,  .seed_mailbox{
+  position: relative;
+  }
 
-.gate_wrapper, .greenhouse_wrapper, .garden_wrapper, .pond_wrapper, .mailbox_wrapper {
+
+.gate_wrapper, .greenhouse_wrapper, .garden_wrapper, .pond_wrapper, .mailbox_wrapper, .barn_wrapper {
   height: 100vh;
   flex: 33.33%;
   display: flex;
@@ -184,19 +185,19 @@ svg {
 .greenhouse_wrapper, .garden_wrapper, .pond_wrapper, .mailbox_wrapper {
   position: relative;
 }  
-.gate_wrapper > svg, .greenhouse_wrapper > svg, .garden_wrapper > svg, .pond_wrapper > svg, .mailbox_wrapper > svg  {
+.gate_wrapper > svg, .greenhouse_wrapper > svg, .garden_wrapper > svg, .pond_wrapper > svg, .mailbox_wrapper > svg, .barn_wrapper > svg  {
   height: auto;
   width: 100%;
   z-index: 10;
 }
 
 @media screen and (min-aspect-ratio: 1920/1024) {
-  .gate_wrapper > svg, .greenhouse_wrapper > svg, .garden_wrapper > svg, .pond_wrapper > svg, .mailbox_wrapper > svg  {
+  .gate_wrapper > svg, .greenhouse_wrapper > svg, .garden_wrapper > svg, .pond_wrapper > svg, .mailbox_wrapper > svg ,  .barn_wrapper > svg{
     height: 100%;
     width: auto;
   }
 }
-.gate_text, .greenhouse_text {
+.gate_text, .greenhouse_text, .garden_text, .barn_text, .mailbox_text, .pond_text{
  padding-top: 3rem;
   width: 25vw;
   height: 100vh;
@@ -204,20 +205,20 @@ svg {
   top: 0;
   
 }
-.gate_text  {
+.gate_text, .garden_text, .pond_text {
   right: 0;
 }
-.greenhouse_text {
+.greenhouse_text, .barn_text, .mailbox_text {
   left: 0;
 }
-.gate_content, .greenhouse_content {
+.gate_content, .greenhouse_content, .garden_content, .pond_content, .barn_content, .mailbox_content {
   background-color: #0a6149;
   height: 100%;
   width: 100%;
   /* margin: 0 0 0 auto; */
   padding: 20px;
 }
-.gate_content p, .greenhouse_content p {
+.gate_content p, .greenhouse_content p, .garden_content p, .pond_content p, .barn_content p, .mailbox_content p {
   color: #ffffff;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -233,9 +234,6 @@ svg {
   text-align: center;
 }
 
-.seed_greenhouse, .seed_garden {
-  position: relative;
-  }
 
 .road_background {
   position: absolute;
