@@ -567,3839 +567,3384 @@ if ($home->have_posts()): while ($home->have_posts()): $home->the_post();
         <div class="seed_garden">
             <div class="garden_left"></div>
             <div class="garden_wrapper">
-                <svg id="portfolio_garden" version="1.1" viewBox="0 0 1741.8 866.17" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <style>
-                        .grdc-1,
-                        .grdc-5,
-                        .grdc-7 {
-                            fill: none;
-                            stroke-miterlimit: 10;
-                            stroke-width: 2px;
-                        }
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="portfolio_garden" version="1.1" viewBox="0 0 1920 1024">
+  <defs id="defs4">
+    <style id="style2">
+      .grdc-1,.grdc-5{fill:none;stroke-miterlimit:10;stroke-width:2px}.grdc-1{stroke:#0a6149}.grdc-2{fill:#0a6149}.grdc-3{fill:#70323b}.grdc-4{fill:#bbcfc0}.grdc-5{stroke:#bbcfc0}.grdc-6{fill:#074054}.grdc-8{fill:#d15b40}
+    </style>
+  </defs>
+  <path id="path6" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m287.365 568.738-69.849 71.479" class="grdc-1"/>
+  <path id="path8" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M275.719 455.759 217.516 471.9" class="grdc-1"/>
+  <g id="g24">
+    <path id="path10" d="m241.774 479.514-24.614-7.15 9.658-15.39z" class="grdc-2"/>
+    <path id="path12" d="m256.875 446.235-18.111 24.19-3.744-19.732z" class="grdc-2"/>
+    <path id="path14" d="m240.115 438.526-24.615 7.14 9.649 15.399z" class="grdc-2"/>
+    <path id="path16" d="m245.798 438.786-20.321 20.562 13.383 8.52z" class="grdc-2"/>
+    <path id="path18" d="m224.773 434.627-20.813 19.568 13.152 9.157z" class="grdc-2"/>
+    <path id="path20" d="m245.798 489.066-20.321-20.561 13.383-8.511z" class="grdc-2"/>
+    <path id="path22" d="m224.773 493.235-20.813-19.568 13.152-9.157Z" class="grdc-2"/>
+  </g>
+  <path id="path26" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m271.859 494.441-53.387 35.99" class="grdc-1"/>
+  <g id="g42">
+    <path id="path28" d="m240.607 517.733-25.126 1.699 6.542-18.275z" class="grdc-2"/>
+    <path id="path30" d="m249.156 480.247-13.123 29.748-7.217-17.793z" class="grdc-2"/>
+    <path id="path32" d="m231.537 478.655-22.521 15.525 12.148 11.521z" class="grdc-2"/>
+    <path id="path34" d="m238.204 489.076-15.911 27.007 14.493 3.561z" class="grdc-2"/>
+    <path id="path36" d="m250.719 480.247-16.587 26.226 14.396 4.255z" class="grdc-2"/>
+    <path id="path38" d="m247.361 537.736-23.399-12.795 11.386-12.92z" class="grdc-2"/>
+    <path id="path40" d="m226.654 536.954-23.707-11.646 11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path44" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m274.503 543.689-55.645 28.667" class="grdc-1"/>
+  <g id="g78">
+    <path id="path46" d="m243.27 567.329-25.126-1.67 7.787-17.31z" class="grdc-2"/>
+    <path id="path48" d="m254.395 531.174-15.139 27.847-5.944-18.671z" class="grdc-2"/>
+    <path id="path50" d="m236.959 527.228-23.495 12.437 11.289 13.084z" class="grdc-2"/>
+    <path id="path52" d="m243.038 533.837-17.725 24.75 14.174 5.48z" class="grdc-2"/>
+    <path id="path54" d="m221.376 526.726-18.333 23.881 14.02 6.166z" class="grdc-2"/>
+    <path id="path56" d="m248.76 583.491-22.405-15.863L238.6 556.29Z" class="grdc-2"/>
+    <path id="path58" d="m242.517 614.888-25.029 3.464 5.866-18.709z" class="grdc-2"/>
+    <path id="path60" d="m256.797 588.064-21.169 18.835-.898-20.369Z" class="grdc-2"/>
+    <path id="path62" d="m246.348 555.239-20.147 20.87 13.441 8.318z" class="grdc-2"/>
+    <path id="path64" d="m232.029 576.505-21.923 17.078 12.554 10.653z" class="grdc-2"/>
+    <path id="path66" d="m247.322 642.561-25.029 3.464 5.867-18.709z" class="grdc-2"/>
+    <path id="path68" d="m236.834 604.168-21.922 17.088 12.553 10.653z" class="grdc-2"/>
+    <path id="path70" d="m239.121 588.875-14.908 28.097 14.599 2.538z" class="grdc-2"/>
+    <path id="path72" d="m251.298 579.187-15.603 27.345 14.522 3.252z" class="grdc-2"/>
+    <path id="path74" d="m250.034 636.83-23.833-11.135 10.903-13.702z" class="grdc-2"/>
+    <path id="path76" d="M221.347 586.289 202.6 563.045l13.913-6.648Z" class="grdc-2"/>
+  </g>
+  <path id="path80" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m270.798 397.2-52.674 37.93" class="grdc-1"/>
+  <g id="g96">
+    <path id="path82" d="m239.989 420.357-25.077 2.615 6.185-18.507z" class="grdc-2"/>
+    <path id="path84" d="m247.824 382.572-12.553 30.21-7.555-17.512z" class="grdc-2"/>
+    <path id="path86" d="m230.176 381.626-22.221 16.345 12.37 11.068z" class="grdc-2"/>
+    <path id="path88" d="m237.056 393.07-15.39 27.576 14.55 3.03z" class="grdc-2"/>
+    <path id="path90" d="m249.397 383.787-16.075 26.815 14.463 3.734z" class="grdc-2"/>
+    <path id="path92" d="m247.129 441.372-23.63-11.926 11.135-13.335z" class="grdc-2"/>
+    <path id="path94" d="m226.403 440.089-23.919-10.778 10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path98" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m287.365 741.665-69.849 71.48" class="grdc-1"/>
+  <path id="path100" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m275.719 628.686-58.203 16.143" class="grdc-1"/>
+  <g id="g116">
+    <path id="path102" d="m241.774 652.442-24.614-7.141 9.658-15.399z" class="grdc-2"/>
+    <path id="path104" d="m256.875 619.163-18.111 24.189-3.744-19.732Z" class="grdc-2"/>
+    <path id="path106" d="m240.115 611.453-24.615 7.14 9.649 15.4z" class="grdc-2"/>
+    <path id="path108" d="m245.798 611.714-20.321 20.571 13.383 8.51z" class="grdc-2"/>
+    <path id="path110" d="m224.773 607.555-20.813 19.568 13.152 9.157z" class="grdc-2"/>
+    <path id="path112" d="m245.798 662.004-20.321-20.572 13.383-8.51z" class="grdc-2"/>
+    <path id="path114" d="m224.773 666.162-20.813-19.568 13.152-9.156z" class="grdc-2"/>
+  </g>
+  <path id="path118" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m271.859 667.369-53.387 35.99" class="grdc-1"/>
+  <g id="g134">
+    <path id="path120" d="m240.607 690.661-25.126 1.698 6.542-18.275z" class="grdc-2"/>
+    <path id="path122" d="m249.156 653.175-13.123 29.748-7.217-17.783z" class="grdc-2"/>
+    <path id="path124" d="m231.537 651.583-22.521 15.525 12.148 11.521z" class="grdc-2"/>
+    <path id="path126" d="m238.204 662.004-15.911 27.007 14.493 3.56z" class="grdc-2"/>
+    <path id="path128" d="m250.719 653.175-16.587 26.226 14.396 4.265z" class="grdc-2"/>
+    <path id="path130" d="m247.361 710.663-23.399-12.794 11.386-12.92z" class="grdc-2"/>
+    <path id="path132" d="m226.654 709.882-23.707-11.647 11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path136" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m274.503 716.617-55.645 28.667" class="grdc-1"/>
+  <g id="g166">
+    <path id="path138" d="m243.27 740.256-25.126-1.669 7.787-17.31z" class="grdc-2"/>
+    <path id="path140" d="m254.395 704.102-15.139 27.847-5.944-18.671z" class="grdc-2"/>
+    <path id="path142" d="m236.959 700.155-23.495 12.438 11.289 13.084z" class="grdc-2"/>
+    <path id="path144" d="m243.038 706.765-17.725 24.749 14.174 5.491z" class="grdc-2"/>
+    <path id="path146" d="m221.376 699.654-18.333 23.881 14.02 6.165z" class="grdc-2"/>
+    <path id="path148" d="m248.76 756.418-22.405-15.863 12.245-11.337Z" class="grdc-2"/>
+    <path id="path150" d="m242.517 787.816-25.029 3.464 5.866-18.71z" class="grdc-2"/>
+    <path id="path152" d="m256.797 760.992-21.169 18.834-.898-20.368z" class="grdc-2"/>
+    <path id="path154" d="m246.348 728.176-20.147 20.861 13.441 8.317z" class="grdc-2"/>
+    <path id="path156" d="m232.029 749.432-21.923 17.089 12.554 10.642z" class="grdc-2"/>
+    <path id="path158" d="m236.834 777.096-21.922 17.088 12.553 10.652z" class="grdc-2"/>
+    <path id="path160" d="M239.121 761.812 224.213 789.9l14.599 2.538z" class="grdc-2"/>
+    <path id="path162" d="m251.298 752.115-15.603 27.345 14.522 3.251z" class="grdc-2"/>
+    <path id="path164" d="M221.347 759.216 202.6 735.972l13.913-6.638Z" class="grdc-2"/>
+  </g>
+  <path id="path168" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m270.798 570.127-52.674 37.93" class="grdc-1"/>
+  <g id="g184">
+    <path id="path170" d="m239.989 593.284-25.077 2.625 6.185-18.516z" class="grdc-2"/>
+    <path id="path172" d="m247.824 555.499-12.553 30.221-7.555-17.523z" class="grdc-2"/>
+    <path id="path174" d="m230.176 554.554-22.221 16.345 12.37 11.067z" class="grdc-2"/>
+    <path id="path176" d="m237.056 565.997-15.39 27.577 14.55 3.029z" class="grdc-2"/>
+    <path id="path178" d="m249.397 556.715-16.075 26.814 14.463 3.734z" class="grdc-2"/>
+    <path id="path180" d="m247.129 614.3-23.63-11.926 11.135-13.335z" class="grdc-2"/>
+    <path id="path182" d="m226.403 613.016-23.919-10.778 10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path186" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m149.308 610.247 69.849 71.47" class="grdc-1"/>
+  <path id="path188" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m160.945 497.258 58.212 16.143" class="grdc-1"/>
+  <g id="g204">
+    <path id="path190" d="m160.154 521.014 24.624-7.14-9.658-15.4z" class="grdc-2"/>
+    <path id="path192" d="m145.054 487.735 18.12 24.19 3.744-19.732z" class="grdc-2"/>
+    <path id="path194" d="m161.823 480.025 24.615 7.15-9.659 15.39z" class="grdc-2"/>
+    <path id="path196" d="m190.876 480.296 20.311 20.561-13.373 8.52z" class="grdc-2"/>
+    <path id="path198" d="m177.155 476.127 20.823 19.568-13.152 9.167z" class="grdc-2"/>
+    <path id="path200" d="m190.876 530.576 20.311-20.562-13.373-8.52z" class="grdc-2"/>
+    <path id="path202" d="m177.155 534.735 20.823-19.568-13.152-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path206" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m164.814 535.94 53.378 35.991" class="grdc-1"/>
+  <g id="g222">
+    <path id="path208" d="m161.331 559.233 25.116 1.708-6.532-18.285z" class="grdc-2"/>
+    <path id="path210" d="m152.782 521.747 13.123 29.748 7.217-17.783z" class="grdc-2"/>
+    <path id="path212" d="m170.401 520.155 22.521 15.535-12.148 11.511z" class="grdc-2"/>
+    <path id="path214" d="m198.47 530.576 15.911 27.007-14.493 3.561z" class="grdc-2"/>
+    <path id="path216" d="m185.955 521.757 16.577 26.216-14.386 4.265z" class="grdc-2"/>
+    <path id="path218" d="m189.313 579.235 23.399-12.784-11.386-12.93z" class="grdc-2"/>
+    <path id="path220" d="m175.284 578.464 23.707-11.647-11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path224" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m162.17 585.189 55.646 28.667" class="grdc-1"/>
+  <g id="g258">
+    <path id="path226" d="m158.668 608.838 25.126-1.669-7.787-17.32z" class="grdc-2"/>
+    <path id="path228" d="m147.543 572.674 15.139 27.847 5.944-18.671z" class="grdc-2"/>
+    <path id="path230" d="m164.969 568.728 23.505 12.437-11.29 13.094z" class="grdc-2"/>
+    <path id="path232" d="m193.636 575.337 17.715 24.75-14.174 5.49z" class="grdc-2"/>
+    <path id="path234" d="m180.562 568.236 18.332 23.871-14.029 6.166z" class="grdc-2"/>
+    <path id="path236" d="m187.914 624.991 22.395-15.863-12.235-11.338Z" class="grdc-2"/>
+    <path id="path238" d="m159.411 656.398 25.029 3.464-5.866-18.719z" class="grdc-2"/>
+    <path id="path240" d="m145.14 629.564 21.17 18.835.897-20.369z" class="grdc-2"/>
+    <path id="path242" d="m155.581 596.748 20.156 20.861-13.441 8.317z" class="grdc-2"/>
+    <path id="path244" d="m169.899 618.005 21.932 17.088-12.553 10.652z" class="grdc-2"/>
+    <path id="path246" d="m189.352 684.061 25.029 3.464-5.867-18.709z" class="grdc-2"/>
+    <path id="path248" d="m199.84 645.678 21.922 17.078-12.553 10.653z" class="grdc-2"/>
+    <path id="path250" d="m197.553 630.384 14.908 28.088-14.609 2.538z" class="grdc-2"/>
+    <path id="path252" d="m185.376 620.687 15.603 27.355-14.532 3.242z" class="grdc-2"/>
+    <path id="path254" d="m186.631 678.33 23.842-11.126-10.903-13.711Z" class="grdc-2"/>
+    <path id="path256" d="m180.59 627.789 18.748-23.235-13.913-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path260" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m165.866 438.7 52.683 37.93" class="grdc-1"/>
+  <g id="g276">
+    <path id="path262" d="m161.949 461.857 25.077 2.624-6.185-18.516z" class="grdc-2"/>
+    <path id="path264" d="m154.114 424.072 12.553 30.22 7.546-17.513z" class="grdc-2"/>
+    <path id="path266" d="m171.762 423.126 22.211 16.345-12.36 11.067z" class="grdc-2"/>
+    <path id="path268" d="m199.618 434.57 15.39 27.586-14.55 3.029z" class="grdc-2"/>
+    <path id="path270" d="m187.277 425.287 16.075 26.824-14.463 3.734z" class="grdc-2"/>
+    <path id="path272" d="m189.535 482.872 23.64-11.926-11.145-13.335z" class="grdc-2"/>
+    <path id="path274" d="m175.534 481.589 23.92-10.778-10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path278" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m160.945 670.196 58.212 16.133" class="grdc-1"/>
+  <path id="path280" stroke-width=".965" d="m145.053 660.672 18.12 24.18 3.745-19.732z" class="grdc-2"/>
+  <path id="path282" stroke-width=".965" d="m177.155 649.065 20.822 19.558-13.151 9.166z" class="grdc-2"/>
+  <path id="path284" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m165.866 611.637 52.683 37.93" class="grdc-1"/>
+  <g id="g298">
+    <path id="path286" d="m161.949 634.784 25.077 2.625-6.185-18.507z" class="grdc-2"/>
+    <path id="path288" d="m154.114 596.999 12.553 30.22 7.546-17.512z" class="grdc-2"/>
+    <path id="path290" d="m199.618 607.497 15.39 27.586-14.55 3.03z" class="grdc-2"/>
+    <path id="path292" d="m187.277 598.215 16.075 26.824-14.463 3.734z" class="grdc-2"/>
+    <path id="path294" d="m189.535 655.799 23.64-11.926-11.145-13.334z" class="grdc-2"/>
+    <path id="path296" d="m175.534 654.516 23.92-10.778-10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path300" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m148.69 764.726 69.85 71.48" class="grdc-1"/>
+  <path id="path302" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m160.327 651.747 58.212 16.143" class="grdc-1"/>
+  <g id="g312">
+    <path id="path304" d="m144.436 642.223 18.121 24.19 3.743-19.741z" class="grdc-2"/>
+    <path id="path306" d="m190.259 634.775 20.311 20.561-13.374 8.52z" class="grdc-2"/>
+    <path id="path308" d="m176.538 630.616 20.822 19.568-13.151 9.157z" class="grdc-2"/>
+    <path id="path310" d="m176.538 689.223 20.822-19.568-13.151-9.166z" class="grdc-2"/>
+  </g>
+  <path id="path314" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m164.197 690.43 53.377 35.99" class="grdc-1"/>
+  <g id="g330">
+    <path id="path316" d="m160.714 713.712 25.116 1.708-6.532-18.275z" class="grdc-2"/>
+    <path id="path318" d="m152.165 676.236 13.122 29.747 7.218-17.792z" class="grdc-2"/>
+    <path id="path320" d="m169.784 674.644 22.52 15.525-12.148 11.521z" class="grdc-2"/>
+    <path id="path322" d="m197.852 685.065 15.911 27.007-14.492 3.56z" class="grdc-2"/>
+    <path id="path324" d="m185.338 676.236 16.577 26.226-14.387 4.255z" class="grdc-2"/>
+    <path id="path326" d="m188.696 733.714 23.398-12.784-11.386-12.92Z" class="grdc-2"/>
+    <path id="path328" d="m174.666 732.942 23.707-11.646-11.057-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path332" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m161.553 739.678 55.645 28.657" class="grdc-1"/>
+  <g id="g360">
+    <path id="path334" d="m158.051 763.317 25.125-1.669-7.786-17.31z" class="grdc-2"/>
+    <path id="path336" d="M146.925 727.163 162.065 755l5.943-18.661z" class="grdc-2"/>
+    <path id="path338" d="m164.351 723.207 23.505 12.437-11.289 13.094z" class="grdc-2"/>
+    <path id="path340" d="m193.018 729.826 17.716 24.749-14.175 5.481z" class="grdc-2"/>
+    <path id="path342" d="m179.944 722.715 18.333 23.871-14.03 6.175z" class="grdc-2"/>
+    <path id="path344" d="m187.296 779.479 22.396-15.863-12.235-11.337z" class="grdc-2"/>
+    <path id="path346" d="m154.963 751.227 20.157 20.871-13.441 8.317z" class="grdc-2"/>
+    <path id="path348" d="m169.282 772.484 21.932 17.088-12.553 10.652z" class="grdc-2"/>
+    <path id="path350" d="m184.759 775.176 15.602 27.345-14.531 3.242z" class="grdc-2"/>
+    <path id="path352" d="m179.973 782.277 18.748-23.244-13.914-6.648z" class="grdc-2"/>
+    <path id="path354" d="m171.144 577.605 22.212 16.345-12.36 11.077z" class="grdc-2"/>
+    <path id="path356" d="m199.001 589.058 15.39 27.577-14.551 3.029z" class="grdc-2"/>
+    <path id="path358" d="m186.66 579.776 16.075 26.814-14.464 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path362" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m165.248 766.116 52.683 37.93" class="grdc-1"/>
+  <g id="g374">
+    <path id="path364" d="m161.331 789.273 25.078 2.615-6.185-18.507z" class="grdc-2"/>
+    <path id="path366" d="m153.496 751.488 12.554 30.21 7.545-17.512z" class="grdc-2"/>
+    <path id="path368" d="m171.144 750.542 22.212 16.345-12.36 11.068z" class="grdc-2"/>
+    <path id="path370" d="m199.001 761.986 15.39 27.576-14.551 3.03z" class="grdc-2"/>
+    <path id="path372" d="m186.66 752.703 16.075 26.815-14.464 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path376" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m354.077 568.738-69.848 71.479" class="grdc-1"/>
+  <path id="path378" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M342.44 455.759 284.23 471.9" class="grdc-1"/>
+  <g id="g394">
+    <path id="path380" d="m343.232 479.514-24.624-7.15 9.659-15.39z" class="grdc-2"/>
+    <path id="path382" d="m358.333 446.235-18.121 24.19-3.744-19.732z" class="grdc-2"/>
+    <path id="path384" d="m341.563 438.526-24.614 7.14 9.658 15.399z" class="grdc-2"/>
+    <path id="path386" d="m312.51 438.786-20.311 20.562 13.374 8.52z" class="grdc-2"/>
+    <path id="path388" d="m326.221 434.627-20.812 19.568 13.151 9.157z" class="grdc-2"/>
+    <path id="path390" d="m312.51 489.066-20.311-20.561 13.374-8.511z" class="grdc-2"/>
+    <path id="path392" d="m326.221 493.235-20.812-19.568 13.151-9.157Z" class="grdc-2"/>
+  </g>
+  <path id="path396" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m338.572 494.441-53.388 35.99" class="grdc-1"/>
+  <g id="g412">
+    <path id="path398" d="m342.055 517.733-25.126 1.699 6.542-18.275z" class="grdc-2"/>
+    <path id="path400" d="m350.604 480.247-13.122 29.748-7.218-17.793z" class="grdc-2"/>
+    <path id="path402" d="m332.985 478.655-22.52 15.525 12.148 11.521z" class="grdc-2"/>
+    <path id="path404" d="m304.917 489.076-15.911 27.007 14.492 3.561z" class="grdc-2"/>
+    <path id="path406" d="m317.431 480.247-16.586 26.226 14.396 4.255z" class="grdc-2"/>
+    <path id="path408" d="m314.073 537.736-23.398-12.795 11.385-12.92z" class="grdc-2"/>
+    <path id="path410" d="m328.103 536.954-23.708-11.646 11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path414" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m341.215 543.689-55.645 28.667" class="grdc-1"/>
+  <g id="g448">
+    <path id="path416" d="m344.718 567.329-25.125-1.67 7.786-17.31z" class="grdc-2"/>
+    <path id="path418" d="m355.843 531.174-15.139 27.847-5.943-18.671z" class="grdc-2"/>
+    <path id="path420" d="m338.408 527.228-23.495 12.437 11.289 13.084z" class="grdc-2"/>
+    <path id="path422" d="m309.751 533.837-17.725 24.75 14.183 5.48z" class="grdc-2"/>
+    <path id="path424" d="m322.825 526.726-18.333 23.881 14.029 6.166z" class="grdc-2"/>
+    <path id="path426" d="m315.472 583.491-22.404-15.863 12.244-11.338Z" class="grdc-2"/>
+    <path id="path428" d="m343.966 614.888-25.02 3.464 5.857-18.709z" class="grdc-2"/>
+    <path id="path430" d="m358.246 588.064-21.17 18.835-.897-20.369z" class="grdc-2"/>
+    <path id="path432" d="m347.806 555.239-20.157 20.87 13.441 8.318z" class="grdc-2"/>
+    <path id="path434" d="m333.487 576.505-21.932 17.078 12.553 10.653z" class="grdc-2"/>
+    <path id="path436" d="m314.035 642.561-25.029 3.464 5.866-18.709z" class="grdc-2"/>
+    <path id="path438" d="m303.546 604.168-21.922 17.088 12.553 10.653z" class="grdc-2"/>
+    <path id="path440" d="m305.833 588.875-14.907 28.097 14.608 2.538z" class="grdc-2"/>
+    <path id="path442" d="m318.01 579.187-15.602 27.345 14.521 3.252z" class="grdc-2"/>
+    <path id="path444" d="m316.756 636.83-23.843-11.135 10.904-13.702z" class="grdc-2"/>
+    <path id="path446" d="m322.796 586.289-18.748-23.244 13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path450" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m337.52 397.2-52.683 37.93" class="grdc-1"/>
+  <g id="g466">
+    <path id="path452" d="m341.438 420.357-25.078 2.615 6.185-18.507z" class="grdc-2"/>
+    <path id="path454" d="m349.273 382.572-12.554 30.21-7.545-17.512z" class="grdc-2"/>
+    <path id="path456" d="m331.625 381.626-22.212 16.345 12.36 11.068z" class="grdc-2"/>
+    <path id="path458" d="m303.768 393.07-15.39 27.576 14.551 3.03z" class="grdc-2"/>
+    <path id="path460" d="m316.109 383.787-16.075 26.815 14.464 3.734z" class="grdc-2"/>
+    <path id="path462" d="m313.842 441.372-23.63-11.926 11.134-13.335z" class="grdc-2"/>
+    <path id="path464" d="m327.852 440.089-23.92-10.778 10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path468" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m354.077 741.665-69.848 71.48" class="grdc-1"/>
+  <path id="path470" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M342.44 628.686 284.23 644.83" class="grdc-1"/>
+  <g id="g486">
+    <path id="path472" d="m343.232 652.442-24.624-7.141 9.659-15.399z" class="grdc-2"/>
+    <path id="path474" d="m358.333 619.163-18.121 24.189-3.744-19.732z" class="grdc-2"/>
+    <path id="path476" d="m341.563 611.453-24.614 7.14 9.658 15.4z" class="grdc-2"/>
+    <path id="path478" d="m312.51 611.714-20.311 20.571 13.374 8.51z" class="grdc-2"/>
+    <path id="path480" d="m326.221 607.555-20.812 19.568 13.151 9.157z" class="grdc-2"/>
+    <path id="path482" d="m312.51 662.004-20.311-20.572 13.374-8.51z" class="grdc-2"/>
+    <path id="path484" d="m326.221 666.162-20.812-19.568 13.151-9.156z" class="grdc-2"/>
+  </g>
+  <path id="path488" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m338.572 667.369-53.388 35.99" class="grdc-1"/>
+  <g id="g504">
+    <path id="path490" d="m342.055 690.661-25.126 1.698 6.542-18.275z" class="grdc-2"/>
+    <path id="path492" d="m350.604 653.175-13.122 29.748-7.218-17.783z" class="grdc-2"/>
+    <path id="path494" d="m332.985 651.583-22.52 15.525 12.148 11.521z" class="grdc-2"/>
+    <path id="path496" d="m304.917 662.004-15.911 27.007 14.492 3.56z" class="grdc-2"/>
+    <path id="path498" d="m317.431 653.175-16.586 26.226 14.396 4.265z" class="grdc-2"/>
+    <path id="path500" d="m314.073 710.663-23.398-12.794 11.385-12.92z" class="grdc-2"/>
+    <path id="path502" d="m328.103 709.882-23.708-11.647 11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path506" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m341.215 716.617-55.645 28.667" class="grdc-1"/>
+  <g id="g536">
+    <path id="path508" d="m344.718 740.256-25.125-1.669 7.786-17.31z" class="grdc-2"/>
+    <path id="path510" d="m355.843 704.102-15.139 27.847-5.943-18.671z" class="grdc-2"/>
+    <path id="path512" d="m338.408 700.155-23.495 12.438 11.289 13.084z" class="grdc-2"/>
+    <path id="path514" d="m309.751 706.765-17.725 24.749 14.183 5.491z" class="grdc-2"/>
+    <path id="path516" d="m322.825 699.654-18.333 23.881 14.029 6.165z" class="grdc-2"/>
+    <path id="path518" d="m315.472 756.418-22.404-15.863 12.244-11.337z" class="grdc-2"/>
+    <path id="path520" d="m343.966 787.816-25.02 3.464 5.857-18.71z" class="grdc-2"/>
+    <path id="path522" d="m358.246 760.992-21.17 18.834-.897-20.368z" class="grdc-2"/>
+    <path id="path524" d="m347.806 728.176-20.157 20.861 13.441 8.317z" class="grdc-2"/>
+    <path id="path526" d="m333.487 749.432-21.932 17.089 12.553 10.642z" class="grdc-2"/>
+    <path id="path528" d="m303.546 777.096-21.922 17.088 12.553 10.652z" class="grdc-2"/>
+    <path id="path530" d="M305.833 761.812 290.926 789.9l14.608 2.538z" class="grdc-2"/>
+    <path id="path532" d="m318.01 752.115-15.602 27.345 14.521 3.251z" class="grdc-2"/>
+    <path id="path534" d="m322.796 759.216-18.748-23.244 13.914-6.638z" class="grdc-2"/>
+  </g>
+  <path id="path538" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m337.52 570.127-52.683 37.93" class="grdc-1"/>
+  <g id="g554">
+    <path id="path540" d="m341.438 593.284-25.078 2.625 6.185-18.516z" class="grdc-2"/>
+    <path id="path542" d="m349.273 555.499-12.554 30.221-7.545-17.523z" class="grdc-2"/>
+    <path id="path544" d="m331.625 554.554-22.212 16.345 12.36 11.067z" class="grdc-2"/>
+    <path id="path546" d="m303.768 565.997-15.39 27.577 14.551 3.029z" class="grdc-2"/>
+    <path id="path548" d="m316.109 556.715-16.075 26.814 14.464 3.734z" class="grdc-2"/>
+    <path id="path550" d="m313.842 614.3-23.63-11.926 11.134-13.335z" class="grdc-2"/>
+    <path id="path552" d="m327.852 613.016-23.92-10.778 10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path556" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m216.02 610.247 69.85 71.47" class="grdc-1"/>
+  <path id="path558" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m227.657 497.258 58.212 16.143" class="grdc-1"/>
+  <g id="g574">
+    <path id="path560" d="m226.867 521.014 24.624-7.14-9.659-15.4z" class="grdc-2"/>
+    <path id="path562" d="m211.776 487.735 18.111 24.19 3.743-19.732z" class="grdc-2"/>
+    <path id="path564" d="m228.536 480.025 24.614 7.15-9.658 15.39z" class="grdc-2"/>
+    <path id="path566" d="m257.589 480.296 20.311 20.561-13.374 8.52z" class="grdc-2"/>
+    <path id="path568" d="m243.878 476.127 20.812 19.568-13.151 9.167z" class="grdc-2"/>
+    <path id="path570" d="m257.589 530.576 20.311-20.562-13.374-8.52z" class="grdc-2"/>
+    <path id="path572" d="m243.878 534.735 20.812-19.568-13.151-9.157Z" class="grdc-2"/>
+  </g>
+  <path id="path576" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m231.527 535.94 53.387 35.991" class="grdc-1"/>
+  <g id="g592">
+    <path id="path578" d="m228.044 559.233 25.125 1.708-6.541-18.285z" class="grdc-2"/>
+    <path id="path580" d="m219.495 521.747 13.122 29.748 7.218-17.783z" class="grdc-2"/>
+    <path id="path582" d="m237.114 520.155 22.52 15.535-12.148 11.511z" class="grdc-2"/>
+    <path id="path584" d="m265.182 530.576 15.911 27.007-14.492 3.561z" class="grdc-2"/>
+    <path id="path586" d="m252.668 521.757 16.586 26.216-14.396 4.265z" class="grdc-2"/>
+    <path id="path588" d="m256.026 579.235 23.398-12.784-11.386-12.93z" class="grdc-2"/>
+    <path id="path590" d="m241.996 578.464 23.707-11.647-11.057-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path594" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m228.883 585.189 55.645 28.667" class="grdc-1"/>
+  <g id="g628">
+    <path id="path596" d="m225.381 608.838 25.125-1.669-7.786-17.32z" class="grdc-2"/>
+    <path id="path598" d="m214.255 572.674 15.14 27.847 5.943-18.671z" class="grdc-2"/>
+    <path id="path600" d="m231.691 568.728 23.495 12.437-11.289 13.094z" class="grdc-2"/>
+    <path id="path602" d="m260.348 575.337 17.716 24.75-14.175 5.49z" class="grdc-2"/>
+    <path id="path604" d="m247.274 568.236 18.333 23.871-14.02 6.166z" class="grdc-2"/>
+    <path id="path606" d="m254.626 624.991 22.405-15.863-12.244-11.338Z" class="grdc-2"/>
+    <path id="path608" d="m226.133 656.398 25.03 3.464-5.867-18.719z" class="grdc-2"/>
+    <path id="path610" d="m211.853 629.564 21.17 18.835.897-20.369z" class="grdc-2"/>
+    <path id="path612" d="m222.293 596.748 20.157 20.861-13.441 8.317z" class="grdc-2"/>
+    <path id="path614" d="m236.612 618.005 21.932 17.088-12.553 10.652z" class="grdc-2"/>
+    <path id="path616" d="m256.064 684.061 25.029 3.464-5.866-18.709z" class="grdc-2"/>
+    <path id="path618" d="m266.553 645.678 21.922 17.078-12.553 10.653z" class="grdc-2"/>
+    <path id="path620" d="m264.266 630.384 14.907 28.088-14.608 2.538z" class="grdc-2"/>
+    <path id="path622" d="m252.089 620.687 15.602 27.355-14.531 3.242z" class="grdc-2"/>
+    <path id="path624" d="m253.343 678.33 23.843-11.126-10.904-13.711z" class="grdc-2"/>
+    <path id="path626" d="m247.303 627.789 18.748-23.235-13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path630" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m232.578 438.7 52.683 37.93" class="grdc-1"/>
+  <g id="g646">
+    <path id="path632" d="m228.661 461.857 25.078 2.624-6.185-18.516z" class="grdc-2"/>
+    <path id="path634" d="m220.826 424.072 12.554 30.22 7.545-17.513z" class="grdc-2"/>
+    <path id="path636" d="m238.474 423.126 22.212 16.345-12.36 11.067z" class="grdc-2"/>
+    <path id="path638" d="m266.331 434.57 15.39 27.586-14.551 3.029z" class="grdc-2"/>
+    <path id="path640" d="m253.99 425.287 16.075 26.824-14.464 3.734z" class="grdc-2"/>
+    <path id="path642" d="m256.257 482.872 23.63-11.926-11.135-13.335z" class="grdc-2"/>
+    <path id="path644" d="m242.247 481.589 23.92-10.778-10.798-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path648" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m227.657 670.196 58.212 16.133" class="grdc-1"/>
+  <path id="path650" stroke-width=".965" d="m211.775 660.672 18.111 24.18 3.744-19.732z" class="grdc-2"/>
+  <path id="path652" stroke-width=".965" d="m243.877 649.065 20.813 19.558-13.152 9.166z" class="grdc-2"/>
+  <path id="path654" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m232.578 611.637 52.683 37.93" class="grdc-1"/>
+  <g id="g668">
+    <path id="path656" d="m228.661 634.784 25.078 2.625-6.185-18.507z" class="grdc-2"/>
+    <path id="path658" d="m220.826 596.999 12.554 30.22 7.545-17.512z" class="grdc-2"/>
+    <path id="path660" d="m266.331 607.497 15.39 27.586-14.551 3.03z" class="grdc-2"/>
+    <path id="path662" d="m253.99 598.215 16.075 26.824-14.464 3.734z" class="grdc-2"/>
+    <path id="path664" d="m256.257 655.799 23.63-11.926-11.135-13.334z" class="grdc-2"/>
+    <path id="path666" d="m242.247 654.516 23.92-10.778-10.798-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path670" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m215.403 764.726 69.849 71.48" class="grdc-1"/>
+  <path id="path672" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m227.04 651.747 58.212 16.143" class="grdc-1"/>
+  <g id="g682">
+    <path id="path674" d="m211.158 642.223 18.111 24.19 3.744-19.741z" class="grdc-2"/>
+    <path id="path676" d="m256.971 634.775 20.311 20.561-13.373 8.52z" class="grdc-2"/>
+    <path id="path678" d="m243.26 630.616 20.813 19.568-13.152 9.157z" class="grdc-2"/>
+    <path id="path680" d="m243.26 689.223 20.813-19.568-13.152-9.166z" class="grdc-2"/>
+  </g>
+  <path id="path684" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m230.91 690.43 53.386 35.99" class="grdc-1"/>
+  <g id="g700">
+    <path id="path686" d="m227.426 713.712 25.126 1.708-6.542-18.275z" class="grdc-2"/>
+    <path id="path688" d="M218.877 676.236 232 705.983l7.217-17.792Z" class="grdc-2"/>
+    <path id="path690" d="m236.496 674.644 22.521 15.525-12.148 11.521z" class="grdc-2"/>
+    <path id="path692" d="m264.565 685.065 15.911 27.007-14.493 3.56z" class="grdc-2"/>
+    <path id="path694" d="m252.05 676.236 16.587 26.226-14.396 4.255z" class="grdc-2"/>
+    <path id="path696" d="m255.408 733.714 23.399-12.784-11.386-12.92Z" class="grdc-2"/>
+    <path id="path698" d="m241.379 732.942 23.707-11.646-11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path702" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m228.265 739.678 55.645 28.657" class="grdc-1"/>
+  <g id="g730">
+    <path id="path704" d="m224.763 763.317 25.126-1.669-7.787-17.31z" class="grdc-2"/>
+    <path id="path706" d="M213.638 727.163 228.777 755l5.944-18.661Z" class="grdc-2"/>
+    <path id="path708" d="m231.064 723.207 23.505 12.437-11.29 13.094z" class="grdc-2"/>
+    <path id="path710" d="m259.731 729.826 17.725 24.749-14.184 5.481z" class="grdc-2"/>
+    <path id="path712" d="m246.656 722.715 18.333 23.871-14.029 6.175z" class="grdc-2"/>
+    <path id="path714" d="m254.009 779.479 22.405-15.863-12.245-11.337z" class="grdc-2"/>
+    <path id="path716" d="m221.685 751.227 20.147 20.871-13.441 8.317z" class="grdc-2"/>
+    <path id="path718" d="m235.994 772.484 21.932 17.088-12.553 10.652z" class="grdc-2"/>
+    <path id="path720" d="m251.471 775.176 15.603 27.345-14.522 3.242z" class="grdc-2"/>
+    <path id="path722" d="m246.685 782.277 18.748-23.244-13.913-6.648z" class="grdc-2"/>
+    <path id="path724" d="m237.857 577.605 22.211 16.345-12.36 11.077z" class="grdc-2"/>
+    <path id="path726" d="m265.713 589.058 15.39 27.577-14.55 3.029z" class="grdc-2"/>
+    <path id="path728" d="m253.372 579.776 16.075 26.814-14.464 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path732" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m231.96 766.116 52.684 37.93" class="grdc-1"/>
+  <g id="g744">
+    <path id="path734" d="m228.044 789.273 25.077 2.615-6.185-18.507z" class="grdc-2"/>
+    <path id="path736" d="m220.209 751.488 12.553 30.21 7.555-17.512z" class="grdc-2"/>
+    <path id="path738" d="m237.857 750.542 22.211 16.345-12.36 11.068z" class="grdc-2"/>
+    <path id="path740" d="m265.713 761.986 15.39 27.576-14.55 3.03z" class="grdc-2"/>
+    <path id="path742" d="m253.372 752.703 16.075 26.815-14.464 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path746" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m440.56 568.738-69.848 71.479" class="grdc-1"/>
+  <path id="path748" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M428.914 455.759 370.712 471.9" class="grdc-1"/>
+  <g id="g764">
+    <path id="path750" d="m429.715 479.514-24.624-7.15 9.659-15.39z" class="grdc-2"/>
+    <path id="path752" d="m444.806 446.235-18.111 24.19-3.743-19.732z" class="grdc-2"/>
+    <path id="path754" d="m428.046 438.526-24.614 7.14 9.658 15.399z" class="grdc-2"/>
+    <path id="path756" d="m398.993 438.786-20.32 20.562 13.373 8.52z" class="grdc-2"/>
+    <path id="path758" d="m412.704 434.627-20.812 19.568 13.151 9.157z" class="grdc-2"/>
+    <path id="path760" d="m398.993 489.066-20.32-20.561 13.373-8.511z" class="grdc-2"/>
+    <path id="path762" d="m412.704 493.235-20.812-19.568 13.151-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path766" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m425.055 494.441-53.388 35.99" class="grdc-1"/>
+  <g id="g782">
+    <path id="path768" d="m428.538 517.733-25.125 1.699 6.541-18.275z" class="grdc-2"/>
+    <path id="path770" d="m437.087 480.247-13.122 29.748-7.218-17.793z" class="grdc-2"/>
+    <path id="path772" d="m419.468 478.655-22.53 15.525 12.158 11.521z" class="grdc-2"/>
+    <path id="path774" d="m391.4 489.076-15.911 27.007 14.492 3.561z" class="grdc-2"/>
+    <path id="path776" d="m403.914 480.247-16.586 26.226 14.396 4.255z" class="grdc-2"/>
+    <path id="path778" d="m400.556 537.736-23.398-12.795 11.386-12.92z" class="grdc-2"/>
+    <path id="path780" d="m414.586 536.954-23.707-11.646 11.057-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path784" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m427.698 543.689-55.645 28.667" class="grdc-1"/>
+  <g id="g818">
+    <path id="path786" d="m431.201 567.329-25.125-1.67 7.786-17.31z" class="grdc-2"/>
+    <path id="path788" d="m442.327 531.174-15.14 27.847-5.943-18.671z" class="grdc-2"/>
+    <path id="path790" d="m424.891 527.228-23.495 12.437 11.289 13.084z" class="grdc-2"/>
+    <path id="path792" d="m396.234 533.837-17.725 24.75 14.184 5.48z" class="grdc-2"/>
+    <path id="path794" d="m409.298 526.726-18.333 23.881 14.03 6.166z" class="grdc-2"/>
+    <path id="path796" d="m401.956 583.491-22.405-15.863 12.244-11.338Z" class="grdc-2"/>
+    <path id="path798" d="m430.449 614.888-25.03 3.464 5.867-18.709z" class="grdc-2"/>
+    <path id="path800" d="m444.729 588.064-21.17 18.835-.897-20.369z" class="grdc-2"/>
+    <path id="path802" d="m434.279 555.239-20.147 20.87 13.432 8.318z" class="grdc-2"/>
+    <path id="path804" d="m419.97 576.505-21.932 17.078 12.553 10.653z" class="grdc-2"/>
+    <path id="path806" d="m400.518 642.561-25.029 3.464 5.866-18.709z" class="grdc-2"/>
+    <path id="path808" d="m390.029 604.168-21.922 17.088 12.544 10.653z" class="grdc-2"/>
+    <path id="path810" d="m392.316 588.875-14.907 28.097 14.599 2.538z" class="grdc-2"/>
+    <path id="path812" d="m404.493 579.187-15.602 27.345 14.522 3.252z" class="grdc-2"/>
+    <path id="path814" d="m403.229 636.83-23.833-11.135 10.904-13.702Z" class="grdc-2"/>
+    <path id="path816" d="m409.279 586.289-18.748-23.244 13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path820" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m423.993 397.2-52.673 37.93" class="grdc-1"/>
+  <g id="g836">
+    <path id="path822" d="m427.921 420.357-25.078 2.615 6.185-18.507z" class="grdc-2"/>
+    <path id="path824" d="m435.756 382.572-12.554 30.21-7.555-17.512z" class="grdc-2"/>
+    <path id="path826" d="m418.108 381.626-22.222 16.345 12.37 11.068z" class="grdc-2"/>
+    <path id="path828" d="m390.251 393.07-15.39 27.576 14.551 3.03z" class="grdc-2"/>
+    <path id="path830" d="m402.592 383.787-16.075 26.815 14.464 3.734z" class="grdc-2"/>
+    <path id="path832" d="m400.325 441.372-23.63-11.926 11.135-13.335z" class="grdc-2"/>
+    <path id="path834" d="m414.335 440.089-23.92-10.778 10.798-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path838" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m440.56 741.665-69.848 71.48" class="grdc-1"/>
+  <path id="path840" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m428.914 628.686-58.202 16.143" class="grdc-1"/>
+  <g id="g856">
+    <path id="path842" d="m429.715 652.442-24.624-7.141 9.659-15.399z" class="grdc-2"/>
+    <path id="path844" d="m444.806 619.163-18.111 24.189-3.743-19.732z" class="grdc-2"/>
+    <path id="path846" d="m428.046 611.453-24.614 7.14 9.658 15.4z" class="grdc-2"/>
+    <path id="path848" d="m398.993 611.714-20.32 20.571 13.373 8.51z" class="grdc-2"/>
+    <path id="path850" d="m412.704 607.555-20.812 19.568 13.151 9.157z" class="grdc-2"/>
+    <path id="path852" d="m398.993 662.004-20.32-20.572 13.373-8.51z" class="grdc-2"/>
+    <path id="path854" d="m412.704 666.162-20.812-19.568 13.151-9.156z" class="grdc-2"/>
+  </g>
+  <path id="path858" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m425.055 667.369-53.388 35.99" class="grdc-1"/>
+  <g id="g874">
+    <path id="path860" d="m428.538 690.661-25.125 1.698 6.541-18.275z" class="grdc-2"/>
+    <path id="path862" d="m437.087 653.175-13.122 29.748-7.218-17.783z" class="grdc-2"/>
+    <path id="path864" d="m419.468 651.583-22.53 15.525 12.158 11.521z" class="grdc-2"/>
+    <path id="path866" d="m391.4 662.004-15.911 27.007 14.492 3.56z" class="grdc-2"/>
+    <path id="path868" d="m403.914 653.175-16.586 26.226 14.396 4.265z" class="grdc-2"/>
+    <path id="path870" d="m400.556 710.663-23.398-12.794 11.386-12.92z" class="grdc-2"/>
+    <path id="path872" d="m414.586 709.882-23.707-11.647 11.057-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path876" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m427.698 716.617-55.645 28.667" class="grdc-1"/>
+  <g id="g906">
+    <path id="path878" d="m431.201 740.256-25.125-1.669 7.786-17.31z" class="grdc-2"/>
+    <path id="path880" d="m442.327 704.102-15.14 27.847-5.943-18.671z" class="grdc-2"/>
+    <path id="path882" d="m424.891 700.155-23.495 12.438 11.289 13.084z" class="grdc-2"/>
+    <path id="path884" d="m396.234 706.765-17.725 24.749 14.184 5.491z" class="grdc-2"/>
+    <path id="path886" d="m409.298 699.654-18.333 23.881 14.03 6.165z" class="grdc-2"/>
+    <path id="path888" d="m401.956 756.418-22.405-15.863 12.244-11.337z" class="grdc-2"/>
+    <path id="path890" d="m430.449 787.816-25.03 3.464 5.867-18.71z" class="grdc-2"/>
+    <path id="path892" d="m444.729 760.992-21.17 18.834-.897-20.368z" class="grdc-2"/>
+    <path id="path894" d="m434.279 728.176-20.147 20.861 13.432 8.317z" class="grdc-2"/>
+    <path id="path896" d="m419.97 749.432-21.932 17.089 12.553 10.642z" class="grdc-2"/>
+    <path id="path898" d="m390.029 777.096-21.922 17.088 12.544 10.652z" class="grdc-2"/>
+    <path id="path900" d="M392.316 761.812 377.409 789.9l14.599 2.538z" class="grdc-2"/>
+    <path id="path902" d="m404.493 752.115-15.602 27.345 14.522 3.251z" class="grdc-2"/>
+    <path id="path904" d="m409.279 759.216-18.748-23.244 13.914-6.638z" class="grdc-2"/>
+  </g>
+  <path id="path908" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m423.993 570.127-52.673 37.93" class="grdc-1"/>
+  <g id="g924">
+    <path id="path910" d="m427.921 593.284-25.078 2.625 6.185-18.516z" class="grdc-2"/>
+    <path id="path912" d="m435.756 555.499-12.554 30.221-7.555-17.523z" class="grdc-2"/>
+    <path id="path914" d="m418.108 554.554-22.222 16.345 12.37 11.067z" class="grdc-2"/>
+    <path id="path916" d="m390.251 565.997-15.39 27.577 14.551 3.029z" class="grdc-2"/>
+    <path id="path918" d="m402.592 556.715-16.075 26.814 14.464 3.734z" class="grdc-2"/>
+    <path id="path920" d="m400.325 614.3-23.63-11.926 11.135-13.335z" class="grdc-2"/>
+    <path id="path922" d="m414.335 613.016-23.92-10.778 10.798-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path926" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m302.504 610.247 69.848 71.47" class="grdc-1"/>
+  <path id="path928" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m314.14 497.258 58.212 16.143" class="grdc-1"/>
+  <g id="g944">
+    <path id="path930" d="m313.35 521.014 24.624-7.14-9.659-15.4z" class="grdc-2"/>
+    <path id="path932" d="m298.249 487.735 18.121 24.19 3.744-19.732z" class="grdc-2"/>
+    <path id="path934" d="m315.019 480.025 24.614 7.15-9.658 15.39z" class="grdc-2"/>
+    <path id="path936" d="m344.072 480.296 20.311 20.561-13.374 8.52z" class="grdc-2"/>
+    <path id="path938" d="m330.351 476.127 20.822 19.568-13.151 9.167z" class="grdc-2"/>
+    <path id="path940" d="m344.072 530.576 20.311-20.562-13.374-8.52z" class="grdc-2"/>
+    <path id="path942" d="m330.351 534.735 20.822-19.568-13.151-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path946" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m318.01 535.94 53.377 35.991" class="grdc-1"/>
+  <g id="g962">
+    <path id="path948" d="m314.527 559.233 25.116 1.708-6.532-18.285z" class="grdc-2"/>
+    <path id="path950" d="m305.978 521.747 13.122 29.748 7.218-17.783z" class="grdc-2"/>
+    <path id="path952" d="m323.597 520.155 22.52 15.535-12.148 11.511z" class="grdc-2"/>
+    <path id="path954" d="m351.665 530.576 15.911 27.007-14.492 3.561z" class="grdc-2"/>
+    <path id="path956" d="m339.151 521.757 16.586 26.216-14.396 4.265z" class="grdc-2"/>
+    <path id="path958" d="m342.509 579.235 23.398-12.784-11.385-12.93z" class="grdc-2"/>
+    <path id="path960" d="m328.479 578.464 23.708-11.647-11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path964" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m315.366 585.189 55.645 28.667" class="grdc-1"/>
+  <g id="g998">
+    <path id="path966" d="m311.864 608.838 25.125-1.669-7.786-17.32z" class="grdc-2"/>
+    <path id="path968" d="m300.739 572.674 15.139 27.847 5.943-18.671z" class="grdc-2"/>
+    <path id="path970" d="m318.164 568.728 23.505 12.437-11.289 13.094z" class="grdc-2"/>
+    <path id="path972" d="m346.831 575.337 17.716 24.75-14.174 5.49z" class="grdc-2"/>
+    <path id="path974" d="m333.757 568.236 18.333 23.871-14.029 6.166z" class="grdc-2"/>
+    <path id="path976" d="m341.11 624.991 22.404-15.863-12.244-11.338Z" class="grdc-2"/>
+    <path id="path978" d="m312.616 656.398 25.02 3.464-5.867-18.719z" class="grdc-2"/>
+    <path id="path980" d="m298.336 629.564 21.17 18.835.897-20.369z" class="grdc-2"/>
+    <path id="path982" d="m308.776 596.748 20.157 20.861-13.441 8.317z" class="grdc-2"/>
+    <path id="path984" d="m323.095 618.005 21.932 17.088-12.553 10.652z" class="grdc-2"/>
+    <path id="path986" d="m342.547 684.061 25.029 3.464-5.866-18.709z" class="grdc-2"/>
+    <path id="path988" d="m353.036 645.678 21.922 17.078-12.553 10.653z" class="grdc-2"/>
+    <path id="path990" d="m350.749 630.384 14.907 28.088-14.608 2.538z" class="grdc-2"/>
+    <path id="path992" d="m338.572 620.687 15.602 27.355-14.531 3.242z" class="grdc-2"/>
+    <path id="path994" d="m339.826 678.33 23.843-11.126-10.904-13.711z" class="grdc-2"/>
+    <path id="path996" d="m333.786 627.789 18.748-23.235-13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path1000" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m319.061 438.7 52.683 37.93" class="grdc-1"/>
+  <g id="g1016">
+    <path id="path1002" d="m315.144 461.857 25.078 2.624-6.195-18.516z" class="grdc-2"/>
+    <path id="path1004" d="m307.309 424.072 12.554 30.22 7.545-17.513z" class="grdc-2"/>
+    <path id="path1006" d="m324.957 423.126 22.212 16.345-12.36 11.067z" class="grdc-2"/>
+    <path id="path1008" d="m352.814 434.57 15.39 27.586-14.551 3.029z" class="grdc-2"/>
+    <path id="path1010" d="m340.473 425.287 16.075 26.824-14.464 3.734z" class="grdc-2"/>
+    <path id="path1012" d="m342.74 482.872 23.63-11.926-11.144-13.335z" class="grdc-2"/>
+    <path id="path1014" d="m328.72 481.589 23.93-10.778-10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path1018" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m314.14 670.196 58.212 16.133" class="grdc-1"/>
+  <path id="path1020" stroke-width=".965" d="m298.249 660.672 18.12 24.18 3.744-19.732z" class="grdc-2"/>
+  <path id="path1022" stroke-width=".965" d="m330.35 649.065 20.823 19.558-13.151 9.166z" class="grdc-2"/>
+  <path id="path1024" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m319.061 611.637 52.683 37.93" class="grdc-1"/>
+  <g id="g1038">
+    <path id="path1026" d="m315.144 634.784 25.078 2.625-6.195-18.507z" class="grdc-2"/>
+    <path id="path1028" d="m307.309 596.999 12.554 30.22 7.545-17.512z" class="grdc-2"/>
+    <path id="path1030" d="m352.814 607.497 15.39 27.586-14.551 3.03z" class="grdc-2"/>
+    <path id="path1032" d="m340.473 598.215 16.075 26.824-14.464 3.734z" class="grdc-2"/>
+    <path id="path1034" d="m342.74 655.799 23.63-11.926-11.144-13.334z" class="grdc-2"/>
+    <path id="path1036" d="m328.72 654.516 23.93-10.778-10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path1040" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m301.886 764.726 69.849 71.48" class="grdc-1"/>
+  <path id="path1042" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m313.523 651.747 58.212 16.143" class="grdc-1"/>
+  <g id="g1052">
+    <path id="path1044" d="m297.632 642.223 18.12 24.19 3.744-19.741z" class="grdc-2"/>
+    <path id="path1046" d="m343.454 634.775 20.311 20.561-13.373 8.52z" class="grdc-2"/>
+    <path id="path1048" d="m329.743 630.616 20.813 19.568-13.152 9.157z" class="grdc-2"/>
+    <path id="path1050" d="m329.743 689.223 20.813-19.568-13.152-9.166z" class="grdc-2"/>
+  </g>
+  <path id="path1054" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m317.392 690.43 53.378 35.99" class="grdc-1"/>
+  <g id="g1070">
+    <path id="path1056" d="m313.909 713.712 25.126 1.708-6.542-18.275z" class="grdc-2"/>
+    <path id="path1058" d="m305.36 676.236 13.123 29.747 7.217-17.792z" class="grdc-2"/>
+    <path id="path1060" d="m322.979 674.644 22.521 15.525-12.148 11.521Z" class="grdc-2"/>
+    <path id="path1062" d="m351.048 685.065 15.911 27.007-14.493 3.56z" class="grdc-2"/>
+    <path id="path1064" d="m338.533 676.236 16.587 26.226-14.396 4.255z" class="grdc-2"/>
+    <path id="path1066" d="m341.891 733.714 23.399-12.784-11.386-12.92Z" class="grdc-2"/>
+    <path id="path1068" d="m327.862 732.942 23.707-11.646-11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path1072" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m314.748 739.678 55.646 28.657" class="grdc-1"/>
+  <g id="g1100">
+    <path id="path1074" d="m311.246 763.317 25.126-1.669-7.787-17.31z" class="grdc-2"/>
+    <path id="path1076" d="M300.121 727.163 315.26 755l5.934-18.661z" class="grdc-2"/>
+    <path id="path1078" d="m317.547 723.207 23.505 12.437-11.29 13.094z" class="grdc-2"/>
+    <path id="path1080" d="m346.214 729.826 17.715 24.749-14.174 5.481z" class="grdc-2"/>
+    <path id="path1082" d="m333.14 722.715 18.332 23.871-14.029 6.175z" class="grdc-2"/>
+    <path id="path1084" d="m340.492 779.479 22.405-15.863-12.245-11.337z" class="grdc-2"/>
+    <path id="path1086" d="m308.159 751.227 20.156 20.871-13.441 8.317z" class="grdc-2"/>
+    <path id="path1088" d="m322.478 772.484 21.931 17.088-12.553 10.652z" class="grdc-2"/>
+    <path id="path1090" d="m337.954 775.176 15.603 27.345-14.532 3.242z" class="grdc-2"/>
+    <path id="path1092" d="m333.169 782.277 18.747-23.244-13.913-6.648z" class="grdc-2"/>
+    <path id="path1094" d="m324.34 577.605 22.212 16.345-12.361 11.077z" class="grdc-2"/>
+    <path id="path1096" d="m352.196 589.058 15.39 27.577-14.55 3.029z" class="grdc-2"/>
+    <path id="path1098" d="m339.855 579.776 16.075 26.814-14.473 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path1102" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m318.444 766.116 52.683 37.93" class="grdc-1"/>
+  <g id="g1114">
+    <path id="path1104" d="m314.527 789.273 25.077 2.615-6.185-18.507z" class="grdc-2"/>
+    <path id="path1106" d="m306.692 751.488 12.553 30.21 7.546-17.512z" class="grdc-2"/>
+    <path id="path1108" d="m324.34 750.542 22.212 16.345-12.361 11.068z" class="grdc-2"/>
+    <path id="path1110" d="m352.196 761.986 15.39 27.576-14.55 3.03z" class="grdc-2"/>
+    <path id="path1112" d="m339.855 752.703 16.075 26.815-14.473 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path1116" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m530.372 513.401-69.858 71.48" class="grdc-1"/>
+  <path id="path1118" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m518.726 400.422-58.212 16.143" class="grdc-1"/>
+  <g id="g1134">
+    <path id="path1120" d="m519.518 424.178-24.615-7.15 9.649-15.39z" class="grdc-2"/>
+    <path id="path1122" d="m534.618 390.899-18.12 24.189-3.735-19.732z" class="grdc-2"/>
+    <path id="path1124" d="m517.858 383.189-24.624 7.14 9.659 15.4z" class="grdc-2"/>
+    <path id="path1126" d="m488.796 383.45-20.311 20.561 13.373 8.52z" class="grdc-2"/>
+    <path id="path1128" d="m502.516 379.291-20.822 19.568 13.151 9.157z" class="grdc-2"/>
+    <path id="path1130" d="m488.796 433.73-20.311-20.562 13.373-8.52z" class="grdc-2"/>
+    <path id="path1132" d="m502.516 437.898-20.822-19.568 13.151-9.166z" class="grdc-2"/>
+  </g>
+  <path id="path1136" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m514.867 439.105-53.388 35.99" class="grdc-1"/>
+  <g id="g1152">
+    <path id="path1138" d="m518.341 462.397-25.117 1.698 6.542-18.275z" class="grdc-2"/>
+    <path id="path1140" d="m526.899 424.911-13.132 29.748-7.208-17.793z" class="grdc-2"/>
+    <path id="path1142" d="m509.271 423.319-22.521 15.525 12.148 11.521z" class="grdc-2"/>
+    <path id="path1144" d="m481.202 433.74-15.911 27.007 14.493 3.56z" class="grdc-2"/>
+    <path id="path1146" d="m493.717 424.911-16.577 26.226 14.396 4.255z" class="grdc-2"/>
+    <path id="path1148" d="m490.359 482.389-23.399-12.784 11.396-12.92z" class="grdc-2"/>
+    <path id="path1150" d="m504.388 481.618-23.707-11.647 11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path1154" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m517.5 488.353-55.644 28.666" class="grdc-1"/>
+  <g id="g1188">
+    <path id="path1156" d="m521.004 511.992-25.116-1.669 7.777-17.31z" class="grdc-2"/>
+    <path id="path1158" d="m532.129 475.838-15.139 27.847-5.934-18.671z" class="grdc-2"/>
+    <path id="path1160" d="m514.703 471.882-23.495 12.437 11.279 13.094z" class="grdc-2"/>
+    <path id="path1162" d="m486.036 478.501-17.715 24.749 14.174 5.481z" class="grdc-2"/>
+    <path id="path1164" d="m499.11 471.39-18.333 23.881 14.03 6.165z" class="grdc-2"/>
+    <path id="path1166" d="m491.758 528.154-22.395-15.863 12.235-11.337z" class="grdc-2"/>
+    <path id="path1168" d="m520.261 559.552-25.03 3.464 5.867-18.71z" class="grdc-2"/>
+    <path id="path1170" d="m534.541 532.728-21.17 18.825-.897-20.359z" class="grdc-2"/>
+    <path id="path1172" d="m524.091 499.902-20.156 20.871 13.441 8.317z" class="grdc-2"/>
+    <path id="path1174" d="m509.772 521.168-21.922 17.079 12.553 10.652z" class="grdc-2"/>
+    <path id="path1176" d="m490.32 587.225-25.029 3.464 5.866-18.719z" class="grdc-2"/>
+    <path id="path1178" d="m479.841 548.832-21.932 17.088 12.554 10.652z" class="grdc-2"/>
+    <path id="path1180" d="m482.119 533.538-14.898 28.088 14.598 2.548z" class="grdc-2"/>
+    <path id="path1182" d="m494.295 523.851-15.602 27.345 14.531 3.251z" class="grdc-2"/>
+    <path id="path1184" d="m493.041 581.493-23.833-11.135 10.904-13.701z" class="grdc-2"/>
+    <path id="path1186" d="m499.091 530.952-18.757-23.244 13.913-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path1190" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m513.805 341.863-52.683 37.93" class="grdc-1"/>
+  <g id="g1206">
+    <path id="path1192" d="m517.733 365.02-25.087 2.615 6.194-18.507z" class="grdc-2"/>
+    <path id="path1194" d="m525.568 327.235-12.563 30.211-7.546-17.513z" class="grdc-2"/>
+    <path id="path1196" d="m507.92 326.29-22.222 16.345 12.361 11.067z" class="grdc-2"/>
+    <path id="path1198" d="m480.054 337.733-15.39 27.577 14.56 3.029z" class="grdc-2"/>
+    <path id="path1200" d="m492.395 328.451-16.075 26.814 14.473 3.734z" class="grdc-2"/>
+    <path id="path1202" d="m490.137 386.036-23.64-11.926 11.144-13.335z" class="grdc-2"/>
+    <path id="path1204" d="m504.147 384.743-23.92-10.769 10.798-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path1208" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m530.372 686.329-69.858 71.479" class="grdc-1"/>
+  <path id="path1210" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m518.726 573.35-58.212 16.142" class="grdc-1"/>
+  <g id="g1226">
+    <path id="path1212" d="m519.518 597.105-24.615-7.14 9.649-15.4z" class="grdc-2"/>
+    <path id="path1214" d="m534.618 563.826-18.12 24.19-3.735-19.732z" class="grdc-2"/>
+    <path id="path1216" d="m517.858 556.117-24.624 7.14 9.659 15.4z" class="grdc-2"/>
+    <path id="path1218" d="m488.796 556.377-20.311 20.572 13.373 8.51z" class="grdc-2"/>
+    <path id="path1220" d="m502.516 552.219-20.822 19.568 13.151 9.156z" class="grdc-2"/>
+    <path id="path1222" d="m488.796 606.667-20.311-20.571 13.373-8.51z" class="grdc-2"/>
+    <path id="path1224" d="m502.516 610.826-20.822-19.568 13.151-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path1228" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m514.867 612.032-53.388 35.99" class="grdc-1"/>
+  <g id="g1244">
+    <path id="path1230" d="m518.341 635.325-25.117 1.698 6.542-18.275z" class="grdc-2"/>
+    <path id="path1232" d="m526.899 597.839-13.132 29.747-7.208-17.783z" class="grdc-2"/>
+    <path id="path1234" d="m509.271 596.246-22.521 15.526 12.148 11.52z" class="grdc-2"/>
+    <path id="path1236" d="m481.202 606.667-15.911 27.008 14.493 3.56z" class="grdc-2"/>
+    <path id="path1238" d="m493.717 597.839-16.577 26.225 14.396 4.255z" class="grdc-2"/>
+    <path id="path1240" d="m490.359 655.327-23.399-12.795 11.396-12.92z" class="grdc-2"/>
+    <path id="path1242" d="m504.388 654.545-23.707-11.646 11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path1246" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m517.5 661.28-55.644 28.667" class="grdc-1"/>
+  <g id="g1280">
+    <path id="path1248" d="m521.004 684.92-25.116-1.669 7.777-17.311z" class="grdc-2"/>
+    <path id="path1250" d="m532.129 648.765-15.139 27.847-5.934-18.67z" class="grdc-2"/>
+    <path id="path1252" d="m514.703 644.819-23.495 12.437 11.279 13.084z" class="grdc-2"/>
+    <path id="path1254" d="m486.036 651.429-17.715 24.749 14.174 5.481z" class="grdc-2"/>
+    <path id="path1256" d="m499.11 644.317-18.333 23.881 14.03 6.166z" class="grdc-2"/>
+    <path id="path1258" d="m491.758 701.082-22.395-15.863 12.235-11.337z" class="grdc-2"/>
+    <path id="path1260" d="m520.261 732.479-25.03 3.464 5.867-18.709z" class="grdc-2"/>
+    <path id="path1262" d="m534.541 705.655-21.17 18.835-.897-20.369z" class="grdc-2"/>
+    <path id="path1264" d="M524.091 672.839 503.935 693.7l13.441 8.318z" class="grdc-2"/>
+    <path id="path1266" d="m509.772 694.096-21.922 17.088 12.553 10.643z" class="grdc-2"/>
+    <path id="path1268" d="m490.32 760.152-25.029 3.464 5.866-18.709z" class="grdc-2"/>
+    <path id="path1270" d="m479.841 721.759-21.932 17.089 12.554 10.652z" class="grdc-2"/>
+    <path id="path1272" d="m482.119 706.476-14.898 28.087 14.598 2.538z" class="grdc-2"/>
+    <path id="path1274" d="m494.295 696.778-15.602 27.345 14.531 3.252z" class="grdc-2"/>
+    <path id="path1276" d="m493.041 754.421-23.833-11.135 10.904-13.701z" class="grdc-2"/>
+    <path id="path1278" d="m499.091 703.88-18.757-23.244 13.913-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path1282" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m513.805 514.79-52.683 37.93" class="grdc-1"/>
+  <g id="g1298">
+    <path id="path1284" d="m517.733 537.948-25.087 2.624 6.194-18.516z" class="grdc-2"/>
+    <path id="path1286" d="m525.568 500.163-12.563 30.22-7.546-17.522z" class="grdc-2"/>
+    <path id="path1288" d="m507.92 499.217-22.222 16.345 12.361 11.068z" class="grdc-2"/>
+    <path id="path1290" d="m480.054 510.661-15.39 27.576 14.56 3.03z" class="grdc-2"/>
+    <path id="path1292" d="m492.395 501.378-16.075 26.815 14.473 3.734z" class="grdc-2"/>
+    <path id="path1294" d="m490.137 558.963-23.64-11.926 11.144-13.335z" class="grdc-2"/>
+    <path id="path1296" d="m504.147 557.68-23.92-10.778 10.798-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path1300" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m392.306 554.901 69.858 71.48" class="grdc-1"/>
+  <path id="path1302" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m403.952 441.922 58.212 16.143" class="grdc-1"/>
+  <g id="g1318">
+    <path id="path1304" d="m403.162 465.678 24.614-7.141-9.659-15.399z" class="grdc-2"/>
+    <path id="path1306" d="m388.061 432.399 18.121 24.189 3.734-19.732z" class="grdc-2"/>
+    <path id="path1308" d="m404.821 424.689 24.624 7.15-9.658 15.39z" class="grdc-2"/>
+    <path id="path1310" d="m433.884 424.959 20.311 20.562-13.374 8.51z" class="grdc-2"/>
+    <path id="path1312" d="m420.163 420.791 20.822 19.568-13.151 9.157z" class="grdc-2"/>
+    <path id="path1314" d="m433.884 475.24 20.311-20.562-13.374-8.52z" class="grdc-2"/>
+    <path id="path1316" d="m420.163 479.398 20.822-19.568-13.151-9.156z" class="grdc-2"/>
+  </g>
+  <path id="path1320" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m407.812 480.604 53.387 35.99" class="grdc-1"/>
+  <g id="g1336">
+    <path id="path1322" d="m404.339 503.897 25.116 1.708-6.542-18.285z" class="grdc-2"/>
+    <path id="path1324" d="m395.78 466.411 13.132 29.747 7.208-17.782z" class="grdc-2"/>
+    <path id="path1326" d="m413.409 464.819 22.52 15.525-12.148 11.521z" class="grdc-2"/>
+    <path id="path1328" d="m441.477 475.24 15.902 27.017-14.483 3.55z" class="grdc-2"/>
+    <path id="path1330" d="m428.963 466.421 16.577 26.216-14.397 4.264z" class="grdc-2"/>
+    <path id="path1332" d="m432.321 523.899 23.398-12.794-11.395-12.92z" class="grdc-2"/>
+    <path id="path1334" d="m418.291 523.127 23.707-11.646-11.057-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path1338" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m405.178 529.852 55.645 28.667" class="grdc-1"/>
+  <g id="g1372">
+    <path id="path1340" d="m401.676 553.502 25.116-1.669-7.787-17.32z" class="grdc-2"/>
+    <path id="path1342" d="m390.541 517.338 15.149 27.846 5.934-18.67z" class="grdc-2"/>
+    <path id="path1344" d="m407.976 513.391 23.496 12.438-11.28 13.093z" class="grdc-2"/>
+    <path id="path1346" d="m436.634 520.001 17.725 24.749-14.175 5.491z" class="grdc-2"/>
+    <path id="path1348" d="m423.569 512.89 18.333 23.881-14.03 6.165z" class="grdc-2"/>
+    <path id="path1350" d="m430.922 569.654 22.395-15.863-12.235-11.337z" class="grdc-2"/>
+    <path id="path1352" d="m402.419 601.061 25.029 3.464-5.867-18.719z" class="grdc-2"/>
+    <path id="path1354" d="m388.138 574.228 21.17 18.834.897-20.368z" class="grdc-2"/>
+    <path id="path1356" d="m398.588 541.412 20.157 20.861-13.441 8.317z" class="grdc-2"/>
+    <path id="path1358" d="m412.907 562.668 21.922 17.089-12.553 10.652z" class="grdc-2"/>
+    <path id="path1360" d="m432.359 628.725 25.02 3.464-5.857-18.71z" class="grdc-2"/>
+    <path id="path1362" d="m442.838 590.332 21.932 17.088-12.553 10.652z" class="grdc-2"/>
+    <path id="path1364" d="m440.561 575.048 14.898 28.088-14.599 2.537z" class="grdc-2"/>
+    <path id="path1366" d="m428.384 565.351 15.602 27.354-14.531 3.242z" class="grdc-2"/>
+    <path id="path1368" d="m429.638 622.993 23.833-11.125-10.903-13.711z" class="grdc-2"/>
+    <path id="path1370" d="m423.588 572.452 18.758-23.244-13.924-6.638z" class="grdc-2"/>
+  </g>
+  <path id="path1374" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m408.873 383.363 52.683 37.93" class="grdc-1"/>
+  <g id="g1390">
+    <path id="path1376" d="m404.947 406.52 25.087 2.625-6.195-18.517z" class="grdc-2"/>
+    <path id="path1378" d="m397.112 368.735 12.563 30.22 7.545-17.522z" class="grdc-2"/>
+    <path id="path1380" d="m414.76 367.789 22.221 16.346-12.36 11.067z" class="grdc-2"/>
+    <path id="path1382" d="m442.626 379.233 15.39 27.577-14.561 3.029z" class="grdc-2"/>
+    <path id="path1384" d="m430.275 369.951 16.085 26.824-14.474 3.724z" class="grdc-2"/>
+    <path id="path1386" d="m432.543 427.535 23.639-11.926-11.144-13.334z" class="grdc-2"/>
+    <path id="path1388" d="m418.532 426.252 23.92-10.778-10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path1392" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m403.952 614.85 58.212 16.142" class="grdc-1"/>
+  <path id="path1394" stroke-width=".965" d="m388.06 605.326 18.121 24.19 3.735-19.732z" class="grdc-2"/>
+  <path id="path1396" stroke-width=".965" d="m420.163 593.719 20.822 19.568-13.151 9.166z" class="grdc-2"/>
+  <path id="path1398" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m408.873 556.3 52.683 37.92" class="grdc-1"/>
+  <g id="g1412">
+    <path id="path1400" d="m404.947 579.448 25.087 2.624-6.195-18.516z" class="grdc-2"/>
+    <path id="path1402" d="m397.112 541.663 12.563 30.22 7.545-17.513z" class="grdc-2"/>
+    <path id="path1404" d="m442.626 552.161 15.39 27.586-14.561 3.03z" class="grdc-2"/>
+    <path id="path1406" d="m430.275 542.878 16.085 26.824-14.474 3.734z" class="grdc-2"/>
+    <path id="path1408" d="m432.543 600.463 23.639-11.926-11.144-13.335z" class="grdc-2"/>
+    <path id="path1410" d="m418.532 599.18 23.92-10.778-10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path1414" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m391.689 709.39 69.858 71.479" class="grdc-1"/>
+  <path id="path1416" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m403.335 596.41 58.212 16.134" class="grdc-1"/>
+  <g id="g1426">
+    <path id="path1418" d="m387.444 586.887 18.12 24.18 3.734-19.732z" class="grdc-2"/>
+    <path id="path1420" d="M433.266 579.438 453.577 600l-13.373 8.52Z" class="grdc-2"/>
+    <path id="path1422" d="m419.545 575.279 20.823 19.568-13.152 9.157z" class="grdc-2"/>
+    <path id="path1424" d="m419.545 633.877 20.823-19.558-13.152-9.167z" class="grdc-2"/>
+  </g>
+  <path id="path1428" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m407.195 635.093 53.387 35.99" class="grdc-1"/>
+  <g id="g1444">
+    <path id="path1430" d="m403.721 658.376 25.116 1.708-6.542-18.275z" class="grdc-2"/>
+    <path id="path1432" d="m395.163 620.899 13.132 29.738 7.208-17.783z" class="grdc-2"/>
+    <path id="path1434" d="m412.791 619.307 22.521 15.525-12.148 11.521z" class="grdc-2"/>
+    <path id="path1436" d="m440.86 629.728 15.901 27.007-14.483 3.561z" class="grdc-2"/>
+    <path id="path1438" d="m428.345 620.899 16.577 26.226-14.396 4.255z" class="grdc-2"/>
+    <path id="path1440" d="m431.703 678.378 23.399-12.785-11.396-12.92z" class="grdc-2"/>
+    <path id="path1442" d="m417.674 677.606 23.707-11.646-11.058-13.47Z" class="grdc-2"/>
+  </g>
+  <path id="path1446" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m404.56 684.331 55.646 28.667" class="grdc-1"/>
+  <g id="g1486">
+    <path id="path1448" d="m401.058 707.981 25.116-1.67-7.777-17.319z" class="grdc-2"/>
+    <path id="path1450" d="m389.933 671.817 15.139 27.846 5.934-18.661z" class="grdc-2"/>
+    <path id="path1452" d="m407.359 667.87 23.495 12.438-11.289 13.093z" class="grdc-2"/>
+    <path id="path1454" d="m436.026 674.489 17.715 24.75-14.174 5.48z" class="grdc-2"/>
+    <path id="path1456" d="m422.952 667.378 18.332 23.872-14.029 6.175z" class="grdc-2"/>
+    <path id="path1458" d="m430.304 724.143 22.395-15.873-12.235-11.328Z" class="grdc-2"/>
+    <path id="path1460" d="m401.801 755.54 25.029 3.464-5.866-18.709z" class="grdc-2"/>
+    <path id="path1462" d="m387.521 728.707 21.169 18.834.898-20.359z" class="grdc-2"/>
+    <path id="path1464" d="m397.971 695.891 20.156 20.87-13.441 8.318z" class="grdc-2"/>
+    <path id="path1466" d="m412.289 717.147 21.923 17.088-12.553 10.653z" class="grdc-2"/>
+    <path id="path1468" d="m431.742 783.204 25.019 3.473-5.857-18.719z" class="grdc-2"/>
+    <path id="path1470" d="m442.22 744.82 21.932 17.088-12.553 10.653z" class="grdc-2"/>
+    <path id="path1472" d="m439.943 729.527 14.898 28.088-14.599 2.537z" class="grdc-2"/>
+    <path id="path1474" d="m427.766 719.839 15.603 27.345-14.532 3.242z" class="grdc-2"/>
+    <path id="path1476" d="m429.021 777.482 23.832-11.135-10.903-13.702Z" class="grdc-2"/>
+    <path id="path1478" d="m422.971 726.941 18.757-23.244-13.913-6.648z" class="grdc-2"/>
+    <path id="path1480" d="m414.142 522.268 22.222 16.346-12.361 11.077z" class="grdc-2"/>
+    <path id="path1482" d="m441.998 533.722 15.4 27.576-14.56 3.03z" class="grdc-2"/>
+    <path id="path1484" d="m429.658 524.439 16.084 26.815-14.473 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path1488" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m403.335 769.338 58.212 16.143" class="grdc-1"/>
+  <g id="g1498">
+    <path id="path1490" d="m387.444 759.815 18.12 24.189 3.734-19.741z" class="grdc-2"/>
+    <path id="path1492" d="m404.204 752.105 24.624 7.14-9.659 15.4z" class="grdc-2"/>
+    <path id="path1494" d="m433.266 752.366 20.311 20.561-13.373 8.52z" class="grdc-2"/>
+    <path id="path1496" d="m419.545 748.207 20.823 19.568-13.152 9.157z" class="grdc-2"/>
+  </g>
+  <path id="path1500" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m408.256 710.78 52.683 37.929" class="grdc-1"/>
+  <g id="g1516">
+    <path id="path1502" d="m404.329 733.936 25.087 2.615-6.194-18.506z" class="grdc-2"/>
+    <path id="path1504" d="m396.494 696.151 12.563 30.211 7.546-17.513z" class="grdc-2"/>
+    <path id="path1506" d="m414.142 695.206 22.222 16.345-12.361 11.067z" class="grdc-2"/>
+    <path id="path1508" d="m441.998 706.649 15.4 27.577-14.56 3.03z" class="grdc-2"/>
+    <path id="path1510" d="m429.658 697.367 16.084 26.814-14.473 3.734z" class="grdc-2"/>
+    <path id="path1512" d="m431.925 754.952 23.64-11.936-11.145-13.325z" class="grdc-2"/>
+    <path id="path1514" d="m417.915 753.659 23.919-10.769-10.797-13.865Z" class="grdc-2"/>
+  </g>
+  <path id="path1518" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m625.163 575.656-69.848 71.479" class="grdc-1"/>
+  <path id="path1520" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m613.527 462.677-58.212 16.142" class="grdc-1"/>
+  <g id="g1536">
+    <path id="path1522" d="m614.318 486.432-24.624-7.149 9.659-15.39z" class="grdc-2"/>
+    <path id="path1524" d="m629.419 453.153-18.121 24.19-3.744-19.732z" class="grdc-2"/>
+    <path id="path1526" d="m612.649 445.444-24.614 7.14 9.658 15.4z" class="grdc-2"/>
+    <path id="path1528" d="m583.596 445.704-20.311 20.562 13.374 8.52z" class="grdc-2"/>
+    <path id="path1530" d="m597.317 441.546-20.823 19.568 13.152 9.156z" class="grdc-2"/>
+    <path id="path1532" d="m583.596 495.985-20.311-20.562 13.374-8.51z" class="grdc-2"/>
+    <path id="path1534" d="m597.317 500.153-20.823-19.568 13.152-9.166z" class="grdc-2"/>
+  </g>
+  <path id="path1538" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m609.657 501.36-53.377 35.99" class="grdc-1"/>
+  <g id="g1554">
+    <path id="path1540" d="m613.141 524.652-25.116 1.698 6.532-18.275z" class="grdc-2"/>
+    <path id="path1542" d="m621.7 487.166-13.133 29.747-7.217-17.792z" class="grdc-2"/>
+    <path id="path1544" d="m604.071 485.574-22.52 15.525 12.147 11.52z" class="grdc-2"/>
+    <path id="path1546" d="m576.002 495.994-15.911 27.008 14.493 3.56z" class="grdc-2"/>
+    <path id="path1548" d="m588.517 487.166-16.577 26.225 14.387 4.256z" class="grdc-2"/>
+    <path id="path1550" d="m585.159 544.654-23.398-12.795 11.385-12.92z" class="grdc-2"/>
+    <path id="path1552" d="m599.189 543.872-23.708-11.646 11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path1556" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m612.301 550.607-55.645 28.667" class="grdc-1"/>
+  <g id="g1590">
+    <path id="path1558" d="m615.804 574.247-25.126-1.669 7.787-17.31z" class="grdc-2"/>
+    <path id="path1560" d="m626.929 538.093-15.139 27.846-5.944-18.67z" class="grdc-2"/>
+    <path id="path1562" d="m609.503 534.137-23.504 12.437 11.289 13.093z" class="grdc-2"/>
+    <path id="path1564" d="m580.836 540.756-17.715 24.749 14.174 5.481z" class="grdc-2"/>
+    <path id="path1566" d="m593.911 533.644-18.333 23.872 14.029 6.175z" class="grdc-2"/>
+    <path id="path1568" d="m586.558 590.409-22.395-15.863 12.235-11.337z" class="grdc-2"/>
+    <path id="path1570" d="m615.061 621.806-25.029 3.464 5.866-18.709z" class="grdc-2"/>
+    <path id="path1572" d="m629.332 594.982-21.17 18.825-.897-20.359z" class="grdc-2"/>
+    <path id="path1574" d="m618.892 562.157-20.157 20.87 13.441 8.318z" class="grdc-2"/>
+    <path id="path1576" d="m604.573 583.423-21.932 17.079 12.553 10.652z" class="grdc-2"/>
+    <path id="path1578" d="m585.121 649.479-25.03 3.464 5.867-18.718z" class="grdc-2"/>
+    <path id="path1580" d="m574.632 611.086-21.922 17.089 12.553 10.652z" class="grdc-2"/>
+    <path id="path1582" d="m576.919 595.793-14.908 28.088 14.609 2.547z" class="grdc-2"/>
+    <path id="path1584" d="m589.096 586.105-15.602 27.345 14.531 3.252z" class="grdc-2"/>
+    <path id="path1586" d="m587.842 643.748-23.843-11.135 10.903-13.701z" class="grdc-2"/>
+    <path id="path1588" d="m593.882 593.207-18.748-23.244 13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path1592" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m608.606 404.118-52.683 37.93" class="grdc-1"/>
+  <g id="g1608">
+    <path id="path1594" d="m612.523 427.275-25.077 2.615 6.195-18.507z" class="grdc-2"/>
+    <path id="path1596" d="m620.368 389.49-12.563 30.211-7.545-17.513z" class="grdc-2"/>
+    <path id="path1598" d="m602.711 388.544-22.212 16.345 12.36 11.068z" class="grdc-2"/>
+    <path id="path1600" d="m574.854 399.988-15.39 27.576 14.551 3.03z" class="grdc-2"/>
+    <path id="path1602" d="M587.195 390.706 571.12 417.52l14.464 3.734z" class="grdc-2"/>
+    <path id="path1604" d="m584.937 448.29-23.64-11.926 11.145-13.335z" class="grdc-2"/>
+    <path id="path1606" d="m598.947 446.997-23.929-10.768 10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path1610" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m625.163 748.583-69.848 71.48" class="grdc-1"/>
+  <path id="path1612" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m613.527 635.604-58.212 16.143" class="grdc-1"/>
+  <g id="g1628">
+    <path id="path1614" d="m614.318 659.36-24.624-7.15 9.659-15.39z" class="grdc-2"/>
+    <path id="path1616" d="m629.419 626.081-18.121 24.19-3.744-19.732z" class="grdc-2"/>
+    <path id="path1618" d="m612.649 618.371-24.614 7.141 9.658 15.399z" class="grdc-2"/>
+    <path id="path1620" d="m583.596 618.632-20.311 20.571 13.374 8.511z" class="grdc-2"/>
+    <path id="path1622" d="m597.317 614.473-20.823 19.568 13.152 9.157z" class="grdc-2"/>
+    <path id="path1624" d="m583.596 668.922-20.311-20.571 13.374-8.511z" class="grdc-2"/>
+    <path id="path1626" d="m597.317 673.081-20.823-19.568 13.152-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path1630" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m609.657 674.287-53.377 35.99" class="grdc-1"/>
+  <g id="g1646">
+    <path id="path1632" d="m613.141 697.579-25.116 1.698 6.532-18.275z" class="grdc-2"/>
+    <path id="path1634" d="m621.7 660.093-13.133 29.748-7.217-17.783z" class="grdc-2"/>
+    <path id="path1636" d="m604.071 658.501-22.52 15.525 12.147 11.521z" class="grdc-2"/>
+    <path id="path1638" d="m576.002 668.922-15.911 27.007 14.493 3.561z" class="grdc-2"/>
+    <path id="path1640" d="m588.517 660.093-16.577 26.226 14.387 4.255z" class="grdc-2"/>
+    <path id="path1642" d="m585.159 717.581-23.398-12.794 11.385-12.92z" class="grdc-2"/>
+    <path id="path1644" d="m599.189 716.8-23.708-11.646 11.058-13.461z" class="grdc-2"/>
+  </g>
+  <path id="path1648" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m612.301 723.535-55.645 28.667" class="grdc-1"/>
+  <g id="g1674">
+    <path id="path1650" d="m615.804 747.175-25.126-1.67 7.787-17.31z" class="grdc-2"/>
+    <path id="path1652" d="m626.929 711.02-15.139 27.847-5.944-18.671z" class="grdc-2"/>
+    <path id="path1654" d="m609.503 707.074-23.504 12.428 11.289 13.093z" class="grdc-2"/>
+    <path id="path1656" d="m580.836 713.683-17.715 24.75 14.174 5.48z" class="grdc-2"/>
+    <path id="path1658" d="m593.911 706.572-18.333 23.881 14.029 6.166z" class="grdc-2"/>
+    <path id="path1660" d="m586.558 763.336-22.395-15.862 12.235-11.338z" class="grdc-2"/>
+    <path id="path1662" d="m629.332 767.91-21.17 18.835-.897-20.369z" class="grdc-2"/>
+    <path id="path1664" d="m618.892 735.094-20.157 20.861 13.441 8.317z" class="grdc-2"/>
+    <path id="path1666" d="m604.573 756.351-21.932 17.078 12.553 10.653z" class="grdc-2"/>
+    <path id="path1668" d="m576.919 768.721-14.908 28.097 14.609 2.538z" class="grdc-2"/>
+    <path id="path1670" d="m589.096 759.033-15.602 27.345 14.531 3.252z" class="grdc-2"/>
+    <path id="path1672" d="m593.882 766.135-18.748-23.245 13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path1676" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m608.606 577.045-52.683 37.93" class="grdc-1"/>
+  <g id="g1692">
+    <path id="path1678" d="m612.523 600.203-25.077 2.624 6.195-18.516z" class="grdc-2"/>
+    <path id="path1680" d="m620.368 562.417-12.563 30.211-7.545-17.513z" class="grdc-2"/>
+    <path id="path1682" d="m602.711 561.472-22.212 16.345 12.36 11.067z" class="grdc-2"/>
+    <path id="path1684" d="m574.854 572.915-15.39 27.577 14.551 3.03z" class="grdc-2"/>
+    <path id="path1686" d="m587.195 563.633-16.075 26.814 14.464 3.735z" class="grdc-2"/>
+    <path id="path1688" d="m584.937 621.218-23.64-11.926 11.145-13.335z" class="grdc-2"/>
+    <path id="path1690" d="m598.947 619.935-23.929-10.778 10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path1694" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m487.107 617.156 69.848 71.479" class="grdc-1"/>
+  <path id="path1696" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m498.753 504.177 58.202 16.142" class="grdc-1"/>
+  <g id="g1712">
+    <path id="path1698" d="m497.962 527.932 24.614-7.14-9.658-15.4z" class="grdc-2"/>
+    <path id="path1700" d="m482.862 494.653 18.111 24.19 3.743-19.732z" class="grdc-2"/>
+    <path id="path1702" d="m499.622 486.944 24.614 7.14-9.649 15.4z" class="grdc-2"/>
+    <path id="path1704" d="m528.675 487.204 20.32 20.572-13.373 8.51z" class="grdc-2"/>
+    <path id="path1706" d="m514.963 483.046 20.813 19.568-13.151 9.166z" class="grdc-2"/>
+    <path id="path1708" d="m528.675 537.494 20.32-20.561-13.373-8.52z" class="grdc-2"/>
+    <path id="path1710" d="m514.963 541.653 20.813-19.568-13.151-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path1714" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M502.613 542.86 556 578.85" class="grdc-1"/>
+  <g id="g1730">
+    <path id="path1716" d="m499.13 566.152 25.125 1.707-6.542-18.284z" class="grdc-2"/>
+    <path id="path1718" d="m490.581 528.666 13.122 29.747 7.218-17.783z" class="grdc-2"/>
+    <path id="path1720" d="m508.2 527.074 22.53 15.525-12.158 11.52z" class="grdc-2"/>
+    <path id="path1722" d="m536.268 537.494 15.911 27.008-14.492 3.56z" class="grdc-2"/>
+    <path id="path1724" d="m523.754 528.675 16.586 26.216-14.396 4.255z" class="grdc-2"/>
+    <path id="path1726" d="m527.111 586.154 23.409-12.795-11.396-12.92z" class="grdc-2"/>
+    <path id="path1728" d="m513.082 585.382 23.707-11.646-11.057-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path1732" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m499.969 592.107 55.645 28.667" class="grdc-1"/>
+  <g id="g1766">
+    <path id="path1734" d="m496.467 615.757 25.125-1.67-7.786-17.319z" class="grdc-2"/>
+    <path id="path1736" d="m485.341 579.592 15.139 27.847 5.944-18.67z" class="grdc-2"/>
+    <path id="path1738" d="m502.777 575.646 23.495 12.438-11.289 13.093z" class="grdc-2"/>
+    <path id="path1740" d="m531.434 582.256 17.725 24.749-14.174 5.49z" class="grdc-2"/>
+    <path id="path1742" d="m518.37 575.144 18.332 23.881-14.029 6.166z" class="grdc-2"/>
+    <path id="path1744" d="m525.712 631.909 22.405-15.863-12.244-11.337z" class="grdc-2"/>
+    <path id="path1746" d="m497.219 663.306 25.029 3.474-5.866-18.719z" class="grdc-2"/>
+    <path id="path1748" d="m482.939 636.482 21.169 18.835.898-20.369z" class="grdc-2"/>
+    <path id="path1750" d="m493.389 603.666 20.146 20.861-13.431 8.318z" class="grdc-2"/>
+    <path id="path1752" d="m507.707 624.923 21.923 17.088-12.553 10.653z" class="grdc-2"/>
+    <path id="path1754" d="m527.15 690.979 25.029 3.464-5.866-18.709z" class="grdc-2"/>
+    <path id="path1756" d="m537.638 652.586 21.932 17.089-12.553 10.652z" class="grdc-2"/>
+    <path id="path1758" d="m535.352 637.303 14.907 28.087-14.599 2.538z" class="grdc-2"/>
+    <path id="path1760" d="m523.175 627.605 15.602 27.355-14.522 3.242z" class="grdc-2"/>
+    <path id="path1762" d="m524.439 685.248 23.832-11.125-10.903-13.711z" class="grdc-2"/>
+    <path id="path1764" d="m518.389 634.707 18.748-23.244-13.914-6.639z" class="grdc-2"/>
+  </g>
+  <path id="path1768" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m503.674 445.618 52.683 37.93" class="grdc-1"/>
+  <g id="g1784">
+    <path id="path1770" d="m499.747 468.775 25.078 2.624-6.185-18.516z" class="grdc-2"/>
+    <path id="path1772" d="m491.912 430.99 12.553 30.22 7.556-17.522z" class="grdc-2"/>
+    <path id="path1774" d="m509.56 430.044 22.221 16.345-12.369 11.068z" class="grdc-2"/>
+    <path id="path1776" d="m537.416 441.488 15.39 27.576-14.55 3.03z" class="grdc-2"/>
+    <path id="path1778" d="m525.075 432.206 16.076 26.823-14.464 3.725z" class="grdc-2"/>
+    <path id="path1780" d="m527.343 489.79 23.63-11.926-11.135-13.335z" class="grdc-2"/>
+    <path id="path1782" d="m513.333 488.507 23.919-10.778-10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path1786" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m498.753 677.104 58.202 16.143" class="grdc-1"/>
+  <path id="path1788" stroke-width=".965" d="m482.861 667.59 18.111 24.18 3.744-19.731z" class="grdc-2"/>
+  <path id="path1790" stroke-width=".965" d="m514.963 655.973 20.813 19.568-13.152 9.167z" class="grdc-2"/>
+  <path id="path1792" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m503.674 618.555 52.683 37.92" class="grdc-1"/>
+  <g id="g1806">
+    <path id="path1794" d="m499.747 641.702 25.078 2.625-6.185-18.516z" class="grdc-2"/>
+    <path id="path1796" d="m491.912 603.917 12.553 30.221 7.556-17.523z" class="grdc-2"/>
+    <path id="path1798" d="m537.416 614.415 15.39 27.587-14.55 3.029z" class="grdc-2"/>
+    <path id="path1800" d="m525.075 605.133 16.076 26.824-14.464 3.725z" class="grdc-2"/>
+    <path id="path1802" d="m527.343 662.718 23.63-11.926-11.135-13.335z" class="grdc-2"/>
+    <path id="path1804" d="m513.333 661.434 23.919-10.777-10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path1808" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m486.49 771.644 69.848 71.48" class="grdc-1"/>
+  <path id="path1810" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m498.135 658.665 58.203 16.133" class="grdc-1"/>
+  <g id="g1820">
+    <path id="path1812" d="m482.244 649.142 18.111 24.18 3.744-19.732z" class="grdc-2"/>
+    <path id="path1814" d="m528.057 641.693 20.311 20.562-13.364 8.52z" class="grdc-2"/>
+    <path id="path1816" d="m514.346 637.534 20.813 19.568-13.152 9.157z" class="grdc-2"/>
+    <path id="path1818" d="m514.346 696.132 20.813-19.568-13.152-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path1822" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m501.995 697.348 53.387 35.99" class="grdc-1"/>
+  <g id="g1838">
+    <path id="path1824" d="m498.512 720.63 25.126 1.708-6.542-18.275z" class="grdc-2"/>
+    <path id="path1826" d="m489.963 683.154 13.123 29.738 7.217-17.783z" class="grdc-2"/>
+    <path id="path1828" d="m507.582 681.562 22.521 15.525-12.139 11.521z" class="grdc-2"/>
+    <path id="path1830" d="m535.651 691.983 15.911 27.007-14.493 3.561z" class="grdc-2"/>
+    <path id="path1832" d="m523.136 683.154 16.587 26.216-14.397 4.265z" class="grdc-2"/>
+    <path id="path1834" d="m526.494 740.633 23.408-12.785-11.395-12.92z" class="grdc-2"/>
+    <path id="path1836" d="m512.464 739.861 23.708-11.647-11.058-13.469z" class="grdc-2"/>
+  </g>
+  <path id="path1840" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m499.351 746.586 55.645 28.667" class="grdc-1"/>
+  <g id="g1864">
+    <path id="path1842" d="m495.849 770.235 25.126-1.669-7.787-17.32z" class="grdc-2"/>
+    <path id="path1844" d="m484.724 734.071 15.139 27.847 5.944-18.661z" class="grdc-2"/>
+    <path id="path1846" d="m502.159 730.125 23.495 12.437-11.289 13.094z" class="grdc-2"/>
+    <path id="path1848" d="m530.817 736.744 17.725 24.74-14.175 5.49z" class="grdc-2"/>
+    <path id="path1850" d="m517.752 729.633 18.323 23.871-14.02 6.176z" class="grdc-2"/>
+    <path id="path1852" d="m525.095 786.397 22.405-15.872-12.235-11.328Z" class="grdc-2"/>
+    <path id="path1854" d="m492.771 758.145 20.147 20.861-13.431 8.327z" class="grdc-2"/>
+    <path id="path1856" d="m517.771 789.196 18.748-23.245-13.914-6.648z" class="grdc-2"/>
+    <path id="path1858" d="m508.943 584.523 22.221 16.345-12.37 11.077z" class="grdc-2"/>
+    <path id="path1860" d="m536.799 595.976 15.39 27.577-14.551 3.03z" class="grdc-2"/>
+    <path id="path1862" d="m524.458 586.694 16.075 26.814-14.464 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path1866" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m503.056 773.034 52.683 37.93" class="grdc-1"/>
+  <g id="g1876">
+    <path id="path1868" d="m491.295 758.406 12.553 30.211 7.555-17.513z" class="grdc-2"/>
+    <path id="path1870" d="m508.943 757.46 22.221 16.346-12.37 11.067z" class="grdc-2"/>
+    <path id="path1872" d="m536.799 768.904 15.39 27.576-14.551 3.03z" class="grdc-2"/>
+    <path id="path1874" d="m524.458 759.622 16.075 26.814-14.464 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path1878" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M733.27 524.932 663.42 596.41" class="grdc-1"/>
+  <path id="path1880" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m721.623 411.953-58.202 16.133" class="grdc-1"/>
+  <g id="g1896">
+    <path id="path1882" d="m722.415 435.698-24.615-7.14 9.659-15.399z" class="grdc-2"/>
+    <path id="path1884" d="m737.515 402.429-18.111 24.19-3.743-19.742z" class="grdc-2"/>
+    <path id="path1886" d="m720.755 394.72-24.624 7.14 9.659 15.399z" class="grdc-2"/>
+    <path id="path1888" d="m691.702 394.98-20.32 20.562 13.373 8.52z" class="grdc-2"/>
+    <path id="path1890" d="m705.413 390.821-20.822 19.568 13.152 9.157z" class="grdc-2"/>
+    <path id="path1892" d="m691.702 445.26-20.32-20.561 13.373-8.52z" class="grdc-2"/>
+    <path id="path1894" d="m705.413 449.429-20.822-19.578 13.152-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path1898" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m717.764 450.635-53.388 35.99" class="grdc-1"/>
+  <g id="g1914">
+    <path id="path1900" d="m721.247 473.918-25.125 1.708 6.541-18.275z" class="grdc-2"/>
+    <path id="path1902" d="m729.796 436.441-13.122 29.748-7.218-17.793z" class="grdc-2"/>
+    <path id="path1904" d="m712.177 434.849-22.53 15.525 12.148 11.521z" class="grdc-2"/>
+    <path id="path1906" d="m684.109 445.27-15.911 27.007 14.492 3.561z" class="grdc-2"/>
+    <path id="path1908" d="m696.623 436.441-16.586 26.216 14.396 4.265z" class="grdc-2"/>
+    <path id="path1910" d="m693.265 493.92-23.408-12.785 11.396-12.92z" class="grdc-2"/>
+    <path id="path1912" d="m707.295 493.148-23.707-11.646 11.048-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path1916" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m720.398 499.873-55.636 28.667" class="grdc-1"/>
+  <g id="g1950">
+    <path id="path1918" d="m723.91 523.523-25.125-1.67 7.786-17.31z" class="grdc-2"/>
+    <path id="path1920" d="m735.036 487.368-15.14 27.837-5.943-18.661z" class="grdc-2"/>
+    <path id="path1922" d="m717.6 483.412-23.495 12.438 11.289 13.093z" class="grdc-2"/>
+    <path id="path1924" d="m688.943 490.031-17.725 24.75 14.174 5.48z" class="grdc-2"/>
+    <path id="path1926" d="m702.007 482.92-18.333 23.872 14.03 6.175z" class="grdc-2"/>
+    <path id="path1928" d="m694.665 539.685-22.405-15.873 12.235-11.328Z" class="grdc-2"/>
+    <path id="path1930" d="m723.158 571.082-25.029 3.464 5.866-18.709z" class="grdc-2"/>
+    <path id="path1932" d="m737.438 544.258-21.17 18.825-.897-20.359z" class="grdc-2"/>
+    <path id="path1934" d="m726.988 511.433-20.147 20.87 13.432 8.318z" class="grdc-2"/>
+    <path id="path1936" d="m712.669 532.689-21.922 17.088L703.3 560.43Z" class="grdc-2"/>
+    <path id="path1938" d="m693.227 598.755-25.029 3.464 5.866-18.719z" class="grdc-2"/>
+    <path id="path1940" d="m682.739 560.362-21.932 17.088 12.553 10.653z" class="grdc-2"/>
+    <path id="path1942" d="m685.025 545.069-14.907 28.088 14.599 2.547z" class="grdc-2"/>
+    <path id="path1944" d="m697.202 535.381-15.612 27.345 14.532 3.242z" class="grdc-2"/>
+    <path id="path1946" d="m695.938 593.024-23.833-11.135 10.904-13.702z" class="grdc-2"/>
+    <path id="path1948" d="m701.988 542.483-18.748-23.244 13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path1952" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m716.702 353.393-52.683 37.93" class="grdc-1"/>
+  <g id="g1968">
+    <path id="path1954" d="m720.63 376.541-25.078 2.625 6.185-18.507z" class="grdc-2"/>
+    <path id="path1956" d="m728.465 338.766-12.554 30.21-7.555-17.512z" class="grdc-2"/>
+    <path id="path1958" d="m710.817 337.82-22.222 16.345 12.37 11.068z" class="grdc-2"/>
+    <path id="path1960" d="m682.96 349.264-15.39 27.576 14.551 3.03z" class="grdc-2"/>
+    <path id="path1962" d="m695.301 339.981-16.075 26.815 14.464 3.734z" class="grdc-2"/>
+    <path id="path1964" d="m693.034 397.566-23.63-11.936 11.135-13.325z" class="grdc-2"/>
+    <path id="path1966" d="m707.044 396.273-23.92-10.778 10.798-13.856z" class="grdc-2"/>
+  </g>
+  <path id="path1970" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m733.27 697.86-69.849 71.478" class="grdc-1"/>
+  <path id="path1972" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m721.623 584.88-58.202 16.143" class="grdc-1"/>
+  <g id="g1988">
+    <path id="path1974" d="m722.415 608.636-24.615-7.15 9.659-15.39z" class="grdc-2"/>
+    <path id="path1976" d="m737.515 575.357-18.111 24.189-3.743-19.732z" class="grdc-2"/>
+    <path id="path1978" d="m720.755 567.647-24.624 7.14 9.659 15.4z" class="grdc-2"/>
+    <path id="path1980" d="m691.702 567.908-20.32 20.561 13.373 8.52z" class="grdc-2"/>
+    <path id="path1982" d="m705.413 563.749-20.822 19.568 13.152 9.157z" class="grdc-2"/>
+    <path id="path1984" d="m691.702 618.188-20.32-20.562 13.373-8.51z" class="grdc-2"/>
+    <path id="path1986" d="m705.413 622.356-20.822-19.568 13.152-9.166z" class="grdc-2"/>
+  </g>
+  <path id="path1990" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m717.764 623.563-53.388 35.99" class="grdc-1"/>
+  <g id="g2006">
+    <path id="path1992" d="m721.247 646.845-25.125 1.708 6.541-18.275z" class="grdc-2"/>
+    <path id="path1994" d="m729.796 609.369-13.122 29.748-7.218-17.793z" class="grdc-2"/>
+    <path id="path1996" d="m712.177 607.777-22.53 15.525 12.148 11.521z" class="grdc-2"/>
+    <path id="path1998" d="m684.109 618.198-15.911 27.007 14.492 3.56z" class="grdc-2"/>
+    <path id="path2000" d="m696.623 609.369-16.586 26.226 14.396 4.255z" class="grdc-2"/>
+    <path id="path2002" d="m693.265 666.857-23.408-12.794 11.396-12.92z" class="grdc-2"/>
+    <path id="path2004" d="m707.295 666.076-23.707-11.647 11.048-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path2008" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m720.398 672.81-55.636 28.668" class="grdc-1"/>
+  <g id="g2042">
+    <path id="path2010" d="m723.91 696.45-25.125-1.669 7.786-17.31z" class="grdc-2"/>
+    <path id="path2012" d="m735.036 660.296-15.14 27.847-5.943-18.671z" class="grdc-2"/>
+    <path id="path2014" d="m717.6 656.34-23.495 12.437 11.289 13.094z" class="grdc-2"/>
+    <path id="path2016" d="m688.943 662.959-17.725 24.749 14.174 5.481z" class="grdc-2"/>
+    <path id="path2018" d="m702.007 655.848-18.333 23.871 14.03 6.175z" class="grdc-2"/>
+    <path id="path2020" d="m694.665 712.612-22.405-15.863 12.235-11.337Z" class="grdc-2"/>
+    <path id="path2022" d="m723.158 744.01-25.029 3.464 5.866-18.71z" class="grdc-2"/>
+    <path id="path2024" d="m737.438 717.186-21.17 18.825-.897-20.359z" class="grdc-2"/>
+    <path id="path2026" d="m726.988 684.36-20.147 20.871 13.432 8.317z" class="grdc-2"/>
+    <path id="path2028" d="m712.669 705.626-21.922 17.079 12.553 10.652z" class="grdc-2"/>
+    <path id="path2030" d="m693.227 771.683-25.029 3.464 5.866-18.719z" class="grdc-2"/>
+    <path id="path2032" d="m682.739 733.29-21.932 17.088 12.553 10.652z" class="grdc-2"/>
+    <path id="path2034" d="m685.025 717.996-14.907 28.088 14.599 2.548z" class="grdc-2"/>
+    <path id="path2036" d="m697.202 708.309-15.612 27.345 14.532 3.251z" class="grdc-2"/>
+    <path id="path2038" d="m695.938 765.951-23.833-11.135 10.904-13.701z" class="grdc-2"/>
+    <path id="path2040" d="m701.988 715.41-18.748-23.244 13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path2044" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m716.702 526.321-52.683 37.93" class="grdc-1"/>
+  <g id="g2060">
+    <path id="path2046" d="m720.63 549.478-25.078 2.615 6.185-18.506z" class="grdc-2"/>
+    <path id="path2048" d="m728.465 511.693-12.554 30.211-7.555-17.513z" class="grdc-2"/>
+    <path id="path2050" d="m710.817 510.748-22.222 16.345 12.37 11.067z" class="grdc-2"/>
+    <path id="path2052" d="m682.96 522.191-15.39 27.577 14.551 3.029z" class="grdc-2"/>
+    <path id="path2054" d="m695.301 512.909-16.075 26.814 14.464 3.734z" class="grdc-2"/>
+    <path id="path2056" d="m693.034 570.494-23.63-11.936 11.135-13.325z" class="grdc-2"/>
+    <path id="path2058" d="m707.044 569.21-23.92-10.778 10.798-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path2062" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m595.213 566.431 69.848 71.48" class="grdc-1"/>
+  <path id="path2064" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m606.85 453.452 58.211 16.143" class="grdc-1"/>
+  <g id="g2080">
+    <path id="path2066" d="m606.059 477.208 24.624-7.14-9.659-15.4z" class="grdc-2"/>
+    <path id="path2068" d="m590.958 443.929 18.121 24.19 3.744-19.732z" class="grdc-2"/>
+    <path id="path2070" d="m607.728 436.219 24.614 7.141-9.658 15.399z" class="grdc-2"/>
+    <path id="path2072" d="m636.781 436.48 20.311 20.571-13.374 8.511z" class="grdc-2"/>
+    <path id="path2074" d="m623.06 432.321 20.822 19.568-13.151 9.157z" class="grdc-2"/>
+    <path id="path2076" d="m636.781 486.77 20.311-20.571-13.374-8.511z" class="grdc-2"/>
+    <path id="path2078" d="m623.06 490.929 20.822-19.568-13.151-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path2082" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m610.719 492.135 53.378 35.99" class="grdc-1"/>
+  <g id="g2098">
+    <path id="path2084" d="m607.236 515.427 25.116 1.698-6.532-18.275z" class="grdc-2"/>
+    <path id="path2086" d="m598.677 477.941 13.132 29.748 7.208-17.783z" class="grdc-2"/>
+    <path id="path2088" d="m616.306 476.349 22.52 15.525-12.148 11.521z" class="grdc-2"/>
+    <path id="path2090" d="m644.374 486.77 15.912 27.007-14.493 3.561z" class="grdc-2"/>
+    <path id="path2092" d="m631.86 477.941 16.577 26.226-14.387 4.255z" class="grdc-2"/>
+    <path id="path2094" d="m635.218 535.429 23.398-12.794-11.385-12.92z" class="grdc-2"/>
+    <path id="path2096" d="m621.188 534.648 23.708-11.646-11.058-13.461z" class="grdc-2"/>
+  </g>
+  <path id="path2100" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m608.075 541.383 55.645 28.667" class="grdc-1"/>
+  <g id="g2134">
+    <path id="path2102" d="m604.573 565.023 25.126-1.67-7.787-17.31z" class="grdc-2"/>
+    <path id="path2104" d="m593.448 528.868 15.139 27.847 5.934-18.671z" class="grdc-2"/>
+    <path id="path2106" d="m610.874 524.922 23.504 12.437-11.289 13.084z" class="grdc-2"/>
+    <path id="path2108" d="m639.54 531.531 17.716 24.75-14.174 5.48z" class="grdc-2"/>
+    <path id="path2110" d="m626.466 524.42 18.333 23.881-14.029 6.166z" class="grdc-2"/>
+    <path id="path2112" d="m633.819 581.185 22.395-15.863-12.235-11.338z" class="grdc-2"/>
+    <path id="path2114" d="m605.316 612.582 25.029 3.464-5.867-18.709z" class="grdc-2"/>
+    <path id="path2116" d="m591.045 585.758 21.17 18.835.897-20.369z" class="grdc-2"/>
+    <path id="path2118" d="m601.485 552.942 20.157 20.861-13.441 8.317z" class="grdc-2"/>
+    <path id="path2120" d="m615.804 574.199 21.932 17.088-12.553 10.643z" class="grdc-2"/>
+    <path id="path2122" d="m635.256 640.255 25.03 3.464-5.867-18.709z" class="grdc-2"/>
+    <path id="path2124" d="m645.745 601.862 21.922 17.088-12.553 10.653z" class="grdc-2"/>
+    <path id="path2126" d="m643.458 586.578 14.907 28.088-14.608 2.538z" class="grdc-2"/>
+    <path id="path2128" d="m631.281 576.881 15.602 27.345-14.531 3.252z" class="grdc-2"/>
+    <path id="path2130" d="m632.535 634.524 23.843-11.135-10.904-13.702z" class="grdc-2"/>
+    <path id="path2132" d="m626.485 583.983 18.758-23.244-13.914-6.649z" class="grdc-2"/>
+  </g>
+  <path id="path2136" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m611.77 394.893 52.684 37.93" class="grdc-1"/>
+  <g id="g2152">
+    <path id="path2138" d="m607.853 418.051 25.078 2.624-6.195-18.516z" class="grdc-2"/>
+    <path id="path2140" d="m600.009 380.265 12.563 30.221 7.545-17.523z" class="grdc-2"/>
+    <path id="path2142" d="m617.657 379.32 22.221 16.345-12.36 11.067z" class="grdc-2"/>
+    <path id="path2144" d="m645.523 390.764 15.39 27.576-14.551 3.03z" class="grdc-2"/>
+    <path id="path2146" d="m633.182 381.481 16.075 26.815-14.474 3.734z" class="grdc-2"/>
+    <path id="path2148" d="m635.44 439.066 23.639-11.926-11.144-13.335Z" class="grdc-2"/>
+    <path id="path2150" d="m621.429 437.783 23.93-10.778-10.807-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path2154" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m606.85 626.38 58.211 16.143" class="grdc-1"/>
+  <path id="path2156" stroke-width=".965" d="m590.958 616.857 18.12 24.19 3.744-19.733z" class="grdc-2"/>
+  <path id="path2158" stroke-width=".965" d="m623.06 605.249 20.822 19.568-13.151 9.166z" class="grdc-2"/>
+  <path id="path2160" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m611.77 567.82 52.684 37.93" class="grdc-1"/>
+  <g id="g2174">
+    <path id="path2162" d="m607.853 590.978 25.078 2.625-6.195-18.517z" class="grdc-2"/>
+    <path id="path2164" d="m600.009 553.193 12.563 30.22 7.545-17.522z" class="grdc-2"/>
+    <path id="path2166" d="m645.523 563.691 15.39 27.586-14.551 3.02z" class="grdc-2"/>
+    <path id="path2168" d="m633.182 554.409 16.075 26.814-14.474 3.734z" class="grdc-2"/>
+    <path id="path2170" d="m635.44 611.993 23.639-11.926-11.144-13.334z" class="grdc-2"/>
+    <path id="path2172" d="m621.429 610.71 23.93-10.778-10.807-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path2176" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m594.596 720.92 69.848 71.48" class="grdc-1"/>
+  <path id="path2178" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m606.232 607.941 58.212 16.133" class="grdc-1"/>
+  <g id="g2188">
+    <path id="path2180" d="m590.341 598.417 18.12 24.181 3.744-19.732z" class="grdc-2"/>
+    <path id="path2182" d="m636.163 590.969 20.311 20.561-13.373 8.52z" class="grdc-2"/>
+    <path id="path2184" d="m622.443 586.81 20.822 19.558-13.152 9.167z" class="grdc-2"/>
+    <path id="path2186" d="m622.443 645.408 20.822-19.568-13.152-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path2190" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m610.101 646.624 53.378 35.99" class="grdc-1"/>
+  <g id="g2206">
+    <path id="path2192" d="m606.618 669.906 25.116 1.708-6.532-18.275z" class="grdc-2"/>
+    <path id="path2194" d="m598.06 632.42 13.132 29.748 7.208-17.783z" class="grdc-2"/>
+    <path id="path2196" d="m615.688 630.828 22.521 15.535-12.148 11.511z" class="grdc-2"/>
+    <path id="path2198" d="m643.757 641.259 15.911 27.007-14.493 3.56z" class="grdc-2"/>
+    <path id="path2200" d="m631.242 632.43 16.577 26.216-14.386 4.265z" class="grdc-2"/>
+    <path id="path2202" d="m634.6 689.908 23.399-12.784-11.386-12.92z" class="grdc-2"/>
+    <path id="path2204" d="m620.571 689.136 23.707-11.646-11.058-13.47Z" class="grdc-2"/>
+  </g>
+  <path id="path2208" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m607.457 695.862 55.646 28.667" class="grdc-1"/>
+  <g id="g2254">
+    <path id="path2210" d="m603.955 719.511 25.126-1.669-7.787-17.32z" class="grdc-2"/>
+    <path id="path2212" d="m592.83 683.347 15.139 27.847 5.934-18.671z" class="grdc-2"/>
+    <path id="path2214" d="m610.256 679.401 23.505 12.437-11.29 13.094z" class="grdc-2"/>
+    <path id="path2216" d="m638.923 686.01 17.715 24.75-14.174 5.49z" class="grdc-2"/>
+    <path id="path2218" d="m625.849 678.909 18.333 23.871-14.03 6.175z" class="grdc-2"/>
+    <path id="path2220" d="m633.201 735.663 22.395-15.862-12.235-11.328z" class="grdc-2"/>
+    <path id="path2222" d="m604.698 767.071 25.029 3.464-5.866-18.719z" class="grdc-2"/>
+    <path id="path2224" d="m590.427 740.237 21.17 18.835.898-20.369z" class="grdc-2"/>
+    <path id="path2226" d="m600.868 707.421 20.156 20.861-13.441 8.317z" class="grdc-2"/>
+    <path id="path2228" d="m615.187 728.678 21.922 17.088-12.544 10.652z" class="grdc-2"/>
+    <path id="path2230" d="m645.127 756.351 21.922 17.078-12.553 10.653z" class="grdc-2"/>
+    <path id="path2232" d="m642.84 741.057 14.908 28.088-14.609 2.538z" class="grdc-2"/>
+    <path id="path2234" d="m630.663 731.36 15.603 27.355-14.532 3.242z" class="grdc-2"/>
+    <path id="path2236" d="m631.918 789.003 23.842-11.126-10.903-13.711Z" class="grdc-2"/>
+    <path id="path2238" d="m625.868 738.462 18.757-23.235-13.913-6.648z" class="grdc-2"/>
+    <path id="path2240" d="m617.049 533.799 22.212 16.345-12.361 11.067z" class="grdc-2"/>
+    <path id="path2242" d="m644.905 545.242 15.39 27.587-14.55 3.029z" class="grdc-2"/>
+    <path id="path2244" d="m632.564 535.97 16.075 26.814-14.473 3.734z" class="grdc-2"/>
+    <path id="path2246" d="m590.341 771.345 18.12 24.18 3.744-19.732z" class="grdc-2"/>
+    <path id="path2248" d="m607.11 763.636 24.615 7.14-9.659 15.399z" class="grdc-2"/>
+    <path id="path2250" d="m636.163 763.896 20.311 20.562-13.373 8.52z" class="grdc-2"/>
+    <path id="path2252" d="m622.443 759.737 20.822 19.568-13.152 9.157z" class="grdc-2"/>
+  </g>
+  <path id="path2256" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m611.153 722.31 52.683 37.93" class="grdc-1"/>
+  <g id="g2272">
+    <path id="path2258" d="m607.236 745.457 25.077 2.625-6.194-18.507z" class="grdc-2"/>
+    <path id="path2260" d="m599.401 707.682 12.553 30.21 7.546-17.512z" class="grdc-2"/>
+    <path id="path2262" d="m617.049 706.726 22.212 16.346-12.361 11.077z" class="grdc-2"/>
+    <path id="path2264" d="m644.905 718.18 15.39 27.576-14.55 3.03z" class="grdc-2"/>
+    <path id="path2266" d="m632.564 708.897 16.075 26.815-14.473 3.734z" class="grdc-2"/>
+    <path id="path2268" d="m634.822 766.482 23.64-11.936-11.145-13.334z" class="grdc-2"/>
+    <path id="path2270" d="m620.812 765.189 23.929-10.778-10.807-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path2274" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m836.378 453.452-58.202 16.143" class="grdc-1"/>
+  <g id="g2288">
+    <path id="path2276" d="m837.169 477.208-24.614-7.14 9.658-15.4z" class="grdc-2"/>
+    <path id="path2278" d="m835.51 436.219-24.624 7.141 9.658 15.399z" class="grdc-2"/>
+    <path id="path2280" d="m806.457 436.48-20.321 20.571 13.383 8.511z" class="grdc-2"/>
+    <path id="path2282" d="m820.168 432.321-20.813 19.568 13.152 9.157z" class="grdc-2"/>
+    <path id="path2284" d="m806.457 486.77-20.321-20.571 13.383-8.511z" class="grdc-2"/>
+    <path id="path2286" d="m820.168 490.929-20.813-19.568 13.152-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path2290" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m832.518 492.135-53.387 35.99" class="grdc-1"/>
+  <g id="g2304">
+    <path id="path2292" d="m836.002 515.427-25.126 1.698 6.542-18.275z" class="grdc-2"/>
+    <path id="path2294" d="m826.922 476.349-22.521 15.525 12.148 11.521z" class="grdc-2"/>
+    <path id="path2296" d="m798.863 486.77-15.911 27.007 14.493 3.561z" class="grdc-2"/>
+    <path id="path2298" d="m811.378 477.941-16.587 26.226 14.396 4.255z" class="grdc-2"/>
+    <path id="path2300" d="m808.02 535.429-23.408-12.794 11.395-12.92z" class="grdc-2"/>
+    <path id="path2302" d="m822.049 534.648-23.707-11.646 11.058-13.461Z" class="grdc-2"/>
+  </g>
+  <path id="path2306" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m835.152 541.383-55.635 28.667" class="grdc-1"/>
+  <g id="g2334">
+    <path id="path2308" d="m838.665 565.023-25.126-1.67 7.787-17.31z" class="grdc-2"/>
+    <path id="path2310" d="m832.354 524.922-23.495 12.437 11.29 13.084z" class="grdc-2"/>
+    <path id="path2312" d="m803.697 531.531-17.725 24.75 14.174 5.48z" class="grdc-2"/>
+    <path id="path2314" d="m816.762 524.42-18.333 23.881 14.029 6.166z" class="grdc-2"/>
+    <path id="path2316" d="m809.419 581.185-22.405-15.863 12.245-11.338z" class="grdc-2"/>
+    <path id="path2318" d="m837.912 612.582-25.029 3.464 5.866-18.709z" class="grdc-2"/>
+    <path id="path2320" d="m827.424 574.199-21.923 17.088 12.554 10.643z" class="grdc-2"/>
+    <path id="path2322" d="m807.981 640.255-25.029 3.464 5.867-18.709z" class="grdc-2"/>
+    <path id="path2324" d="m797.493 601.862-21.932 17.088 12.553 10.653z" class="grdc-2"/>
+    <path id="path2326" d="m799.78 586.578-14.908 28.088 14.599 2.538z" class="grdc-2"/>
+    <path id="path2328" d="m811.957 576.881-15.612 27.345 14.531 3.252z" class="grdc-2"/>
+    <path id="path2330" d="m810.693 634.524-23.833-11.135 10.903-13.702Z" class="grdc-2"/>
+    <path id="path2332" d="m816.742 583.983-18.747-23.244 13.913-6.649z" class="grdc-2"/>
+  </g>
+  <path id="path2336" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m831.457 394.893-52.683 37.93" class="grdc-1"/>
+  <g id="g2350">
+    <path id="path2338" d="m835.384 418.051-25.087 2.624 6.195-18.516z" class="grdc-2"/>
+    <path id="path2340" d="m825.571 379.32-22.221 16.345 12.37 11.067z" class="grdc-2"/>
+    <path id="path2342" d="m797.715 390.764-15.4 27.576 14.56 3.03z" class="grdc-2"/>
+    <path id="path2344" d="m810.056 381.481-16.075 26.815 14.463 3.734z" class="grdc-2"/>
+    <path id="path2346" d="m807.788 439.066-23.63-11.926 11.135-13.335z" class="grdc-2"/>
+    <path id="path2348" d="m821.798 437.783-23.919-10.778 10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path2352" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m836.378 626.38-58.202 16.143" class="grdc-1"/>
+  <g id="g2366">
+    <path id="path2354" d="m837.169 650.136-24.614-7.141 9.658-15.399z" class="grdc-2"/>
+    <path id="path2356" d="m835.51 609.147-24.624 7.14 9.658 15.4z" class="grdc-2"/>
+    <path id="path2358" d="m806.457 609.408-20.321 20.571 13.383 8.51z" class="grdc-2"/>
+    <path id="path2360" d="m820.168 605.249-20.813 19.568 13.152 9.166z" class="grdc-2"/>
+    <path id="path2362" d="m806.457 659.698-20.321-20.562 13.383-8.52z" class="grdc-2"/>
+    <path id="path2364" d="m820.168 663.856-20.813-19.568 13.152-9.156z" class="grdc-2"/>
+  </g>
+  <path id="path2368" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m832.518 665.063-53.387 35.99" class="grdc-1"/>
+  <g id="g2396">
+    <path id="path2370" d="m826.922 649.277-22.521 15.525 12.148 11.521z" class="grdc-2"/>
+    <path id="path2372" d="m798.863 659.698-15.911 27.007 14.493 3.56z" class="grdc-2"/>
+    <path id="path2374" d="m811.378 650.869-16.587 26.226 14.396 4.264z" class="grdc-2"/>
+    <path id="path2376" d="m808.02 708.357-23.408-12.794 11.395-12.92z" class="grdc-2"/>
+    <path id="path2378" d="m822.049 707.585-23.707-11.646 11.058-13.47Z" class="grdc-2"/>
+    <path id="path2380" d="m832.354 697.849-23.495 12.438 11.29 13.084z" class="grdc-2"/>
+    <path id="path2382" d="m803.697 704.459-17.725 24.749 14.174 5.491z" class="grdc-2"/>
+    <path id="path2384" d="m816.762 697.348-18.333 23.881 14.029 6.165z" class="grdc-2"/>
+    <path id="path2386" d="m809.419 754.112-22.405-15.863 12.245-11.337z" class="grdc-2"/>
+    <path id="path2388" d="m797.493 774.79-21.932 17.088 12.553 10.652z" class="grdc-2"/>
+    <path id="path2390" d="m799.78 759.506-14.908 28.088 14.599 2.537z" class="grdc-2"/>
+    <path id="path2392" d="m811.957 749.809-15.612 27.354 14.531 3.242z" class="grdc-2"/>
+    <path id="path2394" d="m816.742 756.91-18.747-23.244 13.913-6.638z" class="grdc-2"/>
+  </g>
+  <path id="path2398" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m831.457 567.82-52.683 37.93" class="grdc-1"/>
+  <g id="g2412">
+    <path id="path2400" d="m835.384 590.978-25.087 2.625 6.195-18.517z" class="grdc-2"/>
+    <path id="path2402" d="m825.571 552.247-22.221 16.346 12.37 11.067z" class="grdc-2"/>
+    <path id="path2404" d="m797.715 563.691-15.4 27.586 14.56 3.02z" class="grdc-2"/>
+    <path id="path2406" d="m810.056 554.409-16.075 26.814 14.463 3.734z" class="grdc-2"/>
+    <path id="path2408" d="m807.788 611.993-23.63-11.926 11.135-13.334z" class="grdc-2"/>
+    <path id="path2410" d="m821.798 610.71-23.919-10.778 10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path2414" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m709.967 607.941 69.849 71.47" class="grdc-1"/>
+  <path id="path2416" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m721.604 494.952 58.212 16.143" class="grdc-1"/>
+  <g id="g2432">
+    <path id="path2418" d="m720.813 518.708 24.624-7.14-9.658-15.4z" class="grdc-2"/>
+    <path id="path2420" d="m705.713 485.439 18.12 24.18 3.744-19.732z" class="grdc-2"/>
+    <path id="path2422" d="m722.482 477.729 24.615 7.14-9.659 15.39z" class="grdc-2"/>
+    <path id="path2424" d="m751.535 477.99 20.311 20.561-13.373 8.52z" class="grdc-2"/>
+    <path id="path2426" d="m737.814 473.821 20.823 19.568-13.152 9.167z" class="grdc-2"/>
+    <path id="path2428" d="m751.535 528.27 20.311-20.562-13.373-8.52z" class="grdc-2"/>
+    <path id="path2430" d="m737.814 532.429 20.823-19.568-13.152-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path2434" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m725.473 533.635 53.378 35.99" class="grdc-1"/>
+  <g id="g2450">
+    <path id="path2436" d="m721.99 556.927 25.116 1.708-6.542-18.285z" class="grdc-2"/>
+    <path id="path2438" d="m713.432 519.441 13.132 29.748 7.217-17.783z" class="grdc-2"/>
+    <path id="path2440" d="m731.06 517.849 22.521 15.535-12.148 11.511z" class="grdc-2"/>
+    <path id="path2442" d="m759.129 528.27 15.911 27.017-14.493 3.56z" class="grdc-2"/>
+    <path id="path2444" d="m746.614 519.451 16.577 26.216-14.386 4.265z" class="grdc-2"/>
+    <path id="path2446" d="m749.972 576.929 23.399-12.784-11.386-12.93z" class="grdc-2"/>
+    <path id="path2448" d="m735.943 576.157 23.707-11.646-11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path2452" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m722.83 582.883 55.645 28.667" class="grdc-1"/>
+  <g id="g2486">
+    <path id="path2454" d="m719.327 606.532 25.126-1.669-7.787-17.32z" class="grdc-2"/>
+    <path id="path2456" d="m708.202 570.368 15.139 27.847 5.934-18.671z" class="grdc-2"/>
+    <path id="path2458" d="m725.628 566.422 23.505 12.437-11.29 13.094z" class="grdc-2"/>
+    <path id="path2460" d="m754.295 573.031 17.715 24.75-14.174 5.49z" class="grdc-2"/>
+    <path id="path2462" d="m741.22 565.93 18.333 23.871-14.029 6.166z" class="grdc-2"/>
+    <path id="path2464" d="m748.573 622.684 22.395-15.862-12.235-11.338z" class="grdc-2"/>
+    <path id="path2466" d="m720.07 654.092 25.029 3.464-5.866-18.719z" class="grdc-2"/>
+    <path id="path2468" d="m705.799 627.258 21.17 18.835.897-20.369z" class="grdc-2"/>
+    <path id="path2470" d="m716.239 594.442 20.157 20.861-13.441 8.317z" class="grdc-2"/>
+    <path id="path2472" d="m730.558 615.699 21.932 17.088-12.553 10.652z" class="grdc-2"/>
+    <path id="path2474" d="m750.011 681.755 25.029 3.464-5.867-18.709z" class="grdc-2"/>
+    <path id="path2476" d="m760.499 643.372 21.922 17.078-12.553 10.653z" class="grdc-2"/>
+    <path id="path2478" d="m758.212 628.078 14.908 28.088-14.609 2.538z" class="grdc-2"/>
+    <path id="path2480" d="m746.035 618.381 15.603 27.355-14.532 3.242z" class="grdc-2"/>
+    <path id="path2482" d="m747.29 676.024 23.842-11.126-10.903-13.711z" class="grdc-2"/>
+    <path id="path2484" d="m741.249 625.483 18.748-23.235-13.913-6.648Z" class="grdc-2"/>
+  </g>
+  <path id="path2488" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m726.525 436.403 52.683 37.92" class="grdc-1"/>
+  <g id="g2504">
+    <path id="path2490" d="m722.608 459.551 25.077 2.624-6.194-18.516z" class="grdc-2"/>
+    <path id="path2492" d="m714.763 421.765 12.563 30.221 7.546-17.513z" class="grdc-2"/>
+    <path id="path2494" d="m732.421 420.82 22.211 16.345-12.36 11.067z" class="grdc-2"/>
+    <path id="path2496" d="m760.277 432.263 15.39 27.587-14.55 3.029z" class="grdc-2"/>
+    <path id="path2498" d="m747.936 422.981 16.075 26.824-14.473 3.734z" class="grdc-2"/>
+    <path id="path2500" d="m750.194 480.566 23.64-11.926-11.145-13.335z" class="grdc-2"/>
+    <path id="path2502" d="m736.184 479.283 23.919-10.778-10.787-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path2506" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m721.604 667.89 58.212 16.133" class="grdc-1"/>
+  <path id="path2508" stroke-width=".965" d="m705.712 658.366 18.12 24.18 3.745-19.732z" class="grdc-2"/>
+  <path id="path2510" stroke-width=".965" d="m737.814 646.759 20.822 19.558-13.151 9.166z" class="grdc-2"/>
+  <path id="path2512" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m726.525 609.33 52.683 37.93" class="grdc-1"/>
+  <g id="g2526">
+    <path id="path2514" d="m722.608 632.478 25.077 2.625-6.194-18.507z" class="grdc-2"/>
+    <path id="path2516" d="m714.763 594.693 12.563 30.22 7.546-17.512z" class="grdc-2"/>
+    <path id="path2518" d="m760.277 605.191 15.39 27.586-14.55 3.03z" class="grdc-2"/>
+    <path id="path2520" d="m747.936 595.909 16.075 26.824-14.473 3.734z" class="grdc-2"/>
+    <path id="path2522" d="m750.194 653.503 23.64-11.936-11.145-13.334z" class="grdc-2"/>
+    <path id="path2524" d="m736.184 652.21 23.919-10.778-10.787-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path2528" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m709.35 762.42 69.848 71.48" class="grdc-1"/>
+  <path id="path2530" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m720.986 649.441 58.212 16.143" class="grdc-1"/>
+  <g id="g2540">
+    <path id="path2532" d="m705.095 639.917 18.121 24.19 3.743-19.741z" class="grdc-2"/>
+    <path id="path2534" d="m750.918 632.468 20.311 20.562-13.374 8.52z" class="grdc-2"/>
+    <path id="path2536" d="m737.197 628.31 20.822 19.568-13.151 9.157z" class="grdc-2"/>
+    <path id="path2538" d="m737.197 686.917 20.822-19.568-13.151-9.166z" class="grdc-2"/>
+  </g>
+  <path id="path2542" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m724.856 688.123 53.377 35.99" class="grdc-1"/>
+  <g id="g2558">
+    <path id="path2544" d="m721.373 711.406 25.116 1.708-6.533-18.275z" class="grdc-2"/>
+    <path id="path2546" d="m712.814 673.93 13.132 29.747 7.218-17.792z" class="grdc-2"/>
+    <path id="path2548" d="m730.443 672.338 22.52 15.525-12.148 11.521z" class="grdc-2"/>
+    <path id="path2550" d="m758.511 682.759 15.911 27.007-14.492 3.56z" class="grdc-2"/>
+    <path id="path2552" d="m745.997 673.93 16.577 26.225-14.387 4.256z" class="grdc-2"/>
+    <path id="path2554" d="m749.355 731.408 23.398-12.785-11.386-12.919z" class="grdc-2"/>
+    <path id="path2556" d="m735.325 730.636 23.707-11.646-11.057-13.47Z" class="grdc-2"/>
+  </g>
+  <path id="path2560" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m722.212 737.371 55.645 28.667" class="grdc-1"/>
+  <g id="g2588">
+    <path id="path2562" d="m718.71 761.011 25.125-1.669-7.786-17.31z" class="grdc-2"/>
+    <path id="path2564" d="m707.584 724.857 15.14 27.837 5.934-18.661z" class="grdc-2"/>
+    <path id="path2566" d="m725.01 720.901 23.505 12.437-11.289 13.094z" class="grdc-2"/>
+    <path id="path2568" d="m753.677 727.52 17.716 24.749-14.175 5.481z" class="grdc-2"/>
+    <path id="path2570" d="m740.603 720.409 18.333 23.871-14.03 6.175z" class="grdc-2"/>
+    <path id="path2572" d="m747.955 777.173 22.396-15.863-12.235-11.337Z" class="grdc-2"/>
+    <path id="path2574" d="m715.622 748.921 20.157 20.871-13.441 8.317z" class="grdc-2"/>
+    <path id="path2576" d="m729.941 770.178 21.932 17.088-12.553 10.652z" class="grdc-2"/>
+    <path id="path2578" d="m745.418 772.87 15.602 27.345-14.531 3.242z" class="grdc-2"/>
+    <path id="path2580" d="m740.632 779.971 18.748-23.244-13.914-6.648z" class="grdc-2"/>
+    <path id="path2582" d="m731.803 575.308 22.212 16.346-12.36 11.067z" class="grdc-2"/>
+    <path id="path2584" d="m759.66 586.752 15.39 27.577-14.551 3.029z" class="grdc-2"/>
+    <path id="path2586" d="m747.319 577.47 16.075 26.814-14.474 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path2590" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m725.907 763.81 52.683 37.93" class="grdc-1"/>
+  <g id="g2602">
+    <path id="path2592" d="m721.99 786.967 25.078 2.614-6.195-18.506z" class="grdc-2"/>
+    <path id="path2594" d="m714.146 749.182 12.563 30.21 7.545-17.513z" class="grdc-2"/>
+    <path id="path2596" d="m731.803 748.236 22.212 16.345-12.36 11.067z" class="grdc-2"/>
+    <path id="path2598" d="m759.66 759.68 15.39 27.576-14.551 3.03z" class="grdc-2"/>
+    <path id="path2600" d="m747.319 750.397 16.075 26.815-14.474 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path2604" stroke-width=".965" d="M215.027 251.684v643.727c0 8.684-.154 17.368 0 26.052v1.148c0 2.789 4.342 2.798 4.342 0V278.913c0-8.684.154-17.368 0-26.052v-1.138c0-2.798-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path2606" stroke-width=".965" d="M366.553 250.72v643.726c0 8.684-.154 17.368 0 26.052v1.148c0 2.789 4.342 2.798 4.342 0V277.95c0-8.684.155-17.368 0-26.052v-1.139c0-2.798-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path2608" stroke-width=".965" d="M556.154 251.684v643.727c0 8.684-.154 17.368 0 26.052v1.148c0 2.789 4.342 2.798 4.342 0V278.913c0-8.684.155-17.368 0-26.052v-1.138c0-2.798-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path2610" stroke-width=".965" d="M773.978 257.474V855.85c0 8.684-.154 17.368 0 26.052v1.149c0 2.788 4.342 2.798 4.342 0V284.703c0-8.684.155-17.368 0-26.052v-1.139c0-2.798-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path2612" stroke-width=".965" d="M283.94 204.347V801.71c0 8.067-.145 16.153 0 24.219v1.052c0 2.798 4.341 2.798 4.341 0V229.627c0-8.067.155-16.152 0-24.219v-1.061c0-2.789-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path2614" stroke-width=".965" d="M459.878 204.347V801.71c0 8.067-.145 16.153 0 24.219v1.052c0 2.798 4.342 2.798 4.342 0V229.627c0-8.067.154-16.152 0-24.219v-1.061c0-2.789-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path2616" stroke-width=".965" d="M662.051 204.347V801.71c0 8.067-.145 16.153 0 24.219v1.052c0 2.798 4.342 2.798 4.342 0V229.627c0-8.067.154-16.152 0-24.219v-1.061c0-2.789-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path2618" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m245.566 458.692-69.858 71.479" class="grdc-1"/>
+  <path id="path2620" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m233.92 345.713-58.212 16.133" class="grdc-1"/>
+  <g id="g2636">
+    <path id="path2622" d="m234.711 369.459-24.614-7.14 9.658-15.4z" class="grdc-2"/>
+    <path id="path2624" d="m249.812 336.189-18.121 24.18-3.734-19.732z" class="grdc-2"/>
+    <path id="path2626" d="m233.052 328.48-24.624 7.14 9.658 15.4z" class="grdc-2"/>
+    <path id="path2628" d="m203.989 328.74-20.311 20.562 13.373 8.52z" class="grdc-2"/>
+    <path id="path2630" d="m217.71 324.582-20.823 19.568 13.152 9.156z" class="grdc-2"/>
+    <path id="path2632" d="m203.989 379.021-20.311-20.562 13.373-8.52z" class="grdc-2"/>
+    <path id="path2634" d="m217.71 383.179-20.823-19.568 13.152-9.156z" class="grdc-2"/>
+  </g>
+  <path id="path2638" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m230.06 384.395-53.387 35.99" class="grdc-1"/>
+  <g id="g2654">
+    <path id="path2640" d="m233.534 407.678-25.116 1.708 6.542-18.275z" class="grdc-2"/>
+    <path id="path2642" d="M242.093 370.202 228.96 399.94l-7.207-17.783Z" class="grdc-2"/>
+    <path id="path2644" d="m224.464 368.6-22.521 15.535 12.148 11.511z" class="grdc-2"/>
+    <path id="path2646" d="m196.395 379.03-15.901 27.008 14.483 3.56z" class="grdc-2"/>
+    <path id="path2648" d="m208.91 370.202-16.577 26.216 14.396 4.265z" class="grdc-2"/>
+    <path id="path2650" d="m205.552 427.68-23.398-12.785 11.395-12.919z" class="grdc-2"/>
+    <path id="path2652" d="m219.582 426.908-23.708-11.646 11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path2656" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M232.694 433.634 177.05 462.3" class="grdc-1"/>
+  <g id="g2690">
+    <path id="path2658" d="m236.197 457.283-25.116-1.669 7.777-17.32z" class="grdc-2"/>
+    <path id="path2660" d="m247.332 421.119-15.149 27.847-5.934-18.671z" class="grdc-2"/>
+    <path id="path2662" d="m229.896 417.173-23.495 12.437 11.28 13.094z" class="grdc-2"/>
+    <path id="path2664" d="m201.239 423.782-17.725 24.749 14.174 5.491z" class="grdc-2"/>
+    <path id="path2666" d="m214.304 416.68-18.333 23.872L210 446.727Z" class="grdc-2"/>
+    <path id="path2668" d="m206.951 473.435-22.395-15.863 12.235-11.327z" class="grdc-2"/>
+    <path id="path2670" d="m235.454 504.842-25.029 3.464 5.866-18.718z" class="grdc-2"/>
+    <path id="path2672" d="m249.734 478.009-21.169 18.835-.898-20.369z" class="grdc-2"/>
+    <path id="path2674" d="m239.285 445.193-20.157 20.861 13.441 8.317z" class="grdc-2"/>
+    <path id="path2676" d="m224.966 466.449-21.923 17.089 12.554 10.652z" class="grdc-2"/>
+    <path id="path2678" d="m205.514 532.506-25.02 3.464 5.857-18.709z" class="grdc-2"/>
+    <path id="path2680" d="m195.035 494.123-21.932 17.078 12.553 10.652z" class="grdc-2"/>
+    <path id="path2682" d="m197.322 478.829-14.908 28.088 14.599 2.538z" class="grdc-2"/>
+    <path id="path2684" d="m209.489 469.132-15.602 27.354 14.531 3.243z" class="grdc-2"/>
+    <path id="path2686" d="m208.235 526.774-23.833-11.125 10.903-13.711z" class="grdc-2"/>
+    <path id="path2688" d="m214.284 476.233-18.757-23.234 13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path2692" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m228.999 287.154-52.683 37.93" class="grdc-1"/>
+  <g id="g2708">
+    <path id="path2694" d="m232.926 310.301-25.087 2.625 6.195-18.507z" class="grdc-2"/>
+    <path id="path2696" d="m240.761 272.516-12.563 30.221-7.545-17.513z" class="grdc-2"/>
+    <path id="path2698" d="m223.113 271.571-22.221 16.345 12.36 11.067z" class="grdc-2"/>
+    <path id="path2700" d="m195.247 283.014-15.39 27.586 14.56 3.03z" class="grdc-2"/>
+    <path id="path2702" d="m207.598 273.742-16.085 26.814 14.473 3.734z" class="grdc-2"/>
+    <path id="path2704" d="m205.33 331.317-23.64-11.926 11.145-13.335z" class="grdc-2"/>
+    <path id="path2706" d="m219.34 330.033-23.919-10.777 10.797-13.866Z" class="grdc-2"/>
+  </g>
+  <path id="path2710" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m245.566 631.62-69.858 71.479" class="grdc-1"/>
+  <path id="path2712" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m233.92 518.64-58.212 16.133" class="grdc-1"/>
+  <g id="g2728">
+    <path id="path2714" d="m234.711 542.386-24.614-7.14 9.658-15.4z" class="grdc-2"/>
+    <path id="path2716" d="m249.812 509.117-18.121 24.18-3.734-19.732z" class="grdc-2"/>
+    <path id="path2718" d="m233.052 501.407-24.624 7.141 9.658 15.399z" class="grdc-2"/>
+    <path id="path2720" d="m203.989 501.668-20.311 20.562 13.373 8.52z" class="grdc-2"/>
+    <path id="path2722" d="m217.71 497.509-20.823 19.568 13.152 9.157z" class="grdc-2"/>
+    <path id="path2724" d="m203.989 551.948-20.311-20.561 13.373-8.52z" class="grdc-2"/>
+    <path id="path2726" d="m217.71 556.117-20.823-19.578 13.152-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path2730" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m230.06 557.323-53.387 35.99" class="grdc-1"/>
+  <g id="g2746">
+    <path id="path2732" d="m233.534 580.606-25.116 1.707 6.542-18.275z" class="grdc-2"/>
+    <path id="path2734" d="m242.093 543.129-13.133 29.738-7.207-17.783z" class="grdc-2"/>
+    <path id="path2736" d="m224.464 541.537-22.521 15.525 12.148 11.511z" class="grdc-2"/>
+    <path id="path2738" d="m196.395 551.958-15.901 27.007 14.483 3.561z" class="grdc-2"/>
+    <path id="path2740" d="m208.91 543.129-16.577 26.216 14.396 4.265z" class="grdc-2"/>
+    <path id="path2742" d="m205.552 600.608-23.398-12.785 11.395-12.92z" class="grdc-2"/>
+    <path id="path2744" d="m219.582 599.836-23.708-11.646 11.058-13.47Z" class="grdc-2"/>
+  </g>
+  <path id="path2748" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m232.694 606.561-55.645 28.667" class="grdc-1"/>
+  <g id="g2778">
+    <path id="path2750" d="m236.197 630.211-25.116-1.67 7.777-17.319z" class="grdc-2"/>
+    <path id="path2752" d="m247.332 594.047-15.149 27.846-5.934-18.661z" class="grdc-2"/>
+    <path id="path2754" d="m229.896 590.1-23.495 12.438 11.28 13.093z" class="grdc-2"/>
+    <path id="path2756" d="m201.239 596.719-17.725 24.74 14.174 5.49z" class="grdc-2"/>
+    <path id="path2758" d="m214.304 589.608-18.333 23.871L210 619.655Z" class="grdc-2"/>
+    <path id="path2760" d="M206.951 646.373 184.556 630.5l12.235-11.328Z" class="grdc-2"/>
+    <path id="path2762" d="m235.454 677.77-25.029 3.464 5.866-18.709z" class="grdc-2"/>
+    <path id="path2764" d="m249.734 650.946-21.169 18.825-.898-20.359z" class="grdc-2"/>
+    <path id="path2766" d="m239.285 618.121-20.157 20.86 13.441 8.327z" class="grdc-2"/>
+    <path id="path2768" d="m224.966 639.377-21.923 17.088 12.554 10.653z" class="grdc-2"/>
+    <path id="path2770" d="m195.035 667.05-21.932 17.088 12.553 10.653z" class="grdc-2"/>
+    <path id="path2772" d="m197.322 651.757-14.908 28.088 14.599 2.537z" class="grdc-2"/>
+    <path id="path2774" d="m209.489 642.069-15.602 27.345 14.531 3.242z" class="grdc-2"/>
+    <path id="path2776" d="m214.284 649.171-18.757-23.245 13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path2780" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m228.999 460.081-52.683 37.93" class="grdc-1"/>
+  <g id="g2796">
+    <path id="path2782" d="m232.926 483.229-25.087 2.624 6.195-18.506z" class="grdc-2"/>
+    <path id="path2784" d="m240.761 445.453-12.563 30.211-7.545-17.513z" class="grdc-2"/>
+    <path id="path2786" d="m223.113 444.498-22.221 16.345 12.36 11.077z" class="grdc-2"/>
+    <path id="path2788" d="m195.247 455.951-15.39 27.577 14.56 3.03z" class="grdc-2"/>
+    <path id="path2790" d="m207.598 446.669-16.085 26.815 14.473 3.734z" class="grdc-2"/>
+    <path id="path2792" d="m205.33 504.254-23.64-11.936 11.145-13.335z" class="grdc-2"/>
+    <path id="path2794" d="m219.34 502.961-23.919-10.778 10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path2798" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m107.5 500.192 69.858 71.479" class="grdc-1"/>
+  <path id="path2800" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m119.146 387.213 58.212 16.142" class="grdc-1"/>
+  <g id="g2816">
+    <path id="path2802" d="m118.355 410.968 24.614-7.15-9.648-15.39z" class="grdc-2"/>
+    <path id="path2804" d="m103.255 377.689 18.12 24.19 3.744-19.732z" class="grdc-2"/>
+    <path id="path2806" d="m120.015 369.98 24.624 7.14-9.659 15.4z" class="grdc-2"/>
+    <path id="path2808" d="m149.077 370.24 20.311 20.562-13.373 8.52z" class="grdc-2"/>
+    <path id="path2810" d="m135.356 366.082 20.823 19.568-13.152 9.156z" class="grdc-2"/>
+    <path id="path2812" d="m149.077 420.521 20.311-20.562-13.373-8.52z" class="grdc-2"/>
+    <path id="path2814" d="m135.356 424.689 20.823-19.568-13.152-9.166z" class="grdc-2"/>
+  </g>
+  <path id="path2818" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m123.005 425.895 53.388 35.99" class="grdc-1"/>
+  <g id="g2834">
+    <path id="path2820" d="m119.523 449.178 25.125 1.708-6.542-18.275z" class="grdc-2"/>
+    <path id="path2822" d="m110.974 411.702 13.132 29.738 7.208-17.783z" class="grdc-2"/>
+    <path id="path2824" d="m128.602 410.11 22.521 15.525-12.148 11.52z" class="grdc-2"/>
+    <path id="path2826" d="m156.671 420.53 15.911 27.008-14.493 3.56z" class="grdc-2"/>
+    <path id="path2828" d="m144.156 411.702 16.577 26.225-14.386 4.255z" class="grdc-2"/>
+    <path id="path2830" d="m147.514 469.18 23.399-12.785-11.396-12.92z" class="grdc-2"/>
+    <path id="path2832" d="m133.485 468.408 23.707-11.646-11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path2836" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m120.371 475.143 55.645 28.667" class="grdc-1"/>
+  <g id="g2870">
+    <path id="path2838" d="m116.869 498.783 25.116-1.669-7.777-17.31z" class="grdc-2"/>
+    <path id="path2840" d="m105.744 462.619 15.139 27.847 5.934-18.661z" class="grdc-2"/>
+    <path id="path2842" d="m123.17 458.672 23.495 12.438-11.28 13.093z" class="grdc-2"/>
+    <path id="path2844" d="m151.837 465.292 17.715 24.749-14.174 5.481z" class="grdc-2"/>
+    <path id="path2846" d="m138.762 458.18 18.333 23.872-14.029 6.175z" class="grdc-2"/>
+    <path id="path2848" d="m146.115 514.945 22.395-15.863-12.235-11.337Z" class="grdc-2"/>
+    <path id="path2850" d="m117.612 546.342 25.029 3.464-5.866-18.709z" class="grdc-2"/>
+    <path id="path2852" d="m103.332 519.518 21.169 18.825.898-20.359z" class="grdc-2"/>
+    <path id="path2854" d="m113.781 486.693 20.157 20.87-13.441 8.318z" class="grdc-2"/>
+    <path id="path2856" d="m128.1 507.949 21.923 17.089-12.553 10.652z" class="grdc-2"/>
+    <path id="path2858" d="m147.553 574.015 25.029 3.464-5.867-18.718z" class="grdc-2"/>
+    <path id="path2860" d="m158.031 535.622 21.932 17.089-12.553 10.652z" class="grdc-2"/>
+    <path id="path2862" d="m155.754 520.329 14.898 28.088-14.599 2.547z" class="grdc-2"/>
+    <path id="path2864" d="m143.577 510.641 15.603 27.345-14.532 3.252z" class="grdc-2"/>
+    <path id="path2866" d="m144.832 568.284 23.832-11.135-10.903-13.701z" class="grdc-2"/>
+    <path id="path2868" d="m138.782 517.743 18.757-23.244-13.913-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path2872" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m124.067 328.654 52.683 37.93" class="grdc-1"/>
+  <g id="g2888">
+    <path id="path2874" d="m120.14 351.811 25.087 2.615-6.194-18.507z" class="grdc-2"/>
+    <path id="path2876" d="m112.305 314.026 12.563 30.211 7.546-17.513z" class="grdc-2"/>
+    <path id="path2878" d="m129.953 313.08 22.221 16.336-12.36 11.077z" class="grdc-2"/>
+    <path id="path2880" d="m157.819 324.524 15.39 27.576-14.56 3.03z" class="grdc-2"/>
+    <path id="path2882" d="m145.478 315.242 16.075 26.814-14.473 3.734z" class="grdc-2"/>
+    <path id="path2884" d="m147.736 372.826 23.64-11.926-11.145-13.335Z" class="grdc-2"/>
+    <path id="path2886" d="m133.726 371.533 23.919-10.778-10.797-13.855Z" class="grdc-2"/>
+  </g>
+  <path id="path2890" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m119.146 560.14 58.212 16.143" class="grdc-1"/>
+  <path id="path2892" stroke-width=".965" d="m103.254 550.617 18.12 24.19 3.744-19.732z" class="grdc-2"/>
+  <path id="path2894" stroke-width=".965" d="m135.356 539.01 20.822 19.567-13.151 9.157z" class="grdc-2"/>
+  <path id="path2896" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m124.067 501.581 52.683 37.93" class="grdc-1"/>
+  <g id="g2910">
+    <path id="path2898" d="m120.14 524.738 25.087 2.625-6.194-18.516z" class="grdc-2"/>
+    <path id="path2900" d="m112.305 486.953 12.563 30.211 7.546-17.513z" class="grdc-2"/>
+    <path id="path2902" d="m157.819 497.451 15.39 27.577-14.56 3.03z" class="grdc-2"/>
+    <path id="path2904" d="m145.478 488.169 16.075 26.814-14.473 3.735z" class="grdc-2"/>
+    <path id="path2906" d="m147.736 545.754 23.64-11.926-11.145-13.335z" class="grdc-2"/>
+    <path id="path2908" d="m133.726 544.47 23.919-10.777-10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path2912" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m106.882 654.67 69.858 71.48" class="grdc-1"/>
+  <path id="path2914" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m118.528 541.692 58.212 16.142" class="grdc-1"/>
+  <g id="g2924">
+    <path id="path2916" d="m102.637 532.168 18.121 24.19 3.743-19.732z" class="grdc-2"/>
+    <path id="path2918" d="m148.46 524.729 20.311 20.562-13.374 8.51z" class="grdc-2"/>
+    <path id="path2920" d="m134.739 520.561 20.822 19.567-13.151 9.167z" class="grdc-2"/>
+    <path id="path2922" d="m134.739 579.168 20.822-19.568-13.151-9.157Z" class="grdc-2"/>
+  </g>
+  <path id="path2926" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m122.388 580.374 53.387 35.99" class="grdc-1"/>
+  <g id="g2942">
+    <path id="path2928" d="m118.905 603.666 25.126 1.708-6.542-18.284z" class="grdc-2"/>
+    <path id="path2930" d="m110.356 566.181 13.132 29.747 7.208-17.783z" class="grdc-2"/>
+    <path id="path2932" d="m127.985 564.588 22.52 15.526-12.148 11.52z" class="grdc-2"/>
+    <path id="path2934" d="m156.053 575.009 15.911 27.017-14.492 3.561z" class="grdc-2"/>
+    <path id="path2936" d="m143.539 566.19 16.576 26.216-14.386 4.265z" class="grdc-2"/>
+    <path id="path2938" d="m146.897 623.669 23.398-12.795-11.395-12.92Z" class="grdc-2"/>
+    <path id="path2940" d="m132.867 622.897 23.707-11.656-11.057-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path2944" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m119.754 629.622 55.645 28.667" class="grdc-1"/>
+  <g id="g2972">
+    <path id="path2946" d="m116.252 653.271 25.116-1.669-7.777-17.32z" class="grdc-2"/>
+    <path id="path2948" d="m105.126 617.107 15.14 27.847 5.934-18.67z" class="grdc-2"/>
+    <path id="path2950" d="m122.552 613.161 23.495 12.437-11.279 13.094z" class="grdc-2"/>
+    <path id="path2952" d="m151.219 619.77 17.716 24.75-14.175 5.49z" class="grdc-2"/>
+    <path id="path2954" d="m138.145 612.659 18.333 23.881-14.03 6.166z" class="grdc-2"/>
+    <path id="path2956" d="m145.497 669.424 22.396-15.863-12.235-11.338z" class="grdc-2"/>
+    <path id="path2958" d="m113.164 641.181 20.157 20.861-13.441 8.318z" class="grdc-2"/>
+    <path id="path2960" d="m127.483 662.438 21.922 17.088-12.553 10.653z" class="grdc-2"/>
+    <path id="path2962" d="m142.96 665.12 15.602 27.355-14.531 3.242z" class="grdc-2"/>
+    <path id="path2964" d="m138.164 672.222 18.758-23.244-13.914-6.639z" class="grdc-2"/>
+    <path id="path2966" d="m129.336 467.559 22.221 16.345-12.36 11.068z" class="grdc-2"/>
+    <path id="path2968" d="m157.202 479.003 15.39 27.576-14.561 3.04z" class="grdc-2"/>
+    <path id="path2970" d="m144.861 469.72 16.075 26.824-14.474 3.735z" class="grdc-2"/>
+  </g>
+  <path id="path2974" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m123.45 656.07 52.682 37.92" class="grdc-1"/>
+  <g id="g2986">
+    <path id="path2976" d="m119.523 679.217 25.087 2.625-6.195-18.507z" class="grdc-2"/>
+    <path id="path2978" d="m111.688 641.442 12.563 30.211 7.545-17.513z" class="grdc-2"/>
+    <path id="path2980" d="m129.336 640.487 22.221 16.345-12.36 11.067z" class="grdc-2"/>
+    <path id="path2982" d="m157.202 651.93 15.39 27.586-14.561 3.03z" class="grdc-2"/>
+    <path id="path2984" d="m144.861 642.658 16.075 26.814-14.474 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path2988" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M312.278 458.692 242.43 530.17" class="grdc-1"/>
+  <path id="path2990" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m300.632 345.713-58.202 16.133" class="grdc-1"/>
+  <g id="g3006">
+    <path id="path2992" d="m301.424 369.459-24.615-7.14 9.659-15.4z" class="grdc-2"/>
+    <path id="path2994" d="m316.524 336.189-18.111 24.18-3.744-19.732z" class="grdc-2"/>
+    <path id="path2996" d="m299.764 328.48-24.624 7.14 9.659 15.4z" class="grdc-2"/>
+    <path id="path2998" d="m270.711 328.74-20.32 20.562 13.373 8.52z" class="grdc-2"/>
+    <path id="path3000" d="M284.422 324.582 263.6 344.15l13.151 9.156z" class="grdc-2"/>
+    <path id="path3002" d="m270.711 379.021-20.32-20.562 13.373-8.52z" class="grdc-2"/>
+    <path id="path3004" d="M284.422 383.179 263.6 363.611l13.151-9.156Z" class="grdc-2"/>
+  </g>
+  <path id="path3008" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m296.772 384.395-53.387 35.99" class="grdc-1"/>
+  <g id="g3024">
+    <path id="path3010" d="m300.256 407.678-25.126 1.708 6.542-18.275z" class="grdc-2"/>
+    <path id="path3012" d="m308.805 370.202-13.132 29.738-7.208-17.783z" class="grdc-2"/>
+    <path id="path3014" d="m291.177 368.6-22.521 15.535 12.148 11.511z" class="grdc-2"/>
+    <path id="path3016" d="m263.118 379.03-15.912 27.008 14.483 3.56z" class="grdc-2"/>
+    <path id="path3018" d="m275.632 370.202-16.586 26.216 14.396 4.265z" class="grdc-2"/>
+    <path id="path3020" d="m272.274 427.68-23.408-12.785 11.395-12.919z" class="grdc-2"/>
+    <path id="path3022" d="m286.304 426.908-23.708-11.646 11.048-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path3026" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M299.407 433.634 243.76 462.3" class="grdc-1"/>
+  <g id="g3060">
+    <path id="path3028" d="m302.919 457.283-25.126-1.669 7.787-17.32z" class="grdc-2"/>
+    <path id="path3030" d="m314.044 421.119-15.139 27.847-5.943-18.671z" class="grdc-2"/>
+    <path id="path3032" d="m296.609 417.173-23.495 12.437 11.289 13.094z" class="grdc-2"/>
+    <path id="path3034" d="m267.952 423.782-17.725 24.749 14.174 5.491z" class="grdc-2"/>
+    <path id="path3036" d="m281.016 416.68-18.333 23.872 14.03 6.175z" class="grdc-2"/>
+    <path id="path3038" d="m273.664 473.435-22.395-15.863 12.234-11.327z" class="grdc-2"/>
+    <path id="path3040" d="m302.167 504.842-25.03 3.464 5.867-18.718z" class="grdc-2"/>
+    <path id="path3042" d="m316.447 478.009-21.17 18.835-.897-20.369z" class="grdc-2"/>
+    <path id="path3044" d="m305.997 445.193-20.147 20.861 13.432 8.317z" class="grdc-2"/>
+    <path id="path3046" d="m291.678 466.449-21.922 17.089 12.553 10.652z" class="grdc-2"/>
+    <path id="path3048" d="m272.226 532.506-25.02 3.464 5.867-18.709z" class="grdc-2"/>
+    <path id="path3050" d="m261.747 494.123-21.932 17.078 12.554 10.652z" class="grdc-2"/>
+    <path id="path3052" d="m264.034 478.829-14.907 28.088 14.598 2.538z" class="grdc-2"/>
+    <path id="path3054" d="m276.201 469.132-15.602 27.354 14.531 3.243z" class="grdc-2"/>
+    <path id="path3056" d="m274.947 526.774-23.833-11.125 10.904-13.711z" class="grdc-2"/>
+    <path id="path3058" d="m280.997 476.233-18.758-23.234 13.924-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path3062" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m295.711 287.154-52.683 37.93" class="grdc-1"/>
+  <g id="g3078">
+    <path id="path3064" d="m299.639 310.301-25.088 2.625 6.195-18.507z" class="grdc-2"/>
+    <path id="path3066" d="m307.473 272.516-12.553 30.221-7.555-17.513z" class="grdc-2"/>
+    <path id="path3068" d="m289.826 271.571-22.222 16.345 12.36 11.067z" class="grdc-2"/>
+    <path id="path3070" d="M261.969 283.014 246.57 310.6l14.56 3.03z" class="grdc-2"/>
+    <path id="path3072" d="m274.31 273.742-16.084 26.814 14.473 3.734z" class="grdc-2"/>
+    <path id="path3074" d="m272.043 331.317-23.63-11.926 11.134-13.335z" class="grdc-2"/>
+    <path id="path3076" d="m286.053 330.033-23.92-10.777 10.797-13.866Z" class="grdc-2"/>
+  </g>
+  <path id="path3080" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m312.278 631.62-69.848 71.479" class="grdc-1"/>
+  <path id="path3082" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m300.632 518.64-58.202 16.133" class="grdc-1"/>
+  <g id="g3098">
+    <path id="path3084" d="m301.424 542.386-24.615-7.14 9.659-15.4z" class="grdc-2"/>
+    <path id="path3086" d="m316.524 509.117-18.111 24.18-3.744-19.732z" class="grdc-2"/>
+    <path id="path3088" d="m299.764 501.407-24.624 7.141 9.659 15.399z" class="grdc-2"/>
+    <path id="path3090" d="m270.711 501.668-20.32 20.562 13.373 8.52z" class="grdc-2"/>
+    <path id="path3092" d="M284.422 497.509 263.6 517.077l13.151 9.157z" class="grdc-2"/>
+    <path id="path3094" d="m270.711 551.948-20.32-20.561 13.373-8.52z" class="grdc-2"/>
+    <path id="path3096" d="M284.422 556.117 263.6 536.539l13.151-9.157Z" class="grdc-2"/>
+  </g>
+  <path id="path3100" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m296.772 557.323-53.387 35.99" class="grdc-1"/>
+  <g id="g3116">
+    <path id="path3102" d="m300.256 580.606-25.126 1.707 6.542-18.275z" class="grdc-2"/>
+    <path id="path3104" d="m308.805 543.129-13.132 29.738-7.208-17.783z" class="grdc-2"/>
+    <path id="path3106" d="m291.177 541.537-22.521 15.525 12.148 11.511z" class="grdc-2"/>
+    <path id="path3108" d="m263.118 551.958-15.912 27.007 14.483 3.561z" class="grdc-2"/>
+    <path id="path3110" d="m275.632 543.129-16.586 26.216 14.396 4.265z" class="grdc-2"/>
+    <path id="path3112" d="m272.274 600.608-23.408-12.785 11.395-12.92z" class="grdc-2"/>
+    <path id="path3114" d="m286.304 599.836-23.708-11.646 11.048-13.47Z" class="grdc-2"/>
+  </g>
+  <path id="path3118" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m299.407 606.561-55.646 28.667" class="grdc-1"/>
+  <g id="g3148">
+    <path id="path3120" d="m302.919 630.211-25.126-1.67 7.787-17.319z" class="grdc-2"/>
+    <path id="path3122" d="m314.044 594.047-15.139 27.846-5.943-18.661z" class="grdc-2"/>
+    <path id="path3124" d="m296.609 590.1-23.495 12.438 11.289 13.093z" class="grdc-2"/>
+    <path id="path3126" d="m267.952 596.719-17.725 24.74 14.174 5.49z" class="grdc-2"/>
+    <path id="path3128" d="m281.016 589.608-18.333 23.871 14.03 6.176z" class="grdc-2"/>
+    <path id="path3130" d="M273.664 646.373 251.269 630.5l12.234-11.328Z" class="grdc-2"/>
+    <path id="path3132" d="m302.167 677.77-25.03 3.464 5.867-18.709z" class="grdc-2"/>
+    <path id="path3134" d="m316.447 650.946-21.17 18.825-.897-20.359z" class="grdc-2"/>
+    <path id="path3136" d="m305.997 618.121-20.147 20.86 13.432 8.327z" class="grdc-2"/>
+    <path id="path3138" d="m291.678 639.377-21.922 17.088 12.553 10.653z" class="grdc-2"/>
+    <path id="path3140" d="m261.747 667.05-21.932 17.088 12.554 10.653z" class="grdc-2"/>
+    <path id="path3142" d="m264.034 651.757-14.907 28.088 14.598 2.537z" class="grdc-2"/>
+    <path id="path3144" d="m276.201 642.069-15.602 27.345 14.531 3.242z" class="grdc-2"/>
+    <path id="path3146" d="m280.997 649.171-18.758-23.245 13.924-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path3150" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m295.711 460.081-52.683 37.93" class="grdc-1"/>
+  <g id="g3166">
+    <path id="path3152" d="m299.639 483.229-25.088 2.624 6.195-18.506z" class="grdc-2"/>
+    <path id="path3154" d="m307.473 445.453-12.553 30.211-7.555-17.513z" class="grdc-2"/>
+    <path id="path3156" d="m289.826 444.498-22.222 16.345 12.36 11.077z" class="grdc-2"/>
+    <path id="path3158" d="m261.969 455.951-15.399 27.577 14.56 3.03z" class="grdc-2"/>
+    <path id="path3160" d="m274.31 446.669-16.084 26.815 14.473 3.734z" class="grdc-2"/>
+    <path id="path3162" d="m272.043 504.254-23.63-11.936 11.134-13.335z" class="grdc-2"/>
+    <path id="path3164" d="m286.053 502.961-23.92-10.778 10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path3168" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m208.958 500.192 69.848 71.479" class="grdc-1"/>
+  <path id="path3170" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m220.594 387.213 58.212 16.142" class="grdc-1"/>
+  <g id="g3186">
+    <path id="path3172" d="m219.804 410.968 24.624-7.15-9.659-15.39z" class="grdc-2"/>
+    <path id="path3174" d="m204.703 377.689 18.121 24.19 3.743-19.732z" class="grdc-2"/>
+    <path id="path3176" d="m221.473 369.98 24.614 7.14-9.658 15.4z" class="grdc-2"/>
+    <path id="path3178" d="m215.79 370.24 20.311 20.562-13.374 8.52z" class="grdc-2"/>
+    <path id="path3180" d="m202.069 366.082 20.822 19.568-13.151 9.156z" class="grdc-2"/>
+    <path id="path3182" d="m215.79 420.521 20.311-20.562-13.374-8.52z" class="grdc-2"/>
+    <path id="path3184" d="m202.069 424.689 20.822-19.568-13.151-9.166z" class="grdc-2"/>
+  </g>
+  <path id="path3188" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m224.464 425.895 53.377 35.99" class="grdc-1"/>
+  <g id="g3204">
+    <path id="path3190" d="m220.981 449.178 25.116 1.708-6.542-18.275z" class="grdc-2"/>
+    <path id="path3192" d="m212.422 411.702 13.132 29.738 7.208-17.783z" class="grdc-2"/>
+    <path id="path3194" d="m230.051 410.11 22.52 15.525-12.148 11.52z" class="grdc-2"/>
+    <path id="path3196" d="m223.383 420.53 15.911 27.008-14.492 3.56z" class="grdc-2"/>
+    <path id="path3198" d="m210.869 411.702 16.577 26.225-14.387 4.255z" class="grdc-2"/>
+    <path id="path3200" d="m214.227 469.18 23.398-12.785-11.386-12.92z" class="grdc-2"/>
+    <path id="path3202" d="m234.933 468.408 23.707-11.646-11.057-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path3206" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m221.82 475.143 55.645 28.667" class="grdc-1"/>
+  <g id="g3240">
+    <path id="path3208" d="m218.318 498.783 25.125-1.669-7.786-17.31z" class="grdc-2"/>
+    <path id="path3210" d="m207.192 462.619 15.14 27.847 5.934-18.661z" class="grdc-2"/>
+    <path id="path3212" d="m224.618 458.672 23.505 12.438-11.289 13.093z" class="grdc-2"/>
+    <path id="path3214" d="m218.549 465.292 17.716 24.749-14.175 5.481z" class="grdc-2"/>
+    <path id="path3216" d="m205.475 458.18 18.333 23.872-14.03 6.175z" class="grdc-2"/>
+    <path id="path3218" d="m212.827 514.945 22.396-15.863-12.235-11.337z" class="grdc-2"/>
+    <path id="path3220" d="m219.061 546.342 25.029 3.464-5.867-18.709z" class="grdc-2"/>
+    <path id="path3222" d="m204.79 519.518 21.17 18.825.897-20.359z" class="grdc-2"/>
+    <path id="path3224" d="m215.23 486.693 20.157 20.87-13.441 8.318z" class="grdc-2"/>
+    <path id="path3226" d="m229.549 507.949 21.922 17.089-12.543 10.652z" class="grdc-2"/>
+    <path id="path3228" d="m214.265 574.015 25.029 3.464-5.866-18.718z" class="grdc-2"/>
+    <path id="path3230" d="m224.753 535.622 21.923 17.089-12.553 10.652z" class="grdc-2"/>
+    <path id="path3232" d="m222.467 520.329 14.907 28.088-14.608 2.547z" class="grdc-2"/>
+    <path id="path3234" d="m210.29 510.641 15.602 27.345-14.531 3.252z" class="grdc-2"/>
+    <path id="path3236" d="m211.544 568.284 23.833-11.135-10.894-13.701z" class="grdc-2"/>
+    <path id="path3238" d="m205.494 517.743 18.758-23.244-13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path3242" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m225.515 328.654 52.683 37.93" class="grdc-1"/>
+  <g id="g3258">
+    <path id="path3244" d="m221.589 351.811 25.087 2.615-6.195-18.507z" class="grdc-2"/>
+    <path id="path3246" d="m213.754 314.026 12.563 30.211 7.545-17.513z" class="grdc-2"/>
+    <path id="path3248" d="m231.402 313.08 22.221 16.336-12.36 11.077z" class="grdc-2"/>
+    <path id="path3250" d="m224.532 324.524 15.39 27.576-14.551 3.03z" class="grdc-2"/>
+    <path id="path3252" d="m212.191 315.242 16.075 26.814-14.474 3.734z" class="grdc-2"/>
+    <path id="path3254" d="m214.448 372.826 23.64-11.926-11.144-13.335Z" class="grdc-2"/>
+    <path id="path3256" d="m235.174 371.533 23.92-10.778-10.797-13.855Z" class="grdc-2"/>
+  </g>
+  <path id="path3260" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m220.594 560.14 58.212 16.143" class="grdc-1"/>
+  <path id="path3262" stroke-width=".965" d="m204.703 550.617 18.12 24.19 3.744-19.732z" class="grdc-2"/>
+  <path id="path3264" stroke-width=".965" d="m202.068 539.01 20.823 19.567-13.152 9.157z" class="grdc-2"/>
+  <path id="path3266" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m225.515 501.581 52.683 37.93" class="grdc-1"/>
+  <g id="g3280">
+    <path id="path3268" d="m221.589 524.738 25.087 2.625-6.195-18.516z" class="grdc-2"/>
+    <path id="path3270" d="m213.754 486.953 12.563 30.211 7.545-17.513z" class="grdc-2"/>
+    <path id="path3272" d="m224.532 497.451 15.39 27.577-14.551 3.03z" class="grdc-2"/>
+    <path id="path3274" d="m212.191 488.169 16.075 26.814-14.474 3.735z" class="grdc-2"/>
+    <path id="path3276" d="m214.448 545.754 23.64-11.926-11.144-13.335z" class="grdc-2"/>
+    <path id="path3278" d="m235.174 544.47 23.92-10.777-10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path3282" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m208.34 654.67 69.849 71.48" class="grdc-1"/>
+  <path id="path3284" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m219.977 541.692 58.212 16.142" class="grdc-1"/>
+  <g id="g3294">
+    <path id="path3286" d="m204.086 532.168 18.12 24.19 3.744-19.732z" class="grdc-2"/>
+    <path id="path3288" d="m215.172 524.729 20.311 20.562-13.373 8.51z" class="grdc-2"/>
+    <path id="path3290" d="m201.451 520.561 20.823 19.567-13.152 9.167z" class="grdc-2"/>
+    <path id="path3292" d="m201.451 579.168 20.823-19.568-13.152-9.157Z" class="grdc-2"/>
+  </g>
+  <path id="path3296" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m223.846 580.374 53.378 35.99" class="grdc-1"/>
+  <g id="g3312">
+    <path id="path3298" d="m220.363 603.666 25.116 1.708-6.542-18.284z" class="grdc-2"/>
+    <path id="path3300" d="m211.805 566.181 13.132 29.747 7.208-17.783z" class="grdc-2"/>
+    <path id="path3302" d="m229.433 564.588 22.521 15.526-12.148 11.52z" class="grdc-2"/>
+    <path id="path3304" d="m222.766 575.009 15.911 27.017-14.493 3.561z" class="grdc-2"/>
+    <path id="path3306" d="m210.251 566.19 16.577 26.216-14.387 4.265z" class="grdc-2"/>
+    <path id="path3308" d="m213.609 623.669 23.399-12.795-11.386-12.92z" class="grdc-2"/>
+    <path id="path3310" d="m234.316 622.897 23.707-11.656-11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path3314" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m221.202 629.622 55.645 28.667" class="grdc-1"/>
+  <g id="g3342">
+    <path id="path3316" d="m217.7 653.271 25.126-1.669-7.787-17.32z" class="grdc-2"/>
+    <path id="path3318" d="m206.575 617.107 15.139 27.847 5.934-18.67z" class="grdc-2"/>
+    <path id="path3320" d="m224.001 613.161 23.505 12.437-11.29 13.094z" class="grdc-2"/>
+    <path id="path3322" d="m217.932 619.77 17.715 24.75-14.174 5.49z" class="grdc-2"/>
+    <path id="path3324" d="m204.857 612.659 18.333 23.881-14.029 6.166z" class="grdc-2"/>
+    <path id="path3326" d="m212.21 669.424 22.395-15.863-12.235-11.338Z" class="grdc-2"/>
+    <path id="path3328" d="m214.612 641.181 20.157 20.861-13.441 8.318z" class="grdc-2"/>
+    <path id="path3330" d="m228.931 662.438 21.932 17.088-12.562 10.653z" class="grdc-2"/>
+    <path id="path3332" d="m209.672 665.12 15.603 27.355-14.532 3.242z" class="grdc-2"/>
+    <path id="path3334" d="m204.877 672.222 18.757-23.244-13.914-6.639z" class="grdc-2"/>
+    <path id="path3336" d="m230.784 467.559 22.221 16.345-12.36 11.068z" class="grdc-2"/>
+    <path id="path3338" d="m223.914 479.003 15.39 27.576-14.551 3.04z" class="grdc-2"/>
+    <path id="path3340" d="m211.573 469.72 16.075 26.824-14.473 3.735z" class="grdc-2"/>
+  </g>
+  <path id="path3344" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m224.898 656.07 52.683 37.92" class="grdc-1"/>
+  <g id="g3356">
+    <path id="path3346" d="m220.971 679.217 25.087 2.625-6.194-18.507z" class="grdc-2"/>
+    <path id="path3348" d="m213.136 641.442 12.563 30.211 7.546-17.513z" class="grdc-2"/>
+    <path id="path3350" d="m230.784 640.487 22.221 16.345-12.36 11.067z" class="grdc-2"/>
+    <path id="path3352" d="m223.914 651.93 15.39 27.586-14.551 3.03z" class="grdc-2"/>
+    <path id="path3354" d="m211.573 642.658 16.075 26.814-14.473 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path3358" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m398.761 458.692-69.858 71.479" class="grdc-1"/>
+  <path id="path3360" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m387.115 345.713-58.212 16.133" class="grdc-1"/>
+  <g id="g3376">
+    <path id="path3362" d="m387.907 369.459-24.615-7.14 9.649-15.4z" class="grdc-2"/>
+    <path id="path3364" d="m403.007 336.189-18.12 24.18-3.735-19.732z" class="grdc-2"/>
+    <path id="path3366" d="m386.247 328.48-24.624 7.14 9.659 15.4z" class="grdc-2"/>
+    <path id="path3368" d="m357.185 328.74-20.311 20.562 13.373 8.52z" class="grdc-2"/>
+    <path id="path3370" d="m370.905 324.582-20.822 19.568 13.151 9.156z" class="grdc-2"/>
+    <path id="path3372" d="m357.185 379.021-20.311-20.562 13.373-8.52z" class="grdc-2"/>
+    <path id="path3374" d="m370.905 383.179-20.822-19.568 13.151-9.156z" class="grdc-2"/>
+  </g>
+  <path id="path3378" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m383.256 384.395-53.388 35.99" class="grdc-1"/>
+  <g id="g3394">
+    <path id="path3380" d="m386.739 407.678-25.126 1.708 6.542-18.275z" class="grdc-2"/>
+    <path id="path3382" d="m395.288 370.202-13.132 29.738-7.208-17.783z" class="grdc-2"/>
+    <path id="path3384" d="m377.66 368.6-22.521 15.535 12.148 11.511z" class="grdc-2"/>
+    <path id="path3386" d="m349.591 379.03-15.901 27.008 14.483 3.56z" class="grdc-2"/>
+    <path id="path3388" d="m362.106 370.202-16.577 26.216 14.396 4.265z" class="grdc-2"/>
+    <path id="path3390" d="m358.748 427.68-23.399-12.785 11.396-12.919z" class="grdc-2"/>
+    <path id="path3392" d="m372.777 426.908-23.707-11.646 11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path3396" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M385.89 433.634 330.245 462.3" class="grdc-1"/>
+  <g id="g3430">
+    <path id="path3398" d="m389.393 457.283-25.116-1.669 7.786-17.32z" class="grdc-2"/>
+    <path id="path3400" d="m400.527 421.119-15.148 27.847-5.934-18.671z" class="grdc-2"/>
+    <path id="path3402" d="m383.092 417.173-23.495 12.437 11.279 13.094z" class="grdc-2"/>
+    <path id="path3404" d="m354.425 423.782-17.715 24.749 14.174 5.491z" class="grdc-2"/>
+    <path id="path3406" d="m367.499 416.68-18.333 23.872 14.03 6.175z" class="grdc-2"/>
+    <path id="path3408" d="m360.147 473.435-22.395-15.863 12.235-11.327z" class="grdc-2"/>
+    <path id="path3410" d="m388.65 504.842-25.03 3.464 5.867-18.718z" class="grdc-2"/>
+    <path id="path3412" d="m402.93 478.009-21.17 18.835-.897-20.369z" class="grdc-2"/>
+    <path id="path3414" d="m392.48 445.193-20.156 20.861 13.441 8.317z" class="grdc-2"/>
+    <path id="path3416" d="m378.161 466.449-21.922 17.089 12.553 10.652z" class="grdc-2"/>
+    <path id="path3418" d="m358.709 532.506-25.019 3.464 5.856-18.709z" class="grdc-2"/>
+    <path id="path3420" d="m348.23 494.123-21.931 17.078 12.553 10.652z" class="grdc-2"/>
+    <path id="path3422" d="m350.508 478.829-14.898 28.088 14.598 2.538z" class="grdc-2"/>
+    <path id="path3424" d="m362.685 469.132-15.603 27.354 14.531 3.243z" class="grdc-2"/>
+    <path id="path3426" d="m361.43 526.774-23.833-11.125 10.904-13.711z" class="grdc-2"/>
+    <path id="path3428" d="m367.48 476.233-18.757-23.234 13.913-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path3432" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m382.194 287.154-52.683 37.93" class="grdc-1"/>
+  <g id="g3448">
+    <path id="path3434" d="m386.122 310.301-25.087 2.625 6.194-18.507z" class="grdc-2"/>
+    <path id="path3436" d="m393.957 272.516-12.563 30.221-7.546-17.513z" class="grdc-2"/>
+    <path id="path3438" d="m376.309 271.571-22.222 16.345 12.361 11.067z" class="grdc-2"/>
+    <path id="path3440" d="m348.443 283.014-15.39 27.586 14.56 3.03z" class="grdc-2"/>
+    <path id="path3442" d="m360.793 273.742-16.084 26.814 14.473 3.734z" class="grdc-2"/>
+    <path id="path3444" d="m358.526 331.317-23.64-11.926 11.145-13.335z" class="grdc-2"/>
+    <path id="path3446" d="m372.536 330.033-23.92-10.777 10.798-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path3450" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m398.761 631.62-69.858 71.479" class="grdc-1"/>
+  <path id="path3452" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m387.115 518.64-58.212 16.133" class="grdc-1"/>
+  <g id="g3468">
+    <path id="path3454" d="m387.907 542.386-24.615-7.14 9.649-15.4z" class="grdc-2"/>
+    <path id="path3456" d="m403.007 509.117-18.12 24.18-3.735-19.732z" class="grdc-2"/>
+    <path id="path3458" d="m386.247 501.407-24.624 7.141 9.659 15.399z" class="grdc-2"/>
+    <path id="path3460" d="m357.185 501.668-20.311 20.562 13.373 8.52z" class="grdc-2"/>
+    <path id="path3462" d="m370.905 497.509-20.822 19.568 13.151 9.157z" class="grdc-2"/>
+    <path id="path3464" d="m357.185 551.948-20.311-20.561 13.373-8.52z" class="grdc-2"/>
+    <path id="path3466" d="m370.905 556.117-20.822-19.578 13.151-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path3470" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m383.256 557.323-53.388 35.99" class="grdc-1"/>
+  <g id="g3486">
+    <path id="path3472" d="m386.739 580.606-25.126 1.707 6.542-18.275z" class="grdc-2"/>
+    <path id="path3474" d="m395.288 543.129-13.132 29.738-7.208-17.783z" class="grdc-2"/>
+    <path id="path3476" d="m377.66 541.537-22.521 15.525 12.148 11.511z" class="grdc-2"/>
+    <path id="path3478" d="m349.591 551.958-15.901 27.007 14.483 3.561z" class="grdc-2"/>
+    <path id="path3480" d="m362.106 543.129-16.577 26.216 14.396 4.265z" class="grdc-2"/>
+    <path id="path3482" d="m358.748 600.608-23.399-12.785 11.396-12.92z" class="grdc-2"/>
+    <path id="path3484" d="M372.777 599.836 349.07 588.19l11.058-13.47Z" class="grdc-2"/>
+  </g>
+  <path id="path3488" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m385.89 606.561-55.645 28.667" class="grdc-1"/>
+  <g id="g3518">
+    <path id="path3490" d="m389.393 630.211-25.116-1.67 7.786-17.319z" class="grdc-2"/>
+    <path id="path3492" d="m400.527 594.047-15.148 27.846-5.934-18.661z" class="grdc-2"/>
+    <path id="path3494" d="m383.092 590.1-23.495 12.438 11.279 13.093z" class="grdc-2"/>
+    <path id="path3496" d="m354.425 596.719-17.715 24.74 14.174 5.49z" class="grdc-2"/>
+    <path id="path3498" d="m367.499 589.608-18.333 23.871 14.03 6.176z" class="grdc-2"/>
+    <path id="path3500" d="M360.147 646.373 337.752 630.5l12.235-11.328Z" class="grdc-2"/>
+    <path id="path3502" d="m388.65 677.77-25.03 3.464 5.867-18.709z" class="grdc-2"/>
+    <path id="path3504" d="m402.93 650.946-21.17 18.825-.897-20.359z" class="grdc-2"/>
+    <path id="path3506" d="m392.48 618.121-20.156 20.86 13.441 8.327z" class="grdc-2"/>
+    <path id="path3508" d="m378.161 639.377-21.922 17.088 12.553 10.653z" class="grdc-2"/>
+    <path id="path3510" d="m348.23 667.05-21.931 17.088 12.553 10.653z" class="grdc-2"/>
+    <path id="path3512" d="m350.508 651.757-14.898 28.088 14.598 2.537z" class="grdc-2"/>
+    <path id="path3514" d="m362.685 642.069-15.603 27.345 14.531 3.242z" class="grdc-2"/>
+    <path id="path3516" d="m367.48 649.171-18.757-23.245 13.913-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path3520" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m382.194 460.081-52.683 37.93" class="grdc-1"/>
+  <g id="g3536">
+    <path id="path3522" d="m386.122 483.229-25.087 2.624 6.194-18.506z" class="grdc-2"/>
+    <path id="path3524" d="m393.957 445.453-12.563 30.211-7.546-17.513z" class="grdc-2"/>
+    <path id="path3526" d="m376.309 444.498-22.222 16.345 12.361 11.077z" class="grdc-2"/>
+    <path id="path3528" d="m348.443 455.951-15.39 27.577 14.56 3.03z" class="grdc-2"/>
+    <path id="path3530" d="m360.793 446.669-16.084 26.815 14.473 3.734z" class="grdc-2"/>
+    <path id="path3532" d="m358.526 504.254-23.64-11.936 11.145-13.335z" class="grdc-2"/>
+    <path id="path3534" d="m372.536 502.961-23.92-10.778 10.798-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path3538" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m260.695 500.192 69.858 71.479" class="grdc-1"/>
+  <path id="path3540" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m272.341 387.213 58.212 16.142" class="grdc-1"/>
+  <g id="g3556">
+    <path id="path3542" d="m271.551 410.968 24.614-7.15-9.649-15.39z" class="grdc-2"/>
+    <path id="path3544" d="m256.45 377.689 18.121 24.19 3.734-19.732z" class="grdc-2"/>
+    <path id="path3546" d="m273.21 369.98 24.624 7.14-9.658 15.4z" class="grdc-2"/>
+    <path id="path3548" d="m302.273 370.24 20.311 20.562-13.374 8.52z" class="grdc-2"/>
+    <path id="path3550" d="m288.552 366.082 20.822 19.568-13.151 9.156z" class="grdc-2"/>
+    <path id="path3552" d="m302.273 420.521 20.311-20.562-13.374-8.52z" class="grdc-2"/>
+    <path id="path3554" d="m288.552 424.689 20.822-19.568-13.151-9.166z" class="grdc-2"/>
+  </g>
+  <path id="path3558" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m276.201 425.895 53.387 35.99" class="grdc-1"/>
+  <g id="g3574">
+    <path id="path3560" d="m272.728 449.178 25.116 1.708-6.542-18.275z" class="grdc-2"/>
+    <path id="path3562" d="m264.169 411.702 13.132 29.738 7.208-17.783z" class="grdc-2"/>
+    <path id="path3564" d="m281.798 410.11 22.52 15.525-12.148 11.52z" class="grdc-2"/>
+    <path id="path3566" d="m309.866 420.53 15.911 27.008-14.492 3.56z" class="grdc-2"/>
+    <path id="path3568" d="m297.352 411.702 16.577 26.225-14.397 4.255z" class="grdc-2"/>
+    <path id="path3570" d="m300.71 469.18 23.398-12.785-11.395-12.92z" class="grdc-2"/>
+    <path id="path3572" d="m286.68 468.408 23.707-11.646-11.057-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path3576" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m273.567 475.143 55.645 28.667" class="grdc-1"/>
+  <g id="g3610">
+    <path id="path3578" d="m270.065 498.783 25.116-1.669-7.777-17.31z" class="grdc-2"/>
+    <path id="path3580" d="m258.94 462.619 15.139 27.847 5.934-18.661z" class="grdc-2"/>
+    <path id="path3582" d="m276.365 458.672 23.496 12.438-11.28 13.093z" class="grdc-2"/>
+    <path id="path3584" d="m305.032 465.292 17.716 24.749-14.175 5.481z" class="grdc-2"/>
+    <path id="path3586" d="m291.958 458.18 18.333 23.872-14.03 6.175z" class="grdc-2"/>
+    <path id="path3588" d="m299.311 514.945 22.395-15.863-12.235-11.337z" class="grdc-2"/>
+    <path id="path3590" d="m270.808 546.342 25.029 3.464-5.867-18.709z" class="grdc-2"/>
+    <path id="path3592" d="m256.537 519.518 21.16 18.825.897-20.359z" class="grdc-2"/>
+    <path id="path3594" d="m266.977 486.693 20.157 20.87-13.441 8.318z" class="grdc-2"/>
+    <path id="path3596" d="m281.296 507.949 21.922 17.089-12.553 10.652z" class="grdc-2"/>
+    <path id="path3598" d="m300.748 574.015 25.029 3.464-5.866-18.718z" class="grdc-2"/>
+    <path id="path3600" d="m311.227 535.622 21.932 17.089-12.553 10.652z" class="grdc-2"/>
+    <path id="path3602" d="m308.95 520.329 14.898 28.088-14.599 2.547z" class="grdc-2"/>
+    <path id="path3604" d="m296.773 510.641 15.602 27.345-14.531 3.252z" class="grdc-2"/>
+    <path id="path3606" d="m298.027 568.284 23.833-11.135-10.903-13.701Z" class="grdc-2"/>
+    <path id="path3608" d="m291.977 517.743 18.758-23.244-13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path3612" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m277.262 328.654 52.683 37.93" class="grdc-1"/>
+  <g id="g3628">
+    <path id="path3614" d="m273.336 351.811 25.087 2.615-6.195-18.507z" class="grdc-2"/>
+    <path id="path3616" d="m265.501 314.026 12.563 30.211 7.545-17.513z" class="grdc-2"/>
+    <path id="path3618" d="m283.149 313.08 22.221 16.336-12.36 11.077z" class="grdc-2"/>
+    <path id="path3620" d="m311.015 324.524 15.39 27.576-14.561 3.03z" class="grdc-2"/>
+    <path id="path3622" d="m298.664 315.242 16.085 26.814-14.474 3.734z" class="grdc-2"/>
+    <path id="path3624" d="m300.932 372.826 23.639-11.926-11.144-13.335Z" class="grdc-2"/>
+    <path id="path3626" d="m286.921 371.533 23.92-10.778-10.797-13.855Z" class="grdc-2"/>
+  </g>
+  <path id="path3630" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m272.341 560.14 58.212 16.143" class="grdc-1"/>
+  <path id="path3632" stroke-width=".965" d="m256.45 550.617 18.12 24.19 3.734-19.732z" class="grdc-2"/>
+  <path id="path3634" stroke-width=".965" d="m288.552 539.01 20.822 19.567-13.152 9.157z" class="grdc-2"/>
+  <path id="path3636" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m277.262 501.581 52.683 37.93" class="grdc-1"/>
+  <g id="g3650">
+    <path id="path3638" d="m273.336 524.738 25.087 2.625-6.195-18.516z" class="grdc-2"/>
+    <path id="path3640" d="m265.501 486.953 12.563 30.211 7.545-17.513z" class="grdc-2"/>
+    <path id="path3642" d="m311.015 497.451 15.39 27.577-14.561 3.03z" class="grdc-2"/>
+    <path id="path3644" d="m298.664 488.169 16.085 26.814-14.474 3.735z" class="grdc-2"/>
+    <path id="path3646" d="m300.932 545.754 23.639-11.926-11.144-13.335z" class="grdc-2"/>
+    <path id="path3648" d="m286.921 544.47 23.92-10.777-10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path3652" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m260.078 654.67 69.858 71.48" class="grdc-1"/>
+  <path id="path3654" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m271.724 541.692 58.212 16.142" class="grdc-1"/>
+  <g id="g3664">
+    <path id="path3656" d="m255.833 532.168 18.12 24.19 3.744-19.732z" class="grdc-2"/>
+    <path id="path3658" d="m301.655 524.729 20.311 20.562-13.373 8.51z" class="grdc-2"/>
+    <path id="path3660" d="m287.934 520.561 20.823 19.567-13.152 9.167z" class="grdc-2"/>
+    <path id="path3662" d="m287.934 579.168 20.823-19.568-13.152-9.157Z" class="grdc-2"/>
+  </g>
+  <path id="path3666" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m275.583 580.374 53.388 35.99" class="grdc-1"/>
+  <g id="g3682">
+    <path id="path3668" d="m272.11 603.666 25.116 1.708-6.542-18.284z" class="grdc-2"/>
+    <path id="path3670" d="m263.552 566.181 13.132 29.747 7.208-17.783z" class="grdc-2"/>
+    <path id="path3672" d="m281.18 564.588 22.521 15.526-12.148 11.52z" class="grdc-2"/>
+    <path id="path3674" d="m309.249 575.009 15.911 27.017-14.493 3.561z" class="grdc-2"/>
+    <path id="path3676" d="m296.734 566.19 16.577 26.216-14.386 4.265z" class="grdc-2"/>
+    <path id="path3678" d="m300.092 623.669 23.399-12.795-11.396-12.92z" class="grdc-2"/>
+    <path id="path3680" d="m286.063 622.897 23.707-11.656-11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path3684" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m272.95 629.622 55.645 28.667" class="grdc-1"/>
+  <g id="g3712">
+    <path id="path3686" d="m269.447 653.271 25.116-1.669-7.777-17.32z" class="grdc-2"/>
+    <path id="path3688" d="m258.322 617.107 15.139 27.847 5.934-18.67z" class="grdc-2"/>
+    <path id="path3690" d="m275.748 613.161 23.495 12.437-11.28 13.094z" class="grdc-2"/>
+    <path id="path3692" d="m304.415 619.77 17.715 24.75-14.174 5.49z" class="grdc-2"/>
+    <path id="path3694" d="m291.341 612.659 18.332 23.881-14.029 6.166z" class="grdc-2"/>
+    <path id="path3696" d="m298.693 669.424 22.395-15.863-12.235-11.338z" class="grdc-2"/>
+    <path id="path3698" d="m266.36 641.181 20.156 20.861-13.441 8.318z" class="grdc-2"/>
+    <path id="path3700" d="m280.679 662.438 21.922 17.088-12.553 10.653z" class="grdc-2"/>
+    <path id="path3702" d="m296.155 665.12 15.603 27.355-14.532 3.242z" class="grdc-2"/>
+    <path id="path3704" d="m291.36 672.222 18.757-23.244-13.913-6.639z" class="grdc-2"/>
+    <path id="path3706" d="m282.531 467.559 22.222 16.345-12.361 11.068z" class="grdc-2"/>
+    <path id="path3708" d="m310.397 479.003 15.39 27.576-14.56 3.04z" class="grdc-2"/>
+    <path id="path3710" d="m298.056 469.72 16.075 26.824-14.473 3.735z" class="grdc-2"/>
+  </g>
+  <path id="path3714" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m276.645 656.07 52.683 37.92" class="grdc-1"/>
+  <g id="g3726">
+    <path id="path3716" d="m272.718 679.217 25.087 2.625-6.194-18.507z" class="grdc-2"/>
+    <path id="path3718" d="m264.883 641.442 12.563 30.211 7.546-17.513z" class="grdc-2"/>
+    <path id="path3720" d="m282.531 640.487 22.222 16.345-12.361 11.067z" class="grdc-2"/>
+    <path id="path3722" d="m310.397 651.93 15.39 27.586-14.56 3.03z" class="grdc-2"/>
+    <path id="path3724" d="m298.056 642.658 16.075 26.814-14.473 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path3728" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m488.564 403.355-69.849 71.47" class="grdc-1"/>
+  <path id="path3730" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m476.927 290.367-58.212 16.142" class="grdc-1"/>
+  <g id="g3746">
+    <path id="path3732" d="m477.719 314.122-24.624-7.14 9.658-15.4z" class="grdc-2"/>
+    <path id="path3734" d="m492.819 280.843-18.12 24.19-3.744-19.732z" class="grdc-2"/>
+    <path id="path3736" d="m476.049 273.143-24.614 7.141 9.659 15.39z" class="grdc-2"/>
+    <path id="path3738" d="m446.997 273.404-20.311 20.562 13.373 8.52z" class="grdc-2"/>
+    <path id="path3740" d="m460.717 269.236-20.822 19.568 13.151 9.166z" class="grdc-2"/>
+    <path id="path3742" d="m446.997 323.684-20.311-20.561 13.373-8.52z" class="grdc-2"/>
+    <path id="path3744" d="m460.717 327.843-20.822-19.568 13.151-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path3748" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m473.058 329.05-53.378 35.99" class="grdc-1"/>
+  <g id="g3764">
+    <path id="path3750" d="m476.542 352.342-25.117 1.707 6.533-18.275z" class="grdc-2"/>
+    <path id="path3752" d="m485.1 314.856-13.132 29.747-7.217-17.783z" class="grdc-2"/>
+    <path id="path3754" d="m467.472 313.264-22.521 15.534 12.148 11.511z" class="grdc-2"/>
+    <path id="path3756" d="m439.403 323.694-15.911 27.007 14.493 3.561z" class="grdc-2"/>
+    <path id="path3758" d="m451.918 314.865-16.577 26.216 14.386 4.265z" class="grdc-2"/>
+    <path id="path3760" d="m448.56 372.344-23.399-12.785 11.386-12.93z" class="grdc-2"/>
+    <path id="path3762" d="m462.589 371.572-23.707-11.646 11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path3766" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m475.702 378.297-55.645 28.667" class="grdc-1"/>
+  <g id="g3800">
+    <path id="path3768" d="m479.205 401.947-25.126-1.67 7.787-17.319z" class="grdc-2"/>
+    <path id="path3770" d="m490.33 365.783-15.139 27.846-5.944-18.67z" class="grdc-2"/>
+    <path id="path3772" d="m472.904 361.836-23.505 12.438 11.289 13.093z" class="grdc-2"/>
+    <path id="path3774" d="m444.237 368.446-17.715 24.749 14.174 5.49z" class="grdc-2"/>
+    <path id="path3776" d="m457.311 361.344-18.333 23.871 14.03 6.166z" class="grdc-2"/>
+    <path id="path3778" d="m449.959 418.099-22.395-15.863 12.235-11.337z" class="grdc-2"/>
+    <path id="path3780" d="m478.462 449.506-25.03 3.464 5.867-18.719z" class="grdc-2"/>
+    <path id="path3782" d="m492.732 422.672-21.169 18.835-.898-20.369z" class="grdc-2"/>
+    <path id="path3784" d="m482.292 389.857-20.156 20.86 13.441 8.318z" class="grdc-2"/>
+    <path id="path3786" d="m467.973 411.113-21.932 17.088 12.554 10.653z" class="grdc-2"/>
+    <path id="path3788" d="m448.521 477.169-25.029 3.464 5.866-18.709z" class="grdc-2"/>
+    <path id="path3790" d="m438.033 438.786-21.923 17.079 12.554 10.652z" class="grdc-2"/>
+    <path id="path3792" d="m440.32 423.493-14.908 28.088 14.608 2.537z" class="grdc-2"/>
+    <path id="path3794" d="m452.496 413.795-15.602 27.355 14.531 3.242z" class="grdc-2"/>
+    <path id="path3796" d="M451.242 471.438 427.4 460.313l10.903-13.711Z" class="grdc-2"/>
+    <path id="path3798" d="m457.282 420.897-18.747-23.235 13.913-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path3802" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m472.006 231.817-52.683 37.92" class="grdc-1"/>
+  <g id="g3818">
+    <path id="path3804" d="m475.924 254.965-25.077 2.624 6.194-18.516z" class="grdc-2"/>
+    <path id="path3806" d="m483.759 217.18-12.553 30.22-7.546-17.513Z" class="grdc-2"/>
+    <path id="path3808" d="m466.111 216.234-22.212 16.345 12.361 11.068z" class="grdc-2"/>
+    <path id="path3810" d="m438.255 227.678-15.39 27.586 14.55 3.03z" class="grdc-2"/>
+    <path id="path3812" d="m450.596 218.396-16.075 26.823 14.463 3.735z" class="grdc-2"/>
+    <path id="path3814" d="m448.338 275.98-23.64-11.926 11.144-13.335z" class="grdc-2"/>
+    <path id="path3816" d="m462.348 274.697-23.929-10.778 10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path3820" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m488.564 576.283-69.849 71.48" class="grdc-1"/>
+  <path id="path3822" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m476.927 463.304-58.212 16.133" class="grdc-1"/>
+  <g id="g3838">
+    <path id="path3824" d="m477.719 487.05-24.624-7.14 9.658-15.4z" class="grdc-2"/>
+    <path id="path3826" d="m492.819 453.78-18.12 24.181-3.744-19.732z" class="grdc-2"/>
+    <path id="path3828" d="m476.049 446.071-24.614 7.14 9.659 15.4z" class="grdc-2"/>
+    <path id="path3830" d="m446.997 446.332-20.311 20.561 13.373 8.52z" class="grdc-2"/>
+    <path id="path3832" d="m460.717 442.173-20.822 19.568 13.151 9.157z" class="grdc-2"/>
+    <path id="path3834" d="m446.997 496.612-20.311-20.562 13.373-8.52z" class="grdc-2"/>
+    <path id="path3836" d="m460.717 500.771-20.822-19.568 13.151-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path3840" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m473.058 501.986-53.378 35.99" class="grdc-1"/>
+  <g id="g3856">
+    <path id="path3842" d="m476.542 525.269-25.117 1.708 6.533-18.275z" class="grdc-2"/>
+    <path id="path3844" d="m485.1 487.793-13.132 29.738-7.217-17.783z" class="grdc-2"/>
+    <path id="path3846" d="m467.472 486.191-22.521 15.535 12.148 11.511z" class="grdc-2"/>
+    <path id="path3848" d="m439.403 496.622-15.911 27.007 14.493 3.56z" class="grdc-2"/>
+    <path id="path3850" d="m451.918 487.793-16.577 26.216 14.386 4.265z" class="grdc-2"/>
+    <path id="path3852" d="m448.56 545.271-23.399-12.784 11.386-12.92z" class="grdc-2"/>
+    <path id="path3854" d="m462.589 544.499-23.707-11.646 11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path3858" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m475.702 551.225-55.645 28.667" class="grdc-1"/>
+  <g id="g3892">
+    <path id="path3860" d="m479.205 574.874-25.126-1.669 7.787-17.32z" class="grdc-2"/>
+    <path id="path3862" d="m490.33 538.71-15.139 27.847-5.944-18.671z" class="grdc-2"/>
+    <path id="path3864" d="m472.904 534.764-23.505 12.437 11.289 13.094z" class="grdc-2"/>
+    <path id="path3866" d="m444.237 541.373-17.715 24.75 14.174 5.49z" class="grdc-2"/>
+    <path id="path3868" d="m457.311 534.272-18.333 23.871 14.03 6.175z" class="grdc-2"/>
+    <path id="path3870" d="m449.959 591.036-22.395-15.872 12.235-11.328z" class="grdc-2"/>
+    <path id="path3872" d="m478.462 622.434-25.03 3.464 5.867-18.71z" class="grdc-2"/>
+    <path id="path3874" d="m492.732 595.6-21.169 18.835-.898-20.369z" class="grdc-2"/>
+    <path id="path3876" d="m482.292 562.784-20.156 20.861 13.441 8.327z" class="grdc-2"/>
+    <path id="path3878" d="m467.973 584.041-21.932 17.088 12.554 10.652z" class="grdc-2"/>
+    <path id="path3880" d="m448.521 650.097-25.029 3.464 5.866-18.709z" class="grdc-2"/>
+    <path id="path3882" d="m438.033 611.714-21.923 17.088 12.554 10.643z" class="grdc-2"/>
+    <path id="path3884" d="m440.32 596.42-14.908 28.088 14.608 2.538z" class="grdc-2"/>
+    <path id="path3886" d="m452.496 586.723-15.602 27.355 14.531 3.242z" class="grdc-2"/>
+    <path id="path3888" d="M451.242 644.366 427.4 633.24l10.903-13.701Z" class="grdc-2"/>
+    <path id="path3890" d="m457.282 593.825-18.747-23.235 13.913-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path3894" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m472.006 404.745-52.683 37.93" class="grdc-1"/>
+  <g id="g3910">
+    <path id="path3896" d="m475.924 427.892-25.077 2.625 6.194-18.507z" class="grdc-2"/>
+    <path id="path3898" d="m483.759 390.117-12.553 30.211-7.546-17.513z" class="grdc-2"/>
+    <path id="path3900" d="m466.111 389.162-22.212 16.345 12.361 11.077z" class="grdc-2"/>
+    <path id="path3902" d="m438.255 400.605-15.39 27.587 14.55 3.029z" class="grdc-2"/>
+    <path id="path3904" d="m450.596 391.333-16.075 26.814 14.463 3.734z" class="grdc-2"/>
+    <path id="path3906" d="m448.338 448.908-23.64-11.926 11.144-13.335z" class="grdc-2"/>
+    <path id="path3908" d="m462.348 447.624-23.929-10.777 10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path3912" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m350.507 444.855 69.849 71.48" class="grdc-1"/>
+  <path id="path3914" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m362.153 331.876 58.203 16.133" class="grdc-1"/>
+  <g id="g3930">
+    <path id="path3916" d="m361.363 355.622 24.614-7.14-9.659-15.39z" class="grdc-2"/>
+    <path id="path3918" d="m346.262 322.353 18.111 24.19 3.744-19.742z" class="grdc-2"/>
+    <path id="path3920" d="m363.022 314.643 24.615 7.141-9.649 15.399z" class="grdc-2"/>
+    <path id="path3922" d="m392.075 314.904 20.311 20.562-13.364 8.52z" class="grdc-2"/>
+    <path id="path3924" d="m378.364 310.745 20.813 19.568-13.152 9.157z" class="grdc-2"/>
+    <path id="path3926" d="m392.075 365.184 20.311-20.562-13.364-8.52z" class="grdc-2"/>
+    <path id="path3928" d="m378.364 369.353 20.813-19.578-13.152-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path3932" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m366.013 370.559 53.387 35.99" class="grdc-1"/>
+  <g id="g3948">
+    <path id="path3934" d="m362.53 393.842 25.126 1.707-6.542-18.275z" class="grdc-2"/>
+    <path id="path3936" d="m353.981 356.365 13.123 29.748 7.217-17.793z" class="grdc-2"/>
+    <path id="path3938" d="m371.6 354.773 22.53 15.525-12.157 11.521z" class="grdc-2"/>
+    <path id="path3940" d="m399.669 365.194 15.911 27.007-14.493 3.561z" class="grdc-2"/>
+    <path id="path3942" d="m387.154 356.365 16.587 26.216-14.397 4.265z" class="grdc-2"/>
+    <path id="path3944" d="m390.512 413.844 23.408-12.785-11.395-12.92z" class="grdc-2"/>
+    <path id="path3946" d="m376.482 413.072 23.708-11.646-11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path3950" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m363.37 419.797 55.644 28.667" class="grdc-1"/>
+  <g id="g3984">
+    <path id="path3952" d="m359.867 443.446 25.126-1.669-7.787-17.31z" class="grdc-2"/>
+    <path id="path3954" d="m348.742 407.292 15.139 27.837 5.944-18.661z" class="grdc-2"/>
+    <path id="path3956" d="m366.177 403.336 23.495 12.437-11.289 13.094z" class="grdc-2"/>
+    <path id="path3958" d="m394.835 409.955 17.725 24.75-14.175 5.48z" class="grdc-2"/>
+    <path id="path3960" d="m381.77 402.844 18.333 23.871-14.03 6.176z" class="grdc-2"/>
+    <path id="path3962" d="m389.113 459.608 22.405-15.872-12.235-11.328z" class="grdc-2"/>
+    <path id="path3964" d="m360.62 491.006 25.029 3.464-5.867-18.709z" class="grdc-2"/>
+    <path id="path3966" d="m346.339 464.182 21.17 18.825.897-20.359z" class="grdc-2"/>
+    <path id="path3968" d="m356.789 431.356 20.147 20.871-13.431 8.317z" class="grdc-2"/>
+    <path id="path3970" d="m371.108 452.613 21.922 17.088-12.553 10.653z" class="grdc-2"/>
+    <path id="path3972" d="m390.551 518.679 25.029 3.464-5.867-18.719z" class="grdc-2"/>
+    <path id="path3974" d="m401.039 480.286 21.932 17.088-12.553 10.653z" class="grdc-2"/>
+    <path id="path3976" d="m398.752 464.992 14.908 28.088-14.599 2.548z" class="grdc-2"/>
+    <path id="path3978" d="m386.575 455.305 15.602 27.345-14.521 3.242z" class="grdc-2"/>
+    <path id="path3980" d="m387.839 512.948 23.833-11.135-10.903-13.702z" class="grdc-2"/>
+    <path id="path3982" d="m381.789 462.407 18.748-23.245-13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path3986" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m367.074 273.317 52.674 37.93" class="grdc-1"/>
+  <g id="g4002">
+    <path id="path3988" d="m363.148 296.465 25.077 2.624-6.185-18.506z" class="grdc-2"/>
+    <path id="path3990" d="m355.313 258.689 12.553 30.211 7.555-17.513z" class="grdc-2"/>
+    <path id="path3992" d="m372.961 257.734 22.221 16.345-12.37 11.077z" class="grdc-2"/>
+    <path id="path3994" d="m400.817 269.187 15.39 27.577-14.551 3.03z" class="grdc-2"/>
+    <path id="path3996" d="m388.476 259.905 16.075 26.814-14.464 3.735z" class="grdc-2"/>
+    <path id="path3998" d="m390.744 317.49 23.63-11.936-11.135-13.325z" class="grdc-2"/>
+    <path id="path4000" d="m376.733 316.197 23.92-10.778-10.797-13.856z" class="grdc-2"/>
+  </g>
+  <path id="path4004" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m362.153 504.804 58.203 16.143" class="grdc-1"/>
+  <path id="path4006" stroke-width=".965" d="m346.262 495.28 18.11 24.19 3.744-19.732z" class="grdc-2"/>
+  <path id="path4008" stroke-width=".965" d="m378.364 483.673 20.812 19.568-13.151 9.157z" class="grdc-2"/>
+  <path id="path4010" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m367.074 446.245 52.674 37.93" class="grdc-1"/>
+  <g id="g4024">
+    <path id="path4012" d="m363.148 469.402 25.077 2.615-6.185-18.507z" class="grdc-2"/>
+    <path id="path4014" d="m355.313 431.617 12.553 30.211 7.555-17.513z" class="grdc-2"/>
+    <path id="path4016" d="m400.817 442.115 15.39 27.577-14.551 3.029z" class="grdc-2"/>
+    <path id="path4018" d="m388.476 432.833 16.075 26.814-14.464 3.734z" class="grdc-2"/>
+    <path id="path4020" d="m390.744 490.417 23.63-11.926-11.135-13.334z" class="grdc-2"/>
+    <path id="path4022" d="m376.733 489.134 23.92-10.778-10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path4026" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m349.89 599.334 69.848 71.48" class="grdc-1"/>
+  <path id="path4028" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m361.536 486.355 58.202 16.143" class="grdc-1"/>
+  <g id="g4038">
+    <path id="path4030" d="m345.645 476.832 18.111 24.189 3.743-19.732z" class="grdc-2"/>
+    <path id="path4032" d="m391.458 469.392 20.31 20.562-13.373 8.511z" class="grdc-2"/>
+    <path id="path4034" d="m377.746 465.224 20.813 19.568-13.151 9.157z" class="grdc-2"/>
+    <path id="path4036" d="m377.746 523.831 20.813-19.567-13.151-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path4040" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m365.395 525.038 53.388 35.99" class="grdc-1"/>
+  <g id="g4056">
+    <path id="path4042" d="m361.913 548.33 25.125 1.708-6.542-18.285z" class="grdc-2"/>
+    <path id="path4044" d="m353.364 510.844 13.122 29.748 7.218-17.783z" class="grdc-2"/>
+    <path id="path4046" d="m370.983 509.252 22.52 15.525-12.138 11.521z" class="grdc-2"/>
+    <path id="path4048" d="m399.051 519.673 15.911 27.007-14.492 3.561z" class="grdc-2"/>
+    <path id="path4050" d="m386.537 510.844 16.586 26.226-14.396 4.265z" class="grdc-2"/>
+    <path id="path4052" d="m389.894 568.332 23.399-12.794-11.386-12.92z" class="grdc-2"/>
+    <path id="path4054" d="m375.865 567.56 23.707-11.656-11.057-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path4058" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m362.752 574.286 55.645 28.667" class="grdc-1"/>
+  <g id="g4098">
+    <path id="path4060" d="m359.249 597.925 25.126-1.669-7.786-17.31z" class="grdc-2"/>
+    <path id="path4062" d="m348.124 561.771 15.139 27.847 5.944-18.671z" class="grdc-2"/>
+    <path id="path4064" d="m365.56 557.825 23.495 12.437-11.289 13.084z" class="grdc-2"/>
+    <path id="path4066" d="m394.217 564.434 17.725 24.749-14.174 5.491z" class="grdc-2"/>
+    <path id="path4068" d="m381.152 557.323 18.324 23.881-14.02 6.165z" class="grdc-2"/>
+    <path id="path4070" d="m388.495 614.087 22.405-15.862-12.235-11.338Z" class="grdc-2"/>
+    <path id="path4072" d="m360.002 645.485 25.029 3.464-5.866-18.709z" class="grdc-2"/>
+    <path id="path4074" d="m345.722 618.661 21.169 18.835.898-20.369z" class="grdc-2"/>
+    <path id="path4076" d="m356.171 585.845 20.147 20.861-13.441 8.317z" class="grdc-2"/>
+    <path id="path4078" d="m370.49 607.101 21.923 17.089-12.553 10.652z" class="grdc-2"/>
+    <path id="path4080" d="m389.933 673.158 25.029 3.464-5.866-18.709z" class="grdc-2"/>
+    <path id="path4082" d="m400.421 634.765 21.932 17.088-12.563 10.652z" class="grdc-2"/>
+    <path id="path4084" d="m398.135 619.481 14.907 28.088-14.599 2.538z" class="grdc-2"/>
+    <path id="path4086" d="m385.958 609.784 15.612 27.345-14.532 3.252z" class="grdc-2"/>
+    <path id="path4088" d="m387.222 667.426 23.832-11.125-10.903-13.711Z" class="grdc-2"/>
+    <path id="path4090" d="m381.172 616.885 18.748-23.244-13.914-6.638z" class="grdc-2"/>
+    <path id="path4092" d="m372.343 412.223 22.221 16.345-12.369 11.067z" class="grdc-2"/>
+    <path id="path4094" d="m400.199 423.666 15.39 27.586-14.55 3.021z" class="grdc-2"/>
+    <path id="path4096" d="m387.858 414.384 16.076 26.814-14.464 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path4100" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m361.536 659.283 58.202 16.142" class="grdc-1"/>
+  <g id="g4110">
+    <path id="path4102" d="m345.645 649.769 18.111 24.18 3.743-19.732z" class="grdc-2"/>
+    <path id="path4104" d="m362.405 642.05 24.624 7.15-9.659 15.39z" class="grdc-2"/>
+    <path id="path4106" d="m391.458 642.32 20.31 20.562-13.373 8.52z" class="grdc-2"/>
+    <path id="path4108" d="m377.746 638.152 20.813 19.568-13.151 9.166z" class="grdc-2"/>
+  </g>
+  <path id="path4112" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m366.457 600.733 52.683 37.92" class="grdc-1"/>
+  <g id="g4128">
+    <path id="path4114" d="m362.53 623.881 25.078 2.624-6.185-18.506z" class="grdc-2"/>
+    <path id="path4116" d="m354.695 586.096 12.553 30.22 7.556-17.522z" class="grdc-2"/>
+    <path id="path4118" d="m372.343 585.15 22.221 16.345-12.369 11.068z" class="grdc-2"/>
+    <path id="path4120" d="m400.199 596.594 15.39 27.586-14.55 3.03z" class="grdc-2"/>
+    <path id="path4122" d="m387.858 587.312 16.076 26.824-14.464 3.724z" class="grdc-2"/>
+    <path id="path4124" d="m390.126 644.896 23.63-11.926-11.135-13.335z" class="grdc-2"/>
+    <path id="path4126" d="m376.116 643.613 23.919-10.778-10.797-13.865Z" class="grdc-2"/>
+  </g>
+  <path id="path4130" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m583.364 465.61-69.848 71.47" class="grdc-1"/>
+  <path id="path4132" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m571.718 352.621-58.202 16.143" class="grdc-1"/>
+  <g id="g4148">
+    <path id="path4134" d="m572.509 376.377-24.614-7.14 9.659-15.4z" class="grdc-2"/>
+    <path id="path4136" d="m587.61 343.108-18.111 24.18-3.744-19.732z" class="grdc-2"/>
+    <path id="path4138" d="m570.85 335.388-24.614 7.15 9.648 15.39z" class="grdc-2"/>
+    <path id="path4140" d="m541.797 335.659-20.321 20.561 13.374 8.52z" class="grdc-2"/>
+    <path id="path4142" d="m555.508 331.49-20.813 19.568 13.142 9.167z" class="grdc-2"/>
+    <path id="path4144" d="m541.797 385.939-20.321-20.562 13.374-8.52z" class="grdc-2"/>
+    <path id="path4146" d="m555.508 390.098-20.813-19.568 13.142-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path4150" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m567.858 391.304-53.387 35.99" class="grdc-1"/>
+  <g id="g4166">
+    <path id="path4152" d="m571.342 414.596-25.126 1.708 6.542-18.285z" class="grdc-2"/>
+    <path id="path4154" d="m579.891 377.11-13.123 29.748-7.217-17.783z" class="grdc-2"/>
+    <path id="path4156" d="m562.272 375.518-22.53 15.535 12.157 11.511z" class="grdc-2"/>
+    <path id="path4158" d="m534.203 385.949-15.911 27.007 14.493 3.56z" class="grdc-2"/>
+    <path id="path4160" d="m546.718 377.12-16.586 26.216 14.396 4.265z" class="grdc-2"/>
+    <path id="path4162" d="m543.36 434.598-23.408-12.784 11.395-12.93z" class="grdc-2"/>
+    <path id="path4164" d="m557.39 433.827-23.708-11.647 11.058-13.47Z" class="grdc-2"/>
+  </g>
+  <path id="path4168" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m570.502 440.552-55.645 28.667" class="grdc-1"/>
+  <g id="g4202">
+    <path id="path4170" d="m574.005 464.201-25.126-1.669 7.787-17.32z" class="grdc-2"/>
+    <path id="path4172" d="m585.13 428.037-15.139 27.847-5.944-18.671z" class="grdc-2"/>
+    <path id="path4174" d="M567.695 424.091 544.2 436.528l11.289 13.094z" class="grdc-2"/>
+    <path id="path4176" d="m539.037 430.7-17.725 24.75 14.175 5.49z" class="grdc-2"/>
+    <path id="path4178" d="m552.102 423.599-18.333 23.871 14.03 6.166z" class="grdc-2"/>
+    <path id="path4180" d="m544.759 480.354-22.404-15.863 12.244-11.338z" class="grdc-2"/>
+    <path id="path4182" d="m573.252 511.761-25.029 3.464 5.867-18.719z" class="grdc-2"/>
+    <path id="path4184" d="m587.533 484.927-21.17 18.835-.897-20.369z" class="grdc-2"/>
+    <path id="path4186" d="m577.083 452.111-20.147 20.861 13.431 8.317z" class="grdc-2"/>
+    <path id="path4188" d="m562.774 473.368-21.932 17.088 12.553 10.652z" class="grdc-2"/>
+    <path id="path4190" d="m543.322 539.424-25.03 3.464 5.867-18.709z" class="grdc-2"/>
+    <path id="path4192" d="m532.833 501.041-21.922 17.078 12.543 10.653z" class="grdc-2"/>
+    <path id="path4194" d="m535.12 485.747-14.908 28.088 14.599 2.538z" class="grdc-2"/>
+    <path id="path4196" d="m547.297 476.05-15.602 27.355 14.521 3.242z" class="grdc-2"/>
+    <path id="path4198" d="M546.033 533.693 522.2 522.567l10.903-13.711Z" class="grdc-2"/>
+    <path id="path4200" d="m552.083 483.152-18.748-23.235 13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path4204" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m566.797 294.072-52.683 37.92" class="grdc-1"/>
+  <g id="g4220">
+    <path id="path4206" d="m570.724 317.22-25.077 2.624 6.185-18.507z" class="grdc-2"/>
+    <path id="path4208" d="m578.559 279.434-12.553 30.221-7.555-17.513z" class="grdc-2"/>
+    <path id="path4210" d="m560.912 278.489-22.222 16.345 12.37 11.067z" class="grdc-2"/>
+    <path id="path4212" d="m533.055 289.932-15.39 27.587 14.551 3.029z" class="grdc-2"/>
+    <path id="path4214" d="m545.396 280.65-16.075 26.824 14.464 3.734z" class="grdc-2"/>
+    <path id="path4216" d="m543.129 338.235-23.631-11.926 11.135-13.335z" class="grdc-2"/>
+    <path id="path4218" d="m557.139 336.952-23.92-10.778 10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path4222" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m583.364 638.538-69.848 71.479" class="grdc-1"/>
+  <path id="path4224" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m571.718 525.559-58.202 16.133" class="grdc-1"/>
+  <g id="g4240">
+    <path id="path4226" d="m572.509 549.305-24.614-7.141 9.659-15.399z" class="grdc-2"/>
+    <path id="path4228" d="m587.61 516.035-18.111 24.18-3.744-19.732z" class="grdc-2"/>
+    <path id="path4230" d="m570.85 508.326-24.614 7.14 9.648 15.4z" class="grdc-2"/>
+    <path id="path4232" d="m541.797 508.586-20.321 20.562 13.374 8.52z" class="grdc-2"/>
+    <path id="path4234" d="m555.508 504.428-20.813 19.558 13.142 9.166z" class="grdc-2"/>
+    <path id="path4236" d="m541.797 558.867-20.321-20.562 13.374-8.52z" class="grdc-2"/>
+    <path id="path4238" d="m555.508 563.025-20.813-19.568 13.142-9.156z" class="grdc-2"/>
+  </g>
+  <path id="path4242" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m567.858 564.241-53.387 35.99" class="grdc-1"/>
+  <g id="g4258">
+    <path id="path4244" d="m571.342 587.524-25.126 1.708 6.542-18.275z" class="grdc-2"/>
+    <path id="path4246" d="m579.891 550.038-13.123 29.747-7.217-17.782z" class="grdc-2"/>
+    <path id="path4248" d="m562.272 548.446-22.53 15.535 12.157 11.511z" class="grdc-2"/>
+    <path id="path4250" d="m534.203 558.876-15.911 27.008 14.493 3.56z" class="grdc-2"/>
+    <path id="path4252" d="m546.718 550.048-16.586 26.216 14.396 4.264z" class="grdc-2"/>
+    <path id="path4254" d="m543.36 607.526-23.408-12.785 11.395-12.92z" class="grdc-2"/>
+    <path id="path4256" d="m557.39 606.754-23.708-11.646 11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path4260" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m570.502 613.48-55.645 28.666" class="grdc-1"/>
+  <g id="g4286">
+    <path id="path4262" d="m574.005 637.129-25.126-1.669 7.787-17.32z" class="grdc-2"/>
+    <path id="path4264" d="m585.13 600.965-15.139 27.847-5.944-18.671z" class="grdc-2"/>
+    <path id="path4266" d="M567.695 597.018 544.2 609.456l11.289 13.093z" class="grdc-2"/>
+    <path id="path4268" d="m539.037 603.628-17.725 24.749 14.175 5.491z" class="grdc-2"/>
+    <path id="path4270" d="m552.102 596.526-18.333 23.872 14.03 6.175z" class="grdc-2"/>
+    <path id="path4272" d="m544.759 653.281-22.404-15.863 12.244-11.327z" class="grdc-2"/>
+    <path id="path4274" d="m587.533 657.855-21.17 18.834-.897-20.368z" class="grdc-2"/>
+    <path id="path4276" d="M577.083 625.039 556.936 645.9l13.431 8.327z" class="grdc-2"/>
+    <path id="path4278" d="m562.774 646.295-21.932 17.089 12.553 10.652z" class="grdc-2"/>
+    <path id="path4280" d="m535.12 658.675-14.908 28.088 14.599 2.537z" class="grdc-2"/>
+    <path id="path4282" d="m547.297 648.978-15.602 27.354 14.521 3.242z" class="grdc-2"/>
+    <path id="path4284" d="m552.083 656.079-18.748-23.234 13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path4288" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m566.797 467-52.683 37.93" class="grdc-1"/>
+  <g id="g4304">
+    <path id="path4290" d="m570.724 490.147-25.077 2.625 6.185-18.507z" class="grdc-2"/>
+    <path id="path4292" d="m578.559 452.372-12.553 30.21-7.555-17.512z" class="grdc-2"/>
+    <path id="path4294" d="m560.912 451.416-22.222 16.346 12.37 11.067z" class="grdc-2"/>
+    <path id="path4296" d="m533.055 462.86-15.39 27.586 14.551 3.03z" class="grdc-2"/>
+    <path id="path4298" d="m545.396 453.587-16.075 26.815 14.464 3.734z" class="grdc-2"/>
+    <path id="path4300" d="m543.129 511.162-23.631-11.926 11.135-13.334z" class="grdc-2"/>
+    <path id="path4302" d="m557.139 509.879-23.92-10.778 10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path4306" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m445.308 507.11 69.848 71.48" class="grdc-1"/>
+  <path id="path4308" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m456.944 394.131 58.212 16.133" class="grdc-1"/>
+  <g id="g4324">
+    <path id="path4310" d="m456.153 417.877 24.624-7.14-9.658-15.39z" class="grdc-2"/>
+    <path id="path4312" d="m441.053 384.608 18.121 24.189 3.743-19.741z" class="grdc-2"/>
+    <path id="path4314" d="m457.823 376.898 24.614 7.14-9.659 15.4z" class="grdc-2"/>
+    <path id="path4316" d="m486.875 377.159 20.311 20.561-13.373 8.52z" class="grdc-2"/>
+    <path id="path4318" d="m473.155 373 20.822 19.568-13.151 9.157z" class="grdc-2"/>
+    <path id="path4320" d="m486.875 427.439 20.311-20.562-13.373-8.52z" class="grdc-2"/>
+    <path id="path4322" d="m473.155 431.598 20.822-19.559-13.151-9.166z" class="grdc-2"/>
+  </g>
+  <path id="path4326" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m460.813 432.813 53.378 35.99" class="grdc-1"/>
+  <g id="g4342">
+    <path id="path4328" d="m457.331 456.096 25.116 1.708-6.533-18.275z" class="grdc-2"/>
+    <path id="path4330" d="m448.782 418.62 13.122 29.738 7.218-17.783z" class="grdc-2"/>
+    <path id="path4332" d="m466.401 417.028 22.52 15.525-12.148 11.521z" class="grdc-2"/>
+    <path id="path4334" d="m494.469 427.449 15.911 27.007-14.492 3.56z" class="grdc-2"/>
+    <path id="path4336" d="m481.955 418.62 16.586 26.226-14.396 4.255z" class="grdc-2"/>
+    <path id="path4338" d="m485.312 476.098 23.399-12.784-11.386-12.92z" class="grdc-2"/>
+    <path id="path4340" d="m471.283 475.326 23.707-11.646-11.057-13.47Z" class="grdc-2"/>
+  </g>
+  <path id="path4344" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m458.17 482.052 55.645 28.667" class="grdc-1"/>
+  <g id="g4378">
+    <path id="path4346" d="m454.667 505.701 25.126-1.669-7.786-17.31z" class="grdc-2"/>
+    <path id="path4348" d="m443.542 469.537 15.139 27.847 5.934-18.661z" class="grdc-2"/>
+    <path id="path4350" d="m460.968 465.591 23.505 12.437-11.289 13.094z" class="grdc-2"/>
+    <path id="path4352" d="m489.635 472.21 17.715 24.749-14.174 5.481z" class="grdc-2"/>
+    <path id="path4354" d="m476.561 465.099 18.333 23.871-14.03 6.175z" class="grdc-2"/>
+    <path id="path4356" d="m483.913 521.863 22.395-15.872-12.234-11.328z" class="grdc-2"/>
+    <path id="path4358" d="m455.42 553.261 25.02 3.464-5.867-18.71z" class="grdc-2"/>
+    <path id="path4360" d="m441.14 526.437 21.169 18.825.898-20.359z" class="grdc-2"/>
+    <path id="path4362" d="m451.58 493.611 20.156 20.871-13.441 8.317z" class="grdc-2"/>
+    <path id="path4364" d="m465.899 514.868 21.932 17.088-12.553 10.652z" class="grdc-2"/>
+    <path id="path4366" d="m485.351 580.924 25.029 3.474-5.866-18.719z" class="grdc-2"/>
+    <path id="path4368" d="m495.839 542.541 21.923 17.088-12.554 10.652z" class="grdc-2"/>
+    <path id="path4370" d="m493.553 527.247 14.907 28.088-14.608 2.547z" class="grdc-2"/>
+    <path id="path4372" d="m481.376 517.56 15.602 27.345-14.531 3.242z" class="grdc-2"/>
+    <path id="path4374" d="m482.63 575.202 23.842-11.135-10.903-13.701z" class="grdc-2"/>
+    <path id="path4376" d="m476.59 524.661 18.748-23.244-13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path4380" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m461.865 335.572 52.683 37.93" class="grdc-1"/>
+  <g id="g4396">
+    <path id="path4382" d="m457.948 358.72 25.078 2.624-6.195-18.507z" class="grdc-2"/>
+    <path id="path4384" d="m450.113 320.944 12.553 30.211 7.546-17.513z" class="grdc-2"/>
+    <path id="path4386" d="m467.761 319.998 22.212 16.336-12.36 11.077z" class="grdc-2"/>
+    <path id="path4388" d="m495.617 331.442 15.39 27.577-14.55 3.029z" class="grdc-2"/>
+    <path id="path4390" d="m483.276 322.16 16.076 26.814-14.474 3.734z" class="grdc-2"/>
+    <path id="path4392" d="m485.534 379.744 23.64-11.935-11.144-13.335z" class="grdc-2"/>
+    <path id="path4394" d="m471.524 378.452 23.929-10.778-10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path4398" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m456.944 567.059 58.212 16.142" class="grdc-1"/>
+  <path id="path4400" stroke-width=".965" d="m441.053 557.535 18.12 24.19 3.744-19.742z" class="grdc-2"/>
+  <path id="path4402" stroke-width=".965" d="m473.154 545.928 20.823 19.568-13.152 9.156z" class="grdc-2"/>
+  <path id="path4404" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m461.865 508.5 52.683 37.93" class="grdc-1"/>
+  <g id="g4418">
+    <path id="path4406" d="m457.948 531.647 25.078 2.625-6.195-18.507z" class="grdc-2"/>
+    <path id="path4408" d="m450.113 493.872 12.553 30.21 7.546-17.512z" class="grdc-2"/>
+    <path id="path4410" d="m495.617 504.37 15.39 27.576-14.55 3.03z" class="grdc-2"/>
+    <path id="path4412" d="m483.276 495.087 16.076 26.815-14.474 3.734z" class="grdc-2"/>
+    <path id="path4414" d="m485.534 552.672 23.64-11.926-11.144-13.335z" class="grdc-2"/>
+    <path id="path4416" d="m471.524 551.379 23.929-10.768-10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path4420" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m444.69 661.589 69.849 71.479" class="grdc-1"/>
+  <path id="path4422" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m456.327 548.61 58.212 16.143" class="grdc-1"/>
+  <g id="g4432">
+    <path id="path4424" d="m440.435 539.086 18.121 24.19 3.744-19.732z" class="grdc-2"/>
+    <path id="path4426" d="m486.258 531.647 20.311 20.562-13.373 8.51z" class="grdc-2"/>
+    <path id="path4428" d="m472.537 527.479 20.823 19.568-13.152 9.157z" class="grdc-2"/>
+    <path id="path4430" d="m472.537 586.086 20.823-19.568-13.152-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path4434" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m460.196 587.292 53.378 35.99" class="grdc-1"/>
+  <g id="g4450">
+    <path id="path4436" d="m456.713 610.585 25.126 1.698-6.542-18.275z" class="grdc-2"/>
+    <path id="path4438" d="m448.164 573.099 13.123 29.747 7.217-17.783z" class="grdc-2"/>
+    <path id="path4440" d="m465.783 571.507 22.521 15.525-12.148 11.521z" class="grdc-2"/>
+    <path id="path4442" d="m493.852 581.928 15.911 27.007-14.493 3.56z" class="grdc-2"/>
+    <path id="path4444" d="m481.337 573.099 16.586 26.225-14.396 4.265z" class="grdc-2"/>
+    <path id="path4446" d="m484.695 630.587 23.398-12.795-11.385-12.919z" class="grdc-2"/>
+    <path id="path4448" d="m470.665 629.805 23.708-11.646-11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path4452" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m457.552 636.54 55.645 28.667" class="grdc-1"/>
+  <g id="g4476">
+    <path id="path4454" d="m454.05 660.18 25.126-1.669-7.787-17.31z" class="grdc-2"/>
+    <path id="path4456" d="m442.925 624.026 15.139 27.846 5.934-18.67z" class="grdc-2"/>
+    <path id="path4458" d="m460.351 620.079 23.504 12.438-11.289 13.084z" class="grdc-2"/>
+    <path id="path4460" d="m489.018 626.689 17.715 24.749-14.174 5.49z" class="grdc-2"/>
+    <path id="path4462" d="m475.943 619.578 18.333 23.881-14.029 6.165z" class="grdc-2"/>
+    <path id="path4464" d="m483.296 676.342 22.395-15.863-12.235-11.337z" class="grdc-2"/>
+    <path id="path4466" d="m450.962 648.1 20.157 20.861-13.441 8.317z" class="grdc-2"/>
+    <path id="path4468" d="m475.972 679.14 18.748-23.244-13.914-6.638z" class="grdc-2"/>
+    <path id="path4470" d="m467.143 474.477 22.212 16.346-12.36 11.067z" class="grdc-2"/>
+    <path id="path4472" d="m495 485.921 15.39 27.577-14.551 3.029z" class="grdc-2"/>
+    <path id="path4474" d="m482.659 476.639 16.075 26.824-14.473 3.724z" class="grdc-2"/>
+  </g>
+  <path id="path4478" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m461.248 662.978 52.683 37.93" class="grdc-1"/>
+  <g id="g4488">
+    <path id="path4480" d="m449.496 648.351 12.553 30.22 7.545-17.523z" class="grdc-2"/>
+    <path id="path4482" d="m467.143 647.405 22.212 16.345-12.36 11.067z" class="grdc-2"/>
+    <path id="path4484" d="m495 658.849 15.39 27.586-14.551 3.03z" class="grdc-2"/>
+    <path id="path4486" d="m482.659 649.566 16.075 26.824-14.473 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path4490" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m691.46 414.876-69.848 71.48" class="grdc-1"/>
+  <path id="path4492" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m679.824 301.897-58.212 16.143" class="grdc-1"/>
+  <g id="g4508">
+    <path id="path4494" d="m680.616 325.653-24.615-7.14 9.649-15.4z" class="grdc-2"/>
+    <path id="path4496" d="m695.716 292.374-18.12 24.189-3.744-19.732z" class="grdc-2"/>
+    <path id="path4498" d="m678.956 284.664-24.624 7.15 9.659 15.39z" class="grdc-2"/>
+    <path id="path4500" d="m649.894 284.934-20.311 20.562 13.373 8.511z" class="grdc-2"/>
+    <path id="path4502" d="m663.614 280.766-20.822 19.568 13.152 9.166z" class="grdc-2"/>
+    <path id="path4504" d="m649.894 335.215-20.311-20.572 13.373-8.51z" class="grdc-2"/>
+    <path id="path4506" d="m663.614 339.373-20.822-19.568 13.152-9.156z" class="grdc-2"/>
+  </g>
+  <path id="path4510" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m675.965 340.58-53.388 35.99" class="grdc-1"/>
+  <g id="g4526">
+    <path id="path4512" d="m679.439 363.872-25.116 1.708 6.541-18.285z" class="grdc-2"/>
+    <path id="path4514" d="m687.997 326.386-13.132 29.748-7.208-17.783z" class="grdc-2"/>
+    <path id="path4516" d="m670.369 324.794-22.521 15.525 12.148 11.521z" class="grdc-2"/>
+    <path id="path4518" d="m642.3 335.215-15.911 27.007 14.493 3.561z" class="grdc-2"/>
+    <path id="path4520" d="m654.815 326.396-16.577 26.216 14.386 4.265z" class="grdc-2"/>
+    <path id="path4522" d="m651.457 383.874-23.399-12.785 11.396-12.929Z" class="grdc-2"/>
+    <path id="path4524" d="m665.486 383.102-23.707-11.646 11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path4528" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m678.599 389.828-55.645 28.666" class="grdc-1"/>
+  <g id="g4562">
+    <path id="path4530" d="m682.102 413.477-25.126-1.669 7.787-17.32z" class="grdc-2"/>
+    <path id="path4532" d="m693.227 377.313-15.139 27.847-5.934-18.671z" class="grdc-2"/>
+    <path id="path4534" d="m675.801 373.367-23.505 12.437 11.289 13.094z" class="grdc-2"/>
+    <path id="path4536" d="m647.134 379.976-17.715 24.749 14.174 5.491z" class="grdc-2"/>
+    <path id="path4538" d="m660.208 372.865-18.333 23.881 14.03 6.165z" class="grdc-2"/>
+    <path id="path4540" d="m652.856 429.629-22.395-15.863 12.235-11.337z" class="grdc-2"/>
+    <path id="path4542" d="m681.359 461.027-25.03 3.473 5.867-18.718z" class="grdc-2"/>
+    <path id="path4544" d="m695.639 434.203-21.179 18.835-.888-20.369z" class="grdc-2"/>
+    <path id="path4546" d="m685.189 401.387-20.156 20.861 13.441 8.317z" class="grdc-2"/>
+    <path id="path4548" d="m670.87 422.643-21.922 17.089 12.553 10.652z" class="grdc-2"/>
+    <path id="path4550" d="m651.418 488.7-25.029 3.464 5.866-18.709z" class="grdc-2"/>
+    <path id="path4552" d="m640.93 450.307-21.922 17.088 12.553 10.652z" class="grdc-2"/>
+    <path id="path4554" d="m643.217 435.023-14.908 28.088 14.609 2.538z" class="grdc-2"/>
+    <path id="path4556" d="m655.394 425.326-15.603 27.354 14.532 3.243z" class="grdc-2"/>
+    <path id="path4558" d="m654.139 482.968-23.833-11.134 10.904-13.702Z" class="grdc-2"/>
+    <path id="path4560" d="m660.189 432.427-18.757-23.244 13.913-6.638z" class="grdc-2"/>
+  </g>
+  <path id="path4564" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m674.903 243.338-52.683 37.93" class="grdc-1"/>
+  <g id="g4580">
+    <path id="path4566" d="m678.831 266.495-25.087 2.625 6.194-18.516z" class="grdc-2"/>
+    <path id="path4568" d="m686.666 228.71-12.563 30.221-7.546-17.523z" class="grdc-2"/>
+    <path id="path4570" d="m669.018 227.765-22.222 16.345 12.361 11.067z" class="grdc-2"/>
+    <path id="path4572" d="m641.152 239.208-15.39 27.577 14.56 3.039z" class="grdc-2"/>
+    <path id="path4574" d="m653.493 229.926-16.075 26.824 14.473 3.724z" class="grdc-2"/>
+    <path id="path4576" d="m651.235 287.511-23.64-11.926 11.145-13.335Z" class="grdc-2"/>
+    <path id="path4578" d="m665.245 286.227-23.92-10.778 10.798-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path4582" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m691.46 587.813-69.848 71.47" class="grdc-1"/>
+  <path id="path4584" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m679.824 474.825-58.212 16.142" class="grdc-1"/>
+  <g id="g4600">
+    <path id="path4586" d="m680.616 498.58-24.615-7.14 9.649-15.4z" class="grdc-2"/>
+    <path id="path4588" d="m695.716 465.311-18.12 24.18-3.744-19.732z" class="grdc-2"/>
+    <path id="path4590" d="m678.956 457.592-24.624 7.15 9.659 15.39z" class="grdc-2"/>
+    <path id="path4592" d="m649.894 457.862-20.311 20.562 13.373 8.52z" class="grdc-2"/>
+    <path id="path4594" d="m663.614 453.694-20.822 19.568 13.152 9.166z" class="grdc-2"/>
+    <path id="path4596" d="m649.894 508.142-20.311-20.561 13.373-8.52z" class="grdc-2"/>
+    <path id="path4598" d="m663.614 512.301-20.822-19.568 13.152-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path4602" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m675.965 513.507-53.388 35.99" class="grdc-1"/>
+  <g id="g4618">
+    <path id="path4604" d="m679.439 536.8-25.116 1.707 6.541-18.284z" class="grdc-2"/>
+    <path id="path4606" d="m687.997 499.314-13.132 29.747-7.208-17.783z" class="grdc-2"/>
+    <path id="path4608" d="m670.369 497.722-22.521 15.534 12.148 11.511z" class="grdc-2"/>
+    <path id="path4610" d="m642.3 508.152-15.911 27.007 14.493 3.561z" class="grdc-2"/>
+    <path id="path4612" d="m654.815 499.323-16.577 26.216 14.386 4.265z" class="grdc-2"/>
+    <path id="path4614" d="m651.457 556.802-23.399-12.785 11.396-12.93z" class="grdc-2"/>
+    <path id="path4616" d="m665.486 556.03-23.707-11.646 11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path4620" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m678.599 562.755-55.645 28.667" class="grdc-1"/>
+  <g id="g4654">
+    <path id="path4622" d="m682.102 586.405-25.126-1.67 7.787-17.319z" class="grdc-2"/>
+    <path id="path4624" d="m693.227 550.241-15.139 27.846-5.934-18.67z" class="grdc-2"/>
+    <path id="path4626" d="m675.801 546.294-23.505 12.438 11.289 13.093z" class="grdc-2"/>
+    <path id="path4628" d="m647.134 552.904-17.715 24.749 14.174 5.49z" class="grdc-2"/>
+    <path id="path4630" d="m660.208 545.802-18.333 23.871 14.03 6.166z" class="grdc-2"/>
+    <path id="path4632" d="m652.856 602.557-22.395-15.863 12.235-11.337z" class="grdc-2"/>
+    <path id="path4634" d="m681.359 633.964-25.03 3.464 5.867-18.719z" class="grdc-2"/>
+    <path id="path4636" d="m695.639 607.13-21.179 18.835-.888-20.369z" class="grdc-2"/>
+    <path id="path4638" d="m685.189 574.315-20.156 20.86 13.441 8.318z" class="grdc-2"/>
+    <path id="path4640" d="m670.87 595.571-21.922 17.088 12.553 10.653z" class="grdc-2"/>
+    <path id="path4642" d="m651.418 661.627-25.029 3.464 5.866-18.709z" class="grdc-2"/>
+    <path id="path4644" d="m640.93 623.244-21.922 17.079 12.553 10.652z" class="grdc-2"/>
+    <path id="path4646" d="m643.217 607.951-14.908 28.088 14.609 2.537z" class="grdc-2"/>
+    <path id="path4648" d="m655.394 598.253-15.603 27.355 14.532 3.242z" class="grdc-2"/>
+    <path id="path4650" d="m654.139 655.896-23.833-11.125 10.904-13.711Z" class="grdc-2"/>
+    <path id="path4652" d="m660.189 605.355-18.757-23.235 13.913-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path4656" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m674.903 416.275-52.683 37.92" class="grdc-1"/>
+  <g id="g4672">
+    <path id="path4658" d="m678.831 439.423-25.087 2.624 6.194-18.516z" class="grdc-2"/>
+    <path id="path4660" d="m686.666 401.638-12.563 30.22-7.546-17.513z" class="grdc-2"/>
+    <path id="path4662" d="m669.018 400.692-22.222 16.345 12.361 11.068z" class="grdc-2"/>
+    <path id="path4664" d="m641.152 412.136-15.39 27.586 14.56 3.03z" class="grdc-2"/>
+    <path id="path4666" d="m653.493 402.854-16.075 26.824 14.473 3.734z" class="grdc-2"/>
+    <path id="path4668" d="m651.235 460.438-23.64-11.926 11.145-13.335z" class="grdc-2"/>
+    <path id="path4670" d="m665.245 459.155-23.92-10.778 10.798-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path4674" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m553.404 456.386 69.858 71.479" class="grdc-1"/>
+  <path id="path4676" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m565.05 343.407 58.212 16.133" class="grdc-1"/>
+  <g id="g4692">
+    <path id="path4678" d="m564.26 367.153 24.614-7.141-9.649-15.399z" class="grdc-2"/>
+    <path id="path4680" d="m549.159 333.883 18.121 24.18 3.734-19.732z" class="grdc-2"/>
+    <path id="path4682" d="m565.919 326.174 24.624 7.14-9.658 15.4z" class="grdc-2"/>
+    <path id="path4684" d="m594.972 326.434 20.321 20.562-13.374 8.52z" class="grdc-2"/>
+    <path id="path4686" d="m581.261 322.266 20.822 19.578L588.932 351Z" class="grdc-2"/>
+    <path id="path4688" d="m594.972 376.715 20.321-20.562-13.374-8.52z" class="grdc-2"/>
+    <path id="path4690" d="m581.261 380.873 20.822-19.568-13.151-9.156z" class="grdc-2"/>
+  </g>
+  <path id="path4694" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m568.91 382.09 53.388 35.99" class="grdc-1"/>
+  <g id="g4710">
+    <path id="path4696" d="m565.427 405.372 25.126 1.708-6.542-18.275z" class="grdc-2"/>
+    <path id="path4698" d="m556.878 367.896 13.132 29.738 7.208-17.783z" class="grdc-2"/>
+    <path id="path4700" d="m574.507 366.294 22.52 15.535-12.148 11.511z" class="grdc-2"/>
+    <path id="path4702" d="m602.575 376.724 15.911 27.008-14.492 3.56z" class="grdc-2"/>
+    <path id="path4704" d="m590.051 367.896 16.587 26.216-14.397 4.264z" class="grdc-2"/>
+    <path id="path4706" d="m593.419 425.374 23.398-12.785-11.395-12.92z" class="grdc-2"/>
+    <path id="path4708" d="m579.389 424.602 23.707-11.646-11.057-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path4712" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m566.276 431.328 55.645 28.666" class="grdc-1"/>
+  <g id="g4746">
+    <path id="path4714" d="m562.774 454.977 25.116-1.669-7.777-17.32z" class="grdc-2"/>
+    <path id="path4716" d="m551.649 418.813 15.139 27.847 5.934-18.671z" class="grdc-2"/>
+    <path id="path4718" d="m569.074 414.866 23.496 12.438-11.29 13.093z" class="grdc-2"/>
+    <path id="path4720" d="m597.741 421.476 17.716 24.749-14.174 5.491z" class="grdc-2"/>
+    <path id="path4722" d="M584.667 414.374 603 438.246l-14.029 6.175Z" class="grdc-2"/>
+    <path id="path4724" d="m592.02 471.139 22.395-15.873-12.235-11.327Z" class="grdc-2"/>
+    <path id="path4726" d="M563.517 502.536 588.546 506l-5.867-18.719Z" class="grdc-2"/>
+    <path id="path4728" d="m549.236 475.703 21.17 18.834.897-20.368z" class="grdc-2"/>
+    <path id="path4730" d="m559.686 442.887 20.157 20.861-13.441 8.317z" class="grdc-2"/>
+    <path id="path4732" d="m574.005 464.143 21.922 17.089-12.553 10.652z" class="grdc-2"/>
+    <path id="path4734" d="m593.457 530.2 25.029 3.464-5.876-18.71z" class="grdc-2"/>
+    <path id="path4736" d="m603.936 491.816 21.932 17.089-12.553 10.642z" class="grdc-2"/>
+    <path id="path4738" d="m601.649 476.523 14.908 28.088-14.599 2.538z" class="grdc-2"/>
+    <path id="path4740" d="m589.482 466.826 15.602 27.354-14.531 3.242z" class="grdc-2"/>
+    <path id="path4742" d="m590.736 524.468 23.833-11.125-10.903-13.701z" class="grdc-2"/>
+    <path id="path4744" d="m584.686 473.937 18.758-23.244-13.914-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path4748" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m569.971 284.848 52.684 37.93" class="grdc-1"/>
+  <g id="g4764">
+    <path id="path4750" d="m566.045 307.995 25.087 2.625-6.195-18.507z" class="grdc-2"/>
+    <path id="path4752" d="m558.21 270.22 12.563 30.211 7.545-17.513z" class="grdc-2"/>
+    <path id="path4754" d="m575.858 269.265 22.221 16.345-12.36 11.077z" class="grdc-2"/>
+    <path id="path4756" d="m603.724 280.718 15.39 27.576-14.561 3.03z" class="grdc-2"/>
+    <path id="path4758" d="m591.373 271.436 16.085 26.814-14.474 3.734z" class="grdc-2"/>
+    <path id="path4760" d="m593.641 329.02 23.639-11.935-11.144-13.335Z" class="grdc-2"/>
+    <path id="path4762" d="m579.63 327.727 23.92-10.778-10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path4766" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m565.05 516.334 58.212 16.133" class="grdc-1"/>
+  <path id="path4768" stroke-width=".965" d="m549.159 506.81 18.12 24.181 3.735-19.732z" class="grdc-2"/>
+  <path id="path4770" stroke-width=".965" d="m581.26 495.203 20.823 19.568-13.151 9.157z" class="grdc-2"/>
+  <path id="path4772" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m569.971 457.775 52.684 37.93" class="grdc-1"/>
+  <g id="g4786">
+    <path id="path4774" d="m566.045 480.923 25.087 2.624-6.195-18.506z" class="grdc-2"/>
+    <path id="path4776" d="m558.21 443.147 12.563 30.211 7.545-17.513z" class="grdc-2"/>
+    <path id="path4778" d="m603.724 453.645 15.39 27.577-14.561 3.03z" class="grdc-2"/>
+    <path id="path4780" d="m591.373 444.363 16.085 26.814-14.474 3.735z" class="grdc-2"/>
+    <path id="path4782" d="m593.641 501.948 23.639-11.936-11.144-13.325Z" class="grdc-2"/>
+    <path id="path4784" d="m579.63 500.655 23.92-10.778-10.797-13.856z" class="grdc-2"/>
+  </g>
+  <path id="path4788" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m552.787 610.865 69.858 71.479" class="grdc-1"/>
+  <path id="path4790" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m564.433 497.886 58.212 16.142" class="grdc-1"/>
+  <g id="g4800">
+    <path id="path4792" d="m548.542 488.362 18.12 24.19 3.734-19.732z" class="grdc-2"/>
+    <path id="path4794" d="m594.364 480.913 20.311 20.572-13.373 8.51z" class="grdc-2"/>
+    <path id="path4796" d="m580.644 476.754 20.822 19.568-13.152 9.157z" class="grdc-2"/>
+    <path id="path4798" d="m580.644 535.362 20.822-19.568-13.152-9.167z" class="grdc-2"/>
+  </g>
+  <path id="path4802" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m568.293 536.568 53.387 35.99" class="grdc-1"/>
+  <g id="g4818">
+    <path id="path4804" d="m564.81 559.86 25.125 1.699-6.542-18.275z" class="grdc-2"/>
+    <path id="path4806" d="m556.261 522.374 13.132 29.748 7.208-17.783z" class="grdc-2"/>
+    <path id="path4808" d="m573.889 520.782 22.521 15.526-12.148 11.52z" class="grdc-2"/>
+    <path id="path4810" d="m601.958 531.203 15.911 27.008-14.493 3.56z" class="grdc-2"/>
+    <path id="path4812" d="M589.443 522.374 606.02 548.6l-14.396 4.255z" class="grdc-2"/>
+    <path id="path4814" d="m592.801 579.863 23.399-12.795-11.396-12.92Z" class="grdc-2"/>
+    <path id="path4816" d="m578.762 579.081 23.717-11.646-11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path4820" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m565.658 585.816 55.646 28.667" class="grdc-1"/>
+  <g id="g4866">
+    <path id="path4822" d="m562.156 609.456 25.116-1.669-7.786-17.311z" class="grdc-2"/>
+    <path id="path4824" d="m551.021 573.301 15.149 27.847 5.934-18.671z" class="grdc-2"/>
+    <path id="path4826" d="m568.457 569.355 23.495 12.428-11.289 13.093z" class="grdc-2"/>
+    <path id="path4828" d="m597.124 575.964 17.715 24.75-14.174 5.48z" class="grdc-2"/>
+    <path id="path4830" d="m584.05 568.853 18.332 23.881-14.029 6.166z" class="grdc-2"/>
+    <path id="path4832" d="m591.402 625.618 22.395-15.863-12.235-11.338z" class="grdc-2"/>
+    <path id="path4834" d="m562.899 657.015 25.029 3.464-5.866-18.709z" class="grdc-2"/>
+    <path id="path4836" d="m548.619 630.191 21.169 18.835.898-20.369z" class="grdc-2"/>
+    <path id="path4838" d="m559.069 597.366 20.156 20.87-13.441 8.318z" class="grdc-2"/>
+    <path id="path4840" d="m573.388 618.632 21.922 17.078-12.553 10.653z" class="grdc-2"/>
+    <path id="path4842" d="m603.318 646.295 21.932 17.089-12.553 10.652z" class="grdc-2"/>
+    <path id="path4844" d="m601.032 631.002 14.907 28.088-14.599 2.547z" class="grdc-2"/>
+    <path id="path4846" d="m588.864 621.314 15.603 27.345-14.532 3.252z" class="grdc-2"/>
+    <path id="path4848" d="m590.119 678.957 23.833-11.135-10.904-13.701z" class="grdc-2"/>
+    <path id="path4850" d="m584.069 628.416 18.757-23.244-13.923-6.648z" class="grdc-2"/>
+    <path id="path4852" d="m575.24 423.753 22.222 16.345-12.361 11.068z" class="grdc-2"/>
+    <path id="path4854" d="m603.096 435.197 15.4 27.576-14.56 3.03z" class="grdc-2"/>
+    <path id="path4856" d="m590.756 425.914 16.084 26.815-14.473 3.734z" class="grdc-2"/>
+    <path id="path4858" d="m548.542 661.29 18.12 24.19 3.734-19.732z" class="grdc-2"/>
+    <path id="path4860" d="m565.302 653.58 24.624 7.14-9.659 15.4z" class="grdc-2"/>
+    <path id="path4862" d="m594.364 653.85 20.311 20.562-13.373 8.511z" class="grdc-2"/>
+    <path id="path4864" d="m580.644 649.682 20.822 19.568-13.152 9.157z" class="grdc-2"/>
+  </g>
+  <path id="path4868" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m569.354 612.254 52.683 37.93" class="grdc-1"/>
+  <g id="g4884">
+    <path id="path4870" d="m565.427 635.411 25.087 2.625-6.194-18.516z" class="grdc-2"/>
+    <path id="path4872" d="m557.592 597.626 12.554 30.221 7.555-17.523z" class="grdc-2"/>
+    <path id="path4874" d="m575.24 596.681 22.222 16.345-12.361 11.067z" class="grdc-2"/>
+    <path id="path4876" d="m603.096 608.124 15.4 27.577-14.56 3.03z" class="grdc-2"/>
+    <path id="path4878" d="m590.756 598.842 16.084 26.824-14.473 3.724z" class="grdc-2"/>
+    <path id="path4880" d="m593.023 656.427 23.64-11.926-11.145-13.335z" class="grdc-2"/>
+    <path id="path4882" d="m579.013 655.143 23.919-10.777-10.797-13.866Z" class="grdc-2"/>
+  </g>
+  <path id="path4886" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m794.579 343.407-58.212 16.133" class="grdc-1"/>
+  <g id="g4900">
+    <path id="path4888" d="m795.37 367.153-24.624-7.141 9.659-15.399z" class="grdc-2"/>
+    <path id="path4890" d="m793.711 326.174-24.624 7.14 9.658 15.4z" class="grdc-2"/>
+    <path id="path4892" d="m764.648 326.434-20.311 20.562 13.373 8.52z" class="grdc-2"/>
+    <path id="path4894" d="m778.369 322.266-20.823 19.578L770.698 351Z" class="grdc-2"/>
+    <path id="path4896" d="m764.648 376.715-20.311-20.562 13.373-8.52z" class="grdc-2"/>
+    <path id="path4898" d="m778.369 380.873-20.823-19.568 13.152-9.156z" class="grdc-2"/>
+  </g>
+  <path id="path4902" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m790.72 382.09-53.388 35.99" class="grdc-1"/>
+  <g id="g4916">
+    <path id="path4904" d="m794.203 405.372-25.126 1.708 6.542-18.275z" class="grdc-2"/>
+    <path id="path4906" d="m785.123 366.294-22.521 15.535 12.148 11.511z" class="grdc-2"/>
+    <path id="path4908" d="m757.054 376.724-15.911 27.008 14.493 3.56z" class="grdc-2"/>
+    <path id="path4910" d="m769.569 367.896-16.577 26.216 14.387 4.264z" class="grdc-2"/>
+    <path id="path4912" d="m766.211 425.374-23.398-12.785 11.395-12.92z" class="grdc-2"/>
+    <path id="path4914" d="m780.241 424.602-23.708-11.646 11.058-13.47z" class="grdc-2"/>
+  </g>
+  <path id="path4918" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m793.353 431.328-55.645 28.666" class="grdc-1"/>
+  <g id="g4946">
+    <path id="path4920" d="m796.856 454.977-25.116-1.669 7.777-17.32z" class="grdc-2"/>
+    <path id="path4922" d="m790.555 414.866-23.495 12.438 11.28 13.093z" class="grdc-2"/>
+    <path id="path4924" d="m761.888 421.476-17.715 24.749 14.174 5.491z" class="grdc-2"/>
+    <path id="path4926" d="m774.963 414.374-18.333 23.872 14.029 6.175z" class="grdc-2"/>
+    <path id="path4928" d="m767.61 471.139-22.395-15.873 12.235-11.327Z" class="grdc-2"/>
+    <path id="path4930" d="M796.113 502.536 771.084 506l5.866-18.719Z" class="grdc-2"/>
+    <path id="path4932" d="m785.625 464.143-21.923 17.089 12.554 10.652z" class="grdc-2"/>
+    <path id="path4934" d="m766.173 530.2-25.03 3.464 5.867-18.71z" class="grdc-2"/>
+    <path id="path4936" d="m755.694 491.816-21.932 17.089 12.553 10.642z" class="grdc-2"/>
+    <path id="path4938" d="m757.971 476.523-14.898 28.088 14.599 2.538z" class="grdc-2"/>
+    <path id="path4940" d="m770.148 466.826-15.602 27.354 14.531 3.242z" class="grdc-2"/>
+    <path id="path4942" d="m768.894 524.468-23.833-11.125 10.903-13.701z" class="grdc-2"/>
+    <path id="path4944" d="m774.943 473.937-18.757-23.244 13.914-6.648Z" class="grdc-2"/>
+  </g>
+  <path id="path4948" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m789.658 284.848-52.683 37.93" class="grdc-1"/>
+  <g id="g4962">
+    <path id="path4950" d="m793.585 307.995-25.087 2.625 6.195-18.507z" class="grdc-2"/>
+    <path id="path4952" d="m783.772 269.265-22.221 16.345 12.36 11.077z" class="grdc-2"/>
+    <path id="path4954" d="m755.906 280.718-15.39 27.576 14.56 3.03z" class="grdc-2"/>
+    <path id="path4956" d="m768.257 271.436-16.085 26.814 14.473 3.734z" class="grdc-2"/>
+    <path id="path4958" d="m765.989 329.02-23.64-11.935 11.145-13.335z" class="grdc-2"/>
+    <path id="path4960" d="m779.999 327.727-23.919-10.778 10.797-13.865Z" class="grdc-2"/>
+  </g>
+  <path id="path4964" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m794.579 516.334-58.212 16.133" class="grdc-1"/>
+  <g id="g4978">
+    <path id="path4966" d="m795.37 540.08-24.624-7.14 9.659-15.4z" class="grdc-2"/>
+    <path id="path4968" d="m793.711 499.101-24.624 7.141 9.658 15.399z" class="grdc-2"/>
+    <path id="path4970" d="m764.648 499.362-20.311 20.562 13.373 8.52z" class="grdc-2"/>
+    <path id="path4972" d="m778.369 495.203-20.823 19.568 13.152 9.157z" class="grdc-2"/>
+    <path id="path4974" d="m764.648 549.642-20.311-20.562 13.373-8.519Z" class="grdc-2"/>
+    <path id="path4976" d="m778.369 553.801-20.823-19.558 13.152-9.167z" class="grdc-2"/>
+  </g>
+  <path id="path4980" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m790.72 555.017-53.388 35.99" class="grdc-1"/>
+  <g id="g5008">
+    <path id="path4982" d="m785.123 539.231-22.521 15.525 12.148 11.511z" class="grdc-2"/>
+    <path id="path4984" d="m757.054 549.652-15.911 27.007 14.493 3.561z" class="grdc-2"/>
+    <path id="path4986" d="m769.569 540.823-16.577 26.226 14.387 4.255z" class="grdc-2"/>
+    <path id="path4988" d="m766.211 598.302-23.398-12.785 11.395-12.92z" class="grdc-2"/>
+    <path id="path4990" d="m780.241 597.53-23.708-11.646 11.058-13.47z" class="grdc-2"/>
+    <path id="path4992" d="m790.555 587.794-23.495 12.437 11.28 13.094z" class="grdc-2"/>
+    <path id="path4994" d="m761.888 594.413-17.715 24.74 14.174 5.49z" class="grdc-2"/>
+    <path id="path4996" d="m774.963 587.302-18.333 23.871 14.029 6.176z" class="grdc-2"/>
+    <path id="path4998" d="m767.61 644.066-22.395-15.872 12.235-11.328Z" class="grdc-2"/>
+    <path id="path5000" d="m755.694 664.744-21.932 17.088 12.553 10.653z" class="grdc-2"/>
+    <path id="path5002" d="m757.971 649.451-14.898 28.087 14.599 2.538z" class="grdc-2"/>
+    <path id="path5004" d="m770.148 639.763-15.602 27.345 14.531 3.242z" class="grdc-2"/>
+    <path id="path5006" d="m774.943 646.865-18.757-23.245 13.914-6.648Z" class="grdc-2"/>
+  </g>
+  <path id="path5010" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m789.658 457.775-52.683 37.93" class="grdc-1"/>
+  <g id="g5024">
+    <path id="path5012" d="m793.585 480.923-25.087 2.624 6.195-18.506z" class="grdc-2"/>
+    <path id="path5014" d="m783.772 442.192-22.221 16.345 12.36 11.077z" class="grdc-2"/>
+    <path id="path5016" d="m755.906 453.645-15.39 27.577 14.56 3.03z" class="grdc-2"/>
+    <path id="path5018" d="m768.257 444.363-16.085 26.814 14.473 3.735z" class="grdc-2"/>
+    <path id="path5020" d="m765.989 501.948-23.64-11.936 11.145-13.325z" class="grdc-2"/>
+    <path id="path5022" d="m779.999 500.655-23.919-10.778 10.797-13.856Z" class="grdc-2"/>
+  </g>
+  <path id="path5026" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m668.159 497.886 69.858 71.479" class="grdc-1"/>
+  <path id="path5028" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m679.805 384.907 58.212 16.142" class="grdc-1"/>
+  <g id="g5044">
+    <path id="path5030" d="m679.014 408.662 24.614-7.15-9.649-15.39z" class="grdc-2"/>
+    <path id="path5032" d="m663.914 375.383 18.12 24.19 3.734-19.732z" class="grdc-2"/>
+    <path id="path5034" d="m680.674 367.674 24.624 7.14-9.659 15.4z" class="grdc-2"/>
+    <path id="path5036" d="m709.736 367.934 20.311 20.562-13.373 8.52z" class="grdc-2"/>
+    <path id="path5038" d="m696.015 363.776 20.823 19.567-13.152 9.157z" class="grdc-2"/>
+    <path id="path5040" d="m709.736 418.215 20.311-20.562-13.373-8.52z" class="grdc-2"/>
+    <path id="path5042" d="m696.015 422.383 20.823-19.568-13.152-9.166z" class="grdc-2"/>
+  </g>
+  <path id="path5046" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m683.665 423.59 53.387 35.99" class="grdc-1"/>
+  <g id="g5062">
+    <path id="path5048" d="m680.191 446.872 25.116 1.708-6.542-18.275z" class="grdc-2"/>
+    <path id="path5050" d="m671.633 409.396 13.132 29.747 7.208-17.792z" class="grdc-2"/>
+    <path id="path5052" d="m689.261 407.803 22.521 15.526-12.148 11.52z" class="grdc-2"/>
+    <path id="path5054" d="m717.32 418.224 15.911 27.008-14.483 3.56z" class="grdc-2"/>
+    <path id="path5056" d="m704.815 409.396 16.577 26.225-14.396 4.255z" class="grdc-2"/>
+    <path id="path5058" d="m708.173 466.874 23.399-12.785-11.396-12.92z" class="grdc-2"/>
+    <path id="path5060" d="m694.144 466.102 23.707-11.646-11.058-13.46z" class="grdc-2"/>
+  </g>
+  <path id="path5064" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m681.03 472.837 55.646 28.667" class="grdc-1"/>
+  <g id="g5098">
+    <path id="path5066" d="m677.528 496.477 25.116-1.669-7.786-17.311z" class="grdc-2"/>
+    <path id="path5068" d="m666.393 460.322 15.149 27.847 5.934-18.67z" class="grdc-2"/>
+    <path id="path5070" d="m683.829 456.376 23.495 12.428-11.28 13.093z" class="grdc-2"/>
+    <path id="path5072" d="m712.486 462.986 17.725 24.749-14.174 5.481z" class="grdc-2"/>
+    <path id="path5074" d="m699.421 455.874 18.333 23.872-14.029 6.175z" class="grdc-2"/>
+    <path id="path5076" d="m706.774 512.639 22.395-15.863-12.235-11.337z" class="grdc-2"/>
+    <path id="path5078" d="M678.271 544.036 703.3 547.5l-5.866-18.709Z" class="grdc-2"/>
+    <path id="path5080" d="m663.991 517.212 21.169 18.825.898-20.359z" class="grdc-2"/>
+    <path id="path5082" d="m674.44 484.387 20.157 20.87-13.441 8.318z" class="grdc-2"/>
+    <path id="path5084" d="m688.759 505.653 21.923 17.079-12.553 10.652z" class="grdc-2"/>
+    <path id="path5086" d="m708.212 571.709 25.019 3.464-5.857-18.719z" class="grdc-2"/>
+    <path id="path5088" d="m718.69 533.316 21.932 17.089-12.553 10.652z" class="grdc-2"/>
+    <path id="path5090" d="m716.413 518.023 14.898 28.088-14.599 2.547z" class="grdc-2"/>
+    <path id="path5092" d="m704.236 508.335 15.603 27.345-14.532 3.252z" class="grdc-2"/>
+    <path id="path5094" d="m705.491 565.978 23.832-11.135-10.903-13.701Z" class="grdc-2"/>
+    <path id="path5096" d="m699.441 515.437 18.757-23.244-13.923-6.648z" class="grdc-2"/>
+  </g>
+  <path id="path5100" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m684.726 326.347 52.683 37.93" class="grdc-1"/>
+  <g id="g5116">
+    <path id="path5102" d="m680.799 349.505 25.087 2.615-6.194-18.507z" class="grdc-2"/>
+    <path id="path5104" d="m672.964 311.72 12.563 30.21 7.545-17.512z" class="grdc-2"/>
+    <path id="path5106" d="m690.612 310.774 22.221 16.345-12.36 11.068z" class="grdc-2"/>
+    <path id="path5108" d="m718.478 322.218 15.39 27.576-14.56 3.03z" class="grdc-2"/>
+    <path id="path5110" d="m706.127 312.935 16.085 26.815-14.473 3.734z" class="grdc-2"/>
+    <path id="path5112" d="m708.395 370.52 23.64-11.936-11.145-13.325z" class="grdc-2"/>
+    <path id="path5114" d="m694.385 369.237 23.919-10.778-10.797-13.865z" class="grdc-2"/>
+  </g>
+  <path id="path5118" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m679.805 557.834 58.212 16.143" class="grdc-1"/>
+  <path id="path5120" stroke-width=".965" d="m663.913 548.31 18.12 24.19 3.735-19.731z" class="grdc-2"/>
+  <path id="path5122" stroke-width=".965" d="m696.015 536.703 20.822 19.568-13.151 9.157z" class="grdc-2"/>
+  <path id="path5124" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m684.726 499.275 52.683 37.93" class="grdc-1"/>
+  <g id="g5138">
+    <path id="path5126" d="m680.799 522.432 25.087 2.625-6.194-18.516z" class="grdc-2"/>
+    <path id="path5128" d="m672.964 484.647 12.563 30.211 7.545-17.513z" class="grdc-2"/>
+    <path id="path5130" d="m718.478 495.145 15.39 27.577-14.56 3.03z" class="grdc-2"/>
+    <path id="path5132" d="m706.127 485.863 16.085 26.814-14.473 3.734z" class="grdc-2"/>
+    <path id="path5134" d="m708.395 543.448 23.64-11.926-11.145-13.335z" class="grdc-2"/>
+    <path id="path5136" d="m694.385 542.164 23.919-10.777-10.797-13.866z" class="grdc-2"/>
+  </g>
+  <path id="path5140" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m667.541 652.365 69.858 71.479" class="grdc-1"/>
+  <path id="path5142" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m679.187 539.386 58.212 16.142" class="grdc-1"/>
+  <g id="g5152">
+    <path id="path5144" d="m663.296 529.862 18.121 24.19 3.734-19.732z" class="grdc-2"/>
+    <path id="path5146" d="m709.119 522.423 20.311 20.562-13.374 8.51z" class="grdc-2"/>
+    <path id="path5148" d="m695.398 518.254 20.822 19.568-13.151 9.167z" class="grdc-2"/>
+    <path id="path5150" d="m695.398 576.862 20.822-19.568-13.151-9.157z" class="grdc-2"/>
+  </g>
+  <path id="path5154" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m683.047 578.068 53.387 35.99" class="grdc-1"/>
+  <g id="g5170">
+    <path id="path5156" d="m679.564 601.36 25.126 1.708-6.542-18.284z" class="grdc-2"/>
+    <path id="path5158" d="m671.015 563.874 13.132 29.748 7.208-17.783z" class="grdc-2"/>
+    <path id="path5160" d="m688.644 562.282 22.52 15.535-12.148 11.511z" class="grdc-2"/>
+    <path id="path5162" d="m716.712 572.713 15.902 27.007-14.483 3.551z" class="grdc-2"/>
+    <path id="path5164" d="m704.198 563.884 16.576 26.216-14.396 4.265z" class="grdc-2"/>
+    <path id="path5166" d="m707.555 621.363 23.399-12.785-11.395-12.93z" class="grdc-2"/>
+    <path id="path5168" d="m693.526 620.591 23.707-11.647-11.057-13.469z" class="grdc-2"/>
+  </g>
+  <path id="path5172" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m680.413 627.316 55.645 28.667" class="grdc-1"/>
+  <g id="g5200">
+    <path id="path5174" d="m676.911 650.965 25.116-1.669-7.787-17.32z" class="grdc-2"/>
+    <path id="path5176" d="m665.776 614.801 15.149 27.847 5.934-18.671z" class="grdc-2"/>
+    <path id="path5178" d="m683.211 610.855 23.495 12.437-11.279 13.094z" class="grdc-2"/>
+    <path id="path5180" d="m711.869 617.464 17.725 24.75-14.175 5.49z" class="grdc-2"/>
+    <path id="path5182" d="m698.804 610.353 18.333 23.881-14.03 6.166z" class="grdc-2"/>
+    <path id="path5184" d="m706.156 667.118 22.395-15.863-12.234-11.338z" class="grdc-2"/>
+    <path id="path5186" d="m673.823 638.875 20.156 20.861-13.44 8.318z" class="grdc-2"/>
+    <path id="path5188" d="m688.142 660.132 21.922 17.088-12.553 10.652z" class="grdc-2"/>
+    <path id="path5190" d="m703.619 662.814 15.602 27.355-14.531 3.242z" class="grdc-2"/>
+    <path id="path5192" d="m698.823 669.916 18.758-23.235-13.914-6.648z" class="grdc-2"/>
+    <path id="path5194" d="m689.994 465.253 22.222 16.345-12.36 11.068z" class="grdc-2"/>
+    <path id="path5196" d="m717.861 476.697 15.39 27.586-14.561 3.03z" class="grdc-2"/>
+    <path id="path5198" d="m705.51 467.414 16.085 26.824-14.474 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path5202" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m684.108 653.764 52.683 37.93" class="grdc-1"/>
+  <g id="g5214">
+    <path id="path5204" d="m680.182 676.911 25.087 2.625-6.195-18.507z" class="grdc-2"/>
+    <path id="path5206" d="m672.347 639.136 12.563 30.211 7.545-17.513z" class="grdc-2"/>
+    <path id="path5208" d="m689.994 638.181 22.222 16.345-12.36 11.067z" class="grdc-2"/>
+    <path id="path5210" d="m717.861 649.624 15.39 27.586-14.561 3.03z" class="grdc-2"/>
+    <path id="path5212" d="m705.51 640.352 16.085 26.814-14.474 3.734z" class="grdc-2"/>
+  </g>
+  <path id="path5216" stroke-width=".965" d="M173.218 147.418v643.727c0 8.684-.154 17.368 0 26.052v1.138c0 2.799 4.342 2.799 4.342 0V174.657c0-8.684.164-17.368 0-26.1v-1.139c0-2.788-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path5218" stroke-width=".965" d="M324.754 147.418v643.727c0 8.684-.154 17.368 0 26.052v1.138c0 2.799 4.342 2.799 4.342 0V174.657c0-8.684.155-17.368 0-26.1v-1.139c0-2.788-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path5220" stroke-width=".965" d="M514.346 146.453V790.18c0 8.684-.155 17.368 0 26.052v1.138c0 2.799 4.342 2.799 4.342 0V173.692c0-8.684.164-17.368 0-26.1v-1.139c0-2.788-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path5222" stroke-width=".965" d="M732.218 147.418v643.727c0 8.684-.155 17.368 0 26.052v1.138c0 2.799 4.342 2.799 4.342 0V174.657c0-8.684.154-17.368 0-26.1v-1.139c0-2.788-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path5224" stroke-width=".965" d="M242.14 94.291v597.364c0 8.066-.144 16.152 0 24.219v1.061c0 2.789 4.342 2.798 4.342 0V119.571c0-8.066.145-16.152 0-24.218V94.3c0-2.798-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path5226" stroke-width=".965" d="M418.078 94.291v597.364c0 8.066-.144 16.152 0 24.219v1.061c0 2.789 4.342 2.798 4.342 0V119.571c0-8.066.145-16.152 0-24.218V94.3c0-2.798-4.342-2.798-4.342 0z" class="grdc-3"/>
+  <path id="path5228" stroke-width=".965" d="M620.252 93.326V690.69c0 8.067-.145 16.152 0 24.219v1.061c0 2.789 4.342 2.798 4.342 0V118.607c0-8.067.145-16.153 0-24.22v-1.05c0-2.8-4.342-2.8-4.342 0z" class="grdc-3"/>
+  <g id="g5238">
+    <path id="path5230" d="M1260.6 826.923a34.551 34.551 0 1 1-58.98-24.433 34.536 34.536 0 0 1 24.43-10.12 34.553 34.553 0 0 1 34.55 34.553z" class="grdc-3"/>
+    <path id="path5232" d="M1311.84 832.046a34.553 34.553 0 0 1-58.99 24.433 34.553 34.553 0 1 1 48.87-48.865 34.551 34.551 0 0 1 10.12 24.432z" class="grdc-3"/>
+    <path id="path5234" d="M1468.82 832.046a34.553 34.553 0 0 1-34.55 34.553 34.553 34.553 0 0 1 0-69.105 34.551 34.551 0 0 1 34.55 34.552z" class="grdc-3"/>
+    <path id="path5236" d="M1542.16 832.046a34.553 34.553 0 0 1-58.99 24.433 34.553 34.553 0 1 1 48.87-48.865 34.551 34.551 0 0 1 10.12 24.432z" class="grdc-3"/>
+  </g>
+  <g id="crown">
+    <path id="path5240" d="M1174.53 392.877h19.3v531.76h-19.3z" class="grdc-3"/>
+    <path id="path5242" d="M1137.58 368.262s9.27-60.894-53.13-34.456c0 0 15.52 70.977 53.13 34.456z" class="grdc-4"/>
+    <path id="path5244" d="M1117.32 365.425s-36.32-49.749-61.98 12.969c0 .019 61.01 39.464 61.98-12.969z" class="grdc-2"/>
+    <path id="path5246" d="M1136.81 387.222s-60.16-13.18-37.82 50.792c-.01 0 71.82-10.893 37.82-50.792z" class="grdc-2"/>
+    <path id="path5248" d="M1149.45 379.783s-35.38-50.425-62.22 11.791c0 0 60.25 40.603 62.22-11.791z" class="grdc-4"/>
+    <path id="path5250" d="M1084.51 315.251s9.26-60.884-53.13-34.456c0-.039 15.51 70.939 53.13 34.456z" class="grdc-4"/>
+    <path id="path5252" d="M1064.27 312.357s-36.32-49.741-61.98 12.968c0 .038 61.01 39.493 61.98-12.968z" class="grdc-2"/>
+    <path id="path5254" d="M1083.74 334.182s-60.17-13.19-37.83 50.783c.02 0 71.86-10.855 37.83-50.783z" class="grdc-2"/>
+    <path id="path5256" d="M1096.47 326.743s-35.36-50.425-62.21 11.781c0 0 60.25 40.603 62.21-11.781z" class="grdc-4"/>
+    <path id="path5258" d="M1146.74 315.251s9.28-60.884-53.06-34.456c-.05-.039 15.45 70.939 53.06 34.456z" class="grdc-4"/>
+    <path id="path5260" d="M1126.48 312.357s-36.32-49.741-61.97 12.968c0 .038 61.01 39.493 61.97-12.968z" class="grdc-2"/>
+    <path id="path5262" d="M1145.97 334.182s-60.16-13.19-37.81 50.783c0 0 71.83-10.855 37.81-50.783z" class="grdc-2"/>
+    <path id="path5264" d="M1158.61 326.743s-35.36-50.425-62.21 11.781c0 0 60.24 40.603 62.21-11.781z" class="grdc-4"/>
+    <path id="path5266" d="M1119.92 254.309s9.26-60.885-53.13-34.456c0 0 15.51 70.977 53.13 34.456z" class="grdc-4"/>
+    <path id="path5268" d="M1099.66 251.491s-36.32-49.74-61.98 12.968c0 0 61.01 39.455 61.98-12.968z" class="grdc-2"/>
+    <path id="path5270" d="M1119.05 273.278s-60.17-13.19-37.82 50.783c0 0 71.83-10.894 37.82-50.783z" class="grdc-2"/>
+    <path id="path5272" d="M1131.79 265.839s-35.36-50.425-62.22 11.782c0 0 60.25 40.602 62.22-11.782z" class="grdc-4"/>
+    <path id="path5274" d="M1155.91 214.362s9.26-60.884-53.13-34.456c0 0 15.51 70.977 53.13 34.456z" class="grdc-4"/>
+    <path id="path5276" d="M1135.65 211.545s-36.32-49.711-61.98 13.007c0 0 61.01 39.415 61.98-13.007z" class="grdc-2"/>
+    <path id="path5278" d="M1155.14 233.332s-60.16-13.19-37.82 50.782c0 0 71.83-10.893 37.82-50.782z" class="grdc-2"/>
+    <path id="path5280" d="M1167.78 225.893s-35.36-50.435-62.22 11.781c0 0 60.25 40.603 62.22-11.781z" class="grdc-4"/>
+    <path id="path5282" d="M1086.44 233.351s9.27-60.884-53.07-34.456c-.05 0 15.46 71.006 53.07 34.456z" class="grdc-4"/>
+    <path id="path5284" d="M1066.23 230.534s-36.31-49.74-61.97 12.968c0 0 61.01 39.454 61.97-12.968z" class="grdc-2"/>
+    <path id="path5286" d="M1085.67 252.321s-60.16-13.18-37.82 50.782c0 0 71.83-10.884 37.82-50.782z" class="grdc-2"/>
+    <path id="path5288" d="M1098.4 244.882s-35.36-50.425-62.21 11.781c0 0 60.25 40.612 62.21-11.781z" class="grdc-4"/>
+    <path id="path5290" d="M1046.53 295.567s9.27-60.884-53.126-34.456c0 0 15.516 70.978 53.126 34.456z" class="grdc-4"/>
+    <path id="path5292" d="M1026.29 292.75s-36.321-49.74-61.987 12.968c0 0 61.017 39.445 61.987-12.968z" class="grdc-2"/>
+    <path id="path5294" d="M1045.74 314.537s-60.161-13.19-37.81 50.782c0 0 71.82-10.893 37.81-50.782z" class="grdc-2"/>
+    <path id="path5296" d="M1058.45 307.098s-35.37-50.435-62.209 11.781c0 0 60.249 40.603 62.209-11.781z" class="grdc-4"/>
+    <path id="path5298" d="M1196.63 299.302s-36.32-49.75-61.98 12.968c-.04 0 61.01 39.444 61.98-12.968z" class="grdc-2"/>
+    <path id="path5300" d="M1178.78 282.445s9.27-60.894-53.13-34.456c0 .029 15.52 71.006 53.13 34.456z" class="grdc-4"/>
+    <path id="path5302" d="M1158.61 279.656s-36.32-49.749-61.98 12.969c0 0 61.02 39.444 61.98-12.969z" class="grdc-2"/>
+    <path id="path5304" d="M1190.74 294.024s-35.36-50.426-62.2 11.791c0-.029 60.24 40.573 62.2-11.791z" class="grdc-4"/>
+    <path id="path5306" d="M1075.34 365.638s9.28-60.885-53.07-34.456c-.04 0 15.46 70.977 53.07 34.456z" class="grdc-4"/>
+    <path id="path5308" d="M1055.1 362.82s-36.32-49.74-61.976 12.968c0 0 61.006 39.455 61.976-12.968z" class="grdc-2"/>
+    <path id="path5310" d="M1074.57 384.608s-60.16-13.181-37.81 50.782c0 0 71.83-10.884 37.81-50.782z" class="grdc-2"/>
+    <path id="path5312" d="M1087.31 377.168s-35.37-50.425-62.22 11.782c0 0 60.25 40.602 62.22-11.782z" class="grdc-4"/>
+    <path id="path5314" d="M1166.14 369.575s-9.26-60.895 53.13-34.466c0 0-15.51 70.987-53.13 34.466z" class="grdc-4"/>
+    <path id="path5316" d="M1186.4 366.747s36.32-49.74 61.98 12.978c0 0-61.01 39.445-61.98-12.978z" class="grdc-2"/>
+    <path id="path5318" d="M1166.91 388.583s60.16-13.181 37.81 50.792c0-.049-71.83-10.942-37.81-50.792z" class="grdc-2"/>
+    <path id="path5320" d="M1154.17 381.095s35.37-50.425 62.22 11.791c0 0-60.25 40.603-62.22-11.791z" class="grdc-4"/>
+    <path id="path5322" d="M1219.21 316.525s-9.27-60.885 53.12-34.456c0 0-15.51 70.977-53.12 34.456z" class="grdc-4"/>
+    <path id="path5324" d="M1239.47 313.707s36.32-49.749 61.98 12.969c0 0-61.01 39.444-61.98-12.969z" class="grdc-2"/>
+    <path id="path5326" d="M1219.98 335.514s60.16-13.18 37.81 50.792c0-.029-71.8-10.923-37.81-50.792z" class="grdc-2"/>
+    <path id="path5328" d="M1207.24 328.046s35.37-50.425 62.21 11.791c0 0-60.25 40.602-62.21-11.791z" class="grdc-4"/>
+    <path id="path5330" d="M1156.97 316.525s-9.26-60.885 53.13-34.456c.01 0-15.52 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5332" d="M1206.09 372.845s-9.28-60.894 53.11-34.456c0 .02-15.5 70.978-53.11 34.456z" class="grdc-4"/>
+    <path id="path5334" d="M1177.23 313.707s36.31-49.749 61.98 12.969c0 0-61.01 39.444-61.98-12.969z" class="grdc-2"/>
+    <path id="path5336" d="M1157.74 335.514s60.17-13.18 37.83 50.792c.05-.029-71.84-10.923-37.83-50.792z" class="grdc-2"/>
+    <path id="path5338" d="M1145.1 328.046s35.37-50.425 62.22 11.791c0 0-60.26 40.602-62.22-11.791z" class="grdc-4"/>
+    <path id="path5340" d="M1183.8 255.621s-9.28-60.885 53.12-34.456c0 0-15.51 70.977-53.12 34.456z" class="grdc-4"/>
+    <path id="path5342" d="M1204.06 252.804s36.32-49.75 61.98 12.968c.02 0-61.02 39.444-61.98-12.968z" class="grdc-2"/>
+    <path id="path5344" d="M1184.66 274.581s60.17-13.18 37.82 50.792c0 0-71.83-10.894-37.82-50.792z" class="grdc-2"/>
+    <path id="path5346" d="M1171.93 267.142s35.36-50.425 62.2 11.791c0 0-60.24 40.602-62.2-11.791z" class="grdc-4"/>
+    <path id="path5348" d="M1147.81 215.675s-9.28-60.895 53.12-34.457c0 0-15.51 70.978-53.12 34.457z" class="grdc-4"/>
+    <path id="path5350" d="M1168.07 212.857s36.32-49.75 61.98 12.968c0 0-61.01 39.445-61.98-12.968z" class="grdc-2"/>
+    <path id="path5352" d="M1148.58 234.635s60.16-13.181 37.81 50.791c0 0-71.82-10.893-37.81-50.791z" class="grdc-2"/>
+    <path id="path5354" d="M1135.84 227.195s35.36-50.425 62.21 11.791c0 .039-60.25 40.564-62.21-11.791z" class="grdc-4"/>
+    <path id="path5356" d="M1217.18 234.664s-9.26-60.885 53.13-34.457c0 0-15.51 70.978-53.13 34.457z" class="grdc-4"/>
+    <path id="path5358" d="M1237.44 231.846s36.32-49.75 61.98 12.968c0 0-61.01 39.455-61.98-12.968z" class="grdc-2"/>
+    <path id="path5360" d="M1218.05 253.633s60.17-13.19 37.82 50.782c0 0-71.83-10.893-37.82-50.782z" class="grdc-2"/>
+    <path id="path5362" d="M1205.31 246.194s35.37-50.435 62.22 11.781c.02 0-60.23 40.603-62.22-11.781z" class="grdc-4"/>
+    <path id="path5364" d="M1081.9 250.382s9.28-60.885-53.12-34.457c0 0 15.51 70.978 53.12 34.457z" class="grdc-4"/>
+    <path id="path5366" d="M1061.65 247.564s-36.32-49.74-61.984 12.968c0 0 61.024 39.445 61.984-12.968z" class="grdc-2"/>
+    <path id="path5368" d="M1093.77 261.902s-35.36-50.425-62.2 11.791c0 0 60.24 40.593 62.2-11.791z" class="grdc-4"/>
+    <path id="path5370" d="M1117.89 210.435s9.28-60.894-53.12-34.456c0 0 15.51 70.977 53.12 34.456z" class="grdc-4"/>
+    <path id="path5372" d="M1097.63 207.618s-36.32-49.75-61.98 12.968c0 0 61.01 39.445 61.98-12.968z" class="grdc-2"/>
+    <path id="path5374" d="M1117.12 229.376s-60.16-13.18-37.81 50.792c0 .019 71.82-10.874 37.81-50.792z" class="grdc-2"/>
+    <path id="path5376" d="M1129.86 221.956s-35.36-50.425-62.21 11.791c0 0 60.25 40.603 62.21-11.791z" class="grdc-4"/>
+    <path id="path5378" d="M1048.5 229.424s9.26-60.884-53.127-34.456c0 0 15.507 70.977 53.127 34.456z" class="grdc-4"/>
+    <path id="path5380" d="M1028.25 226.607s-36.312-49.74-61.979 12.968c0 0 61.009 39.454 61.979-12.968z" class="grdc-2"/>
+    <path id="path5382" d="M1047.71 248.394s-60.172-13.19-37.83 50.782c0 0 71.84-10.893 37.83-50.782z" class="grdc-2"/>
+    <path id="path5384" d="M1060.42 240.955s-35.37-50.425-62.22 11.781c0 0 60.25 40.603 62.22-11.781z" class="grdc-4"/>
+    <path id="path5386" d="M1008.55 291.64s9.27-60.894-53.124-34.456c0 0 15.506 70.977 53.124 34.456z" class="grdc-4"/>
+    <path id="path5388" d="M1140.86 278.585s9.26-60.884-53.13-34.456c0-.048 15.51 70.939 53.13 34.456z" class="grdc-4"/>
+    <path id="path5390" d="M1120.6 275.691s-36.32-49.74-61.98 12.977c.01.029 61.01 39.474 61.98-12.977z" class="grdc-2"/>
+    <path id="path5392" d="M1145.88 251.694s-9.27-60.894 53.12-34.456c0 0-15.5 70.996-53.12 34.456z" class="grdc-4"/>
+    <path id="path5394" d="M1166.14 248.876s36.32-49.749 61.97 12.969c0 0-61.01 39.444-61.97-12.969z" class="grdc-2"/>
+    <path id="path5396" d="M1133.91 263.215s35.36-50.425 62.22 11.791c.04 0-60.21 40.602-62.22-11.791z" class="grdc-4"/>
+    <path id="path5398" d="M1109.79 211.747s-9.26-60.894 53.13-34.456c0-.019-15.51 70.978-53.13 34.456z" class="grdc-4"/>
+    <path id="path5400" d="M1130.05 208.92s36.32-49.74 61.98 12.978c0 0-61.01 39.445-61.98-12.978z" class="grdc-2"/>
+    <path id="path5402" d="M1110.66 230.708s60.16-13.181 37.81 50.791c0-.019-71.83-10.893-37.81-50.791z" class="grdc-2"/>
+    <path id="path5404" d="M1097.92 223.268s35.36-50.425 62.22 11.791c0 0-60.25 40.632-62.22-11.791z" class="grdc-4"/>
+    <path id="path5406" d="M1179.26 230.736s-9.27-60.894 53.13-34.456c.01 0-15.5 70.978-53.13 34.456z" class="grdc-4"/>
+    <path id="path5408" d="M1180.03 249.697s60.16-13.181 37.82 50.791c-.02 0-71.83-10.893-37.82-50.791z" class="grdc-2"/>
+    <path id="path5410" d="M1167.3 242.257s35.37-50.425 62.21 11.791c0 0-60.24 40.603-62.21-11.791z" class="grdc-4"/>
+    <path id="path5412" d="M1065.52 339.451s9.27-60.895-53.12-34.466c0 0 15.51 70.987 53.12 34.466z" class="grdc-4"/>
+    <path id="path5414" d="M1045.28 336.624s-36.32-49.741-61.978 12.977c0 0 61.008 39.445 61.978-12.977z" class="grdc-2"/>
+    <path id="path5416" d="M1077.47 350.952s-35.37-50.425-62.22 11.791c-.03.019 60.25 40.622 62.22-11.791z" class="grdc-4"/>
+    <path id="path5418" d="M1101.49 299.495s9.27-60.885-53.07-34.457c-.05.039 15.46 70.978 53.07 34.457z" class="grdc-4"/>
+    <path id="path5420" d="M1081.32 296.677s-36.31-49.74-61.97 12.968c0 0 61.01 39.455 61.97-12.968z" class="grdc-2"/>
+    <path id="path5422" d="M1100.72 318.464s-60.16-13.18-37.81 50.782c0 .039 71.82-10.884 37.81-50.782z" class="grdc-2"/>
+    <path id="path5424" d="M1113.46 311.025s-35.37-50.425-62.22 11.781c0 0 60.25 40.603 62.22-11.781z" class="grdc-4"/>
+    <path id="path5426" d="M1032.13 318.493s9.27-60.894-53.132-34.456c0 0 15.516 70.977 53.132 34.456z" class="grdc-4"/>
+    <path id="path5428" d="M1011.88 315.666s-36.317-49.74-61.983 12.978c0 0 61.013 39.445 61.983-12.978z" class="grdc-2"/>
+    <path id="path5430" d="M1289.16 307.156s36.31-49.74 61.98 12.968c0 0-61.01 39.454-61.98-12.968z" class="grdc-2"/>
+    <path id="path5432" d="M1287.14 225.295s36.31-49.741 61.97 12.968c0 0-61.01 39.454-61.97-12.968z" class="grdc-2"/>
+    <path id="path5434" d="M1306.82 290.328s-9.27-60.884 53.07-34.456c.05 0-15.46 70.958-53.07 34.456z" class="grdc-4"/>
+    <path id="path5436" d="M1327.08 287.511s36.32-49.74 61.98 12.968c0 0-61.01 39.454-61.98-12.968z" class="grdc-2"/>
+    <path id="path5438" d="M1294.95 301.859s35.36-50.426 62.22 11.781c0 0-60.21 40.602-62.22-11.781z" class="grdc-4"/>
+    <path id="path5440" d="M1291.77 242.325s36.32-49.74 61.97 12.968c0 0-61.01 39.445-61.97-12.968z" class="grdc-2"/>
+    <path id="path5442" d="M1304.89 224.185s-9.27-60.885 53.13-34.456c0 0-15.52 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5444" d="M1325.15 221.367s36.32-49.74 61.99 12.969c0 0-61.01 39.425-61.99-12.969z" class="grdc-2"/>
+    <path id="path5446" d="M1305.66 243.155s60.16-13.19 37.83 50.782c0 0-71.84-10.894-37.83-50.782z" class="grdc-2"/>
+    <path id="path5448" d="M1293.02 235.715s35.37-50.425 62.22 11.782c0 0-60.26 40.602-62.22-11.782z" class="grdc-4"/>
+    <path id="path5450" d="M1344.84 286.401s-9.31-60.885 53.12-34.456c0 0-15.51 71.025-53.12 34.456z" class="grdc-4"/>
+    <path id="path5452" d="M1287.91 334.211s-9.27-60.894 53.12-34.466c0 0-15.5 70.987-53.12 34.466z" class="grdc-4"/>
+    <path id="path5454" d="M1321.29 313.254s-9.27-60.894 53.13-34.456c0 0-15.52 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5456" d="M1341.56 310.427s36.31-49.74 61.98 12.978c0 0-61.02 39.444-61.98-12.978z" class="grdc-2"/>
+    <path id="path5458" d="M1031.33 337.444s-60.157-13.181-37.82 50.791c0 .01 71.87-10.883 37.82-50.791z" class="grdc-2"/>
+    <path id="path5460" d="M1044.04 330.014s-35.36-50.464-62.205 11.791c0 0 60.245 40.603 62.205-11.791z" class="grdc-4"/>
+    <path id="path5462" d="M992.179 380.7s9.261-60.885-53.127-34.457c0 0 15.515 70.978 53.127 34.457z" class="grdc-4"/>
+    <path id="path5464" d="M1124.46 367.606s9.26-60.884-53.13-34.456c0 0 15.51 70.977 53.13 34.456z" class="grdc-4"/>
+    <path id="path5466" d="M1104.19 364.789s-36.31-49.75-61.97 12.968c-.02 0 61.01 39.444 61.97-12.968z" class="grdc-2"/>
+    <path id="path5468" d="M1129.47 340.753s-9.27-60.884 53.07-34.456c.05 0-15.46 70.977-53.07 34.456z" class="grdc-4"/>
+    <path id="path5470" d="M1149.74 337.936s36.31-49.702 61.97 13.016c0 0-61.01 39.406-61.97-13.016z" class="grdc-2"/>
+    <path id="path5472" d="M1117.51 352.284s35.36-50.425 62.21 11.781c0 0-60.24 40.603-62.21-11.781z" class="grdc-4"/>
+    <path id="path5474" d="M1093.48 300.778s-9.27-60.885 53.12-34.456c0 .029-15.51 71.006-53.12 34.456z" class="grdc-4"/>
+    <path id="path5476" d="M1113.65 297.989s36.32-49.74 61.97 12.968c0 0-61.01 39.455-61.97-12.968z" class="grdc-2"/>
+    <path id="path5478" d="M1094.25 319.777s60.17-13.191 37.82 50.782c0 0-71.83-10.923-37.82-50.782z" class="grdc-2"/>
+    <path id="path5480" d="M1081.52 312.357s35.36-50.435 62.21 11.781c0-.019-60.24 40.583-62.21-11.781z" class="grdc-4"/>
+    <path id="path5482" d="M1162.86 319.796s-9.27-60.885 53.12-34.456c.04 0-15.49 70.977-53.12 34.456z" class="grdc-4"/>
+    <path id="path5484" d="M1163.63 338.766s60.16-13.181 37.82 50.782c0 0-71.83-10.884-37.82-50.782z" class="grdc-2"/>
+    <path id="path5486" d="M1150.99 331.326s35.36-50.425 62.21 11.782c0 0-60.25 40.65-62.21-11.782z" class="grdc-4"/>
+    <path id="path5488" d="M1176.85 218.289s9.27-60.884-53.07-34.456c-.05 0 15.46 70.978 53.07 34.456z" class="grdc-4"/>
+    <path id="path5490" d="M1156.59 215.472s-36.32-49.779-61.98 12.939c0 0 61.01 39.483 61.98-12.939z" class="grdc-2"/>
+    <path id="path5492" d="M1188.81 229.82s-35.36-50.425-62.21 11.781c0 0 60.25 40.603 62.21-11.781z" class="grdc-4"/>
+    <path id="path5494" d="M1212.84 178.343s9.27-60.885-53.07-34.456c-.05 0 15.46 71.016 53.07 34.456z" class="grdc-4"/>
+    <path id="path5496" d="M1192.58 175.525s-36.32-49.74-61.98 12.969c0 0 61.01 39.454 61.98-12.969z" class="grdc-2"/>
+    <path id="path5498" d="M1212.07 197.313s-60.16-13.19-37.82 50.782c.04 0 71.88-10.894 37.82-50.782z" class="grdc-2"/>
+    <path id="path5500" d="M1224.8 189.873s-35.36-50.425-62.21 11.782c0 0 60.25 40.602 62.21-11.782z" class="grdc-4"/>
+    <path id="path5502" d="M1143.46 197.332s9.28-60.885-53.12-34.456c0 0 15.51 70.977 53.12 34.456z" class="grdc-4"/>
+    <path id="path5504" d="M1123.2 194.515s-36.32-49.741-61.98 12.968c0 0 61.01 39.454 61.98-12.968z" class="grdc-2"/>
+    <path id="path5506" d="M1142.69 216.302s-60.16-13.181-37.81 50.782c0 0 71.82-10.884 37.81-50.782z" class="grdc-2"/>
+    <path id="path5508" d="M1155.33 208.862s-35.36-50.425-62.2 11.791c0 .039 60.24 40.564 62.2-11.791z" class="grdc-4"/>
+    <path id="path5510" d="M1103.52 259.548s9.26-60.884-53.13-34.456c0 0 15.52 70.977 53.13 34.456z" class="grdc-4"/>
+    <path id="path5512" d="M1235.8 246.455s9.27-60.895-53.12-34.457c0 .01 15.51 70.978 53.12 34.457z" class="grdc-4"/>
+    <path id="path5514" d="M1215.54 243.637s-36.32-49.75-61.98 12.968c0 0 61.01 39.445 61.98-12.968z" class="grdc-2"/>
+    <path id="path5516" d="M1240.82 219.602s-9.27-60.885 53.07-34.457c.05 0-15.46 70.978-53.07 34.457z" class="grdc-4"/>
+    <path id="path5518" d="M1261.08 216.832s36.32-49.74 61.98 12.969c-.02-.049-61.01 39.406-61.98-12.969z" class="grdc-2"/>
+    <path id="path5520" d="M1228.86 231.132s35.36-50.435 62.21 11.781c0-.029-60.25 40.603-62.21-11.781z" class="grdc-4"/>
+    <path id="path5522" d="M1204.73 179.655s-9.27-60.884 53.13-34.456c0 0-15.51 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5524" d="M1225 176.838s36.32-49.74 61.97 12.978c0 0-61.01 39.435-61.97-12.978z" class="grdc-2"/>
+    <path id="path5526" d="M1205.6 198.615s60.16-13.18 37.82 50.792c0 0-71.83-10.893-37.82-50.792z" class="grdc-2"/>
+    <path id="path5528" d="M1192.87 191.176s35.36-50.425 62.21 11.791c0 0-60.25 40.603-62.21-11.791z" class="grdc-4"/>
+    <path id="path5530" d="M1274.21 198.644s-9.27-60.884 53.12-34.456c0 0-15.51 70.977-53.12 34.456z" class="grdc-4"/>
+    <path id="path5532" d="M1274.98 217.614s60.16-13.19 37.82 50.782c0 0-71.82-10.893-37.82-50.782z" class="grdc-2"/>
+    <path id="path5534" d="M1262.24 210.175s35.37-50.425 62.22 11.781c0 0-60.26 40.603-62.22-11.781z" class="grdc-4"/>
+    <path id="path5536" d="M1199.14 349.92s9.27-60.885-53.13-34.457c0 0 15.52 70.978 53.13 34.457z" class="grdc-4"/>
+    <path id="path5538" d="M1178.88 347.093s-36.32-49.74-61.99 12.968c0 .009 61.02 39.464 61.99-12.968z" class="grdc-2"/>
+    <path id="path5540" d="M1211.1 361.45s-35.36-50.425-62.2 11.791c-.04 0 60.21 40.603 62.2-11.791z" class="grdc-4"/>
+    <path id="path5542" d="M1235.13 309.973s9.27-60.884-53.13-34.456c0 0 15.56 70.977 53.13 34.456z" class="grdc-4"/>
+    <path id="path5544" d="M1214.96 307.156s-36.32-49.74-61.98 12.968c-.04 0 61.02 39.454 61.98-12.968z" class="grdc-2"/>
+    <path id="path5546" d="M1234.36 328.943s-60.16-13.18-37.83 50.782c0 0 71.84-10.893 37.83-50.782z" class="grdc-2"/>
+    <path id="path5548" d="M1247.09 321.504s-35.36-50.425-62.2 11.781c0 0 60.24 40.603 62.2-11.781z" class="grdc-4"/>
+    <path id="path5550" d="M1165.75 328.972s9.27-60.894-53.12-34.466c0 0 15.49 70.987 53.12 34.466z" class="grdc-4"/>
+    <path id="path5552" d="M1145.49 326.145s-36.32-49.74-61.97 12.978c0 0 61.01 39.444 61.97-12.978z" class="grdc-2"/>
+    <path id="path5554" d="M1164.98 347.932s-60.17-13.18-37.82 50.792c.02 0 71.83-10.894 37.82-50.792z" class="grdc-2"/>
+    <path id="path5556" d="M1177.62 340.493s-35.36-50.425-62.22 11.791c0 0 60.25 40.602 62.22-11.791z" class="grdc-4"/>
+    <path id="path5558" d="M1125.81 391.178s9.26-60.884-53.13-34.456c0 .019 15.51 70.977 53.13 34.456z" class="grdc-4"/>
+    <path id="path5560" d="M1258.09 378.085s9.28-60.894-53.07-34.456c-.04 0 15.46 71.006 53.07 34.456z" class="grdc-4"/>
+    <path id="path5562" d="M1237.83 375.267s-36.32-49.749-61.97 12.968c0 0 61.01 39.445 61.97-12.968z" class="grdc-2"/>
+    <path id="path5564" d="M1263.01 351.232s-9.26-60.885 53.13-34.456c0 0-15.51 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5566" d="M1283.28 348.414s36.31-49.74 61.97 12.969c0 0-61.01 39.454-61.97-12.969z" class="grdc-2"/>
+    <path id="path5568" d="M1251.15 362.762s35.36-50.405 62.2 11.782c0 0-60.24 40.602-62.2-11.782z" class="grdc-4"/>
+    <path id="path5570" d="M1227.02 311.286s-9.26-60.885 53.13-34.457c0 0-15.51 70.978-53.13 34.457z" class="grdc-4"/>
+    <path id="path5572" d="M1247.29 308.497s36.31-49.74 61.97 12.968c0-.029-61.01 39.416-61.97-12.968z" class="grdc-2"/>
+    <path id="path5574" d="M1227.89 330.255s60.16-13.19 37.82 50.782c0 0-71.84-10.893-37.82-50.782z" class="grdc-2"/>
+    <path id="path5576" d="M1215.16 322.806s35.36-50.425 62.21 11.791c0 0-60.25 40.603-62.21-11.791z" class="grdc-4"/>
+    <path id="path5578" d="M1296.5 330.275s-9.28-60.885 53.06-34.457c.05 0-15.45 70.978-53.06 34.457z" class="grdc-4"/>
+    <path id="path5580" d="M1297.27 349.244s60.16-13.18 37.81 50.782c0 0-71.83-10.893-37.81-50.782z" class="grdc-2"/>
+    <path id="path5582" d="M1284.53 341.805s35.36-50.425 62.22 11.781c0 0-60.25 40.603-62.22-11.781z" class="grdc-4"/>
+    <path id="path5584" d="M1257.13 296.918s-9.27-60.894 53.12-34.456c0-.039-15.5 70.939-53.12 34.456z" class="grdc-4"/>
+    <path id="path5586" d="M1277.39 294.024s36.32-49.75 61.98 12.968c.01.038-61.01 39.483-61.98-12.968z" class="grdc-2"/>
+    <path id="path5588" d="M1258 315.84s60.21-13.132 37.81 50.792c0 0-71.84-10.855-37.81-50.792z" class="grdc-2"/>
+    <path id="path5590" d="M1245.26 308.4s35.36-50.425 62.22 11.791c0 0-60.25 40.603-62.22-11.791z" class="grdc-4"/>
+    <path id="path5592" d="M1228.37 366.95s-9.26-60.885 53.13-34.456c.03 0-15.51 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5594" d="M1107.86 202.571s-9.27-60.884 53.13-34.456c.03 0-15.5 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5596" d="M1248.64 364.133s36.32-49.741 61.98 12.968c0 0-61.01 39.464-61.98-12.968z" class="grdc-2"/>
+    <path id="path5598" d="M1229.15 385.92s60.16-13.19 37.82 50.782c0 0-71.84-10.894-37.82-50.782z" class="grdc-2"/>
+    <path id="path5600" d="M1216.41 378.48s35.36-50.434 62.22 11.782c-.04 0-60.26 40.602-62.22-11.782z" class="grdc-4"/>
+    <path id="path5602" d="M1439.11 392.877h19.29v531.76h-19.29z" class="grdc-3"/>
+    <path id="path5604" d="M1495.36 368.262s-9.26-60.894 53.13-34.456c0 0-15.52 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5606" d="M1515.62 365.425s36.32-49.749 61.99 12.969c0 .019-61.01 39.464-61.99-12.969z" class="grdc-2"/>
+    <path id="path5608" d="M1496.13 387.222s60.16-13.18 37.82 50.792c0 0-71.83-10.893-37.82-50.792z" class="grdc-2"/>
+    <path id="path5610" d="M1483.39 379.783s35.37-50.425 62.22 11.791c0 0-60.26 40.603-62.22-11.791z" class="grdc-4"/>
+    <path id="path5612" d="M1548.43 315.251s-9.27-60.884 53.12-34.456c0-.039-15.51 70.939-53.12 34.456z" class="grdc-4"/>
+    <path id="path5614" d="M1568.69 312.357s36.32-49.741 61.98 12.968c0 .038-61.01 39.493-61.98-12.968z" class="grdc-2"/>
+    <path id="path5616" d="M1549.2 334.182s60.16-13.19 37.81 50.783c0 0-71.82-10.855-37.81-50.783z" class="grdc-2"/>
+    <path id="path5618" d="M1536.46 326.743s35.37-50.425 62.22 11.781c0 0-60.25 40.603-62.22-11.781z" class="grdc-4"/>
+    <path id="path5620" d="M1486.19 315.251s-9.27-60.884 53.13-34.456c0-.039-15.52 70.939-53.13 34.456z" class="grdc-4"/>
+    <path id="path5622" d="M1506.46 312.357s36.31-49.741 61.98 12.968c0 .038-61.01 39.493-61.98-12.968z" class="grdc-2"/>
+    <path id="path5624" d="M1486.96 334.182s60.17-13.19 37.82 50.783c0 0-71.83-10.855-37.82-50.783z" class="grdc-2"/>
+    <path id="path5626" d="M1474.23 326.743s35.36-50.425 62.2 11.781c0 0-60.24 40.603-62.2-11.781z" class="grdc-4"/>
+    <path id="path5628" d="M1513.11 254.309s-9.27-60.885 53.07-34.456c0 0-15.5 70.977-53.07 34.456z" class="grdc-4"/>
+    <path id="path5630" d="M1533.28 251.491s36.32-49.74 61.97 12.968c0 0-61.01 39.455-61.97-12.968z" class="grdc-2"/>
+    <path id="path5632" d="M1513.79 273.278s60.16-13.19 37.81 50.783c.04 0-71.82-10.894-37.81-50.783z" class="grdc-2"/>
+    <path id="path5634" d="M1501.15 265.839s35.36-50.425 62.21 11.782c0 0-60.24 40.602-62.21-11.782z" class="grdc-4"/>
+    <path id="path5636" d="M1477.03 214.362s-9.28-60.884 53.11-34.456c0 0-15.5 70.977-53.11 34.456z" class="grdc-4"/>
+    <path id="path5638" d="M1497.29 211.545s36.32-49.711 61.97 13.007c0 0-61.01 39.415-61.97-13.007z" class="grdc-2"/>
+    <path id="path5640" d="M1477.8 233.332s60.16-13.19 37.81 50.782c0 0-71.82-10.893-37.81-50.782z" class="grdc-2"/>
+    <path id="path5642" d="M1465.06 225.893s35.36-50.435 62.22 11.781c0 0-60.25 40.603-62.22-11.781z" class="grdc-4"/>
+    <path id="path5644" d="M1546.4 233.351s-9.27-60.884 53.13-34.456c0 0-15.52 71.006-53.13 34.456z" class="grdc-4"/>
+    <path id="path5646" d="M1566.66 230.534s36.32-49.74 61.99 12.968c0 0-61.01 39.454-61.99-12.968z" class="grdc-2"/>
+    <path id="path5648" d="M1547.27 252.321s60.16-13.18 37.82 50.782c0 0-71.83-10.884-37.82-50.782z" class="grdc-2"/>
+    <path id="path5650" d="M1534.53 244.882s35.37-50.425 62.22 11.781c0 0-60.26 40.612-62.22-11.781z" class="grdc-4"/>
+    <path id="path5652" d="M1586.44 295.567s-9.26-60.884 53.13-34.456c-.06 0-15.55 70.978-53.13 34.456z" class="grdc-4"/>
+    <path id="path5654" d="M1606.71 292.75s36.31-49.74 61.97 12.968c-.05 0-61.01 39.445-61.97-12.968z" class="grdc-2"/>
+    <path id="path5656" d="M1587.22 314.537s60.17-13.19 37.82 50.782c.02 0-71.84-10.893-37.82-50.782z" class="grdc-2"/>
+    <path id="path5658" d="M1574.48 307.098s35.36-50.435 62.22 11.781c0 0-60.25 40.603-62.22-11.781z" class="grdc-4"/>
+    <path id="path5660" d="M1436.31 299.302s36.32-49.75 61.97 12.968c0 0-61.01 39.444-61.97-12.968z" class="grdc-2"/>
+    <path id="path5662" d="M1454.06 282.445s-9.26-60.894 53.13-34.456c0 .029-15.51 71.006-53.13 34.456z" class="grdc-4"/>
+    <path id="path5664" d="M1474.32 279.656s36.31-49.749 61.98 12.969c0 0-61.01 39.444-61.98-12.969z" class="grdc-2"/>
+    <path id="path5666" d="M1442.19 294.024s35.37-50.426 62.22 11.791c.01-.029-60.25 40.573-62.22-11.791z" class="grdc-4"/>
+    <path id="path5668" d="M1557.59 365.638s-9.27-60.885 53.13-34.456c0 0-15.51 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5670" d="M1577.76 362.82s36.32-49.74 61.99 12.968c0 0-61.02 39.455-61.99-12.968z" class="grdc-2"/>
+    <path id="path5672" d="M1558.37 384.608s60.16-13.181 37.81 50.782c0 0-71.83-10.884-37.81-50.782z" class="grdc-2"/>
+    <path id="path5674" d="M1545.63 377.168s35.36-50.425 62.21 11.782c0 0-60.25 40.602-62.21-11.782z" class="grdc-4"/>
+    <path id="path5676" d="M1466.8 369.575s9.27-60.895-53.13-34.466c0 0 15.5 70.987 53.13 34.466z" class="grdc-4"/>
+    <path id="path5678" d="M1446.54 366.747s-36.32-49.74-61.99 12.978c.02 0 61.02 39.445 61.99-12.978z" class="grdc-2"/>
+    <path id="path5680" d="M1466.03 388.583s-60.16-13.181-37.83 50.792c.02-.049 71.84-10.942 37.83-50.792z" class="grdc-2"/>
+    <path id="path5682" d="M1478.67 381.095s-35.37-50.425-62.21 11.791c0 0 60.25 40.603 62.21-11.791z" class="grdc-4"/>
+    <path id="path5684" d="M1413.73 316.525s9.27-60.885-53.07-34.456c0 0 15.44 70.977 53.07 34.456z" class="grdc-4"/>
+    <path id="path5686" d="M1393.47 313.707s-36.32-49.749-61.98 12.969c.04 0 61.01 39.444 61.98-12.969z" class="grdc-2"/>
+    <path id="path5688" d="M1412.96 335.514s-60.16-13.18-37.82 50.792c-.01-.029 71.84-10.923 37.82-50.792z" class="grdc-2"/>
+    <path id="path5690" d="M1425.69 328.046s-35.36-50.425-62.21 11.791c0 0 60.25 40.602 62.21-11.791z" class="grdc-4"/>
+    <path id="path5692" d="M1475.96 316.525s9.28-60.885-53.12-34.456c0 0 15.51 70.977 53.12 34.456z" class="grdc-4"/>
+    <path id="path5694" d="M1426.85 372.845s9.26-60.894-53.12-34.456c0 .02 15.51 70.978 53.12 34.456z" class="grdc-4"/>
+    <path id="path5696" d="M1455.7 313.707s-36.32-49.749-61.98 12.969c0 0 61.02 39.444 61.98-12.969z" class="grdc-2"/>
+    <path id="path5698" d="M1475.1 335.514s-60.16-13.18-37.82 50.792c0-.029 71.83-10.923 37.82-50.792z" class="grdc-2"/>
+    <path id="path5700" d="M1487.83 328.046s-35.36-50.425-62.2 11.791c0 0 60.24 40.602 62.2-11.791z" class="grdc-4"/>
+    <path id="path5702" d="M1449.04 255.621s9.28-60.885-53.11-34.456c0 0 15.5 70.977 53.11 34.456z" class="grdc-4"/>
+    <path id="path5704" d="M1428.88 252.804s-36.32-49.75-61.98 12.968c0 0 61.01 39.444 61.98-12.968z" class="grdc-2"/>
+    <path id="path5706" d="M1448.27 274.581s-60.16-13.18-37.81 50.792c0 0 71.83-10.894 37.81-50.792z" class="grdc-2"/>
+    <path id="path5708" d="M1461.01 267.142s-35.36-50.425-62.22 11.791c.03 0 60.29 40.602 62.22-11.791z" class="grdc-4"/>
+    <path id="path5710" d="M1485.13 215.675s9.27-60.895-53.07-34.457c0 0 15.44 70.978 53.07 34.457z" class="grdc-4"/>
+    <path id="path5712" d="M1464.87 212.857s-36.32-49.75-61.98 12.968c.02 0 61.01 39.445 61.98-12.968z" class="grdc-2"/>
+    <path id="path5714" d="M1484.36 234.635s-60.16-13.181-37.81 50.791c.01 0 71.82-10.893 37.81-50.791z" class="grdc-2"/>
+    <path id="path5716" d="M1497 227.195s-35.36-50.425-62.22 11.791c0 .039 60.25 40.564 62.22-11.791z" class="grdc-4"/>
+    <path id="path5718" d="M1415.66 234.664s9.27-60.885-53.13-34.457c0 0 15.52 70.978 53.13 34.457z" class="grdc-4"/>
+    <path id="path5720" d="M1395.4 231.846s-36.32-49.75-61.99 12.968c0 0 61.01 39.455 61.99-12.968z" class="grdc-2"/>
+    <path id="path5722" d="M1414.89 253.633s-60.16-13.19-37.82 50.782c0 0 71.83-10.893 37.82-50.782z" class="grdc-2"/>
+    <path id="path5724" d="M1427.62 246.194s-35.36-50.435-62.2 11.781c0 0 60.25 40.603 62.2-11.781z" class="grdc-4"/>
+    <path id="path5726" d="M1551.03 250.382s-9.26-60.885 53.13-34.457c0 0-15.52 70.978-53.13 34.457z" class="grdc-4"/>
+    <path id="path5728" d="M1571.3 247.564s36.3-49.74 61.97 12.968c0 0-61.01 39.445-61.97-12.968z" class="grdc-2"/>
+    <path id="path5730" d="M1539.17 261.902s35.36-50.425 62.21 11.791c-.04 0-60.28 40.593-62.21-11.791z" class="grdc-4"/>
+    <path id="path5732" d="M1515.04 210.435s-9.26-60.894 53.13-34.456c-.06 0-15.5 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5734" d="M1535.31 207.618s36.3-49.75 61.97 12.968c-.03 0-61.01 39.445-61.97-12.968z" class="grdc-2"/>
+    <path id="path5736" d="M1515.81 229.376s60.18-13.18 37.83 50.792c0 .019-71.84-10.874-37.83-50.792z" class="grdc-2"/>
+    <path id="path5738" d="M1503.08 221.956s35.36-50.425 62.21 11.791c0 0-60.24 40.603-62.21-11.791z" class="grdc-4"/>
+    <path id="path5740" d="M1584.42 229.424s-9.27-60.884 53.07-34.456c.07 0-15.46 70.977-53.07 34.456z" class="grdc-4"/>
+    <path id="path5742" d="M1604.68 226.607s36.32-49.74 61.98 12.968c0 0-61.01 39.454-61.98-12.968z" class="grdc-2"/>
+    <path id="path5744" d="M1585.19 248.394s60.16-13.19 37.81 50.782c0 0-71.83-10.893-37.81-50.782z" class="grdc-2"/>
+    <path id="path5746" d="M1572.45 240.955s35.37-50.425 62.22 11.781c0 0-60.25 40.603-62.22-11.781z" class="grdc-4"/>
+    <path id="path5748" d="M1624.37 291.64s-9.28-60.894 53.11-34.456c0 0-15.5 70.977-53.11 34.456z" class="grdc-4"/>
+    <path id="path5750" d="M1492.08 278.585s-9.27-60.884 53.13-34.456c0-.048-15.52 70.939-53.13 34.456z" class="grdc-4"/>
+    <path id="path5752" d="M1512.34 275.691s36.32-49.74 61.98 12.977c0 .029-61.01 39.474-61.98-12.977z" class="grdc-2"/>
+    <path id="path5754" d="M1487.06 251.694s9.27-60.894-53.13-34.456c.06 0 15.56 70.996 53.13 34.456z" class="grdc-4"/>
+    <path id="path5756" d="M1466.8 248.876s-36.32-49.749-61.99 12.969c0 0 61.01 39.444 61.99-12.969z" class="grdc-2"/>
+    <path id="path5758" d="M1499.03 263.215s-35.37-50.425-62.21 11.791c0 0 60.25 40.602 62.21-11.791z" class="grdc-4"/>
+    <path id="path5760" d="M1523.05 211.747s9.26-60.894-53.13-34.456c0-.019 15.52 70.978 53.13 34.456z" class="grdc-4"/>
+    <path id="path5762" d="M1502.89 208.92s-36.32-49.74-61.99 12.978c0 0 61.01 39.445 61.99-12.978z" class="grdc-2"/>
+    <path id="path5764" d="M1522.28 230.708s-60.16-13.181-37.82 50.791c0-.019 71.83-10.893 37.82-50.791z" class="grdc-2"/>
+    <path id="path5766" d="M1535.02 223.268s-35.37-50.425-62.22 11.791c0 0 60.26 40.632 62.22-11.791z" class="grdc-4"/>
+    <path id="path5768" d="M1453.68 230.736s9.26-60.894-53.13-34.456c0 0 15.5 70.978 53.13 34.456z" class="grdc-4"/>
+    <path id="path5770" d="M1452.9 249.697s-60.16-13.181-37.81 50.791c0 0 71.84-10.893 37.81-50.791z" class="grdc-2"/>
+    <path id="path5772" d="M1465.64 242.257s-35.36-50.425-62.22 11.791c0 0 60.25 40.603 62.22-11.791z" class="grdc-4"/>
+    <path id="path5774" d="M1567.34 339.451s-9.27-60.895 53.13-34.466c0 0-15.52 70.987-53.13 34.466z" class="grdc-4"/>
+    <path id="path5776" d="M1587.6 336.624s36.32-49.741 61.99 12.977c0 0-61.01 39.445-61.99-12.977z" class="grdc-2"/>
+    <path id="path5778" d="M1555.47 350.952s35.37-50.425 62.21 11.791c0 .019-60.21 40.622-62.21-11.791z" class="grdc-4"/>
+    <path id="path5780" d="M1531.45 299.495s-9.28-60.885 53.12-34.457c-.05.039-15.56 70.978-53.12 34.457z" class="grdc-4"/>
+    <path id="path5782" d="M1551.61 296.677s36.32-49.74 61.99 12.968c0 0-61.01 39.455-61.99-12.968z" class="grdc-2"/>
+    <path id="path5784" d="M1532.12 318.464s60.16-13.18 37.83 50.782c.02.039-71.84-10.884-37.83-50.782z" class="grdc-2"/>
+    <path id="path5786" d="M1519.48 311.025s35.36-50.425 62.21 11.781c0 0-60.25 40.603-62.21-11.781z" class="grdc-4"/>
+    <path id="path5788" d="M1600.82 318.493s-9.26-60.894 53.13-34.456c.05 0-15.51 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5790" d="M1620.99 315.666s36.32-49.74 61.97 12.978c0 0-61.01 39.445-61.97-12.978z" class="grdc-2"/>
+    <path id="path5792" d="M1343.78 307.156s-36.32-49.74-61.99 12.968c0 0 61.02 39.454 61.99-12.968z" class="grdc-2"/>
+    <path id="path5794" d="M1345.7 225.295s-36.3-49.741-61.97 12.968c0 0 61.01 39.454 61.97-12.968z" class="grdc-2"/>
+    <path id="path5796" d="M1326.02 290.328s9.26-60.884-53.13-34.456c0 0 15.51 70.958 53.13 34.456z" class="grdc-4"/>
+    <path id="path5798" d="M1305.76 287.511s-36.32-49.74-61.98 12.968c0 0 61.01 39.454 61.98-12.968z" class="grdc-2"/>
+    <path id="path5800" d="M1337.99 301.859s-35.37-50.426-62.22 11.781c-.03 0 60.25 40.602 62.22-11.781z" class="grdc-4"/>
+    <path id="path5802" d="M1341.17 242.325s-36.32-49.74-61.98 12.968c0 0 61.01 39.445 61.98-12.968z" class="grdc-2"/>
+    <path id="path5804" d="M1328.05 224.185s9.27-60.885-53.07-34.456c-.05 0 15.46 70.977 53.07 34.456z" class="grdc-4"/>
+    <path id="path5806" d="M1307.78 221.367s-36.31-49.74-61.97 12.969c.02 0 61.01 39.425 61.97-12.969z" class="grdc-2"/>
+    <path id="path5808" d="M1327.18 243.155s-60.16-13.19-37.82 50.782c0 0 71.83-10.894 37.82-50.782z" class="grdc-2"/>
+    <path id="path5810" d="M1339.92 235.715s-35.37-50.425-62.22 11.782c0 0 60.25 40.602 62.22-11.782z" class="grdc-4"/>
+    <path id="path5812" d="M1288.1 286.401s9.27-60.894-53.13-34.456c0 0 15.52 71.025 53.13 34.456z" class="grdc-4"/>
+    <path id="path5814" d="M1345.03 334.211s9.26-60.894-53.13-34.466c0 0 15.52 70.987 53.13 34.466z" class="grdc-4"/>
+    <path id="path5816" d="M1311.64 313.254s9.28-60.894-53.06-34.456c-.05 0 15.45 70.977 53.06 34.456z" class="grdc-4"/>
+    <path id="path5818" d="M1291.38 310.427s-36.32-49.74-61.97 12.978c-.01 0 61.01 39.444 61.97-12.978z" class="grdc-2"/>
+    <path id="path5820" d="M1601.59 337.444s60.16-13.181 37.82 50.791c0 .01-71.84-10.883-37.82-50.791z" class="grdc-2"/>
+    <path id="path5822" d="M1588.86 330.014s35.36-50.464 62.19 11.791c0 0-60.22 40.603-62.19-11.791z" class="grdc-4"/>
+    <path id="path5824" d="M1640.77 380.7s-9.27-60.885 53.07-34.457c.05 0-15.46 70.978-53.07 34.457z" class="grdc-4"/>
+    <path id="path5826" d="M1508.48 367.606s-9.27-60.884 53.07-34.456c.05 0-15.46 70.977-53.07 34.456z" class="grdc-4"/>
+    <path id="path5828" d="M1528.74 364.789s36.32-49.75 61.98 12.968c0 0-61.01 39.444-61.98-12.968z" class="grdc-2"/>
+    <path id="path5830" d="M1503.46 340.753s9.27-60.884-53.12-34.456c.06 0 15.49 70.977 53.12 34.456z" class="grdc-4"/>
+    <path id="path5832" d="M1483.2 337.936s-36.29-49.702-61.95 13.016c0 0 60.99 39.406 61.95-13.016z" class="grdc-2"/>
+    <path id="path5834" d="M1515.33 352.284s-35.36-50.425-62.21 11.781c0 0 60.24 40.603 62.21-11.781z" class="grdc-4"/>
+    <path id="path5836" d="M1539.45 300.778s9.27-60.885-53.12-34.456c0 .029 15.5 71.006 53.12 34.456z" class="grdc-4"/>
+    <path id="path5838" d="M1519.19 297.989s-36.32-49.74-61.97 12.968c0 0 61.01 39.455 61.97-12.968z" class="grdc-2"/>
+    <path id="path5840" d="M1538.68 319.777s-60.17-13.191-37.82 50.782c0 0 71.84-10.923 37.82-50.782z" class="grdc-2"/>
+    <path id="path5842" d="M1551.42 312.357s-35.36-50.435-62.22 11.781c0-.019 60.25 40.583 62.22-11.781z" class="grdc-4"/>
+    <path id="path5844" d="M1470.08 319.796s9.27-60.885-53.12-34.456c0 0 15.51 70.977 53.12 34.456z" class="grdc-4"/>
+    <path id="path5846" d="M1469.21 338.766s-60.16-13.181-37.81 50.782c0 0 71.82-10.884 37.81-50.782z" class="grdc-2"/>
+    <path id="path5848" d="M1481.95 331.326s-35.37-50.425-62.22 11.782c0 0 60.25 40.65 62.22-11.782z" class="grdc-4"/>
+    <path id="path5850" d="M1456.09 218.289s-9.27-60.884 53.13-34.456c.03 0-15.52 70.978-53.13 34.456z" class="grdc-4"/>
+    <path id="path5852" d="M1476.25 215.472s36.32-49.779 61.99 12.939c0 0-61.02 39.483-61.99-12.939z" class="grdc-2"/>
+    <path id="path5854" d="M1444.12 229.82s35.37-50.425 62.21 11.781c-.02 0-60.25 40.603-62.21-11.781z" class="grdc-4"/>
+    <path id="path5856" d="M1420 178.343s-9.23-60.894 53.13-34.456c0 0-15.52 71.016-53.13 34.456z" class="grdc-4"/>
+    <path id="path5858" d="M1440.26 175.525s36.32-49.74 61.99 12.969c0 0-61.01 39.454-61.99-12.969z" class="grdc-2"/>
+    <path id="path5860" d="M1420.87 197.313s60.16-13.19 37.81 50.782c0 0-71.82-10.894-37.81-50.782z" class="grdc-2"/>
+    <path id="path5862" d="M1408.13 189.873s35.37-50.425 62.21 11.782c0 0-60.25 40.602-62.21-11.782z" class="grdc-4"/>
+    <path id="path5864" d="M1489.47 197.332s-9.26-60.885 53.13-34.456c0 0-15.51 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5866" d="M1509.74 194.515s36.3-49.741 61.97 12.968c0 0-61.01 39.454-61.97-12.968z" class="grdc-2"/>
+    <path id="path5868" d="M1490.25 216.302s60.17-13.181 37.82 50.782c0 0-71.84-10.884-37.82-50.782z" class="grdc-2"/>
+    <path id="path5870" d="M1477.51 208.862s35.36-50.425 62.21 11.791c0 .039-60.24 40.564-62.21-11.791z" class="grdc-4"/>
+    <path id="path5872" d="M1529.42 259.548s-9.26-60.884 53.13-34.456c.03 0-15.51 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5874" d="M1397.13 246.455s-9.26-60.895 53.13-34.457c0 .01-15.51 70.978-53.13 34.457z" class="grdc-4"/>
+    <path id="path5876" d="M1417.4 243.637s36.31-49.75 61.97 12.968c-.03 0-61.01 39.445-61.97-12.968z" class="grdc-2"/>
+    <path id="path5878" d="M1392.12 219.602s9.26-60.885-53.13-34.457c0 0 15.5 70.978 53.13 34.457z" class="grdc-4"/>
+    <path id="path5880" d="M1371.85 216.832s-36.32-49.74-61.97 12.969c0-.049 61.01 39.406 61.97-12.969z" class="grdc-2"/>
+    <path id="path5882" d="M1404.08 231.132s-35.36-50.435-62.22 11.781c-.01-.029 60.23 40.603 62.22-11.781z" class="grdc-4"/>
+    <path id="path5884" d="M1428.2 179.655s9.27-60.884-53.12-34.456c-.04 0 15.49 70.977 53.12 34.456z" class="grdc-4"/>
+    <path id="path5886" d="M1407.94 176.838s-36.35-49.74-62 12.978c0 0 61.04 39.435 62-12.978z" class="grdc-2"/>
+    <path id="path5888" d="M1427.33 198.615s-60.16-13.18-37.81 50.792c0 0 71.84-10.893 37.81-50.792z" class="grdc-2"/>
+    <path id="path5890" d="M1440.07 191.176s-35.36-50.425-62.22 11.791c0 0 60.25 40.603 62.22-11.791z" class="grdc-4"/>
+    <path id="path5892" d="M1358.73 198.644s9.27-60.884-53.13-34.456c.06 0 15.5 70.977 53.13 34.456z" class="grdc-4"/>
+    <path id="path5894" d="M1357.96 217.614s-60.16-13.19-37.82 50.782c0 0 71.83-10.893 37.82-50.782z" class="grdc-2"/>
+    <path id="path5896" d="M1370.6 210.175s-35.36-50.425-62.22 11.781c0 0 60.25 40.603 62.22-11.781z" class="grdc-4"/>
+    <path id="path5898" d="M1433.8 349.92s-9.26-60.885 53.13-34.457c0 0-15.51 70.978-53.13 34.457z" class="grdc-4"/>
+    <path id="path5900" d="M1454.06 347.093s36.31-49.74 61.98 12.968c-.04.009-61.01 39.464-61.98-12.968z" class="grdc-2"/>
+    <path id="path5902" d="M1421.83 361.45s35.37-50.425 62.22 11.791c.05 0-60.25 40.603-62.22-11.791z" class="grdc-4"/>
+    <path id="path5904" d="M1397.81 309.973s-9.26-60.884 53.13-34.456c0 0-15.51 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5906" d="M1417.98 307.156s36.31-49.74 61.97 12.968c0 0-61.01 39.454-61.97-12.968z" class="grdc-2"/>
+    <path id="path5908" d="M1398.58 328.943s60.17-13.18 37.82 50.782c0 0-71.83-10.893-37.82-50.782z" class="grdc-2"/>
+    <path id="path5910" d="M1385.84 321.504s35.37-50.425 62.22 11.781c0 0-60.25 40.603-62.22-11.781z" class="grdc-4"/>
+    <path id="path5912" d="M1467.18 328.972s-9.27-60.894 53.07-34.466c.05 0-15.45 70.987-53.07 34.466z" class="grdc-4"/>
+    <path id="path5914" d="M1487.45 326.145s36.32-49.74 61.97 12.978c0 0-61.01 39.444-61.97-12.978z" class="grdc-2"/>
+    <path id="path5916" d="M1467.96 347.932s60.16-13.18 37.81 50.792c0 0-71.84-10.894-37.81-50.792z" class="grdc-2"/>
+    <path id="path5918" d="M1455.22 340.493s35.36-50.425 62.22 11.791c0 0-60.25 40.602-62.22-11.791z" class="grdc-4"/>
+    <path id="path5920" d="M1507.13 391.178s-9.27-60.884 53.13-34.456c0 .019-15.52 70.977-53.13 34.456z" class="grdc-4"/>
+    <path id="path5922" d="M1374.84 378.085s-9.27-60.894 53.13-34.456c0 0-15.51 71.006-53.13 34.456z" class="grdc-4"/>
+    <path id="path5924" d="M1395.11 375.267s36.32-49.749 61.98 12.968c.04 0-61.02 39.445-61.98-12.968z" class="grdc-2"/>
+    <path id="path5926" d="M1369.83 351.232s9.27-60.885-53.13-34.456c0 0 15.52 70.977 53.13 34.456z" class="grdc-4"/>
+    <path id="path5928" d="M1349.56 348.414s-36.31-49.74-61.98 12.969c0 0 61.01 39.454 61.98-12.969z" class="grdc-2"/>
+    <path id="path5930" d="M1381.79 362.762s-35.36-50.425-62.2 11.782c0 0 60.24 40.602 62.2-11.782z" class="grdc-4"/>
+    <path id="path5932" d="M1405.82 311.286s9.27-60.885-53.13-34.457c0 0 15.52 70.978 53.13 34.457z" class="grdc-4"/>
+    <path id="path5934" d="M1385.65 308.497s-36.32-49.74-61.98 12.968c0-.029 61.01 39.416 61.98-12.968z" class="grdc-2"/>
+    <path id="path5936" d="M1405.05 330.255s-60.17-13.19-37.83 50.782c0 0 71.84-10.893 37.83-50.782z" class="grdc-2"/>
+    <path id="path5938" d="M1417.78 322.806s-35.36-50.425-62.2 11.791c0 0 60.24 40.603 62.2-11.791z" class="grdc-4"/>
+    <path id="path5940" d="M1336.44 330.275s9.26-60.885-53.13-34.457c0 0 15.56 70.978 53.13 34.457z" class="grdc-4"/>
+    <path id="path5942" d="M1335.67 349.244s-60.16-13.18-37.81 50.782c0 0 71.83-10.893 37.81-50.782z" class="grdc-2"/>
+    <path id="path5944" d="M1348.41 341.805s-35.37-50.425-62.22 11.781c0 0 60.25 40.603 62.22-11.781z" class="grdc-4"/>
+    <path id="path5946" d="M1375.71 296.918s9.27-60.894-53.12-34.456c0-.039 15.51 70.939 53.12 34.456z" class="grdc-4"/>
+    <path id="path5948" d="M1355.45 294.024s-36.32-49.75-61.98 12.968c0 .038 61.01 39.483 61.98-12.968z" class="grdc-2"/>
+    <path id="path5950" d="M1374.94 315.84s-60.16-13.181-37.82 50.792c0 0 71.83-10.855 37.82-50.792z" class="grdc-2"/>
+    <path id="path5952" d="M1387.68 308.4s-35.37-50.425-62.22 11.791c.01 0 60.29 40.603 62.22-11.791z" class="grdc-4"/>
+    <path id="path5954" d="M1404.56 366.95s9.28-60.885-53.12-34.456c0 0 15.51 70.977 53.12 34.456z" class="grdc-4"/>
+    <path id="path5956" d="M1525.08 202.571s9.27-60.884-53.12-34.456c0 0 15.51 70.977 53.12 34.456z" class="grdc-4"/>
+    <path id="path5958" d="M1384.3 364.133s-36.32-49.741-61.97 12.968c0 0 61.01 39.464 61.97-12.968z" class="grdc-2"/>
+    <path id="path5960" d="M1403.79 385.92s-60.16-13.19-37.81 50.782c0 0 71.87-10.894 37.81-50.782z" class="grdc-2"/>
+    <path id="path5962" d="M1416.43 378.48s-35.37-50.434-62.21 11.782c0 0 60.24 40.602 62.21-11.782z" class="grdc-4"/>
+  </g>
+  <path id="path5965" stroke-width=".965" d="M1538.2 749.722s-17.918-311.38-181.718-213.24c0-.04 163.8 99.779 181.718 213.24z" class="grdc-2"/>
+  <path id="path5967" stroke-width=".965" d="M1561.261 740.334s29.854-316.484-132.19-291.754c-.039 0 139.87 188.53 132.19 291.754z" class="grdc-2"/>
+  <path id="path5969" stroke-width=".965" d="M1592.427 749.722s17.918-311.38 181.718-213.24c0-.04-163.8 99.779-181.718 213.24z" class="grdc-2"/>
+  <path id="path5971" stroke-width=".965" d="M1569.366 740.334s-29.853-316.484 132.19-291.754c.04 0-139.87 188.53-132.19 291.754z" class="grdc-2"/>
+  <path id="path5973" stroke-width=".965" d="M1564.542 690.15s38.49-290.2 8.684-326.886c-.048 0-67.649 144.464-8.684 326.886z" class="grdc-2"/>
+  <path id="path5975" d="M1444.123 457.573s90.7 62.717 102.279 167.89" class="grdc-5"/>
+  <path id="path5977" fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2" d="m1572.936 390.513-11.192 255.84" class="grdc-5"/>
+  <path id="path5979" d="M1689.688 454.195s-88.008 82.692-121.673 197.176" class="grdc-5"/>
+  <path id="path5981" d="M1371.274 536.211s118.682 34.736 145.699 133.155" class="grdc-5"/>
+  <path id="path5983" d="M1754.336 535.246s-82.98 6.754-147.628 149.558" class="grdc-5"/>
+  <path id="path5985" stroke-width=".965" d="M1387.774 829.48a34.553 34.553 0 0 1-34.553 34.553 34.553 34.553 0 0 1-34.553-34.553 34.553 34.553 0 0 1 34.553-34.553 34.553 34.553 0 0 1 34.553 34.553z" class="grdc-3"/>
+  <path id="path5987" fill="#074054" stroke-width=".965" d="M1155.718 826.498h392.43v98.11h-392.43z" class="grdc-6"/>
+  <path id="path5989" fill="none" stroke="#70323b" stroke-miterlimit="10" stroke-width="2" d="M1151.858 817.814h392.43v98.11h-392.43z"/>
+  <path id="path5991" fill="#074054" stroke-width=".965" d="M1473.36 712.178h168.064v200.475H1473.36z" class="grdc-6"/>
+  <path id="path5993" fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2" d="M1486.868 707.354h168.065v200.475h-168.065z" class="grdc-5"/>
+  <path id="path5995" fill="#bbcfc0" stroke-width=".965" d="M1494.78 909.247h140.758v16.21H1494.78z" class="grdc-4"/>
+  <path id="path5997" stroke-width=".965" d="M884.94 828.37s-29.274-4.178-25.087-38.47c0 0 44.318 7.526 25.088 38.47z" class="grdc-4"/>
+  <path id="path5999" stroke-width=".965" d="M885.182 828.37s29.275-4.178 25.087-38.47c0 0-44.317 7.526-25.087 38.47z" class="grdc-4"/>
+  <path id="path6001" stroke-width=".965" d="M878.244 835.057s-29.265-4.178-25.087-38.46c0 0 44.327 7.526 25.087 38.46z" class="grdc-2"/>
+  <path id="path6003" stroke-width=".965" d="M896.056 835.057s29.265-4.178 25.087-38.46c0 0-44.317 7.526-25.087 38.46z" class="grdc-2"/>
+  <path id="path6005" stroke-width=".965" d="M887.208 835.916s-25.087-15.593-7.516-45.35c0 .048 37.563 24.75 7.516 45.35z" class="grdc-2"/>
+  <path id="path6007" stroke-width=".965" d="M959.363 828.37s-29.266-4.178-25.088-38.47c0 0 44.328 7.526 25.088 38.47z" class="grdc-4"/>
+  <path id="path6009" stroke-width=".965" d="M959.613 828.37s29.266-4.178 25.088-38.47c0 0-44.318 7.526-25.088 38.47z" class="grdc-4"/>
+  <path id="path6011" stroke-width=".965" d="M952.676 835.057s-29.275-4.178-25.087-38.46c0 0 44.317 7.526 25.087 38.46z" class="grdc-2"/>
+  <path id="path6013" stroke-width=".965" d="M970.488 835.057s29.265-4.178 25.087-38.46c0 0-44.327 7.526-25.087 38.46z" class="grdc-2"/>
+  <path id="path6015" stroke-width=".965" d="M961.64 835.916s-25.087-15.593-7.517-45.35c0 .048 37.563 24.75 7.517 45.35z" class="grdc-2"/>
+  <path id="path6017" stroke-width=".965" d="M1033.601 828.37s-29.275-4.178-25.087-38.47c0 0 44.318 7.526 25.087 38.47z" class="grdc-4"/>
+  <path id="path6019" stroke-width=".965" d="M1033.852 828.37s29.265-4.178 25.087-38.47c0 0-44.327 7.526-25.087 38.47z" class="grdc-4"/>
+  <path id="path6021" stroke-width=".965" d="M1026.905 835.057s-29.265-4.178-25.087-38.46c0 0 44.327 7.526 25.087 38.46z" class="grdc-2"/>
+  <path id="path6023" stroke-width=".965" d="M1044.717 835.057s29.275-4.178 25.087-38.46c0 0-44.317 7.526-25.087 38.46z" class="grdc-2"/>
+  <path id="path6025" stroke-width=".965" d="M1035.869 835.916s-25.087-15.593-7.517-45.35c0 .048 37.563 24.75 7.517 45.35z" class="grdc-2"/>
+  <path id="path6027" stroke-width=".965" d="M1108.052 828.37s-29.265-4.178-25.087-38.47c0 0 44.327 7.526 25.087 38.47z" class="grdc-4"/>
+  <path id="path6029" stroke-width=".965" d="M1108.245 828.37s29.275-4.178 25.087-38.47c0 0-44.317 7.526-25.087 38.47z" class="grdc-4"/>
+  <path id="path6031" stroke-width=".965" d="M1101.298 835.057s-29.265-4.178-25.087-38.46c0 0 44.317 7.526 25.087 38.46z" class="grdc-2"/>
+  <path id="path6033" stroke-width=".965" d="M1119.149 835.057s29.265-4.178 25.087-38.46c0 0-44.327 7.526-25.088 38.46z" class="grdc-2"/>
+  <path id="path6035" stroke-width=".965" d="M1110.272 835.916s-25.088-15.593-7.517-45.35c0 .048 37.563 24.75 7.516 45.35z" class="grdc-2"/>
+  <path id="path6037" stroke-width=".965" d="M812.178 828.37s-29.265-4.178-25.087-38.47c0 0 44.327 7.526 25.087 38.47z" class="grdc-4"/>
+  <path id="path6039" stroke-width=".965" d="M812.43 828.37s29.264-4.178 25.086-38.47c0 0-44.317 7.526-25.087 38.47z" class="grdc-4"/>
+  <path id="path6041" stroke-width=".965" d="M805.492 835.057s-29.275-4.178-25.088-38.46c0 0 44.318 7.526 25.088 38.46z" class="grdc-2"/>
+  <path id="path6043" stroke-width=".965" d="M823.303 835.057s29.266-4.178 25.088-38.46c0 0-44.327 7.526-25.088 38.46z" class="grdc-2"/>
+  <path id="path6045" stroke-width=".965" d="M814.504 835.916s-25.088-15.593-7.517-45.35c-.048.048 37.515 24.75 7.517 45.35z" class="grdc-2"/>
+  <path id="path6047" fill="#bbcfc0" stroke-width=".965" d="M771.277 826.508h376.345v62.95H771.277Z" class="grdc-4"/>
+  <path id="path6049" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M763.239 834.546h376.346v62.949H763.239Z" class="grdc-1"/>
+  <path id="path6051" fill="#074054" stroke-width=".965" d="M144.648 788.192h651.774V924.31H144.648Z" class="grdc-6"/>
+  <path id="path6053" fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2" d="M139.148 776.893h651.774V913.01H139.148Z" class="grdc-5"/>
+  <g id="g6063" fill="#d15b40">
+    <path id="path6055" d="M136.572 515.948h27.596v410.368h-27.596z" class="grdc-8"/>
+    <path id="path6057" d="M174.203 515.948h27.596v410.368h-27.596z" class="grdc-8"/>
+    <path id="path6059" d="M212.798 515.948h27.596v410.368h-27.596z" class="grdc-8"/>
+    <path id="path6061" d="M251.394 515.948h27.596v410.368h-27.596Z" class="grdc-8"/>
+  </g>
+  <g id="g6073" fill="#d15b40">
+    <path id="path6065" d="M304.463 515.948h27.596v410.368h-27.596z" class="grdc-8"/>
+    <path id="path6067" d="M342.094 515.948h27.596v410.368h-27.596Z" class="grdc-8"/>
+    <path id="path6069" d="M380.689 515.948h27.596v410.368h-27.596z" class="grdc-8"/>
+    <path id="path6071" d="M419.285 515.948h27.596v410.368h-27.596z" class="grdc-8"/>
+  </g>
+  <g id="g6083" fill="#d15b40">
+    <path id="path6075" d="M473.319 515.948h27.596v410.368h-27.596z" class="grdc-8"/>
+    <path id="path6077" d="M510.95 515.948h27.595v410.368H510.95Z" class="grdc-8"/>
+    <path id="path6079" d="M549.545 515.948h27.596v410.368h-27.596z" class="grdc-8"/>
+    <path id="path6081" d="M588.141 515.948h27.596v410.368h-27.596z" class="grdc-8"/>
+  </g>
+  <g id="g6093" fill="#d15b40">
+    <path id="path6085" d="M641.21 515.948h27.596v410.368H641.21Z" class="grdc-8"/>
+    <path id="path6087" d="M678.84 515.948h27.596v410.368H678.84Z" class="grdc-8"/>
+    <path id="path6089" d="M717.436 515.948h27.596v410.368h-27.596z" class="grdc-8"/>
+    <path id="path6091" d="M756.032 515.948h27.595v410.368h-27.595z" class="grdc-8"/>
+  </g>
+  <g id="g6103" fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2">
+    <path id="path6095" d="M132.23 511.606h27.596v410.368H132.23Z" class="grdc-5"/>
+    <path id="path6097" d="M169.861 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+    <path id="path6099" d="M208.456 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+    <path id="path6101" d="M247.052 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+  </g>
+  <g id="g6113" fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2">
+    <path id="path6105" d="M300.121 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+    <path id="path6107" d="M337.752 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+    <path id="path6109" d="M376.347 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+    <path id="path6111" d="M414.943 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+  </g>
+  <g id="g6123" fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2">
+    <path id="path6115" d="M468.977 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+    <path id="path6117" d="M506.607 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+    <path id="path6119" d="M545.203 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+    <path id="path6121" d="M583.799 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+  </g>
+  <g id="g6133" fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2">
+    <path id="path6125" d="M636.868 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+    <path id="path6127" d="M674.498 511.606h27.596v410.368h-27.596z" class="grdc-5"/>
+    <path id="path6129" d="M713.094 511.606h27.596v410.368h-27.596Z" class="grdc-5"/>
+    <path id="path6131" d="M751.69 511.606h27.595v410.368H751.69Z" class="grdc-5"/>
+  </g>
+  <g id="g6143" fill="#d15b40">
+    <path id="path6135" d="M1131.4 515.948h27.6v410.368h-27.6z" class="grdc-8"/>
+    <path id="path6137" d="M1169.03 515.948h27.6v410.368h-27.6z" class="grdc-8"/>
+    <path id="path6139" d="M1207.63 515.948h27.59v410.368h-27.59z" class="grdc-8"/>
+    <path id="path6141" d="M1246.22 515.948h27.6v410.368h-27.6z" class="grdc-8"/>
+  </g>
+  <g id="g6153" fill="#d15b40">
+    <path id="path6145" d="M1299.29 515.948h27.6v410.368h-27.6z" class="grdc-8"/>
+    <path id="path6147" d="M1336.92 515.948h27.6v410.368h-27.6z" class="grdc-8"/>
+    <path id="path6149" d="M1375.52 515.948h27.6v410.368h-27.6z" class="grdc-8"/>
+    <path id="path6151" d="M1414.12 515.948h27.59v410.368h-27.59z" class="grdc-8"/>
+  </g>
+  <g id="g6163" fill="#d15b40">
+    <path id="path6155" d="M1468.15 515.948h27.6v410.368h-27.6z" class="grdc-8"/>
+    <path id="path6157" d="M1505.78 515.948h27.6v410.368h-27.6z" class="grdc-8"/>
+    <path id="path6159" d="M1544.38 515.948h27.59v410.368h-27.59z" class="grdc-8"/>
+    <path id="path6161" d="M1582.97 515.948h27.6v410.368h-27.6z" class="grdc-8"/>
+  </g>
+  <g id="g6173" fill="#d15b40">
+    <path id="path6165" d="M1636.04 515.948h27.6v410.368h-27.6z" class="grdc-8"/>
+    <path id="path6167" d="M1673.67 515.948h27.6v410.368h-27.6z" class="grdc-8"/>
+    <path id="path6169" d="M1712.27 515.948h27.59v410.368h-27.59z" class="grdc-8"/>
+    <path id="path6171" d="M1750.86 515.948h27.6v410.368h-27.6z" class="grdc-8"/>
+  </g>
+  <g id="g6183" fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2">
+    <path id="path6175" d="M1135.26 512.089h27.6v410.367h-27.6z" class="grdc-5"/>
+    <path id="path6177" d="M1172.89 512.089h27.6v410.367h-27.6z" class="grdc-5"/>
+    <path id="path6179" d="M1211.49 512.089h27.59v410.367h-27.59z" class="grdc-5"/>
+    <path id="path6181" d="M1250.08 512.089h27.6v410.367h-27.6z" class="grdc-5"/>
+  </g>
+  <g id="g6193" fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2">
+    <path id="path6185" d="M1303.15 512.089h27.6v410.367h-27.6z" class="grdc-5"/>
+    <path id="path6187" d="M1340.78 512.089h27.6v410.367h-27.6z" class="grdc-5"/>
+    <path id="path6189" d="M1379.38 512.089h27.6v410.367h-27.6z" class="grdc-5"/>
+    <path id="path6191" d="M1417.98 512.089h27.59v410.367h-27.59z" class="grdc-5"/>
+  </g>
+  <g id="g6203" fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2">
+    <path id="path6195" d="M1472.01 512.089h27.59v410.367h-27.59z" class="grdc-5"/>
+    <path id="path6197" d="M1509.64 512.089h27.6v410.367h-27.6z" class="grdc-5"/>
+    <path id="path6199" d="M1548.24 512.089h27.59v410.367h-27.59z" class="grdc-5"/>
+    <path id="path6201" d="M1586.83 512.089h27.6v410.367h-27.6z" class="grdc-5"/>
+  </g>
+  <g id="g6213" fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2">
+    <path id="path6205" d="M1639.9 512.089h27.6v410.367h-27.6z" class="grdc-5"/>
+    <path id="path6207" d="M1677.53 512.089h27.6v410.367h-27.6z" class="grdc-5"/>
+    <path id="path6209" d="M1716.13 512.089h27.59v410.367h-27.59z" class="grdc-5"/>
+    <path id="path6211" d="M1754.72 512.089h27.6v410.367h-27.6z" class="grdc-5"/>
+  </g>
+  <path id="path6215" stroke-width=".965" d="M808.85 407.88c3.3-80.93 69.87-144.839 150.87-144.839 80.998 0 147.57 63.911 150.87 144.84h.135v519.11h-302.01v-519.11Z" class="grdc-8"/>
+  <path id="path6217" fill="#bbcfc0" stroke-width=".965" d="M805.067 526.205h302.85v25.59h-302.85Z" class="grdc-4"/>
+  <path id="path6219" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M808.927 518.486h302.85v25.589h-302.85Z" class="grdc-1"/>
+  <path id="path6221" fill="#bbcfc0" stroke-width=".965" d="M805.067 802.608h302.85v25.589h-302.85Z" class="grdc-4"/>
+  <path id="path6223" fill="#bbcfc0" stroke-width=".965" d="m823.833 559.267 268.517 217.441-16.103 19.887-268.518-217.442Z" class="grdc-4"/>
+  <path id="path6225" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="m830.523 552.57 268.517 217.44-16.103 19.887-268.518-217.441z" class="grdc-1"/>
+  <path id="path6227" fill="none" stroke="#0a6149" stroke-miterlimit="10" stroke-width="2" d="M807.45 810.327h302.85v25.589H807.45Z" class="grdc-1"/>
+  <path id="rect7069" fill="none" stroke="none" stroke-linejoin="round" stroke-opacity=".947" stroke-width="3.322" d="M0 0h1920v1024H0z"/>
+</svg>
 
-                        .grdc-1 {
-                            stroke: #0a6149;
-                        }
-
-                        .grdc-2 {
-                            fill: #0a6149;
-                        }
-
-                        .grdc-3 {
-                            fill: #70323b;
-                        }
-
-                        .grdc-4 {
-                            fill: #bbcfc0;
-                        }
-
-                        .grdc-5 {
-                            stroke: #bbcfc0;
-                        }
-
-                        .grdc-6 {
-                            fill: #074054;
-                        }
-
-                        .grdc-7 {
-                            stroke: #70323b;
-                        }
-
-                        .grdc-8 {
-                            fill: #d15b40;
-                        }
-                        </style>
-                    </defs>
-                    <path class="grdc-1" d="m191.45 494.88-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m179.38 377.79-60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m144.2 402.41-25.51-7.41 10.01-15.95z" />
-                        <path class="grdc-2" d="m159.85 367.92-18.77 25.07-3.88-20.45z" />
-                        <path class="grdc-2" d="m142.48 359.93-25.51 7.4 10 15.96z" />
-                        <path class="grdc-2" d="m148.37 360.2-21.06 21.31 13.87 8.83z" />
-                        <path class="grdc-2" d="m126.58 355.89-21.57 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m148.37 412.31-21.06-21.31 13.87-8.82z" />
-                        <path class="grdc-2" d="m126.58 416.63-21.57-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m175.38 417.88-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m142.99 442.02-26.04 1.76 6.78-18.94z" />
-                        <path class="grdc-2" d="m151.85 403.17-13.6 30.83-7.48-18.44z" />
-                        <path class="grdc-2" d="m133.59 401.52-23.34 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m140.5 412.32-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m153.47 403.17-17.19 27.18 14.92 4.41z" />
-                        <path class="grdc-2" d="m149.99 462.75-24.25-13.26 11.8-13.39z" />
-                        <path class="grdc-2" d="m128.53 461.94-24.57-12.07 11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m178.12 468.92-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m145.75 493.42-26.04-1.73 8.07-17.94z" />
-                        <path class="grdc-2" d="m157.28 455.95-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m139.21 451.86-24.35 12.89 11.7 13.56z" />
-                        <path class="grdc-2" d="m145.51 458.71-18.37 25.65 14.69 5.68z" />
-                        <path class="grdc-2" d="m123.06 451.34-19 24.75 14.53 6.39z" />
-                        <path class="grdc-2" d="m151.44 510.17-23.22-16.44 12.69-11.75z" />
-                        <path class="grdc-2" d="m144.97 542.71-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m159.77 514.91-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m148.94 480.89-20.88 21.63 13.93 8.62z" />
-                        <path class="grdc-2" d="m134.1 502.93-22.72 17.7 13.01 11.04z" />
-                        <path class="grdc-2" d="m149.95 571.39-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m139.08 531.6-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m141.45 515.75-15.45 29.12 15.13 2.63z" />
-                        <path class="grdc-2" d="m154.07 505.71-16.17 28.34 15.05 3.37z" />
-                        <path class="grdc-2" d="m152.76 565.45-24.7-11.54 11.3-14.2z" />
-                        <path class="grdc-2" d="m123.03 513.07-19.43-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m174.28 317.1-54.59 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m142.35 341.1-25.99 2.71 6.41-19.18z" />
-                        <path class="grdc-2" d="m150.47 301.94-13.01 31.31-7.83-18.15z" />
-                        <path class="grdc-2" d="m132.18 300.96-23.03 16.94 12.82 11.47z" />
-                        <path class="grdc-2" d="m139.31 312.82-15.95 28.58 15.08 3.14z" />
-                        <path class="grdc-2" d="m152.1 303.2-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m149.75 362.88-24.49-12.36 11.54-13.82z" />
-                        <path class="grdc-2" d="m128.27 361.55-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m191.45 674.1-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m179.38 557.01-60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m144.2 581.63-25.51-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m159.85 547.14-18.77 25.07-3.88-20.45z" />
-                        <path class="grdc-2" d="m142.48 539.15-25.51 7.4 10 15.96z" />
-                        <path class="grdc-2" d="m148.37 539.42-21.06 21.32 13.87 8.82z" />
-                        <path class="grdc-2" d="m126.58 535.11-21.57 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m148.37 591.54-21.06-21.32 13.87-8.82z" />
-                        <path class="grdc-2" d="m126.58 595.85-21.57-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m175.38 597.1-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m142.99 621.24-26.04 1.76 6.78-18.94z" />
-                        <path class="grdc-2" d="m151.85 582.39-13.6 30.83-7.48-18.43z" />
-                        <path class="grdc-2" d="m133.59 580.74-23.34 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m140.5 591.54-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m153.47 582.39-17.19 27.18 14.92 4.42z" />
-                        <path class="grdc-2" d="m149.99 641.97-24.25-13.26 11.8-13.39z" />
-                        <path class="grdc-2" d="m128.53 641.16-24.57-12.07 11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m178.12 648.14-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m145.75 672.64-26.04-1.73 8.07-17.94z" />
-                        <path class="grdc-2" d="m157.28 635.17-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m139.21 631.08-24.35 12.89 11.7 13.56z" />
-                        <path class="grdc-2" d="m145.51 637.93-18.37 25.65 14.69 5.69z" />
-                        <path class="grdc-2" d="m123.06 630.56-19 24.75 14.53 6.39z" />
-                        <path class="grdc-2" d="m151.44 689.39-23.22-16.44 12.69-11.75z" />
-                        <path class="grdc-2" d="m144.97 721.93-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m159.77 694.13-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m148.94 660.12-20.88 21.62 13.93 8.62z" />
-                        <path class="grdc-2" d="m134.1 682.15-22.72 17.71 13.01 11.03z" />
-                        <path class="grdc-2" d="m139.08 710.82-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m141.45 694.98-15.45 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m154.07 684.93-16.17 28.34 15.05 3.37z" />
-                        <path class="grdc-2" d="m123.03 692.29-19.43-24.09 14.42-6.88z" />
-                    </g>
-                    <path class="grdc-1" d="m174.28 496.32-54.59 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m142.35 520.32-25.99 2.72 6.41-19.19z" />
-                        <path class="grdc-2" d="m150.47 481.16-13.01 31.32-7.83-18.16z" />
-                        <path class="grdc-2" d="m132.18 480.18-23.03 16.94 12.82 11.47z" />
-                        <path class="grdc-2" d="m139.31 492.04-15.95 28.58 15.08 3.14z" />
-                        <path class="grdc-2" d="m152.1 482.42-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m149.75 542.1-24.49-12.36 11.54-13.82z" />
-                        <path class="grdc-2" d="m128.27 540.77-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m48.37 537.9 72.39 74.07" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m60.43 420.8 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m59.61 445.42 25.52-7.4-10.01-15.96z" />
-                        <path class="grdc-2" d="m43.96 410.93 18.78 25.07 3.88-20.45z" />
-                        <path class="grdc-2" d="m61.34 402.94 25.51 7.41-10.01 15.95z" />
-                        <path class="grdc-2" d="m91.45 403.22 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m77.23 398.9 21.58 20.28-13.63 9.5z" />
-                        <path class="grdc-2" d="m91.45 455.33 21.05-21.31-13.86-8.83z" />
-                        <path class="grdc-2" d="m77.23 459.64 21.58-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m64.44 460.89 55.32 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m60.83 485.03 26.03 1.77-6.77-18.95z" />
-                        <path class="grdc-2" d="m51.97 446.18 13.6 30.83 7.48-18.43z" />
-                        <path class="grdc-2" d="m70.23 444.53 23.34 16.1-12.59 11.93z" />
-                        <path class="grdc-2" d="m99.32 455.33 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m86.35 446.19 17.18 27.17-14.91 4.42z" />
-                        <path class="grdc-2" d="m89.83 505.76 24.25-13.25-11.8-13.4z" />
-                        <path class="grdc-2" d="m75.29 504.96 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m61.7 511.93 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m58.07 536.44 26.04-1.73-8.07-17.95z" />
-                        <path class="grdc-2" d="m46.54 498.96 15.69 28.86 6.16-19.35z" />
-                        <path class="grdc-2" d="m64.6 494.87 24.36 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m94.31 501.72 18.36 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m80.76 494.36 19 24.74-14.54 6.39z" />
-                        <path class="grdc-2" d="m88.38 553.18 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m58.84 585.73 25.94 3.59-6.08-19.4z" />
-                        <path class="grdc-2" d="m44.05 557.92 21.94 19.52 0.93-21.11z" />
-                        <path class="grdc-2" d="m54.87 523.91 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m69.71 545.94 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m89.87 614.4 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m100.74 574.62 22.72 17.7-13.01 11.04z" />
-                        <path class="grdc-2" d="m98.37 558.77 15.45 29.11-15.14 2.63z" />
-                        <path class="grdc-2" d="m85.75 548.72 16.17 28.35-15.06 3.36z" />
-                        <path class="grdc-2" d="m87.05 608.46 24.71-11.53-11.3-14.21z" />
-                        <path class="grdc-2" d="m80.79 556.08 19.43-24.08-14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m65.53 360.11 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m61.47 384.11 25.99 2.72-6.41-19.19z" />
-                        <path class="grdc-2" d="m53.35 344.95 13.01 31.32 7.82-18.15z" />
-                        <path class="grdc-2" d="m71.64 343.97 23.02 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m100.51 355.83 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m87.72 346.21 16.66 27.8-14.99 3.87z" />
-                        <path class="grdc-2" d="m90.06 405.89 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m75.55 404.56 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m60.43 600.03 60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m43.96 590.16 18.78 25.06 3.88-20.45z" />
-                    <path class="grdc-2" d="m77.23 578.13 21.58 20.27-13.63 9.5z" />
-                    <path class="grdc-1" d="m65.53 539.34 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m61.47 563.33 25.99 2.72-6.41-19.18z" />
-                        <path class="grdc-2" d="m53.35 524.17 13.01 31.32 7.82-18.15z" />
-                        <path class="grdc-2" d="m100.51 535.05 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m87.72 525.43 16.66 27.8-14.99 3.87z" />
-                        <path class="grdc-2" d="m90.06 585.11 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m75.55 583.78 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m47.73 698 72.39 74.08" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <path class="grdc-1" d="m59.79 580.91 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m43.32 571.04 18.78 25.07 3.88-20.46z" />
-                        <path class="grdc-2" d="m90.81 563.32 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m76.59 559.01 21.58 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m76.59 619.75 21.58-20.28-13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m63.8 621 55.32 37.3" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m60.19 645.13 26.03 1.77-6.77-18.94z" />
-                        <path class="grdc-2" d="m51.33 606.29 13.6 30.83 7.48-18.44z" />
-                        <path class="grdc-2" d="m69.59 604.64 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m98.68 615.44 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m85.71 606.29 17.18 27.18-14.91 4.41z" />
-                        <path class="grdc-2" d="m89.19 665.86 24.25-13.25-11.8-13.39z" />
-                        <path class="grdc-2" d="m74.65 665.06 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m61.06 672.04 57.67 29.7" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m57.43 696.54 26.04-1.73-8.07-17.94z" />
-                        <path class="grdc-2" d="m45.9 659.07 15.69 28.85 6.16-19.34z" />
-                        <path class="grdc-2" d="m63.96 654.97 24.36 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m93.67 661.83 18.36 25.65-14.69 5.68z" />
-                        <path class="grdc-2" d="m80.12 654.46 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m87.74 713.29 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m54.23 684.01 20.89 21.63-13.93 8.62z" />
-                        <path class="grdc-2" d="m69.07 706.04 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m85.11 708.83 16.17 28.34-15.06 3.36z" />
-                        <path class="grdc-2" d="m80.15 716.19 19.43-24.09-14.42-6.89z" />
-                        <path class="grdc-2" d="m71 504.07 23.02 16.94-12.81 11.48z" />
-                        <path class="grdc-2" d="m99.87 515.94 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m87.08 506.32 16.66 27.79-14.99 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m64.89 699.44 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m60.83 723.44 25.99 2.71-6.41-19.18z" />
-                        <path class="grdc-2" d="m52.71 684.28 13.01 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m71 683.3 23.02 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m99.87 695.16 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m87.08 685.54 16.66 27.79-14.99 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m260.59 494.88-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m248.53 377.79-60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m249.35 402.41-25.52-7.41 10.01-15.95z" />
-                        <path class="grdc-2" d="m265 367.92-18.78 25.07-3.88-20.45z" />
-                        <path class="grdc-2" d="m247.62 359.93-25.51 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m217.51 360.2-21.05 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m231.72 355.89-21.57 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m217.51 412.31-21.05-21.31 13.86-8.82z" />
-                        <path class="grdc-2" d="m231.72 416.63-21.57-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m244.52 417.88-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m248.13 442.02-26.04 1.76 6.78-18.94z" />
-                        <path class="grdc-2" d="m256.99 403.17-13.6 30.83-7.48-18.44z" />
-                        <path class="grdc-2" d="m238.73 401.52-23.34 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m209.64 412.32-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m222.61 403.17-17.19 27.18 14.92 4.41z" />
-                        <path class="grdc-2" d="m219.13 462.75-24.25-13.26 11.8-13.39z" />
-                        <path class="grdc-2" d="m233.67 461.94-24.57-12.07 11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m247.26 468.92-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m250.89 493.42-26.04-1.73 8.07-17.94z" />
-                        <path class="grdc-2" d="m262.42 455.95-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m244.35 451.86-24.35 12.89 11.7 13.56z" />
-                        <path class="grdc-2" d="m214.65 458.71-18.37 25.65 14.7 5.68z" />
-                        <path class="grdc-2" d="m228.2 451.34-19 24.75 14.54 6.39z" />
-                        <path class="grdc-2" d="m220.58 510.17-23.22-16.44 12.69-11.75z" />
-                        <path class="grdc-2" d="m250.11 542.71-25.93 3.59 6.07-19.39z" />
-                        <path class="grdc-2" d="m264.91 514.91-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m254.09 480.89-20.89 21.63 13.93 8.62z" />
-                        <path class="grdc-2" d="m239.25 502.93-22.73 17.7 13.01 11.04z" />
-                        <path class="grdc-2" d="m219.09 571.39-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m208.22 531.6-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m210.59 515.75-15.45 29.12 15.14 2.63z" />
-                        <path class="grdc-2" d="m223.21 505.71-16.17 28.34 15.05 3.37z" />
-                        <path class="grdc-2" d="m221.91 565.45-24.71-11.54 11.3-14.2z" />
-                        <path class="grdc-2" d="m228.17 513.07-19.43-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m243.43 317.1-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m247.49 341.1-25.99 2.71 6.41-19.18z" />
-                        <path class="grdc-2" d="m255.61 301.94-13.01 31.31-7.82-18.15z" />
-                        <path class="grdc-2" d="m237.32 300.96-23.02 16.94 12.81 11.47z" />
-                        <path class="grdc-2" d="m208.45 312.82-15.95 28.58 15.08 3.14z" />
-                        <path class="grdc-2" d="m221.24 303.2-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m218.89 362.88-24.49-12.36 11.54-13.82z" />
-                        <path class="grdc-2" d="m233.41 361.55-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m260.59 674.1-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m248.53 557.01-60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m249.35 581.63-25.52-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m265 547.14-18.78 25.07-3.88-20.45z" />
-                        <path class="grdc-2" d="m247.62 539.15-25.51 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m217.51 539.42-21.05 21.32 13.86 8.82z" />
-                        <path class="grdc-2" d="m231.72 535.11-21.57 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m217.51 591.54-21.05-21.32 13.86-8.82z" />
-                        <path class="grdc-2" d="m231.72 595.85-21.57-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m244.52 597.1-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m248.13 621.24-26.04 1.76 6.78-18.94z" />
-                        <path class="grdc-2" d="m256.99 582.39-13.6 30.83-7.48-18.43z" />
-                        <path class="grdc-2" d="m238.73 580.74-23.34 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m209.64 591.54-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m222.61 582.39-17.19 27.18 14.92 4.42z" />
-                        <path class="grdc-2" d="m219.13 641.97-24.25-13.26 11.8-13.39z" />
-                        <path class="grdc-2" d="m233.67 641.16-24.57-12.07 11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m247.26 648.14-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m250.89 672.64-26.04-1.73 8.07-17.94z" />
-                        <path class="grdc-2" d="m262.42 635.17-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m244.35 631.08-24.35 12.89 11.7 13.56z" />
-                        <path class="grdc-2" d="m214.65 637.93-18.37 25.65 14.7 5.69z" />
-                        <path class="grdc-2" d="m228.2 630.56-19 24.75 14.54 6.39z" />
-                        <path class="grdc-2" d="m220.58 689.39-23.22-16.44 12.69-11.75z" />
-                        <path class="grdc-2" d="m250.11 721.93-25.93 3.59 6.07-19.39z" />
-                        <path class="grdc-2" d="m264.91 694.13-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m254.09 660.12-20.89 21.62 13.93 8.62z" />
-                        <path class="grdc-2" d="m239.25 682.15-22.73 17.71 13.01 11.03z" />
-                        <path class="grdc-2" d="m208.22 710.82-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m210.59 694.98-15.45 29.11 15.14 2.63z" />
-                        <path class="grdc-2" d="m223.21 684.93-16.17 28.34 15.05 3.37z" />
-                        <path class="grdc-2" d="m228.17 692.29-19.43-24.09 14.42-6.88z" />
-                    </g>
-                    <path class="grdc-1" d="m243.43 496.32-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m247.49 520.32-25.99 2.72 6.41-19.19z" />
-                        <path class="grdc-2" d="m255.61 481.16-13.01 31.32-7.82-18.16z" />
-                        <path class="grdc-2" d="m237.32 480.18-23.02 16.94 12.81 11.47z" />
-                        <path class="grdc-2" d="m208.45 492.04-15.95 28.58 15.08 3.14z" />
-                        <path class="grdc-2" d="m221.24 482.42-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m218.89 542.1-24.49-12.36 11.54-13.82z" />
-                        <path class="grdc-2" d="m233.41 540.77-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m117.51 537.9 72.39 74.07" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m129.57 420.8 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m128.75 445.42 25.52-7.4-10.01-15.96z" />
-                        <path class="grdc-2" d="m113.11 410.93 18.77 25.07 3.88-20.45z" />
-                        <path class="grdc-2" d="m130.48 402.94 25.51 7.41-10.01 15.95z" />
-                        <path class="grdc-2" d="m160.59 403.22 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m146.38 398.9 21.57 20.28-13.63 9.5z" />
-                        <path class="grdc-2" d="m160.59 455.33 21.05-21.31-13.86-8.83z" />
-                        <path class="grdc-2" d="m146.38 459.64 21.57-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m133.58 460.89 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m129.97 485.03 26.04 1.77-6.78-18.95z" />
-                        <path class="grdc-2" d="m121.11 446.18 13.6 30.83 7.48-18.43z" />
-                        <path class="grdc-2" d="m139.37 444.53 23.34 16.1-12.59 11.93z" />
-                        <path class="grdc-2" d="m168.46 455.33 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m155.49 446.19 17.19 27.17-14.92 4.42z" />
-                        <path class="grdc-2" d="m158.97 505.76 24.25-13.25-11.8-13.4z" />
-                        <path class="grdc-2" d="m144.43 504.96 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m130.84 511.93 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m127.21 536.44 26.04-1.73-8.07-17.95z" />
-                        <path class="grdc-2" d="m115.68 498.96 15.69 28.86 6.16-19.35z" />
-                        <path class="grdc-2" d="m133.75 494.87 24.35 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m163.45 501.72 18.36 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m149.9 494.36 19 24.74-14.53 6.39z" />
-                        <path class="grdc-2" d="m157.52 553.18 23.22-16.44-12.69-11.75z" />
-                        <path class="grdc-2" d="m127.99 585.73 25.94 3.59-6.08-19.4z" />
-                        <path class="grdc-2" d="m113.19 557.92 21.94 19.52 0.93-21.11z" />
-                        <path class="grdc-2" d="m124.01 523.91 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m138.85 545.94 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m159.01 614.4 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m169.88 574.62 22.72 17.7-13.01 11.04z" />
-                        <path class="grdc-2" d="m167.51 558.77 15.45 29.11-15.14 2.63z" />
-                        <path class="grdc-2" d="m154.89 548.72 16.17 28.35-15.06 3.36z" />
-                        <path class="grdc-2" d="m156.19 608.46 24.71-11.53-11.3-14.21z" />
-                        <path class="grdc-2" d="m149.93 556.08 19.43-24.08-14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m134.67 360.11 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m130.61 384.11 25.99 2.72-6.41-19.19z" />
-                        <path class="grdc-2" d="m122.49 344.95 13.01 31.32 7.82-18.15z" />
-                        <path class="grdc-2" d="m140.78 343.97 23.02 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m169.65 355.83 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m156.86 346.21 16.66 27.8-14.99 3.87z" />
-                        <path class="grdc-2" d="m159.21 405.89 24.49-12.36-11.54-13.82z" />
-                        <path class="grdc-2" d="m144.69 404.56 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m129.57 600.03 60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m113.11 590.16 18.77 25.06 3.88-20.45z" />
-                    <path class="grdc-2" d="m146.38 578.13 21.57 20.27-13.63 9.5z" />
-                    <path class="grdc-1" d="m134.67 539.34 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m130.61 563.33 25.99 2.72-6.41-19.18z" />
-                        <path class="grdc-2" d="m122.49 524.17 13.01 31.32 7.82-18.15z" />
-                        <path class="grdc-2" d="m169.65 535.05 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m156.86 525.43 16.66 27.8-14.99 3.87z" />
-                        <path class="grdc-2" d="m159.21 585.11 24.49-12.36-11.54-13.82z" />
-                        <path class="grdc-2" d="m144.69 583.78 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m116.87 698 72.39 74.08" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <path class="grdc-1" d="m128.93 580.91 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m112.47 571.04 18.77 25.07 3.88-20.46z" />
-                        <path class="grdc-2" d="m159.95 563.32 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m145.74 559.01 21.57 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m145.74 619.75 21.57-20.28-13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m132.94 621 55.33 37.3" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m129.33 645.13 26.04 1.77-6.78-18.94z" />
-                        <path class="grdc-2" d="m120.47 606.29 13.6 30.83 7.48-18.44z" />
-                        <path class="grdc-2" d="m138.73 604.64 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m167.82 615.44 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m154.85 606.29 17.19 27.18-14.92 4.41z" />
-                        <path class="grdc-2" d="m158.33 665.86 24.25-13.25-11.8-13.39z" />
-                        <path class="grdc-2" d="m143.79 665.06 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m130.2 672.04 57.67 29.7" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m126.57 696.54 26.04-1.73-8.07-17.94z" />
-                        <path class="grdc-2" d="m115.04 659.07 15.69 28.85 6.16-19.34z" />
-                        <path class="grdc-2" d="m133.1 654.97 24.36 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m162.81 661.83 18.37 25.65-14.7 5.68z" />
-                        <path class="grdc-2" d="m149.26 654.46 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m156.88 713.29 23.22-16.44-12.69-11.75z" />
-                        <path class="grdc-2" d="m123.38 684.01 20.88 21.63-13.93 8.62z" />
-                        <path class="grdc-2" d="m138.21 706.04 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m154.25 708.83 16.17 28.34-15.05 3.36z" />
-                        <path class="grdc-2" d="m149.29 716.19 19.43-24.09-14.42-6.89z" />
-                        <path class="grdc-2" d="m140.14 504.07 23.02 16.94-12.81 11.48z" />
-                        <path class="grdc-2" d="m169.01 515.94 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m156.22 506.32 16.66 27.79-14.99 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m134.03 699.44 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m129.97 723.44 25.99 2.71-6.41-19.18z" />
-                        <path class="grdc-2" d="m121.85 684.28 13.01 31.31 7.83-18.15z" />
-                        <path class="grdc-2" d="m140.14 683.3 23.02 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m169.01 695.16 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m156.22 685.54 16.66 27.79-14.99 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m350.22 494.88-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m338.15 377.79-60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m338.98 402.41-25.52-7.41 10.01-15.95z" />
-                        <path class="grdc-2" d="m354.62 367.92-18.77 25.07-3.88-20.45z" />
-                        <path class="grdc-2" d="m337.25 359.93-25.51 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m307.14 360.2-21.06 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m321.35 355.89-21.57 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m307.14 412.31-21.06-21.31 13.86-8.82z" />
-                        <path class="grdc-2" d="m321.35 416.63-21.57-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m334.15 417.88-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m337.76 442.02-26.04 1.76 6.78-18.94z" />
-                        <path class="grdc-2" d="m346.62 403.17-13.6 30.83-7.48-18.44z" />
-                        <path class="grdc-2" d="m328.36 401.52-23.35 16.09 12.6 11.94z" />
-                        <path class="grdc-2" d="m299.27 412.32-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m312.24 403.17-17.19 27.18 14.92 4.41z" />
-                        <path class="grdc-2" d="m308.76 462.75-24.25-13.26 11.8-13.39z" />
-                        <path class="grdc-2" d="m323.3 461.94-24.57-12.07 11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m336.89 468.92-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m340.52 493.42-26.04-1.73 8.07-17.94z" />
-                        <path class="grdc-2" d="m352.05 455.95-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m333.98 451.86-24.35 12.89 11.7 13.56z" />
-                        <path class="grdc-2" d="m304.28 458.71-18.37 25.65 14.7 5.68z" />
-                        <path class="grdc-2" d="m317.82 451.34-19 24.75 14.54 6.39z" />
-                        <path class="grdc-2" d="m310.21 510.17-23.22-16.44 12.69-11.75z" />
-                        <path class="grdc-2" d="m339.74 542.71-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m354.54 514.91-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m343.71 480.89-20.88 21.63 13.92 8.62z" />
-                        <path class="grdc-2" d="m328.88 502.93-22.73 17.7 13.01 11.04z" />
-                        <path class="grdc-2" d="m308.72 571.39-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m297.85 531.6-22.72 17.71 13 11.04z" />
-                        <path class="grdc-2" d="m300.22 515.75-15.45 29.12 15.13 2.63z" />
-                        <path class="grdc-2" d="m312.84 505.71-16.17 28.34 15.05 3.37z" />
-                        <path class="grdc-2" d="m311.53 565.45-24.7-11.54 11.3-14.2z" />
-                        <path class="grdc-2" d="m317.8 513.07-19.43-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m333.05 317.1-54.59 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m337.12 341.1-25.99 2.71 6.41-19.18z" />
-                        <path class="grdc-2" d="m345.24 301.94-13.01 31.31-7.83-18.15z" />
-                        <path class="grdc-2" d="m326.95 300.96-23.03 16.94 12.82 11.47z" />
-                        <path class="grdc-2" d="m298.08 312.82-15.95 28.58 15.08 3.14z" />
-                        <path class="grdc-2" d="m310.87 303.2-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m308.52 362.88-24.49-12.36 11.54-13.82z" />
-                        <path class="grdc-2" d="m323.04 361.55-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m350.22 674.1-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m338.15 557.01-60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m338.98 581.63-25.52-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m354.62 547.14-18.77 25.07-3.88-20.45z" />
-                        <path class="grdc-2" d="m337.25 539.15-25.51 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m307.14 539.42-21.06 21.32 13.86 8.82z" />
-                        <path class="grdc-2" d="m321.35 535.11-21.57 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m307.14 591.54-21.06-21.32 13.86-8.82z" />
-                        <path class="grdc-2" d="m321.35 595.85-21.57-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m334.15 597.1-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m337.76 621.24-26.04 1.76 6.78-18.94z" />
-                        <path class="grdc-2" d="m346.62 582.39-13.6 30.83-7.48-18.43z" />
-                        <path class="grdc-2" d="m328.36 580.74-23.35 16.09 12.6 11.94z" />
-                        <path class="grdc-2" d="m299.27 591.54-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m312.24 582.39-17.19 27.18 14.92 4.42z" />
-                        <path class="grdc-2" d="m308.76 641.97-24.25-13.26 11.8-13.39z" />
-                        <path class="grdc-2" d="m323.3 641.16-24.57-12.07 11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m336.89 648.14-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m340.52 672.64-26.04-1.73 8.07-17.94z" />
-                        <path class="grdc-2" d="m352.05 635.17-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m333.98 631.08-24.35 12.89 11.7 13.56z" />
-                        <path class="grdc-2" d="m304.28 637.93-18.37 25.65 14.7 5.69z" />
-                        <path class="grdc-2" d="m317.82 630.56-19 24.75 14.54 6.39z" />
-                        <path class="grdc-2" d="m310.21 689.39-23.22-16.44 12.69-11.75z" />
-                        <path class="grdc-2" d="m339.74 721.93-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m354.54 694.13-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m343.71 660.12-20.88 21.62 13.92 8.62z" />
-                        <path class="grdc-2" d="m328.88 682.15-22.73 17.71 13.01 11.03z" />
-                        <path class="grdc-2" d="m297.85 710.82-22.72 17.71 13 11.04z" />
-                        <path class="grdc-2" d="m300.22 694.98-15.45 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m312.84 684.93-16.17 28.34 15.05 3.37z" />
-                        <path class="grdc-2" d="m317.8 692.29-19.43-24.09 14.42-6.88z" />
-                    </g>
-                    <path class="grdc-1" d="m333.05 496.32-54.59 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m337.12 520.32-25.99 2.72 6.41-19.19z" />
-                        <path class="grdc-2" d="m345.24 481.16-13.01 31.32-7.83-18.16z" />
-                        <path class="grdc-2" d="m326.95 480.18-23.03 16.94 12.82 11.47z" />
-                        <path class="grdc-2" d="m298.08 492.04-15.95 28.58 15.08 3.14z" />
-                        <path class="grdc-2" d="m310.87 482.42-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m308.52 542.1-24.49-12.36 11.54-13.82z" />
-                        <path class="grdc-2" d="m323.04 540.77-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m207.14 537.9 72.39 74.07" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m219.2 420.8 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m218.38 445.42 25.52-7.4-10.01-15.96z" />
-                        <path class="grdc-2" d="m202.73 410.93 18.78 25.07 3.88-20.45z" />
-                        <path class="grdc-2" d="m220.11 402.94 25.51 7.41-10.01 15.95z" />
-                        <path class="grdc-2" d="m250.22 403.22 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m236 398.9 21.58 20.28-13.63 9.5z" />
-                        <path class="grdc-2" d="m250.22 455.33 21.05-21.31-13.86-8.83z" />
-                        <path class="grdc-2" d="m236 459.64 21.58-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m223.21 460.89 55.32 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m219.6 485.03 26.03 1.77-6.77-18.95z" />
-                        <path class="grdc-2" d="m210.74 446.18 13.6 30.83 7.48-18.43z" />
-                        <path class="grdc-2" d="m229 444.53 23.34 16.1-12.59 11.93z" />
-                        <path class="grdc-2" d="m258.09 455.33 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m245.12 446.19 17.19 27.17-14.92 4.42z" />
-                        <path class="grdc-2" d="m248.6 505.76 24.25-13.25-11.8-13.4z" />
-                        <path class="grdc-2" d="m234.06 504.96 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m220.47 511.93 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m216.84 536.44 26.04-1.73-8.07-17.95z" />
-                        <path class="grdc-2" d="m205.31 498.96 15.69 28.86 6.16-19.35z" />
-                        <path class="grdc-2" d="m223.37 494.87 24.36 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m253.08 501.72 18.36 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m239.53 494.36 19 24.74-14.54 6.39z" />
-                        <path class="grdc-2" d="m247.15 553.18 23.22-16.44-12.69-11.75z" />
-                        <path class="grdc-2" d="m217.62 585.73 25.93 3.59-6.08-19.4z" />
-                        <path class="grdc-2" d="m202.82 557.92 21.94 19.52 0.93-21.11z" />
-                        <path class="grdc-2" d="m213.64 523.91 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m228.48 545.94 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m248.64 614.4 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m259.51 574.62 22.72 17.7-13.01 11.04z" />
-                        <path class="grdc-2" d="m257.14 558.77 15.45 29.11-15.14 2.63z" />
-                        <path class="grdc-2" d="m244.52 548.72 16.17 28.35-15.06 3.36z" />
-                        <path class="grdc-2" d="m245.82 608.46 24.71-11.53-11.3-14.21z" />
-                        <path class="grdc-2" d="m239.56 556.08 19.43-24.08-14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m224.3 360.11 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m220.24 384.11 25.99 2.72-6.42-19.19z" />
-                        <path class="grdc-2" d="m212.12 344.95 13.01 31.32 7.82-18.15z" />
-                        <path class="grdc-2" d="m230.41 343.97 23.02 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m259.28 355.83 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m246.49 346.21 16.66 27.8-14.99 3.87z" />
-                        <path class="grdc-2" d="m248.84 405.89 24.49-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m234.31 404.56 24.8-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m219.2 600.03 60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m202.73 590.16 18.78 25.06 3.88-20.45z" />
-                    <path class="grdc-2" d="m236 578.13 21.58 20.27-13.63 9.5z" />
-                    <path class="grdc-1" d="m224.3 539.34 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m220.24 563.33 25.99 2.72-6.42-19.18z" />
-                        <path class="grdc-2" d="m212.12 524.17 13.01 31.32 7.82-18.15z" />
-                        <path class="grdc-2" d="m259.28 535.05 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m246.49 525.43 16.66 27.8-14.99 3.87z" />
-                        <path class="grdc-2" d="m248.84 585.11 24.49-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m234.31 583.78 24.8-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m206.5 698 72.39 74.08" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <path class="grdc-1" d="m218.56 580.91 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m202.09 571.04 18.78 25.07 3.88-20.46z" />
-                        <path class="grdc-2" d="m249.58 563.32 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m235.37 559.01 21.57 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m235.37 619.75 21.57-20.28-13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m222.57 621 55.32 37.3" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m218.96 645.13 26.04 1.77-6.78-18.94z" />
-                        <path class="grdc-2" d="m210.1 606.29 13.6 30.83 7.48-18.44z" />
-                        <path class="grdc-2" d="m228.36 604.64 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m257.45 615.44 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m244.48 606.29 17.19 27.18-14.92 4.41z" />
-                        <path class="grdc-2" d="m247.96 665.86 24.25-13.25-11.8-13.39z" />
-                        <path class="grdc-2" d="m233.42 665.06 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m219.83 672.04 57.67 29.7" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m216.2 696.54 26.04-1.73-8.07-17.94z" />
-                        <path class="grdc-2" d="m204.67 659.07 15.69 28.85 6.15-19.34z" />
-                        <path class="grdc-2" d="m222.73 654.97 24.36 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m252.44 661.83 18.36 25.65-14.69 5.68z" />
-                        <path class="grdc-2" d="m238.89 654.46 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m246.51 713.29 23.22-16.44-12.69-11.75z" />
-                        <path class="grdc-2" d="m213 684.01 20.89 21.63-13.93 8.62z" />
-                        <path class="grdc-2" d="m227.84 706.04 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m243.88 708.83 16.17 28.34-15.06 3.36z" />
-                        <path class="grdc-2" d="m238.92 716.19 19.43-24.09-14.42-6.89z" />
-                        <path class="grdc-2" d="m229.77 504.07 23.02 16.94-12.81 11.48z" />
-                        <path class="grdc-2" d="m258.64 515.94 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m245.85 506.32 16.66 27.79-15 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m223.66 699.44 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m219.6 723.44 25.99 2.71-6.41-19.18z" />
-                        <path class="grdc-2" d="m211.48 684.28 13.01 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m229.77 683.3 23.02 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m258.64 695.16 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m245.85 685.54 16.66 27.79-15 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m443.3 437.53-72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m431.23 320.44-60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m432.05 345.06-25.51-7.41 10-15.95z" />
-                        <path class="grdc-2" d="m447.7 310.57-18.78 25.07-3.87-20.45z" />
-                        <path class="grdc-2" d="m430.33 302.58-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m400.21 302.85-21.05 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m414.43 298.54-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m400.21 354.96-21.05-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m414.43 359.28-21.58-20.28 13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m427.23 360.53-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m430.83 384.67-26.03 1.76 6.78-18.94z" />
-                        <path class="grdc-2" d="m439.7 345.82-13.61 30.83-7.47-18.44z" />
-                        <path class="grdc-2" d="m421.43 344.17-23.34 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m392.34 354.97-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m405.31 345.82-17.18 27.18 14.92 4.41z" />
-                        <path class="grdc-2" d="m401.83 405.39-24.25-13.25 11.81-13.39z" />
-                        <path class="grdc-2" d="m416.37 404.59-24.57-12.07 11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m429.96 411.57-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m433.59 436.07-26.03-1.73 8.06-17.94z" />
-                        <path class="grdc-2" d="m445.12 398.6-15.69 28.86-6.15-19.35z" />
-                        <path class="grdc-2" d="m427.06 394.5-24.35 12.89 11.69 13.57z" />
-                        <path class="grdc-2" d="m397.35 401.36-18.36 25.65 14.69 5.68z" />
-                        <path class="grdc-2" d="m410.9 393.99-19 24.75 14.54 6.39z" />
-                        <path class="grdc-2" d="m403.28 452.82-23.21-16.44 12.68-11.75z" />
-                        <path class="grdc-2" d="m432.82 485.36-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m447.62 457.56-21.94 19.51-0.93-21.1z" />
-                        <path class="grdc-2" d="m436.79 423.54-20.89 21.63 13.93 8.62z" />
-                        <path class="grdc-2" d="m421.95 445.58-22.72 17.7 13.01 11.04z" />
-                        <path class="grdc-2" d="m401.79 514.04-25.94 3.59 6.08-19.4z" />
-                        <path class="grdc-2" d="m390.93 474.25-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m393.29 458.4-15.44 29.11 15.13 2.64z" />
-                        <path class="grdc-2" d="m405.91 448.36-16.17 28.34 15.06 3.37z" />
-                        <path class="grdc-2" d="m404.61 508.1-24.7-11.54 11.3-14.2z" />
-                        <path class="grdc-2" d="m410.88 455.72-19.44-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m426.13 259.75-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m430.2 283.75-26 2.71 6.42-19.18z" />
-                        <path class="grdc-2" d="m438.32 244.59-13.02 31.31-7.82-18.15z" />
-                        <path class="grdc-2" d="m420.03 243.61-23.03 16.94 12.81 11.47z" />
-                        <path class="grdc-2" d="m391.15 255.47-15.95 28.58 15.09 3.14z" />
-                        <path class="grdc-2" d="m403.94 245.85-16.66 27.79 15 3.87z" />
-                        <path class="grdc-2" d="m401.6 305.53-24.5-12.36 11.55-13.82z" />
-                        <path class="grdc-2" d="m416.12 304.19-24.79-11.16 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m443.3 616.75-72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m431.23 499.66-60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m432.05 524.28-25.51-7.4 10-15.96z" />
-                        <path class="grdc-2" d="m447.7 489.79-18.78 25.07-3.87-20.45z" />
-                        <path class="grdc-2" d="m430.33 481.8-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m400.21 482.07-21.05 21.32 13.86 8.82z" />
-                        <path class="grdc-2" d="m414.43 477.76-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m400.21 534.19-21.05-21.32 13.86-8.82z" />
-                        <path class="grdc-2" d="m414.43 538.5-21.58-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m427.23 539.75-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m430.83 563.89-26.03 1.76 6.78-18.94z" />
-                        <path class="grdc-2" d="m439.7 525.04-13.61 30.83-7.47-18.43z" />
-                        <path class="grdc-2" d="m421.43 523.39-23.34 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m392.34 534.19-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m405.31 525.04-17.18 27.18 14.92 4.41z" />
-                        <path class="grdc-2" d="m401.83 584.62-24.25-13.26 11.81-13.39z" />
-                        <path class="grdc-2" d="m416.37 583.81-24.57-12.07 11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m429.96 590.79-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m433.59 615.29-26.03-1.73 8.06-17.94z" />
-                        <path class="grdc-2" d="m445.12 577.82-15.69 28.86-6.15-19.35z" />
-                        <path class="grdc-2" d="m427.06 573.73-24.35 12.89 11.69 13.56z" />
-                        <path class="grdc-2" d="m397.35 580.58-18.36 25.65 14.69 5.68z" />
-                        <path class="grdc-2" d="m410.9 573.21-19 24.75 14.54 6.39z" />
-                        <path class="grdc-2" d="m403.28 632.04-23.21-16.44 12.68-11.75z" />
-                        <path class="grdc-2" d="m432.82 664.58-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m447.62 636.78-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m436.79 602.77-20.89 21.62 13.93 8.62z" />
-                        <path class="grdc-2" d="m421.95 624.8-22.72 17.71 13.01 11.03z" />
-                        <path class="grdc-2" d="m401.79 693.26-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m390.93 653.47-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m393.29 637.63-15.44 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m405.91 627.58-16.17 28.34 15.06 3.37z" />
-                        <path class="grdc-2" d="m404.61 687.32-24.7-11.54 11.3-14.2z" />
-                        <path class="grdc-2" d="m410.88 634.94-19.44-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m426.13 438.97-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m430.2 462.97-26 2.72 6.42-19.19z" />
-                        <path class="grdc-2" d="m438.32 423.81-13.02 31.32-7.82-18.16z" />
-                        <path class="grdc-2" d="m420.03 422.83-23.03 16.94 12.81 11.47z" />
-                        <path class="grdc-2" d="m391.15 434.69-15.95 28.58 15.09 3.14z" />
-                        <path class="grdc-2" d="m403.94 425.07-16.66 27.79 15 3.87z" />
-                        <path class="grdc-2" d="m401.6 484.75-24.5-12.36 11.55-13.82z" />
-                        <path class="grdc-2" d="m416.12 483.42-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m300.21 480.54 72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m312.28 363.45 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m311.46 388.07 25.51-7.4-10.01-15.96z" />
-                        <path class="grdc-2" d="m295.81 353.58 18.78 25.07 3.87-20.45z" />
-                        <path class="grdc-2" d="m313.18 345.59 25.52 7.41-10.01 15.95z" />
-                        <path class="grdc-2" d="m343.3 345.87 21.05 21.31-13.86 8.82z" />
-                        <path class="grdc-2" d="m329.08 341.55 21.58 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m343.3 397.98 21.05-21.31-13.86-8.83z" />
-                        <path class="grdc-2" d="m329.08 402.29 21.58-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m316.28 403.54 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m312.68 427.68 26.03 1.77-6.78-18.95z" />
-                        <path class="grdc-2" d="m303.81 388.83 13.61 30.83 7.47-18.43z" />
-                        <path class="grdc-2" d="m322.08 387.18 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m351.17 397.98 16.48 28-15.01 3.68z" />
-                        <path class="grdc-2" d="m338.2 388.84 17.18 27.17-14.92 4.42z" />
-                        <path class="grdc-2" d="m341.68 448.41 24.25-13.26-11.81-13.39z" />
-                        <path class="grdc-2" d="m327.14 447.61 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m313.55 454.58 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m309.92 479.09 26.03-1.73-8.07-17.95z" />
-                        <path class="grdc-2" d="m298.38 441.61 15.7 28.86 6.15-19.35z" />
-                        <path class="grdc-2" d="m316.45 437.52 24.35 12.89-11.69 13.57z" />
-                        <path class="grdc-2" d="m346.15 444.37 18.37 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m332.61 437 19 24.75-14.54 6.39z" />
-                        <path class="grdc-2" d="m340.23 495.83 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m310.69 528.38 25.94 3.59-6.08-19.4z" />
-                        <path class="grdc-2" d="m295.89 500.57 21.94 19.52 0.93-21.11z" />
-                        <path class="grdc-2" d="m306.72 466.56 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m321.56 488.59 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m341.72 557.05 25.93 3.59-6.07-19.39z" />
-                        <path class="grdc-2" d="m352.58 517.26 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m350.22 501.42 15.44 29.11-15.13 2.63z" />
-                        <path class="grdc-2" d="m337.6 491.37 16.17 28.35-15.06 3.36z" />
-                        <path class="grdc-2" d="m338.9 551.11 24.7-11.53-11.3-14.21z" />
-                        <path class="grdc-2" d="m332.63 498.73 19.44-24.09-14.43-6.88z" />
-                    </g>
-                    <path class="grdc-1" d="m317.38 302.76 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m313.31 326.76 26 2.72-6.42-19.19z" />
-                        <path class="grdc-2" d="m305.19 287.6 13.02 31.32 7.82-18.16z" />
-                        <path class="grdc-2" d="m323.48 286.62 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m352.36 298.48 15.95 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m339.56 288.86 16.67 27.8-15 3.86z" />
-                        <path class="grdc-2" d="m341.91 348.54 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m327.39 347.21 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m312.28 542.67 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m295.81 532.8 18.78 25.07 3.87-20.45z" />
-                    <path class="grdc-2" d="m329.08 520.77 21.58 20.28-13.63 9.5z" />
-                    <path class="grdc-1" d="m317.38 481.99 54.6 39.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m313.31 505.98 26 2.72-6.42-19.19z" />
-                        <path class="grdc-2" d="m305.19 466.82 13.02 31.32 7.82-18.15z" />
-                        <path class="grdc-2" d="m352.36 477.7 15.95 28.59-15.09 3.14z" />
-                        <path class="grdc-2" d="m339.56 468.08 16.67 27.8-15 3.87z" />
-                        <path class="grdc-2" d="m341.91 527.76 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m327.39 526.43 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m299.57 640.65 72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m311.64 523.56 60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m295.17 513.69 18.78 25.06 3.87-20.45z" />
-                        <path class="grdc-2" d="m342.66 505.97 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m328.44 501.66 21.58 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m328.44 562.39 21.58-20.27-13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m315.64 563.65 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m312.04 587.78 26.03 1.77-6.78-18.94z" />
-                        <path class="grdc-2" d="m303.17 548.94 13.61 30.82 7.47-18.43z" />
-                        <path class="grdc-2" d="m321.44 547.29 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m350.53 558.09 16.48 27.99-15.01 3.69z" />
-                        <path class="grdc-2" d="m337.56 548.94 17.18 27.18-14.92 4.41z" />
-                        <path class="grdc-2" d="m341.04 608.51 24.25-13.25-11.81-13.39z" />
-                        <path class="grdc-2" d="m326.5 607.71 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m312.91 614.68 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m309.28 639.19 26.03-1.73-8.06-17.95z" />
-                        <path class="grdc-2" d="m297.75 601.71 15.69 28.86 6.15-19.34z" />
-                        <path class="grdc-2" d="m315.81 597.62 24.35 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m345.52 604.48 18.36 25.65-14.69 5.68z" />
-                        <path class="grdc-2" d="m331.97 597.11 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m339.59 655.94 23.21-16.45-12.68-11.74z" />
-                        <path class="grdc-2" d="m310.05 688.48 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m295.25 660.67 21.94 19.52 0.93-21.1z" />
-                        <path class="grdc-2" d="m306.08 626.66 20.89 21.63-13.93 8.62z" />
-                        <path class="grdc-2" d="m320.92 648.69 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m341.08 717.15 25.93 3.6-6.07-19.4z" />
-                        <path class="grdc-2" d="m351.94 677.37 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m349.58 661.52 15.44 29.11-15.13 2.63z" />
-                        <path class="grdc-2" d="m336.96 651.48 16.17 28.34-15.06 3.36z" />
-                        <path class="grdc-2" d="m338.26 711.22 24.7-11.54-11.3-14.2z" />
-                        <path class="grdc-2" d="m331.99 658.84 19.44-24.09-14.42-6.89z" />
-                        <path class="grdc-2" d="m322.84 446.72 23.03 16.94-12.81 11.48z" />
-                        <path class="grdc-2" d="m351.71 458.59 15.96 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m338.92 448.97 16.67 27.79-15 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m311.64 702.78 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m295.17 692.91 18.78 25.07 3.87-20.46z" />
-                        <path class="grdc-2" d="m312.54 684.92 25.52 7.4-10.01 15.96z" />
-                        <path class="grdc-2" d="m342.66 685.19 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m328.44 680.88 21.58 20.28-13.63 9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m316.74 642.09 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m312.67 666.09 26 2.71-6.42-19.18z" />
-                        <path class="grdc-2" d="m304.55 626.93 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m322.84 625.95 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m351.71 637.81 15.96 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m338.92 628.19 16.67 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m341.27 687.87 24.5-12.37-11.55-13.81z" />
-                        <path class="grdc-2" d="m326.75 686.53 24.79-11.16-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m541.54 502.05-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m529.48 384.96-60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m530.3 409.58-25.52-7.41 10.01-15.95z" />
-                        <path class="grdc-2" d="m545.95 375.09-18.78 25.07-3.88-20.45z" />
-                        <path class="grdc-2" d="m528.57 367.1-25.51 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m498.46 367.37-21.05 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m512.68 363.06-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m498.46 419.48-21.05-21.31 13.86-8.82z" />
-                        <path class="grdc-2" d="m512.68 423.8-21.58-20.28 13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m525.47 425.05-55.32 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m529.08 449.19-26.03 1.76 6.77-18.94z" />
-                        <path class="grdc-2" d="m537.95 410.34-13.61 30.83-7.48-18.44z" />
-                        <path class="grdc-2" d="m519.68 408.69-23.34 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m490.59 419.49-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m503.56 410.34-17.18 27.18 14.91 4.41z" />
-                        <path class="grdc-2" d="m500.08 469.92-24.25-13.26 11.8-13.39z" />
-                        <path class="grdc-2" d="m514.62 469.11-24.57-12.07 11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m528.21 476.09-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m531.84 500.59-26.04-1.73 8.07-17.94z" />
-                        <path class="grdc-2" d="m543.37 463.12-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m525.31 459.02-24.36 12.89 11.7 13.57z" />
-                        <path class="grdc-2" d="m495.6 465.88-18.36 25.65 14.69 5.68z" />
-                        <path class="grdc-2" d="m509.15 458.51-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m501.53 517.34-23.21-16.44 12.68-11.75z" />
-                        <path class="grdc-2" d="m531.07 549.88-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m545.86 522.08-21.94 19.51-0.93-21.1z" />
-                        <path class="grdc-2" d="m535.04 488.06-20.89 21.63 13.93 8.62z" />
-                        <path class="grdc-2" d="m520.2 510.1-22.73 17.7 13.01 11.04z" />
-                        <path class="grdc-2" d="m500.04 578.56-25.94 3.59 6.08-19.4z" />
-                        <path class="grdc-2" d="m489.17 538.77-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m491.54 522.92-15.45 29.11 15.14 2.64z" />
-                        <path class="grdc-2" d="m504.16 512.88-16.17 28.34 15.06 3.37z" />
-                        <path class="grdc-2" d="m502.86 572.62-24.71-11.54 11.3-14.2z" />
-                        <path class="grdc-2" d="m509.12 520.24-19.43-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m524.38 324.27-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m528.44 348.27-25.99 2.71 6.42-19.18z" />
-                        <path class="grdc-2" d="m536.57 309.11-13.02 31.31-7.82-18.15z" />
-                        <path class="grdc-2" d="m518.27 308.13-23.02 16.94 12.81 11.47z" />
-                        <path class="grdc-2" d="m489.4 319.99-15.95 28.58 15.08 3.14z" />
-                        <path class="grdc-2" d="m502.19 310.37-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m499.85 370.05-24.5-12.36 11.55-13.82z" />
-                        <path class="grdc-2" d="m514.37 368.71-24.8-11.16 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m541.54 681.27-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m529.48 564.18-60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m530.3 588.8-25.52-7.41 10.01-15.95z" />
-                        <path class="grdc-2" d="m545.95 554.31-18.78 25.07-3.88-20.45z" />
-                        <path class="grdc-2" d="m528.57 546.32-25.51 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m498.46 546.59-21.05 21.32 13.86 8.82z" />
-                        <path class="grdc-2" d="m512.68 542.28-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m498.46 598.71-21.05-21.32 13.86-8.82z" />
-                        <path class="grdc-2" d="m512.68 603.02-21.58-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m525.47 604.27-55.32 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m529.08 628.41-26.03 1.76 6.77-18.94z" />
-                        <path class="grdc-2" d="m537.95 589.56-13.61 30.83-7.48-18.43z" />
-                        <path class="grdc-2" d="m519.68 587.91-23.34 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m490.59 598.71-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m503.56 589.56-17.18 27.18 14.91 4.41z" />
-                        <path class="grdc-2" d="m500.08 649.14-24.25-13.26 11.8-13.39z" />
-                        <path class="grdc-2" d="m514.62 648.33-24.57-12.07 11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m528.21 655.31-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m531.84 679.81-26.04-1.73 8.07-17.94z" />
-                        <path class="grdc-2" d="m543.37 642.34-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m525.31 638.25-24.36 12.88 11.7 13.57z" />
-                        <path class="grdc-2" d="m495.6 645.1-18.36 25.65 14.69 5.68z" />
-                        <path class="grdc-2" d="m509.15 637.73-19 24.75 14.54 6.39z" />
-                        <path class="grdc-2" d="m501.53 696.56-23.21-16.44 12.68-11.75z" />
-                        <path class="grdc-2" d="m545.86 701.3-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m535.04 667.29-20.89 21.62 13.93 8.62z" />
-                        <path class="grdc-2" d="m520.2 689.32-22.73 17.7 13.01 11.04z" />
-                        <path class="grdc-2" d="m491.54 702.14-15.45 29.12 15.14 2.63z" />
-                        <path class="grdc-2" d="m504.16 692.1-16.17 28.34 15.06 3.37z" />
-                        <path class="grdc-2" d="m509.12 699.46-19.43-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m524.38 503.49-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m528.44 527.49-25.99 2.72 6.42-19.19z" />
-                        <path class="grdc-2" d="m536.57 488.33-13.02 31.31-7.82-18.15z" />
-                        <path class="grdc-2" d="m518.27 487.35-23.02 16.94 12.81 11.47z" />
-                        <path class="grdc-2" d="m489.4 499.21-15.95 28.58 15.08 3.14z" />
-                        <path class="grdc-2" d="m502.19 489.59-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m499.85 549.27-24.5-12.36 11.55-13.82z" />
-                        <path class="grdc-2" d="m514.37 547.94-24.8-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m398.46 545.06 72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m410.53 427.97 60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m409.71 452.59 25.51-7.4-10.01-15.96z" />
-                        <path class="grdc-2" d="m394.06 418.1 18.77 25.07 3.88-20.45z" />
-                        <path class="grdc-2" d="m411.43 410.11 25.51 7.4-10 15.96z" />
-                        <path class="grdc-2" d="m441.54 410.38 21.06 21.32-13.86 8.82z" />
-                        <path class="grdc-2" d="m427.33 406.07 21.57 20.28-13.63 9.5z" />
-                        <path class="grdc-2" d="m441.54 462.5 21.06-21.31-13.86-8.83z" />
-                        <path class="grdc-2" d="m427.33 466.81 21.57-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m414.53 468.06 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m410.92 492.2 26.04 1.77-6.78-18.95z" />
-                        <path class="grdc-2" d="m402.06 453.35 13.6 30.83 7.48-18.43z" />
-                        <path class="grdc-2" d="m420.32 451.7 23.35 16.09-12.6 11.94z" />
-                        <path class="grdc-2" d="m449.41 462.5 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m436.44 453.36 17.19 27.17-14.92 4.41z" />
-                        <path class="grdc-2" d="m439.92 512.93 24.26-13.26-11.81-13.39z" />
-                        <path class="grdc-2" d="m425.38 512.13 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m411.79 519.1 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m408.16 543.61 26.04-1.73-8.07-17.95z" />
-                        <path class="grdc-2" d="m396.63 506.13 15.69 28.86 6.16-19.35z" />
-                        <path class="grdc-2" d="m414.7 502.04 24.35 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m444.4 508.89 18.37 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m430.86 501.52 19 24.75-14.54 6.39z" />
-                        <path class="grdc-2" d="m438.47 560.35 23.22-16.44-12.69-11.75z" />
-                        <path class="grdc-2" d="m408.94 592.89 25.94 3.6-6.08-19.4z" />
-                        <path class="grdc-2" d="m394.14 565.09 21.94 19.52 0.93-21.11z" />
-                        <path class="grdc-2" d="m404.97 531.08 20.88 21.62-13.92 8.62z" />
-                        <path class="grdc-2" d="m419.81 553.11 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m439.96 621.57 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m450.83 581.78 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m448.46 565.94 15.45 29.11-15.13 2.63z" />
-                        <path class="grdc-2" d="m435.84 555.89 16.17 28.35-15.05 3.36z" />
-                        <path class="grdc-2" d="m437.15 615.63 24.7-11.53-11.3-14.21z" />
-                        <path class="grdc-2" d="m430.88 563.25 19.43-24.09-14.42-6.88z" />
-                    </g>
-                    <path class="grdc-1" d="m415.63 367.28 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m411.56 391.28 25.99 2.72-6.41-19.19z" />
-                        <path class="grdc-2" d="m403.44 352.12 13.01 31.32 7.83-18.16z" />
-                        <path class="grdc-2" d="m421.73 351.14 23.03 16.94-12.82 11.47z" />
-                        <path class="grdc-2" d="m450.6 363 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m437.81 353.38 16.66 27.8-14.99 3.86z" />
-                        <path class="grdc-2" d="m440.16 413.06 24.49-12.36-11.54-13.82z" />
-                        <path class="grdc-2" d="m425.64 411.73 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m410.53 607.19 60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m394.06 597.33 18.77 25.06 3.88-20.45z" />
-                    <path class="grdc-2" d="m427.33 585.29 21.57 20.28-13.63 9.5z" />
-                    <path class="grdc-1" d="m415.63 546.51 54.6 39.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m411.56 570.5 25.99 2.72-6.41-19.19z" />
-                        <path class="grdc-2" d="m403.44 531.34 13.01 31.32 7.83-18.16z" />
-                        <path class="grdc-2" d="m450.6 542.22 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m437.81 532.6 16.66 27.8-14.99 3.86z" />
-                        <path class="grdc-2" d="m440.16 592.28 24.49-12.36-11.54-13.82z" />
-                        <path class="grdc-2" d="m425.64 590.95 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m397.82 705.17 72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m409.89 588.08 60.32 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m393.42 578.21 18.77 25.06 3.88-20.45z" />
-                        <path class="grdc-2" d="m440.9 570.49 21.05 21.31-13.85 8.83z" />
-                        <path class="grdc-2" d="m426.69 566.18 21.57 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m426.69 626.91 21.57-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m413.89 628.17 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m410.28 652.3 26.04 1.77-6.78-18.94z" />
-                        <path class="grdc-2" d="m401.42 613.46 13.6 30.82 7.48-18.43z" />
-                        <path class="grdc-2" d="m419.68 611.81 23.34 16.09-12.58 11.94z" />
-                        <path class="grdc-2" d="m448.77 622.61 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m435.8 613.46 17.19 27.17-14.92 4.42z" />
-                        <path class="grdc-2" d="m439.28 673.03 24.26-13.25-11.81-13.39z" />
-                        <path class="grdc-2" d="m424.74 672.23 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m411.15 679.2 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m407.52 703.71 26.04-1.73-8.07-17.95z" />
-                        <path class="grdc-2" d="m395.99 666.23 15.69 28.86 6.16-19.34z" />
-                        <path class="grdc-2" d="m414.06 662.14 24.35 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m443.76 669 18.37 25.64-14.69 5.69z" />
-                        <path class="grdc-2" d="m430.22 661.63 18.99 24.74-14.53 6.4z" />
-                        <path class="grdc-2" d="m437.83 720.46 23.22-16.45-12.68-11.74z" />
-                        <path class="grdc-2" d="m404.33 691.18 20.88 21.62-13.92 8.63z" />
-                        <path class="grdc-2" d="m430.24 723.36 19.43-24.09-14.42-6.89z" />
-                        <path class="grdc-2" d="m421.09 511.24 23.03 16.94-12.82 11.48z" />
-                        <path class="grdc-2" d="m449.96 523.11 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m437.17 513.49 16.66 27.79-14.99 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m414.99 706.61 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m402.8 691.45 13.01 31.31 7.83-18.15z" />
-                        <path class="grdc-2" d="m421.09 690.47 23.03 16.94-12.82 11.47z" />
-                        <path class="grdc-2" d="m449.96 702.33 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m437.17 692.71 16.66 27.79-14.99 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m653.58 449.48-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m641.51 332.39-60.32 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m642.33 357-25.51-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m657.98 322.52-18.77 25.07-3.88-20.46z" />
-                        <path class="grdc-2" d="m640.61 314.53-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m610.5 314.8-21.06 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m624.71 310.49-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m610.5 366.91-21.06-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m624.71 371.23-21.58-20.29 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m637.51 372.48-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m641.12 396.61-26.04 1.77 6.78-18.94z" />
-                        <path class="grdc-2" d="m649.98 357.77-13.6 30.83-7.48-18.44z" />
-                        <path class="grdc-2" d="m631.72 356.12-23.35 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m602.63 366.92-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m615.6 357.77-17.19 27.17 14.92 4.42z" />
-                        <path class="grdc-2" d="m612.12 417.34-24.26-13.25 11.81-13.39z" />
-                        <path class="grdc-2" d="m626.66 416.54-24.57-12.07 11.45-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m640.24 423.51-57.66 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m643.88 448.02-26.04-1.73 8.07-17.94z" />
-                        <path class="grdc-2" d="m655.41 410.55-15.69 28.85-6.16-19.34z" />
-                        <path class="grdc-2" d="m637.34 406.45-24.35 12.89 11.7 13.57z" />
-                        <path class="grdc-2" d="m607.64 413.31-18.37 25.65 14.69 5.68z" />
-                        <path class="grdc-2" d="m621.18 405.94-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m613.57 464.77-23.22-16.45 12.68-11.74z" />
-                        <path class="grdc-2" d="m643.1 497.31-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m657.9 469.51-21.94 19.51-0.93-21.1z" />
-                        <path class="grdc-2" d="m647.07 435.49-20.88 21.63 13.92 8.62z" />
-                        <path class="grdc-2" d="m632.23 457.52-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m612.08 525.99-25.94 3.59 6.08-19.4z" />
-                        <path class="grdc-2" d="m601.21 486.2-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m603.58 470.35-15.45 29.11 15.13 2.64z" />
-                        <path class="grdc-2" d="m616.2 460.31-16.18 28.34 15.06 3.36z" />
-                        <path class="grdc-2" d="m614.89 520.05-24.7-11.54 11.3-14.2z" />
-                        <path class="grdc-2" d="m621.16 467.67-19.43-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m636.41 271.7-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m640.48 295.69-25.99 2.72 6.41-19.18z" />
-                        <path class="grdc-2" d="m648.6 256.54-13.01 31.31-7.83-18.15z" />
-                        <path class="grdc-2" d="m630.31 255.56-23.03 16.94 12.82 11.47z" />
-                        <path class="grdc-2" d="m601.44 267.42-15.95 28.58 15.08 3.14z" />
-                        <path class="grdc-2" d="m614.23 257.8-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m611.88 317.48-24.49-12.37 11.54-13.81z" />
-                        <path class="grdc-2" d="m626.4 316.14-24.79-11.17 11.19-14.36z" />
-                    </g>
-                    <path class="grdc-1" d="m653.58 628.7-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m641.51 511.61-60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m642.33 536.23-25.51-7.41 10.01-15.95z" />
-                        <path class="grdc-2" d="m657.98 501.74-18.77 25.07-3.88-20.45z" />
-                        <path class="grdc-2" d="m640.61 493.75-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m610.5 494.02-21.06 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m624.71 489.71-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m610.5 546.13-21.06-21.31 13.86-8.82z" />
-                        <path class="grdc-2" d="m624.71 550.45-21.58-20.28 13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m637.51 551.7-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m641.12 575.83-26.04 1.77 6.78-18.94z" />
-                        <path class="grdc-2" d="m649.98 536.99-13.6 30.83-7.48-18.44z" />
-                        <path class="grdc-2" d="m631.72 535.34-23.35 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m602.63 546.14-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m615.6 536.99-17.19 27.18 14.92 4.41z" />
-                        <path class="grdc-2" d="m612.12 596.57-24.26-13.26 11.81-13.39z" />
-                        <path class="grdc-2" d="m626.66 595.76-24.57-12.07 11.45-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m640.24 602.74-57.66 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m643.88 627.24-26.04-1.73 8.07-17.94z" />
-                        <path class="grdc-2" d="m655.41 589.77-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m637.34 585.67-24.35 12.89 11.7 13.57z" />
-                        <path class="grdc-2" d="m607.64 592.53-18.37 25.65 14.69 5.68z" />
-                        <path class="grdc-2" d="m621.18 585.16-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m613.57 643.99-23.22-16.44 12.68-11.75z" />
-                        <path class="grdc-2" d="m643.1 676.53-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m657.9 648.73-21.94 19.51-0.93-21.1z" />
-                        <path class="grdc-2" d="m647.07 614.71-20.88 21.63 13.92 8.62z" />
-                        <path class="grdc-2" d="m632.23 636.75-22.72 17.7 13.01 11.04z" />
-                        <path class="grdc-2" d="m612.08 705.21-25.94 3.59 6.08-19.4z" />
-                        <path class="grdc-2" d="m601.21 665.42-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m603.58 649.57-15.45 29.11 15.13 2.64z" />
-                        <path class="grdc-2" d="m616.2 639.53-16.18 28.34 15.06 3.37z" />
-                        <path class="grdc-2" d="m614.89 699.27-24.7-11.54 11.3-14.2z" />
-                        <path class="grdc-2" d="m621.16 646.89-19.43-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m636.41 450.92-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m640.48 474.92-25.99 2.71 6.41-19.18z" />
-                        <path class="grdc-2" d="m648.6 435.76-13.01 31.31-7.83-18.15z" />
-                        <path class="grdc-2" d="m630.31 434.78-23.03 16.94 12.82 11.47z" />
-                        <path class="grdc-2" d="m601.44 446.64-15.95 28.58 15.08 3.14z" />
-                        <path class="grdc-2" d="m614.23 437.02-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m611.88 496.7-24.49-12.37 11.54-13.81z" />
-                        <path class="grdc-2" d="m626.4 495.37-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m510.5 492.49 72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m522.56 375.4 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m521.74 400.02 25.52-7.4-10.01-15.96z" />
-                        <path class="grdc-2" d="m506.09 365.53 18.78 25.07 3.88-20.45z" />
-                        <path class="grdc-2" d="m523.47 357.54 25.51 7.4-10.01 15.96z" />
-                        <path class="grdc-2" d="m553.58 357.81 21.05 21.32-13.86 8.82z" />
-                        <path class="grdc-2" d="m539.36 353.5 21.58 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m553.58 409.93 21.05-21.32-13.86-8.82z" />
-                        <path class="grdc-2" d="m539.36 414.24 21.58-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m526.57 415.49 55.32 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m522.96 439.63 26.03 1.76-6.77-18.94z" />
-                        <path class="grdc-2" d="m514.09 400.78 13.61 30.83 7.47-18.43z" />
-                        <path class="grdc-2" d="m532.36 399.13 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m561.45 409.93 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m548.48 400.78 17.18 27.18-14.91 4.41z" />
-                        <path class="grdc-2" d="m551.96 460.36 24.25-13.26-11.8-13.39z" />
-                        <path class="grdc-2" d="m537.42 459.55 24.57-12.07-11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m523.83 466.53 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m520.2 491.03 26.04-1.73-8.07-17.94z" />
-                        <path class="grdc-2" d="m508.67 453.56 15.69 28.86 6.15-19.35z" />
-                        <path class="grdc-2" d="m526.73 449.47 24.36 12.89-11.7 13.56z" />
-                        <path class="grdc-2" d="m556.44 456.32 18.36 25.65-14.69 5.68z" />
-                        <path class="grdc-2" d="m542.89 448.95 19 24.75-14.54 6.39z" />
-                        <path class="grdc-2" d="m550.51 507.78 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m520.97 540.32 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m506.18 512.52 21.94 19.52 0.93-21.11z" />
-                        <path class="grdc-2" d="m517 478.51 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m531.84 500.54 22.73 17.71-13.01 11.03z" />
-                        <path class="grdc-2" d="m552 569 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m562.87 529.21 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m560.5 513.37 15.45 29.11-15.14 2.63z" />
-                        <path class="grdc-2" d="m547.88 503.32 16.17 28.34-15.06 3.37z" />
-                        <path class="grdc-2" d="m549.18 563.06 24.71-11.54-11.3-14.2z" />
-                        <path class="grdc-2" d="m542.91 510.68 19.44-24.09-14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m527.66 314.71 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m523.6 338.71 25.99 2.72-6.42-19.19z" />
-                        <path class="grdc-2" d="m515.47 299.55 13.02 31.32 7.82-18.16z" />
-                        <path class="grdc-2" d="m533.76 298.57 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m562.64 310.43 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m549.85 300.81 16.66 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m552.19 360.49 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m537.67 359.16 24.8-11.17-11.2-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m522.56 554.62 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m506.09 544.75 18.78 25.07 3.88-20.45z" />
-                    <path class="grdc-2" d="m539.36 532.72 21.58 20.28-13.63 9.5z" />
-                    <path class="grdc-1" d="m527.66 493.93 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m523.6 517.93 25.99 2.72-6.42-19.19z" />
-                        <path class="grdc-2" d="m515.47 478.77 13.02 31.32 7.82-18.16z" />
-                        <path class="grdc-2" d="m562.64 489.65 15.95 28.59-15.08 3.13z" />
-                        <path class="grdc-2" d="m549.85 480.03 16.66 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m552.19 539.71 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m537.67 538.38 24.8-11.17-11.2-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m509.86 652.6 72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m521.92 535.51 60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m505.45 525.64 18.78 25.06 3.88-20.45z" />
-                        <path class="grdc-2" d="m552.94 517.92 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m538.72 513.61 21.58 20.27-13.63 9.5z" />
-                        <path class="grdc-2" d="m538.72 574.34 21.58-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m525.93 575.6 55.32 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m522.32 599.73 26.03 1.77-6.77-18.94z" />
-                        <path class="grdc-2" d="m513.45 560.88 13.61 30.83 7.47-18.43z" />
-                        <path class="grdc-2" d="m531.72 559.23 23.34 16.1-12.59 11.93z" />
-                        <path class="grdc-2" d="m560.81 570.04 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m547.84 560.89 17.18 27.17-14.91 4.42z" />
-                        <path class="grdc-2" d="m551.32 620.46 24.25-13.25-11.8-13.39z" />
-                        <path class="grdc-2" d="m536.78 619.66 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m523.19 626.63 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m519.56 651.14 26.04-1.73-8.07-17.95z" />
-                        <path class="grdc-2" d="m508.03 613.66 15.69 28.86 6.15-19.35z" />
-                        <path class="grdc-2" d="m526.09 609.57 24.36 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m555.8 616.42 18.36 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m542.25 609.06 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m549.87 667.88 23.21-16.44-12.68-11.74z" />
-                        <path class="grdc-2" d="m520.33 700.43 25.94 3.59-6.08-19.4z" />
-                        <path class="grdc-2" d="m505.54 672.62 21.94 19.52 0.93-21.11z" />
-                        <path class="grdc-2" d="m516.36 638.61 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m531.2 660.64 22.72 17.71-13 11.04z" />
-                        <path class="grdc-2" d="m562.23 689.32 22.72 17.7-13.01 11.04z" />
-                        <path class="grdc-2" d="m559.86 673.47 15.45 29.11-15.14 2.63z" />
-                        <path class="grdc-2" d="m547.24 663.42 16.17 28.35-15.06 3.36z" />
-                        <path class="grdc-2" d="m548.54 723.16 24.71-11.53-11.3-14.21z" />
-                        <path class="grdc-2" d="m542.27 670.78 19.44-24.08-14.42-6.89z" />
-                        <path class="grdc-2" d="m533.13 458.67 23.02 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m562 470.53 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m549.21 460.92 16.66 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m505.45 704.86 18.78 25.06 3.88-20.45z" />
-                        <path class="grdc-2" d="m522.83 696.87 25.51 7.4-10.01 15.96z" />
-                        <path class="grdc-2" d="m552.94 697.14 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m538.72 692.83 21.58 20.28-13.63 9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m527.02 654.04 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m522.96 678.03 25.99 2.72-6.42-19.18z" />
-                        <path class="grdc-2" d="m514.84 638.88 13.01 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m533.13 637.89 23.02 16.94-12.81 11.48z" />
-                        <path class="grdc-2" d="m562 649.76 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m549.21 640.14 16.66 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m551.55 699.82 24.5-12.37-11.55-13.82z" />
-                        <path class="grdc-2" d="m537.03 698.48 24.8-11.17-11.2-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m760.44 375.4-60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m761.26 400.02-25.51-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m759.54 357.54-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m729.43 357.81-21.06 21.32 13.87 8.82z" />
-                        <path class="grdc-2" d="m743.64 353.5-21.57 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m729.43 409.93-21.06-21.32 13.87-8.82z" />
-                        <path class="grdc-2" d="m743.64 414.24-21.57-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m756.44 415.49-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m760.05 439.63-26.04 1.76 6.78-18.94z" />
-                        <path class="grdc-2" d="m750.64 399.13-23.34 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m721.56 409.93-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m734.53 400.78-17.19 27.18 14.92 4.41z" />
-                        <path class="grdc-2" d="m731.05 460.36-24.26-13.26 11.81-13.39z" />
-                        <path class="grdc-2" d="m745.59 459.55-24.57-12.07 11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m759.17 466.53-57.66 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m762.81 491.03-26.04-1.73 8.07-17.94z" />
-                        <path class="grdc-2" d="m756.27 449.47-24.35 12.89 11.7 13.56z" />
-                        <path class="grdc-2" d="m726.57 456.32-18.37 25.65 14.69 5.68z" />
-                        <path class="grdc-2" d="m740.11 448.95-19 24.75 14.54 6.39z" />
-                        <path class="grdc-2" d="m732.5 507.78-23.22-16.44 12.69-11.75z" />
-                        <path class="grdc-2" d="m762.03 540.32-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m751.16 500.54-22.72 17.71 13.01 11.03z" />
-                        <path class="grdc-2" d="m731.01 569-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m720.14 529.21-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m722.51 513.37-15.45 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m735.13 503.32-16.18 28.34 15.06 3.37z" />
-                        <path class="grdc-2" d="m733.82 563.06-24.7-11.54 11.3-14.2z" />
-                        <path class="grdc-2" d="m740.09 510.68-19.43-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m755.34 314.71-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m759.41 338.71-26 2.72 6.42-19.19z" />
-                        <path class="grdc-2" d="m749.24 298.57-23.03 16.94 12.82 11.47z" />
-                        <path class="grdc-2" d="m720.37 310.43-15.96 28.58 15.09 3.14z" />
-                        <path class="grdc-2" d="m733.16 300.81-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m730.81 360.49-24.49-12.36 11.54-13.82z" />
-                        <path class="grdc-2" d="m745.33 359.16-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m760.44 554.62-60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m761.26 579.24-25.51-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m759.54 536.76-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m729.43 537.03-21.06 21.32 13.87 8.82z" />
-                        <path class="grdc-2" d="m743.64 532.72-21.57 20.28 13.63 9.5z" />
-                        <path class="grdc-2" d="m729.43 589.15-21.06-21.31 13.87-8.83z" />
-                        <path class="grdc-2" d="m743.64 593.46-21.57-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m756.44 594.71-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m750.64 578.35-23.34 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m721.56 589.15-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m734.53 580-17.19 27.18 14.92 4.42z" />
-                        <path class="grdc-2" d="m731.05 639.58-24.26-13.26 11.81-13.39z" />
-                        <path class="grdc-2" d="m745.59 638.78-24.57-12.07 11.46-13.96z" />
-                        <path class="grdc-2" d="m756.27 628.69-24.35 12.89 11.7 13.56z" />
-                        <path class="grdc-2" d="m726.57 635.54-18.37 25.65 14.69 5.69z" />
-                        <path class="grdc-2" d="m740.11 628.17-19 24.75 14.54 6.39z" />
-                        <path class="grdc-2" d="m732.5 687-23.22-16.44 12.69-11.75z" />
-                        <path class="grdc-2" d="m720.14 708.43-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m722.51 692.59-15.45 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m735.13 682.54-16.18 28.35 15.06 3.36z" />
-                        <path class="grdc-2" d="m740.09 689.9-19.43-24.09 14.42-6.88z" />
-                    </g>
-                    <path class="grdc-1" d="m755.34 493.93-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m759.41 517.93-26 2.72 6.42-19.19z" />
-                        <path class="grdc-2" d="m749.24 477.79-23.03 16.94 12.82 11.47z" />
-                        <path class="grdc-2" d="m720.37 489.65-15.96 28.59 15.09 3.13z" />
-                        <path class="grdc-2" d="m733.16 480.03-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m730.81 539.71-24.49-12.36 11.54-13.82z" />
-                        <path class="grdc-2" d="m745.33 538.38-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m629.43 535.51 72.39 74.07" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m641.49 418.41 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m640.67 443.03 25.52-7.4-10.01-15.96z" />
-                        <path class="grdc-2" d="m625.02 408.55 18.78 25.06 3.88-20.45z" />
-                        <path class="grdc-2" d="m642.4 400.56 25.51 7.4-10.01 15.95z" />
-                        <path class="grdc-2" d="m672.51 400.83 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m658.29 396.51 21.58 20.28-13.63 9.5z" />
-                        <path class="grdc-2" d="m672.51 452.94 21.05-21.31-13.86-8.83z" />
-                        <path class="grdc-2" d="m658.29 457.25 21.58-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m645.5 458.5 55.32 37.3" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m641.89 482.64 26.03 1.77-6.78-18.95z" />
-                        <path class="grdc-2" d="m633.02 443.79 13.61 30.83 7.48-18.43z" />
-                        <path class="grdc-2" d="m651.29 442.14 23.34 16.1-12.59 11.93z" />
-                        <path class="grdc-2" d="m680.38 452.94 16.49 28-15.02 3.69z" />
-                        <path class="grdc-2" d="m667.41 443.8 17.18 27.17-14.91 4.42z" />
-                        <path class="grdc-2" d="m670.89 503.37 24.25-13.25-11.8-13.4z" />
-                        <path class="grdc-2" d="m656.35 502.57 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m642.76 509.54 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m639.13 534.05 26.04-1.73-8.07-17.95z" />
-                        <path class="grdc-2" d="m627.6 496.57 15.69 28.86 6.15-19.35z" />
-                        <path class="grdc-2" d="m645.66 492.48 24.36 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m675.37 499.33 18.36 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m661.82 491.97 19 24.74-14.54 6.39z" />
-                        <path class="grdc-2" d="m669.44 550.79 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m639.9 583.34 25.94 3.59-6.08-19.4z" />
-                        <path class="grdc-2" d="m625.11 555.53 21.94 19.52 0.93-21.11z" />
-                        <path class="grdc-2" d="m635.93 521.52 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m650.77 543.55 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m670.93 612.01 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m681.8 572.23 22.72 17.7-13.01 11.04z" />
-                        <path class="grdc-2" d="m679.43 556.38 15.45 29.11-15.14 2.63z" />
-                        <path class="grdc-2" d="m666.81 546.33 16.17 28.35-15.06 3.36z" />
-                        <path class="grdc-2" d="m668.11 606.07 24.71-11.53-11.3-14.21z" />
-                        <path class="grdc-2" d="m661.85 553.69 19.43-24.08-14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m646.59 357.73 54.6 39.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m642.53 381.72 25.99 2.72-6.42-19.19z" />
-                        <path class="grdc-2" d="m634.4 342.56 13.02 31.32 7.82-18.15z" />
-                        <path class="grdc-2" d="m652.7 341.58 23.02 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m681.57 353.44 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m668.78 343.82 16.66 27.8-15 3.87z" />
-                        <path class="grdc-2" d="m671.12 403.5 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m656.6 402.17 24.79-11.17-11.18-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m641.49 597.64 60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m625.02 587.77 18.78 25.06 3.88-20.45z" />
-                    <path class="grdc-2" d="m658.29 575.74 21.58 20.27-13.63 9.5z" />
-                    <path class="grdc-1" d="m646.59 536.95 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m642.53 560.94 25.99 2.72-6.42-19.18z" />
-                        <path class="grdc-2" d="m634.4 521.78 13.02 31.32 7.82-18.15z" />
-                        <path class="grdc-2" d="m681.57 532.66 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m668.78 523.04 16.66 27.8-15 3.87z" />
-                        <path class="grdc-2" d="m671.12 582.73 24.5-12.37-11.55-13.82z" />
-                        <path class="grdc-2" d="m656.6 581.39 24.79-11.17-11.18-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m628.79 695.61 72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m640.85 578.52 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m624.38 568.65 18.78 25.07 3.88-20.46z" />
-                        <path class="grdc-2" d="m671.87 560.93 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m657.65 556.62 21.58 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m657.65 617.36 21.58-20.28-13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m644.86 618.61 55.32 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m641.25 642.74 26.03 1.77-6.77-18.94z" />
-                        <path class="grdc-2" d="m632.38 603.9 13.61 30.83 7.48-18.44z" />
-                        <path class="grdc-2" d="m650.65 602.25 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m679.74 613.05 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m666.77 603.9 17.18 27.18-14.91 4.41z" />
-                        <path class="grdc-2" d="m670.25 663.47 24.25-13.25-11.8-13.39z" />
-                        <path class="grdc-2" d="m655.71 662.67 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m642.12 669.65 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m638.49 694.15 26.04-1.73-8.07-17.94z" />
-                        <path class="grdc-2" d="m626.96 656.68 15.69 28.85 6.15-19.34z" />
-                        <path class="grdc-2" d="m645.02 652.58 24.36 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m674.73 659.44 18.36 25.65-14.69 5.68z" />
-                        <path class="grdc-2" d="m661.18 652.07 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m668.8 710.9 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m635.29 681.62 20.89 21.63-13.93 8.62z" />
-                        <path class="grdc-2" d="m650.13 703.65 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m666.17 706.44 16.17 28.34-15.06 3.36z" />
-                        <path class="grdc-2" d="m661.21 713.8 19.43-24.09-14.42-6.89z" />
-                        <path class="grdc-2" d="m652.06 501.69 23.02 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m680.93 513.55 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m668.14 503.93 16.66 27.79-15 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m645.95 697.05 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m641.89 721.05 25.99 2.71-6.42-19.18z" />
-                        <path class="grdc-2" d="m633.76 681.89 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m652.06 680.91 23.02 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m680.93 692.77 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m668.14 683.15 16.66 27.79-15 3.87z" />
-                    </g>
-                    <path class="grdc-3"
-                        d="m116.48 166.29v667.15c0 9-0.16 18 0 27v1.19c0 2.89 4.5 2.9 4.5 0v-667.12c0-9 0.16-18 0-27v-1.18c0-2.9-4.5-2.9-4.5 0z" />
-                    <path class="grdc-3"
-                        d="m273.52 165.29v667.15c0 9-0.16 18 0 27v1.19c0 2.89 4.5 2.9 4.5 0v-667.12c0-9 0.16-18 0-27v-1.18c0-2.9-4.5-2.9-4.5 0z" />
-                    <path class="grdc-3"
-                        d="m470.02 166.29v667.15c0 9-0.16 18 0 27v1.19c0 2.89 4.5 2.9 4.5 0v-667.12c0-9 0.16-18 0-27v-1.18c0-2.9-4.5-2.9-4.5 0z" />
-                    <path class="grdc-3"
-                        d="m695.77 172.29v620.15c0 9-0.16 18 0 27v1.19c0 2.89 4.5 2.9 4.5 0v-620.12c0-9 0.16-18 0-27v-1.18c0-2.9-4.5-2.9-4.5 0z" />
-                    <path class="grdc-3"
-                        d="m187.9 117.23v619.1c0 8.36-0.15 16.74 0 25.1v1.09c0 2.9 4.5 2.9 4.5 0v-619.09c0-8.36 0.16-16.74 0-25.1v-1.1c0-2.89-4.5-2.9-4.5 0z" />
-                    <path class="grdc-3"
-                        d="m370.24 117.23v619.1c0 8.36-0.15 16.74 0 25.1v1.09c0 2.9 4.5 2.9 4.5 0v-619.09c0-8.36 0.16-16.74 0-25.1v-1.1c0-2.89-4.5-2.9-4.5 0z" />
-                    <path class="grdc-3"
-                        d="m579.77 117.23v619.1c0 8.36-0.15 16.74 0 25.1v1.09c0 2.9 4.5 2.9 4.5 0v-619.09c0-8.36 0.16-16.74 0-25.1v-1.1c0-2.89-4.5-2.9-4.5 0z" />
-                    <path class="grdc-1" d="m148.13 380.83-72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m136.06 263.74-60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m136.88 288.35-25.51-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m152.53 253.87-18.78 25.06-3.87-20.45z" />
-                        <path class="grdc-2" d="m135.16 245.88-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m105.04 246.15-21.05 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m119.26 241.84-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m105.04 298.26-21.05-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m119.26 302.57-21.58-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m132.06 303.83-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m135.66 327.96-26.03 1.77 6.78-18.94z" />
-                        <path class="grdc-2" d="m144.53 289.12-13.61 30.82-7.47-18.43z" />
-                        <path class="grdc-2" d="m126.26 287.46-23.34 16.1 12.59 11.93z" />
-                        <path class="grdc-2" d="m97.17 298.27-16.48 27.99 15.01 3.69z" />
-                        <path class="grdc-2" d="m110.14 289.12-17.18 27.17 14.92 4.42z" />
-                        <path class="grdc-2" d="m106.66 348.69-24.25-13.25 11.81-13.39z" />
-                        <path class="grdc-2" d="m121.2 347.89-24.57-12.07 11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m134.79 354.86-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m138.42 379.37-26.03-1.73 8.06-17.95z" />
-                        <path class="grdc-2" d="m149.96 341.89-15.7 28.86-6.15-19.35z" />
-                        <path class="grdc-2" d="m131.89 337.8-24.35 12.89 11.69 13.57z" />
-                        <path class="grdc-2" d="m102.19 344.65-18.37 25.65 14.69 5.69z" />
-                        <path class="grdc-2" d="m115.73 337.29-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m108.11 396.11-23.21-16.44 12.68-11.74z" />
-                        <path class="grdc-2" d="m137.65 428.66-25.94 3.59 6.08-19.4z" />
-                        <path class="grdc-2" d="m152.45 400.85-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m141.62 366.84-20.89 21.62 13.93 8.62z" />
-                        <path class="grdc-2" d="m126.78 388.87-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m106.62 457.33-25.93 3.59 6.07-19.39z" />
-                        <path class="grdc-2" d="m95.76 417.55-22.73 17.7 13.01 11.04z" />
-                        <path class="grdc-2" d="m98.13 401.7-15.45 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m110.74 391.65-16.17 28.35 15.06 3.36z" />
-                        <path class="grdc-2" d="m109.44 451.39-24.7-11.53 11.3-14.21z" />
-                        <path class="grdc-2" d="m115.71 399.01-19.44-24.08 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m130.96 203.05-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m135.03 227.04-26 2.72 6.42-19.18z" />
-                        <path class="grdc-2" d="m143.15 187.88-13.02 31.32-7.82-18.15z" />
-                        <path class="grdc-2" d="m124.86 186.9-23.03 16.94 12.81 11.47z" />
-                        <path class="grdc-2" d="m95.98 198.76-15.95 28.59 15.09 3.14z" />
-                        <path class="grdc-2" d="m108.78 189.15-16.67 27.79 15 3.87z" />
-                        <path class="grdc-2" d="m106.43 248.82-24.5-12.36 11.55-13.82z" />
-                        <path class="grdc-2" d="m120.95 247.49-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m148.13 560.05-72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m136.06 442.96-60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m136.88 467.57-25.51-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m152.53 433.09-18.78 25.06-3.87-20.45z" />
-                        <path class="grdc-2" d="m135.16 425.1-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m105.04 425.37-21.05 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m119.26 421.06-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m105.04 477.48-21.05-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m119.26 481.8-21.58-20.29 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m132.06 483.05-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m135.66 507.18-26.03 1.77 6.78-18.94z" />
-                        <path class="grdc-2" d="m144.53 468.34-13.61 30.82-7.47-18.43z" />
-                        <path class="grdc-2" d="m126.26 466.69-23.34 16.09 12.59 11.93z" />
-                        <path class="grdc-2" d="m97.17 477.49-16.48 27.99 15.01 3.69z" />
-                        <path class="grdc-2" d="m110.14 468.34-17.18 27.17 14.92 4.42z" />
-                        <path class="grdc-2" d="m106.66 527.91-24.25-13.25 11.81-13.39z" />
-                        <path class="grdc-2" d="m121.2 527.11-24.57-12.07 11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m134.79 534.08-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m138.42 558.59-26.03-1.73 8.06-17.95z" />
-                        <path class="grdc-2" d="m149.96 521.11-15.7 28.86-6.15-19.34z" />
-                        <path class="grdc-2" d="m131.89 517.02-24.35 12.89 11.69 13.57z" />
-                        <path class="grdc-2" d="m102.19 523.88-18.37 25.64 14.69 5.69z" />
-                        <path class="grdc-2" d="m115.73 516.51-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m108.11 575.34-23.21-16.45 12.68-11.74z" />
-                        <path class="grdc-2" d="m137.65 607.88-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m152.45 580.08-21.94 19.51-0.93-21.1z" />
-                        <path class="grdc-2" d="m141.62 546.06-20.89 21.62 13.93 8.63z" />
-                        <path class="grdc-2" d="m126.78 568.09-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m95.76 596.77-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m98.13 580.92-15.45 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m110.74 570.88-16.17 28.34 15.06 3.36z" />
-                        <path class="grdc-2" d="m115.71 578.24-19.44-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m130.96 382.27-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m135.03 406.26-26 2.72 6.42-19.18z" />
-                        <path class="grdc-2" d="m143.15 367.11-13.02 31.31-7.82-18.15z" />
-                        <path class="grdc-2" d="m124.86 366.12-23.03 16.94 12.81 11.48z" />
-                        <path class="grdc-2" d="m95.98 377.99-15.95 28.58 15.09 3.14z" />
-                        <path class="grdc-2" d="m108.78 368.37-16.67 27.79 15 3.87z" />
-                        <path class="grdc-2" d="m106.43 428.05-24.5-12.37 11.55-13.82z" />
-                        <path class="grdc-2" d="m120.95 426.71-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m5.04 423.84 72.4 74.08" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <path class="grdc-1" d="m17.11 306.75 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m16.29 331.37 25.51-7.41-10-15.95z" />
-                        <path class="grdc-2" d="m0.64 296.88 18.78 25.07 3.88-20.45z" />
-                        <path class="grdc-2" d="m18.01 288.89 25.52 7.4-10.01 15.96z" />
-                        <path class="grdc-2" d="m48.13 289.16 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m33.91 284.85 21.58 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m48.13 341.27 21.05-21.31-13.86-8.83z" />
-                        <path class="grdc-2" d="m33.91 345.59 21.58-20.28-13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m21.11 346.84 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m17.5 370.97 26.04 1.77-6.78-18.94z" />
-                        <path class="grdc-2" d="m8.64 332.13 13.61 30.82 7.47-18.43z" />
-                        <path class="grdc-2" d="m26.91 330.48 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m56 341.28 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m43.03 332.13 17.18 27.18-14.91 4.41z" />
-                        <path class="grdc-2" d="m46.51 391.7 24.25-13.25-11.81-13.39z" />
-                        <path class="grdc-2" d="m31.97 390.9 24.57-12.07-11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m18.38 397.88 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m14.75 422.38 26.03-1.73-8.06-17.94z" />
-                        <path class="grdc-2" d="m3.22 384.9 15.69 28.86 6.15-19.34z" />
-                        <path class="grdc-2" d="m21.28 380.81 24.35 12.89-11.69 13.57z" />
-                        <path class="grdc-2" d="m50.99 387.67 18.36 25.65-14.69 5.68z" />
-                        <path class="grdc-2" d="m37.44 380.3 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m45.06 439.13 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m15.52 471.67 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m0.72 443.87 21.94 19.51 0.93-21.1z" />
-                        <path class="grdc-2" d="m11.55 409.85 20.89 21.63-13.93 8.62z" />
-                        <path class="grdc-2" d="m26.39 431.88 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m46.55 500.35 25.94 3.59-6.08-19.4z" />
-                        <path class="grdc-2" d="m57.41 460.56 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m55.05 444.71 15.44 29.11-15.13 2.64z" />
-                        <path class="grdc-2" d="m42.43 434.67 16.17 28.34-15.06 3.37z" />
-                        <path class="grdc-2" d="m43.73 494.41 24.7-11.54-11.3-14.2z" />
-                        <path class="grdc-2" d="m37.46 442.03 19.44-24.09-14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m22.21 246.06 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m18.14 270.06 26 2.71-6.42-19.18z" />
-                        <path class="grdc-2" d="m10.02 230.9 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m28.31 229.92 23.03 16.93-12.81 11.48z" />
-                        <path class="grdc-2" d="m57.19 241.78 15.95 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m44.4 232.16 16.66 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m46.74 291.84 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m32.22 290.5 24.79-11.17-11.19-14.36z" />
-                    </g>
-                    <path class="grdc-1" d="m17.11 485.97 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m0.64 476.1 18.78 25.07 3.88-20.45z" />
-                    <path class="grdc-2" d="m33.91 464.07 21.58 20.28-13.63 9.49z" />
-                    <path class="grdc-1" d="m22.21 425.28 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m18.14 449.28 26 2.72-6.42-19.19z" />
-                        <path class="grdc-2" d="m10.02 410.12 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m57.19 421 15.95 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m44.4 411.38 16.66 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m46.74 471.06 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m32.22 469.73 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m4.4 583.94 72.4 74.08" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <path class="grdc-1" d="m16.47 466.85 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m0 456.98 18.78 25.07 3.88-20.45z" />
-                        <path class="grdc-2" d="m47.49 449.27 21.05 21.31-13.86 8.82z" />
-                        <path class="grdc-2" d="m33.27 444.95 21.58 20.28-13.63 9.5z" />
-                        <path class="grdc-2" d="m33.27 505.69 21.58-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m20.47 506.94 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m16.86 531.08 26.04 1.77-6.78-18.95z" />
-                        <path class="grdc-2" d="m8 492.23 13.61 30.83 7.47-18.43z" />
-                        <path class="grdc-2" d="m26.27 490.58 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m55.36 501.38 16.49 28-15.02 3.69z" />
-                        <path class="grdc-2" d="m42.39 492.24 17.18 27.17-14.91 4.42z" />
-                        <path class="grdc-2" d="m45.87 551.81 24.25-13.26-11.81-13.39z" />
-                        <path class="grdc-2" d="m31.33 551.01 24.57-12.08-11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m17.74 557.98 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m14.11 582.49 26.03-1.73-8.06-17.95z" />
-                        <path class="grdc-2" d="m2.58 545.01 15.69 28.86 6.15-19.35z" />
-                        <path class="grdc-2" d="m20.64 540.92 24.35 12.89-11.69 13.57z" />
-                        <path class="grdc-2" d="m50.35 547.77 18.36 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m36.8 540.4 19 24.75-14.54 6.39z" />
-                        <path class="grdc-2" d="m44.42 599.23 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m10.91 569.96 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m25.75 591.99 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m41.79 594.77 16.17 28.35-15.06 3.36z" />
-                        <path class="grdc-2" d="m36.82 602.13 19.44-24.09-14.42-6.88z" />
-                        <path class="grdc-2" d="m27.67 390.02 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m56.55 401.88 15.95 28.58-15.09 3.15z" />
-                        <path class="grdc-2" d="m43.76 392.26 16.66 27.8-15 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m21.57 585.39 54.6 39.3" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m17.5 609.38 26 2.72-6.42-19.18z" />
-                        <path class="grdc-2" d="m9.38 570.23 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m27.67 569.24 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m56.55 581.1 15.95 28.59-15.09 3.14z" />
-                        <path class="grdc-2" d="m43.76 571.49 16.66 27.79-15 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m217.27 380.83-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m205.2 263.74-60.32 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m206.02 288.35-25.51-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m221.67 253.87-18.77 25.06-3.88-20.45z" />
-                        <path class="grdc-2" d="m204.3 245.88-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m174.19 246.15-21.06 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m188.4 241.84-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m174.19 298.26-21.06-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m188.4 302.57-21.58-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m201.2 303.83-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m204.81 327.96-26.04 1.77 6.78-18.94z" />
-                        <path class="grdc-2" d="m213.67 289.12-13.61 30.82-7.47-18.43z" />
-                        <path class="grdc-2" d="m195.4 287.46-23.34 16.1 12.59 11.93z" />
-                        <path class="grdc-2" d="m166.32 298.27-16.49 27.99 15.01 3.69z" />
-                        <path class="grdc-2" d="m179.29 289.12-17.19 27.17 14.92 4.42z" />
-                        <path class="grdc-2" d="m175.81 348.69-24.26-13.25 11.81-13.39z" />
-                        <path class="grdc-2" d="m190.35 347.89-24.57-12.07 11.45-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m203.93 354.86-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m207.57 379.37-26.04-1.73 8.07-17.95z" />
-                        <path class="grdc-2" d="m219.1 341.89-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m201.03 337.8-24.35 12.89 11.7 13.57z" />
-                        <path class="grdc-2" d="m171.33 344.65-18.37 25.65 14.69 5.69z" />
-                        <path class="grdc-2" d="m184.87 337.29-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m177.25 396.11-23.21-16.44 12.68-11.74z" />
-                        <path class="grdc-2" d="m206.79 428.66-25.94 3.59 6.08-19.4z" />
-                        <path class="grdc-2" d="m221.59 400.85-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m210.76 366.84-20.88 21.62 13.92 8.62z" />
-                        <path class="grdc-2" d="m195.92 388.87-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m175.76 457.33-25.93 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m164.9 417.55-22.73 17.7 13.01 11.04z" />
-                        <path class="grdc-2" d="m167.27 401.7-15.45 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m179.88 391.65-16.17 28.35 15.06 3.36z" />
-                        <path class="grdc-2" d="m178.58 451.39-24.7-11.53 11.3-14.21z" />
-                        <path class="grdc-2" d="m184.85 399.01-19.44-24.08 14.43-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m200.1 203.05-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m204.17 227.04-26 2.72 6.42-19.18z" />
-                        <path class="grdc-2" d="m212.29 187.88-13.01 31.32-7.83-18.15z" />
-                        <path class="grdc-2" d="m194 186.9-23.03 16.94 12.81 11.47z" />
-                        <path class="grdc-2" d="m165.13 198.76-15.96 28.59 15.09 3.14z" />
-                        <path class="grdc-2" d="m177.92 189.15-16.67 27.79 15 3.87z" />
-                        <path class="grdc-2" d="m175.57 248.82-24.49-12.36 11.54-13.82z" />
-                        <path class="grdc-2" d="m190.09 247.49-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m217.27 560.05-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m205.2 442.96-60.32 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m206.02 467.57-25.51-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m221.67 433.09-18.77 25.06-3.88-20.45z" />
-                        <path class="grdc-2" d="m204.3 425.1-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m174.19 425.37-21.06 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m188.4 421.06-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m174.19 477.48-21.06-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m188.4 481.8-21.58-20.29 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m201.2 483.05-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m204.81 507.18-26.04 1.77 6.78-18.94z" />
-                        <path class="grdc-2" d="m213.67 468.34-13.61 30.82-7.47-18.43z" />
-                        <path class="grdc-2" d="m195.4 466.69-23.34 16.09 12.59 11.93z" />
-                        <path class="grdc-2" d="m166.32 477.49-16.49 27.99 15.01 3.69z" />
-                        <path class="grdc-2" d="m179.29 468.34-17.19 27.17 14.92 4.42z" />
-                        <path class="grdc-2" d="m175.81 527.91-24.26-13.25 11.81-13.39z" />
-                        <path class="grdc-2" d="m190.35 527.11-24.57-12.07 11.45-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m203.93 534.08-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m207.57 558.59-26.04-1.73 8.07-17.95z" />
-                        <path class="grdc-2" d="m219.1 521.11-15.69 28.86-6.16-19.34z" />
-                        <path class="grdc-2" d="m201.03 517.02-24.35 12.89 11.7 13.57z" />
-                        <path class="grdc-2" d="m171.33 523.88-18.37 25.64 14.69 5.69z" />
-                        <path class="grdc-2" d="m184.87 516.51-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m177.25 575.34-23.21-16.45 12.68-11.74z" />
-                        <path class="grdc-2" d="m206.79 607.88-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m221.59 580.08-21.94 19.51-0.93-21.1z" />
-                        <path class="grdc-2" d="m210.76 546.06-20.88 21.62 13.92 8.63z" />
-                        <path class="grdc-2" d="m195.92 568.09-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m164.9 596.77-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m167.27 580.92-15.45 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m179.88 570.88-16.17 28.34 15.06 3.36z" />
-                        <path class="grdc-2" d="m184.85 578.24-19.44-24.09 14.43-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m200.1 382.27-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m204.17 406.26-26 2.72 6.42-19.18z" />
-                        <path class="grdc-2" d="m212.29 367.11-13.01 31.31-7.83-18.15z" />
-                        <path class="grdc-2" d="m194 366.12-23.03 16.94 12.81 11.48z" />
-                        <path class="grdc-2" d="m165.13 377.99-15.96 28.58 15.09 3.14z" />
-                        <path class="grdc-2" d="m177.92 368.37-16.67 27.79 15 3.87z" />
-                        <path class="grdc-2" d="m175.57 428.05-24.49-12.37 11.54-13.82z" />
-                        <path class="grdc-2" d="m190.09 426.71-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m110.19 423.84 72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m122.25 306.75 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m121.43 331.37 25.52-7.41-10.01-15.95z" />
-                        <path class="grdc-2" d="m105.78 296.88 18.78 25.07 3.88-20.45z" />
-                        <path class="grdc-2" d="m123.16 288.89 25.51 7.4-10.01 15.96z" />
-                        <path class="grdc-2" d="m117.27 289.16 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m103.05 284.85 21.58 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m117.27 341.27 21.05-21.31-13.86-8.83z" />
-                        <path class="grdc-2" d="m103.05 345.59 21.58-20.28-13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m126.26 346.84 55.32 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m122.65 370.97 26.03 1.77-6.78-18.94z" />
-                        <path class="grdc-2" d="m113.78 332.13 13.61 30.82 7.47-18.43z" />
-                        <path class="grdc-2" d="m132.05 330.48 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m125.14 341.28 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m112.17 332.13 17.18 27.18-14.91 4.41z" />
-                        <path class="grdc-2" d="m115.65 391.7 24.25-13.25-11.8-13.39z" />
-                        <path class="grdc-2" d="m137.11 390.9 24.57-12.07-11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m123.52 397.88 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m119.89 422.38 26.04-1.73-8.07-17.94z" />
-                        <path class="grdc-2" d="m108.36 384.9 15.69 28.86 6.15-19.34z" />
-                        <path class="grdc-2" d="m126.42 380.81 24.36 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m120.13 387.67 18.36 25.65-14.69 5.68z" />
-                        <path class="grdc-2" d="m106.58 380.3 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m114.2 439.13 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m120.66 471.67 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m105.87 443.87 21.94 19.51 0.93-21.1z" />
-                        <path class="grdc-2" d="m116.69 409.85 20.89 21.63-13.93 8.62z" />
-                        <path class="grdc-2" d="m131.53 431.88 22.72 17.71-13 11.04z" />
-                        <path class="grdc-2" d="m115.69 500.35 25.94 3.59-6.08-19.4z" />
-                        <path class="grdc-2" d="m126.56 460.56 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m124.19 444.71 15.45 29.11-15.14 2.64z" />
-                        <path class="grdc-2" d="m111.57 434.67 16.17 28.34-15.06 3.37z" />
-                        <path class="grdc-2" d="m112.87 494.41 24.7-11.54-11.29-14.2z" />
-                        <path class="grdc-2" d="m106.6 442.03 19.44-24.09-14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m127.35 246.06 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m123.28 270.06 26 2.71-6.42-19.18z" />
-                        <path class="grdc-2" d="m115.16 230.9 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m133.45 229.92 23.03 16.93-12.81 11.48z" />
-                        <path class="grdc-2" d="m126.33 241.78 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m113.54 232.16 16.66 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m115.88 291.84 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m137.36 290.5 24.79-11.17-11.19-14.36z" />
-                    </g>
-                    <path class="grdc-1" d="m122.25 485.97 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m105.78 476.1 18.78 25.07 3.88-20.45z" />
-                    <path class="grdc-2" d="m103.05 464.07 21.58 20.28-13.63 9.49z" />
-                    <path class="grdc-1" d="m127.35 425.28 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m123.28 449.28 26 2.72-6.42-19.19z" />
-                        <path class="grdc-2" d="m115.16 410.12 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m126.33 421 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m113.54 411.38 16.66 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m115.88 471.06 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m137.36 469.73 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m109.55 583.94 72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m121.61 466.85 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m105.14 456.98 18.78 25.07 3.88-20.45z" />
-                        <path class="grdc-2" d="m116.63 449.27 21.05 21.31-13.86 8.82z" />
-                        <path class="grdc-2" d="m102.41 444.95 21.58 20.28-13.63 9.5z" />
-                        <path class="grdc-2" d="m102.41 505.69 21.58-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m125.62 506.94 55.32 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m122.01 531.08 26.03 1.77-6.78-18.95z" />
-                        <path class="grdc-2" d="m113.14 492.23 13.61 30.83 7.47-18.43z" />
-                        <path class="grdc-2" d="m131.41 490.58 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m124.5 501.38 16.49 28-15.02 3.69z" />
-                        <path class="grdc-2" d="m111.53 492.24 17.18 27.17-14.91 4.42z" />
-                        <path class="grdc-2" d="m115.01 551.81 24.25-13.26-11.8-13.39z" />
-                        <path class="grdc-2" d="m136.47 551.01 24.57-12.08-11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m122.88 557.98 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m119.25 582.49 26.04-1.73-8.07-17.95z" />
-                        <path class="grdc-2" d="m107.72 545.01 15.69 28.86 6.15-19.35z" />
-                        <path class="grdc-2" d="m125.78 540.92 24.36 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m119.49 547.77 18.36 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m105.94 540.4 19 24.75-14.54 6.39z" />
-                        <path class="grdc-2" d="m113.56 599.23 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m116.05 569.96 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m130.89 591.99 22.73 17.71-13.02 11.04z" />
-                        <path class="grdc-2" d="m110.93 594.77 16.17 28.35-15.06 3.36z" />
-                        <path class="grdc-2" d="m105.96 602.13 19.44-24.09-14.42-6.88z" />
-                        <path class="grdc-2" d="m132.81 390.02 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m125.69 401.88 15.95 28.58-15.08 3.15z" />
-                        <path class="grdc-2" d="m112.9 392.26 16.66 27.8-15 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m126.71 585.39 54.6 39.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m122.64 609.38 26 2.72-6.42-19.18z" />
-                        <path class="grdc-2" d="m114.52 570.23 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m132.81 569.24 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m125.69 581.1 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m112.9 571.49 16.66 27.79-15 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m306.9 380.83-72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m294.83 263.74-60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m295.65 288.35-25.51-7.4 10-15.96z" />
-                        <path class="grdc-2" d="m311.3 253.87-18.78 25.06-3.87-20.45z" />
-                        <path class="grdc-2" d="m293.93 245.88-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m263.81 246.15-21.05 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m278.03 241.84-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m263.81 298.26-21.05-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m278.03 302.57-21.58-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m290.83 303.83-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m294.44 327.96-26.04 1.77 6.78-18.94z" />
-                        <path class="grdc-2" d="m303.3 289.12-13.61 30.82-7.47-18.43z" />
-                        <path class="grdc-2" d="m285.03 287.46-23.34 16.1 12.59 11.93z" />
-                        <path class="grdc-2" d="m255.94 298.27-16.48 27.99 15.01 3.69z" />
-                        <path class="grdc-2" d="m268.91 289.12-17.18 27.17 14.92 4.42z" />
-                        <path class="grdc-2" d="m265.43 348.69-24.25-13.25 11.81-13.39z" />
-                        <path class="grdc-2" d="m279.97 347.89-24.57-12.07 11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m293.56 354.86-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m297.19 379.37-26.03-1.73 8.07-17.95z" />
-                        <path class="grdc-2" d="m308.73 341.89-15.7 28.86-6.15-19.35z" />
-                        <path class="grdc-2" d="m290.66 337.8-24.35 12.89 11.69 13.57z" />
-                        <path class="grdc-2" d="m260.95 344.65-18.36 25.65 14.69 5.69z" />
-                        <path class="grdc-2" d="m274.5 337.29-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m266.88 396.11-23.21-16.44 12.68-11.74z" />
-                        <path class="grdc-2" d="m296.42 428.66-25.94 3.59 6.08-19.4z" />
-                        <path class="grdc-2" d="m311.22 400.85-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m300.39 366.84-20.89 21.62 13.93 8.62z" />
-                        <path class="grdc-2" d="m285.55 388.87-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m265.39 457.33-25.93 3.59 6.07-19.39z" />
-                        <path class="grdc-2" d="m254.53 417.55-22.73 17.7 13.01 11.04z" />
-                        <path class="grdc-2" d="m256.89 401.7-15.44 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m269.51 391.65-16.17 28.35 15.06 3.36z" />
-                        <path class="grdc-2" d="m268.21 451.39-24.7-11.53 11.3-14.21z" />
-                        <path class="grdc-2" d="m274.48 399.01-19.44-24.08 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m289.73 203.05-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m293.8 227.04-26 2.72 6.42-19.18z" />
-                        <path class="grdc-2" d="m301.92 187.88-13.02 31.32-7.82-18.15z" />
-                        <path class="grdc-2" d="m283.63 186.9-23.03 16.94 12.81 11.47z" />
-                        <path class="grdc-2" d="m254.75 198.76-15.95 28.59 15.09 3.14z" />
-                        <path class="grdc-2" d="m267.55 189.15-16.67 27.79 15 3.87z" />
-                        <path class="grdc-2" d="m265.2 248.82-24.5-12.36 11.55-13.82z" />
-                        <path class="grdc-2" d="m279.72 247.49-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m306.9 560.05-72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m294.83 442.96-60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m295.65 467.57-25.51-7.4 10-15.96z" />
-                        <path class="grdc-2" d="m311.3 433.09-18.78 25.06-3.87-20.45z" />
-                        <path class="grdc-2" d="m293.93 425.1-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m263.81 425.37-21.05 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m278.03 421.06-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m263.81 477.48-21.05-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m278.03 481.8-21.58-20.29 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m290.83 483.05-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m294.44 507.18-26.04 1.77 6.78-18.94z" />
-                        <path class="grdc-2" d="m303.3 468.34-13.61 30.82-7.47-18.43z" />
-                        <path class="grdc-2" d="m285.03 466.69-23.34 16.09 12.59 11.93z" />
-                        <path class="grdc-2" d="m255.94 477.49-16.48 27.99 15.01 3.69z" />
-                        <path class="grdc-2" d="m268.91 468.34-17.18 27.17 14.92 4.42z" />
-                        <path class="grdc-2" d="m265.43 527.91-24.25-13.25 11.81-13.39z" />
-                        <path class="grdc-2" d="m279.97 527.11-24.57-12.07 11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m293.56 534.08-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m297.19 558.59-26.03-1.73 8.07-17.95z" />
-                        <path class="grdc-2" d="m308.73 521.11-15.7 28.86-6.15-19.34z" />
-                        <path class="grdc-2" d="m290.66 517.02-24.35 12.89 11.69 13.57z" />
-                        <path class="grdc-2" d="m260.95 523.88-18.36 25.64 14.69 5.69z" />
-                        <path class="grdc-2" d="m274.5 516.51-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m266.88 575.34-23.21-16.45 12.68-11.74z" />
-                        <path class="grdc-2" d="m296.42 607.88-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m311.22 580.08-21.94 19.51-0.93-21.1z" />
-                        <path class="grdc-2" d="m300.39 546.06-20.89 21.62 13.93 8.63z" />
-                        <path class="grdc-2" d="m285.55 568.09-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m254.53 596.77-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m256.89 580.92-15.44 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m269.51 570.88-16.17 28.34 15.06 3.36z" />
-                        <path class="grdc-2" d="m274.48 578.24-19.44-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m289.73 382.27-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m293.8 406.26-26 2.72 6.42-19.18z" />
-                        <path class="grdc-2" d="m301.92 367.11-13.02 31.31-7.82-18.15z" />
-                        <path class="grdc-2" d="m283.63 366.12-23.03 16.94 12.81 11.48z" />
-                        <path class="grdc-2" d="m254.75 377.99-15.95 28.58 15.09 3.14z" />
-                        <path class="grdc-2" d="m267.55 368.37-16.67 27.79 15 3.87z" />
-                        <path class="grdc-2" d="m265.2 428.05-24.5-12.37 11.55-13.82z" />
-                        <path class="grdc-2" d="m279.72 426.71-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m163.81 423.84 72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m175.88 306.75 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m175.06 331.37 25.51-7.41-10-15.95z" />
-                        <path class="grdc-2" d="m159.41 296.88 18.78 25.07 3.87-20.45z" />
-                        <path class="grdc-2" d="m176.78 288.89 25.52 7.4-10.01 15.96z" />
-                        <path class="grdc-2" d="m206.9 289.16 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m192.68 284.85 21.58 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m206.9 341.27 21.05-21.31-13.86-8.83z" />
-                        <path class="grdc-2" d="m192.68 345.59 21.58-20.28-13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m179.88 346.84 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m176.28 370.97 26.03 1.77-6.78-18.94z" />
-                        <path class="grdc-2" d="m167.41 332.13 13.61 30.82 7.47-18.43z" />
-                        <path class="grdc-2" d="m185.68 330.48 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m214.77 341.28 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m201.8 332.13 17.18 27.18-14.92 4.41z" />
-                        <path class="grdc-2" d="m205.28 391.7 24.25-13.25-11.81-13.39z" />
-                        <path class="grdc-2" d="m190.74 390.9 24.57-12.07-11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m177.15 397.88 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m173.52 422.38 26.03-1.73-8.06-17.94z" />
-                        <path class="grdc-2" d="m161.99 384.9 15.69 28.86 6.15-19.34z" />
-                        <path class="grdc-2" d="m180.05 380.81 24.35 12.89-11.69 13.57z" />
-                        <path class="grdc-2" d="m209.76 387.67 18.36 25.65-14.69 5.68z" />
-                        <path class="grdc-2" d="m196.21 380.3 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m203.83 439.13 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m174.29 471.67 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m159.5 443.87 21.93 19.51 0.93-21.1z" />
-                        <path class="grdc-2" d="m170.32 409.85 20.89 21.63-13.93 8.62z" />
-                        <path class="grdc-2" d="m185.16 431.88 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m205.32 500.35 25.94 3.59-6.08-19.4z" />
-                        <path class="grdc-2" d="m216.18 460.56 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m213.82 444.71 15.44 29.11-15.13 2.64z" />
-                        <path class="grdc-2" d="m201.2 434.67 16.17 28.34-15.06 3.37z" />
-                        <path class="grdc-2" d="m202.5 494.41 24.7-11.54-11.3-14.2z" />
-                        <path class="grdc-2" d="m196.23 442.03 19.44-24.09-14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m180.98 246.06 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m176.91 270.06 26 2.71-6.42-19.18z" />
-                        <path class="grdc-2" d="m168.79 230.9 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m187.08 229.92 23.03 16.93-12.81 11.48z" />
-                        <path class="grdc-2" d="m215.96 241.78 15.95 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m203.16 232.16 16.67 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m205.51 291.84 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m190.99 290.5 24.79-11.17-11.19-14.36z" />
-                    </g>
-                    <path class="grdc-1" d="m175.88 485.97 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m159.41 476.1 18.78 25.07 3.87-20.45z" />
-                    <path class="grdc-2" d="m192.68 464.07 21.58 20.28-13.63 9.49z" />
-                    <path class="grdc-1" d="m180.98 425.28 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m176.91 449.28 26 2.72-6.42-19.19z" />
-                        <path class="grdc-2" d="m168.79 410.12 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m215.96 421 15.95 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m203.16 411.38 16.67 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m205.51 471.06 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m190.99 469.73 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m163.17 583.94 72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m175.24 466.85 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m158.77 456.98 18.78 25.07 3.88-20.45z" />
-                        <path class="grdc-2" d="m206.26 449.27 21.05 21.31-13.86 8.82z" />
-                        <path class="grdc-2" d="m192.04 444.95 21.58 20.28-13.63 9.5z" />
-                        <path class="grdc-2" d="m192.04 505.69 21.58-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m179.24 506.94 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m175.64 531.08 26.03 1.77-6.78-18.95z" />
-                        <path class="grdc-2" d="m166.77 492.23 13.61 30.83 7.47-18.43z" />
-                        <path class="grdc-2" d="m185.04 490.58 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m214.13 501.38 16.49 28-15.02 3.69z" />
-                        <path class="grdc-2" d="m201.16 492.24 17.18 27.17-14.91 4.42z" />
-                        <path class="grdc-2" d="m204.64 551.81 24.25-13.26-11.81-13.39z" />
-                        <path class="grdc-2" d="m190.1 551.01 24.57-12.08-11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m176.51 557.98 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m172.88 582.49 26.03-1.73-8.06-17.95z" />
-                        <path class="grdc-2" d="m161.35 545.01 15.69 28.86 6.15-19.35z" />
-                        <path class="grdc-2" d="m179.41 540.92 24.35 12.89-11.69 13.57z" />
-                        <path class="grdc-2" d="m209.12 547.77 18.36 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m195.57 540.4 19 24.75-14.54 6.39z" />
-                        <path class="grdc-2" d="m203.19 599.23 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m169.68 569.96 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m184.52 591.99 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m200.56 594.77 16.17 28.35-15.06 3.36z" />
-                        <path class="grdc-2" d="m195.59 602.13 19.44-24.09-14.42-6.88z" />
-                        <path class="grdc-2" d="m186.44 390.02 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m215.32 401.88 15.95 28.58-15.09 3.15z" />
-                        <path class="grdc-2" d="m202.53 392.26 16.66 27.8-15 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m180.34 585.39 54.6 39.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m176.27 609.38 26 2.72-6.42-19.18z" />
-                        <path class="grdc-2" d="m168.15 570.23 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m186.44 569.24 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m215.32 581.1 15.95 28.59-15.09 3.14z" />
-                        <path class="grdc-2" d="m202.53 571.49 16.66 27.79-15 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m399.97 323.48-72.39 74.07" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m387.91 206.38-60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m388.73 231-25.52-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m404.38 196.51-18.78 25.07-3.88-20.45z" />
-                        <path class="grdc-2" d="m387 188.53-25.51 7.4 10.01 15.95z" />
-                        <path class="grdc-2" d="m356.89 188.8-21.05 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m371.11 184.48-21.58 20.28 13.63 9.5z" />
-                        <path class="grdc-2" d="m356.89 240.91-21.05-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m371.11 245.22-21.58-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m383.9 246.47-55.32 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m387.51 270.61-26.03 1.77 6.77-18.94z" />
-                        <path class="grdc-2" d="m396.38 231.76-13.61 30.83-7.48-18.43z" />
-                        <path class="grdc-2" d="m378.11 230.11-23.34 16.1 12.59 11.93z" />
-                        <path class="grdc-2" d="m349.02 240.92-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m361.99 231.77-17.18 27.17 14.91 4.42z" />
-                        <path class="grdc-2" d="m358.51 291.34-24.25-13.25 11.8-13.4z" />
-                        <path class="grdc-2" d="m373.05 290.54-24.57-12.07 11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m386.64 297.51-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m390.27 322.02-26.04-1.73 8.07-17.95z" />
-                        <path class="grdc-2" d="m401.8 284.54-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m383.74 280.45-24.36 12.89 11.7 13.57z" />
-                        <path class="grdc-2" d="m354.03 287.3-18.36 25.65 14.69 5.69z" />
-                        <path class="grdc-2" d="m367.58 279.94-19 24.74 14.54 6.39z" />
-                        <path class="grdc-2" d="m359.96 338.76-23.21-16.44 12.68-11.75z" />
-                        <path class="grdc-2" d="m389.5 371.31-25.94 3.59 6.08-19.4z" />
-                        <path class="grdc-2" d="m404.29 343.5-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m393.47 309.49-20.89 21.62 13.93 8.62z" />
-                        <path class="grdc-2" d="m378.63 331.52-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m358.47 399.98-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m347.6 360.2-22.72 17.7 13.01 11.04z" />
-                        <path class="grdc-2" d="m349.97 344.35-15.45 29.11 15.14 2.63z" />
-                        <path class="grdc-2" d="m362.59 334.3-16.17 28.35 15.06 3.36z" />
-                        <path class="grdc-2" d="m361.29 394.04-24.71-11.53 11.3-14.21z" />
-                        <path class="grdc-2" d="m367.55 341.66-19.43-24.08 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m382.81 145.7-54.6 39.3" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m386.87 169.69-25.99 2.72 6.42-19.19z" />
-                        <path class="grdc-2" d="m394.99 130.53-13.01 31.32-7.82-18.15z" />
-                        <path class="grdc-2" d="m376.7 129.55-23.02 16.94 12.81 11.47z" />
-                        <path class="grdc-2" d="m347.83 141.41-15.95 28.59 15.08 3.14z" />
-                        <path class="grdc-2" d="m360.62 131.79-16.66 27.8 14.99 3.87z" />
-                        <path class="grdc-2" d="m358.28 191.47-24.5-12.36 11.55-13.82z" />
-                        <path class="grdc-2" d="m372.8 190.14-24.8-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m399.97 502.7-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m387.91 385.61-60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m388.73 410.22-25.52-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m404.38 375.74-18.78 25.06-3.88-20.45z" />
-                        <path class="grdc-2" d="m387 367.75-25.51 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m356.89 368.02-21.05 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m371.11 363.71-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m356.89 420.13-21.05-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m371.11 424.44-21.58-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m383.9 425.7-55.32 37.3" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m387.51 449.83-26.03 1.77 6.77-18.94z" />
-                        <path class="grdc-2" d="m396.38 410.99-13.61 30.82-7.48-18.43z" />
-                        <path class="grdc-2" d="m378.11 409.33-23.34 16.1 12.59 11.93z" />
-                        <path class="grdc-2" d="m349.02 420.14-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m361.99 410.99-17.18 27.17 14.91 4.42z" />
-                        <path class="grdc-2" d="m358.51 470.56-24.25-13.25 11.8-13.39z" />
-                        <path class="grdc-2" d="m373.05 469.76-24.57-12.07 11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m386.64 476.73-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m390.27 501.24-26.04-1.73 8.07-17.95z" />
-                        <path class="grdc-2" d="m401.8 463.76-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m383.74 459.67-24.36 12.89 11.7 13.57z" />
-                        <path class="grdc-2" d="m354.03 466.52-18.36 25.65 14.69 5.69z" />
-                        <path class="grdc-2" d="m367.58 459.16-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m359.96 517.99-23.21-16.45 12.68-11.74z" />
-                        <path class="grdc-2" d="m389.5 550.53-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m404.29 522.72-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m393.47 488.71-20.89 21.62 13.93 8.63z" />
-                        <path class="grdc-2" d="m378.63 510.74-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m358.47 579.2-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m347.6 539.42-22.72 17.71 13.01 11.03z" />
-                        <path class="grdc-2" d="m349.97 523.57-15.45 29.11 15.14 2.63z" />
-                        <path class="grdc-2" d="m362.59 513.52-16.17 28.35 15.06 3.36z" />
-                        <path class="grdc-2" d="m361.29 573.26-24.71-11.53 11.3-14.2z" />
-                        <path class="grdc-2" d="m367.55 520.88-19.43-24.08 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m382.81 324.92-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m386.87 348.91-25.99 2.72 6.42-19.18z" />
-                        <path class="grdc-2" d="m394.99 309.76-13.01 31.31-7.82-18.15z" />
-                        <path class="grdc-2" d="m376.7 308.77-23.02 16.94 12.81 11.48z" />
-                        <path class="grdc-2" d="m347.83 320.63-15.95 28.59 15.08 3.14z" />
-                        <path class="grdc-2" d="m360.62 311.02-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m358.28 370.69-24.5-12.36 11.55-13.82z" />
-                        <path class="grdc-2" d="m372.8 369.36-24.8-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m256.89 366.49 72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m268.96 249.4 60.32 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m268.14 274.01 25.51-7.4-10.01-15.95z" />
-                        <path class="grdc-2" d="m252.49 239.53 18.77 25.07 3.88-20.46z" />
-                        <path class="grdc-2" d="m269.86 231.54 25.51 7.4-10 15.96z" />
-                        <path class="grdc-2" d="m299.97 231.81 21.05 21.31-13.85 8.83z" />
-                        <path class="grdc-2" d="m285.76 227.5 21.57 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m299.97 283.92 21.05-21.31-13.85-8.83z" />
-                        <path class="grdc-2" d="m285.76 288.24 21.57-20.29-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m272.96 289.49 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m269.35 313.62 26.04 1.77-6.78-18.94z" />
-                        <path class="grdc-2" d="m260.49 274.78 13.6 30.83 7.48-18.44z" />
-                        <path class="grdc-2" d="m278.75 273.13 23.35 16.09-12.6 11.94z" />
-                        <path class="grdc-2" d="m307.84 283.93 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m294.87 274.78 17.19 27.17-14.92 4.42z" />
-                        <path class="grdc-2" d="m298.35 334.35 24.26-13.25-11.81-13.39z" />
-                        <path class="grdc-2" d="m283.81 333.55 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m270.22 340.52 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m266.59 365.03 26.04-1.73-8.07-17.94z" />
-                        <path class="grdc-2" d="m255.06 327.56 15.69 28.85 6.16-19.34z" />
-                        <path class="grdc-2" d="m273.13 323.46 24.35 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m302.83 330.32 18.37 25.65-14.69 5.68z" />
-                        <path class="grdc-2" d="m289.29 322.95 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m296.9 381.78 23.22-16.45-12.68-11.74z" />
-                        <path class="grdc-2" d="m267.37 414.32 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m252.57 386.52 21.94 19.51 0.93-21.1z" />
-                        <path class="grdc-2" d="m263.4 352.5 20.88 21.63-13.92 8.62z" />
-                        <path class="grdc-2" d="m278.24 374.53 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m298.39 443 25.94 3.59-6.08-19.4z" />
-                        <path class="grdc-2" d="m309.26 403.21 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m306.89 387.36 15.45 29.11-15.13 2.64z" />
-                        <path class="grdc-2" d="m294.27 377.32 16.17 28.34-15.05 3.36z" />
-                        <path class="grdc-2" d="m295.58 437.06 24.7-11.54-11.3-14.2z" />
-                        <path class="grdc-2" d="m289.31 384.68 19.43-24.09-14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m274.06 188.71 54.59 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m269.99 212.7 25.99 2.72-6.41-19.18z" />
-                        <path class="grdc-2" d="m261.87 173.55 13.01 31.31 7.83-18.15z" />
-                        <path class="grdc-2" d="m280.16 172.56 23.03 16.94-12.82 11.48z" />
-                        <path class="grdc-2" d="m309.03 184.43 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m296.24 174.81 16.66 27.79-14.99 3.87z" />
-                        <path class="grdc-2" d="m298.59 234.49 24.49-12.37-11.54-13.81z" />
-                        <path class="grdc-2" d="m284.07 233.15 24.79-11.17-11.19-14.36z" />
-                    </g>
-                    <path class="grdc-1" d="m268.96 428.62 60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m252.49 418.75 18.77 25.07 3.88-20.45z" />
-                    <path class="grdc-2" d="m285.76 406.72 21.57 20.28-13.63 9.49z" />
-                    <path class="grdc-1" d="m274.06 367.93 54.59 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m269.99 391.93 25.99 2.71-6.41-19.18z" />
-                        <path class="grdc-2" d="m261.87 352.77 13.01 31.31 7.83-18.15z" />
-                        <path class="grdc-2" d="m309.03 363.65 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m296.24 354.03 16.66 27.79-14.99 3.87z" />
-                        <path class="grdc-2" d="m298.59 413.71 24.49-12.36-11.54-13.82z" />
-                        <path class="grdc-2" d="m284.07 412.38 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m256.25 526.59 72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m268.32 409.5 60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m251.85 399.63 18.77 25.07 3.88-20.45z" />
-                        <path class="grdc-2" d="m299.33 391.92 21.05 21.31-13.86 8.82z" />
-                        <path class="grdc-2" d="m285.12 387.6 21.57 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m285.12 448.34 21.57-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m272.32 449.59 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m268.71 473.73 26.04 1.77-6.78-18.95z" />
-                        <path class="grdc-2" d="m259.85 434.88 13.6 30.83 7.48-18.43z" />
-                        <path class="grdc-2" d="m278.11 433.23 23.34 16.09-12.58 11.94z" />
-                        <path class="grdc-2" d="m307.2 444.03 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m294.23 434.88 17.19 27.18-14.92 4.42z" />
-                        <path class="grdc-2" d="m297.71 494.46 24.25-13.26-11.8-13.39z" />
-                        <path class="grdc-2" d="m283.17 493.66 24.57-12.08-11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m269.58 500.63 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m265.95 525.13 26.04-1.73-8.07-17.94z" />
-                        <path class="grdc-2" d="m254.42 487.66 15.69 28.86 6.16-19.35z" />
-                        <path class="grdc-2" d="m272.49 483.57 24.35 12.89-11.7 13.56z" />
-                        <path class="grdc-2" d="m302.19 490.42 18.37 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m288.65 483.05 18.99 24.75-14.53 6.39z" />
-                        <path class="grdc-2" d="m296.26 541.88 23.22-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m266.73 574.42 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m251.93 546.62 21.94 19.52 0.93-21.11z" />
-                        <path class="grdc-2" d="m262.76 512.61 20.88 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m277.6 534.64 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m297.75 603.1 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m308.62 563.31 22.73 17.71-13.02 11.04z" />
-                        <path class="grdc-2" d="m306.25 547.47 15.45 29.11-15.13 2.63z" />
-                        <path class="grdc-2" d="m293.63 537.42 16.18 28.34-15.06 3.37z" />
-                        <path class="grdc-2" d="m294.94 597.16 24.7-11.53-11.3-14.21z" />
-                        <path class="grdc-2" d="m288.67 544.78 19.43-24.09-14.42-6.88z" />
-                        <path class="grdc-2" d="m279.52 332.67 23.03 16.94-12.82 11.47z" />
-                        <path class="grdc-2" d="m308.39 344.53 15.95 28.59-15.08 3.13z" />
-                        <path class="grdc-2" d="m295.6 334.91 16.66 27.79-14.99 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m268.32 588.72 60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m251.85 578.86 18.77 25.06 3.88-20.45z" />
-                        <path class="grdc-2" d="m269.22 570.86 25.52 7.41-10.01 15.95z" />
-                        <path class="grdc-2" d="m299.33 571.14 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m285.12 566.82 21.57 20.28-13.63 9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m273.42 528.04 54.6 39.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m269.35 552.03 25.99 2.72-6.41-19.18z" />
-                        <path class="grdc-2" d="m261.23 512.87 13.01 31.32 7.83-18.16z" />
-                        <path class="grdc-2" d="m279.52 511.89 23.03 16.94-12.82 11.47z" />
-                        <path class="grdc-2" d="m308.39 523.75 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m295.6 514.13 16.66 27.8-14.99 3.86z" />
-                        <path class="grdc-2" d="m297.95 573.81 24.49-12.36-11.54-13.82z" />
-                        <path class="grdc-2" d="m283.43 572.48 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m498.22 388-72.39 74.07" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <path class="grdc-1" d="m486.15 270.9-60.32 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m486.97 295.52-25.51-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m502.62 261.04-18.77 25.06-3.88-20.45z" />
-                        <path class="grdc-2" d="m485.25 253.04-25.51 7.41 10 15.95z" />
-                        <path class="grdc-2" d="m455.14 253.32-21.06 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m469.35 249-21.57 20.28 13.62 9.5z" />
-                        <path class="grdc-2" d="m455.14 305.43-21.06-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m469.35 309.74-21.57-20.28 13.62-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m482.15 310.99-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m485.76 335.13-26.04 1.77 6.78-18.95z" />
-                        <path class="grdc-2" d="m494.62 296.28-13.6 30.83-7.48-18.43z" />
-                        <path class="grdc-2" d="m476.36 294.63-23.35 16.1 12.6 11.93z" />
-                        <path class="grdc-2" d="m447.27 305.44-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m460.24 296.29-17.19 27.17 14.92 4.42z" />
-                        <path class="grdc-2" d="m456.76 355.86-24.26-13.25 11.81-13.4z" />
-                        <path class="grdc-2" d="m471.3 355.06-24.57-12.07 11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m484.89 362.03-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m488.52 386.54-26.04-1.73 8.07-17.95z" />
-                        <path class="grdc-2" d="m500.05 349.06-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m481.98 344.97-24.35 12.89 11.7 13.57z" />
-                        <path class="grdc-2" d="m452.28 351.82-18.37 25.65 14.69 5.69z" />
-                        <path class="grdc-2" d="m465.82 344.46-19 24.74 14.54 6.39z" />
-                        <path class="grdc-2" d="m458.21 403.28-23.22-16.44 12.69-11.75z" />
-                        <path class="grdc-2" d="m487.74 435.83-25.94 3.59 6.08-19.4z" />
-                        <path class="grdc-2" d="m502.54 408.02-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m491.71 374.01-20.88 21.62 13.92 8.62z" />
-                        <path class="grdc-2" d="m476.88 396.04-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m456.72 464.5-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m445.85 424.72-22.72 17.7 13 11.04z" />
-                        <path class="grdc-2" d="m448.22 408.87-15.45 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m460.84 398.82-16.17 28.35 15.05 3.36z" />
-                        <path class="grdc-2" d="m459.53 458.56-24.7-11.53 11.3-14.21z" />
-                        <path class="grdc-2" d="m465.8 406.18-19.43-24.08 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m481.05 210.22-54.6 39.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m485.12 234.21-25.99 2.72 6.41-19.18z" />
-                        <path class="grdc-2" d="m493.24 195.05-13.01 31.32-7.83-18.15z" />
-                        <path class="grdc-2" d="m474.95 194.07-23.03 16.94 12.82 11.47z" />
-                        <path class="grdc-2" d="m446.08 205.93-15.95 28.59 15.08 3.14z" />
-                        <path class="grdc-2" d="m458.87 196.31-16.66 27.8 14.99 3.87z" />
-                        <path class="grdc-2" d="m456.52 255.99-24.49-12.36 11.54-13.82z" />
-                        <path class="grdc-2" d="m471.04 254.66-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m498.22 567.22-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m486.15 450.13-60.32 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m486.97 474.74-25.51-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m502.62 440.26-18.77 25.06-3.88-20.45z" />
-                        <path class="grdc-2" d="m485.25 432.27-25.51 7.4 10 15.96z" />
-                        <path class="grdc-2" d="m455.14 432.54-21.06 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m469.35 428.23-21.57 20.27 13.62 9.5z" />
-                        <path class="grdc-2" d="m455.14 484.65-21.06-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m469.35 488.96-21.57-20.28 13.62-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m482.15 490.22-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m485.76 514.35-26.04 1.77 6.78-18.94z" />
-                        <path class="grdc-2" d="m494.62 475.5-13.6 30.83-7.48-18.43z" />
-                        <path class="grdc-2" d="m476.36 473.85-23.35 16.1 12.6 11.93z" />
-                        <path class="grdc-2" d="m447.27 484.66-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m460.24 475.51-17.19 27.17 14.92 4.42z" />
-                        <path class="grdc-2" d="m456.76 535.08-24.26-13.25 11.81-13.39z" />
-                        <path class="grdc-2" d="m471.3 534.28-24.57-12.07 11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m484.89 541.25-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m488.52 565.76-26.04-1.73 8.07-17.95z" />
-                        <path class="grdc-2" d="m500.05 528.28-15.69 28.86-6.16-19.35z" />
-                        <path class="grdc-2" d="m481.98 524.19-24.35 12.89 11.7 13.57z" />
-                        <path class="grdc-2" d="m452.28 531.04-18.37 25.65 14.69 5.69z" />
-                        <path class="grdc-2" d="m465.82 523.68-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m458.21 582.5-23.22-16.44 12.69-11.74z" />
-                        <path class="grdc-2" d="m502.54 587.24-21.94 19.52-0.93-21.11z" />
-                        <path class="grdc-2" d="m491.71 553.23-20.88 21.62 13.92 8.63z" />
-                        <path class="grdc-2" d="m476.88 575.26-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m448.22 588.09-15.45 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m460.84 578.04-16.17 28.35 15.05 3.36z" />
-                        <path class="grdc-2" d="m465.8 585.4-19.43-24.08 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m481.05 389.44-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m485.12 413.43-25.99 2.72 6.41-19.18z" />
-                        <path class="grdc-2" d="m493.24 374.28-13.01 31.31-7.83-18.15z" />
-                        <path class="grdc-2" d="m474.95 373.29-23.03 16.94 12.82 11.47z" />
-                        <path class="grdc-2" d="m446.08 385.15-15.95 28.59 15.08 3.14z" />
-                        <path class="grdc-2" d="m458.87 375.54-16.66 27.79 14.99 3.87z" />
-                        <path class="grdc-2" d="m456.52 435.21-24.49-12.36 11.54-13.82z" />
-                        <path class="grdc-2" d="m471.04 433.88-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m355.14 431.01 72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m367.2 313.92 60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m366.38 338.53 25.52-7.4-10.01-15.95z" />
-                        <path class="grdc-2" d="m350.73 304.05 18.78 25.07 3.88-20.46z" />
-                        <path class="grdc-2" d="m368.11 296.06 25.51 7.4-10.01 15.96z" />
-                        <path class="grdc-2" d="m398.22 296.33 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m384 292.02 21.58 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m398.22 348.44 21.05-21.31-13.86-8.83z" />
-                        <path class="grdc-2" d="m384 352.75 21.58-20.27-13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m371.21 354.01 55.32 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m367.6 378.14 26.03 1.77-6.77-18.94z" />
-                        <path class="grdc-2" d="m358.74 339.3 13.6 30.82 7.48-18.43z" />
-                        <path class="grdc-2" d="m377 337.65 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m406.09 348.45 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m393.12 339.3 17.19 27.18-14.92 4.41z" />
-                        <path class="grdc-2" d="m396.6 398.87 24.25-13.25-11.8-13.39z" />
-                        <path class="grdc-2" d="m382.06 398.07 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m368.47 405.04 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m364.84 429.55 26.04-1.73-8.07-17.94z" />
-                        <path class="grdc-2" d="m353.31 392.07 15.69 28.86 6.15-19.34z" />
-                        <path class="grdc-2" d="m371.37 387.98 24.36 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m401.08 394.84 18.36 25.65-14.69 5.68z" />
-                        <path class="grdc-2" d="m387.53 387.47 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m395.15 446.3 23.21-16.45-12.68-11.74z" />
-                        <path class="grdc-2" d="m365.62 478.84 25.93 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m350.82 451.04 21.94 19.51 0.93-21.1z" />
-                        <path class="grdc-2" d="m361.64 417.02 20.89 21.63-13.93 8.62z" />
-                        <path class="grdc-2" d="m376.48 439.05 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m396.64 507.51 25.94 3.6-6.08-19.4z" />
-                        <path class="grdc-2" d="m407.51 467.73 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m405.14 451.88 15.45 29.11-15.14 2.64z" />
-                        <path class="grdc-2" d="m392.52 441.84 16.17 28.34-15.06 3.36z" />
-                        <path class="grdc-2" d="m393.82 501.58 24.71-11.54-11.3-14.2z" />
-                        <path class="grdc-2" d="m387.56 449.2 19.43-24.09-14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m372.3 253.23 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m368.24 277.22 25.99 2.72-6.42-19.18z" />
-                        <path class="grdc-2" d="m360.12 238.07 13.01 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m378.41 237.09 23.02 16.93-12.81 11.48z" />
-                        <path class="grdc-2" d="m407.28 248.95 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m394.49 239.33 16.66 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m396.83 299.01 24.5-12.37-11.55-13.82z" />
-                        <path class="grdc-2" d="m382.31 297.67 24.8-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m367.2 493.14 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m350.73 483.27 18.78 25.07 3.88-20.46z" />
-                    <path class="grdc-2" d="m384 471.24 21.58 20.28-13.63 9.49z" />
-                    <path class="grdc-1" d="m372.3 432.45 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m368.24 456.44 25.99 2.72-6.42-19.18z" />
-                        <path class="grdc-2" d="m360.12 417.29 13.01 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m407.28 428.17 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m394.49 418.55 16.66 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m396.83 478.23 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m382.31 476.89 24.8-11.16-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m354.5 591.11 72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m366.56 474.02 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m350.09 464.15 18.78 25.07 3.88-20.45z" />
-                        <path class="grdc-2" d="m397.58 456.44 21.05 21.31-13.86 8.82z" />
-                        <path class="grdc-2" d="m383.36 452.12 21.58 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m383.36 512.86 21.58-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m370.57 514.11 55.32 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m366.96 538.25 26.04 1.76-6.78-18.94z" />
-                        <path class="grdc-2" d="m358.1 499.4 13.6 30.83 7.48-18.43z" />
-                        <path class="grdc-2" d="m376.36 497.75 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m405.45 508.55 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m392.48 499.4 17.19 27.18-14.92 4.42z" />
-                        <path class="grdc-2" d="m395.96 558.98 24.25-13.26-11.8-13.39z" />
-                        <path class="grdc-2" d="m381.42 558.17 24.57-12.07-11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m367.83 565.15 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m364.2 589.65 26.04-1.73-8.07-17.94z" />
-                        <path class="grdc-2" d="m352.67 552.18 15.69 28.86 6.15-19.35z" />
-                        <path class="grdc-2" d="m370.73 548.09 24.36 12.89-11.7 13.56z" />
-                        <path class="grdc-2" d="m400.44 554.94 18.36 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m386.89 547.57 19 24.75-14.54 6.39z" />
-                        <path class="grdc-2" d="m394.51 606.4 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m361 577.13 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m386.92 609.3 19.43-24.09-14.42-6.88z" />
-                        <path class="grdc-2" d="m377.77 397.19 23.02 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m406.64 409.05 15.95 28.58-15.08 3.14z" />
-                        <path class="grdc-2" d="m393.85 399.43 16.66 27.8-15 3.86z" />
-                    </g>
-                    <path class="grdc-1" d="m371.66 592.55 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m359.48 577.39 13.01 31.32 7.82-18.16z" />
-                        <path class="grdc-2" d="m377.77 576.41 23.02 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m406.64 588.27 15.95 28.59-15.08 3.14z" />
-                        <path class="grdc-2" d="m393.85 578.65 16.66 27.8-15 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m610.25 335.42-72.39 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m598.19 218.33-60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m599.01 242.95-25.51-7.4 10-15.96z" />
-                        <path class="grdc-2" d="m614.66 208.46-18.78 25.07-3.88-20.45z" />
-                        <path class="grdc-2" d="m597.29 200.47-25.52 7.41 10.01 15.95z" />
-                        <path class="grdc-2" d="m567.17 200.75-21.05 21.31 13.86 8.82z" />
-                        <path class="grdc-2" d="m581.39 196.43-21.58 20.28 13.63 9.5z" />
-                        <path class="grdc-2" d="m567.17 252.86-21.05-21.32 13.86-8.82z" />
-                        <path class="grdc-2" d="m581.39 257.17-21.58-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m594.19 258.42-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m597.79 282.56-26.03 1.77 6.78-18.95z" />
-                        <path class="grdc-2" d="m606.66 243.71-13.61 30.83-7.47-18.43z" />
-                        <path class="grdc-2" d="m588.39 242.06-23.34 16.09 12.59 11.94z" />
-                        <path class="grdc-2" d="m559.3 252.86-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m572.27 243.72-17.18 27.17 14.91 4.42z" />
-                        <path class="grdc-2" d="m568.79 303.29-24.25-13.25 11.81-13.4z" />
-                        <path class="grdc-2" d="m583.33 302.49-24.57-12.07 11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m596.92 309.46-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m600.55 333.97-26.04-1.73 8.07-17.95z" />
-                        <path class="grdc-2" d="m612.08 296.49-15.69 28.86-6.15-19.35z" />
-                        <path class="grdc-2" d="m594.02 292.4-24.36 12.89 11.7 13.57z" />
-                        <path class="grdc-2" d="m564.31 299.25-18.36 25.65 14.69 5.69z" />
-                        <path class="grdc-2" d="m577.86 291.88-19 24.75 14.54 6.39z" />
-                        <path class="grdc-2" d="m570.24 350.71-23.21-16.44 12.68-11.75z" />
-                        <path class="grdc-2" d="m599.78 383.25-25.94 3.6 6.08-19.4z" />
-                        <path class="grdc-2" d="m614.58 355.45-21.95 19.52-0.92-21.11z" />
-                        <path class="grdc-2" d="m603.75 321.44-20.89 21.62 13.93 8.62z" />
-                        <path class="grdc-2" d="m588.91 343.47-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m568.75 411.93-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m557.88 372.14-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m560.25 356.3-15.45 29.11 15.14 2.63z" />
-                        <path class="grdc-2" d="m572.87 346.25-16.17 28.35 15.06 3.36z" />
-                        <path class="grdc-2" d="m571.57 405.99-24.7-11.54 11.3-14.2z" />
-                        <path class="grdc-2" d="m577.84 353.61-19.44-24.09 14.42-6.88z" />
-                    </g>
-                    <path class="grdc-1" d="m593.09 157.64-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m597.16 181.64-26 2.72 6.42-19.19z" />
-                        <path class="grdc-2" d="m605.28 142.48-13.02 31.32-7.82-18.16z" />
-                        <path class="grdc-2" d="m586.99 141.5-23.03 16.94 12.81 11.47z" />
-                        <path class="grdc-2" d="m558.11 153.36-15.95 28.58 15.09 3.15z" />
-                        <path class="grdc-2" d="m570.9 143.74-16.66 27.8 15 3.86z" />
-                        <path class="grdc-2" d="m568.56 203.42-24.5-12.36 11.55-13.82z" />
-                        <path class="grdc-2" d="m583.08 202.09-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m610.25 514.65-72.39 74.07" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m598.19 397.55-60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m599.01 422.17-25.51-7.4 10-15.96z" />
-                        <path class="grdc-2" d="m614.66 387.69-18.78 25.06-3.88-20.45z" />
-                        <path class="grdc-2" d="m597.29 379.69-25.52 7.41 10.01 15.95z" />
-                        <path class="grdc-2" d="m567.17 379.97-21.05 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m581.39 375.65-21.58 20.28 13.63 9.5z" />
-                        <path class="grdc-2" d="m567.17 432.08-21.05-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m581.39 436.39-21.58-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m594.19 437.64-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m597.79 461.78-26.03 1.77 6.78-18.95z" />
-                        <path class="grdc-2" d="m606.66 422.93-13.61 30.83-7.47-18.43z" />
-                        <path class="grdc-2" d="m588.39 421.28-23.34 16.1 12.59 11.93z" />
-                        <path class="grdc-2" d="m559.3 432.09-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m572.27 422.94-17.18 27.17 14.91 4.42z" />
-                        <path class="grdc-2" d="m568.79 482.51-24.25-13.25 11.81-13.4z" />
-                        <path class="grdc-2" d="m583.33 481.71-24.57-12.07 11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m596.92 488.68-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m600.55 513.19-26.04-1.73 8.07-17.95z" />
-                        <path class="grdc-2" d="m612.08 475.71-15.69 28.86-6.15-19.35z" />
-                        <path class="grdc-2" d="m594.02 471.62-24.36 12.89 11.7 13.57z" />
-                        <path class="grdc-2" d="m564.31 478.47-18.36 25.65 14.69 5.69z" />
-                        <path class="grdc-2" d="m577.86 471.11-19 24.74 14.54 6.39z" />
-                        <path class="grdc-2" d="m570.24 529.93-23.21-16.44 12.68-11.75z" />
-                        <path class="grdc-2" d="m599.78 562.48-25.94 3.59 6.08-19.4z" />
-                        <path class="grdc-2" d="m614.58 534.67-21.95 19.52-0.92-21.11z" />
-                        <path class="grdc-2" d="m603.75 500.66-20.89 21.62 13.93 8.62z" />
-                        <path class="grdc-2" d="m588.91 522.69-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m568.75 591.15-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m557.88 551.37-22.72 17.7 13.01 11.04z" />
-                        <path class="grdc-2" d="m560.25 535.52-15.45 29.11 15.14 2.63z" />
-                        <path class="grdc-2" d="m572.87 525.47-16.17 28.35 15.06 3.36z" />
-                        <path class="grdc-2" d="m571.57 585.21-24.7-11.53 11.3-14.21z" />
-                        <path class="grdc-2" d="m577.84 532.83-19.44-24.08 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m593.09 336.87-54.6 39.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m597.16 360.86-26 2.72 6.42-19.19z" />
-                        <path class="grdc-2" d="m605.28 321.7-13.02 31.32-7.82-18.15z" />
-                        <path class="grdc-2" d="m586.99 320.72-23.03 16.94 12.81 11.47z" />
-                        <path class="grdc-2" d="m558.11 332.58-15.95 28.59 15.09 3.14z" />
-                        <path class="grdc-2" d="m570.9 322.96-16.66 27.8 15 3.87z" />
-                        <path class="grdc-2" d="m568.56 382.64-24.5-12.36 11.55-13.82z" />
-                        <path class="grdc-2" d="m583.08 381.31-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m467.17 378.44 72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m479.24 261.35 60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m478.42 285.96 25.51-7.4-10-15.96z" />
-                        <path class="grdc-2" d="m462.77 251.48 18.78 25.06 3.87-20.45z" />
-                        <path class="grdc-2" d="m480.14 243.49 25.52 7.4-10.01 15.96z" />
-                        <path class="grdc-2" d="m510.25 243.76 21.06 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m496.04 239.44 21.58 20.29-13.63 9.49z" />
-                        <path class="grdc-2" d="m510.25 295.87 21.06-21.31-13.86-8.83z" />
-                        <path class="grdc-2" d="m496.04 300.18 21.58-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m483.24 301.44 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m479.63 325.57 26.04 1.77-6.78-18.94z" />
-                        <path class="grdc-2" d="m470.77 286.73 13.61 30.82 7.47-18.43z" />
-                        <path class="grdc-2" d="m489.04 285.07 23.34 16.1-12.59 11.93z" />
-                        <path class="grdc-2" d="m518.13 295.88 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m505.15 286.73 17.19 27.17-14.92 4.42z" />
-                        <path class="grdc-2" d="m508.64 346.3 24.25-13.25-11.81-13.39z" />
-                        <path class="grdc-2" d="m494.1 345.5 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m480.51 352.47 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m476.88 376.98 26.03-1.73-8.06-17.95z" />
-                        <path class="grdc-2" d="m465.35 339.5 15.69 28.86 6.15-19.35z" />
-                        <path class="grdc-2" d="m483.41 335.41 24.35 12.89-11.7 13.57z" />
-                        <path class="grdc-2" d="m513.12 342.26 18.36 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m499.57 334.9 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m507.19 393.73 23.21-16.45-12.68-11.74z" />
-                        <path class="grdc-2" d="m477.65 426.27 25.94 3.59-6.08-19.4z" />
-                        <path class="grdc-2" d="m462.85 398.46 21.94 19.52 0.93-21.11z" />
-                        <path class="grdc-2" d="m473.68 364.45 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m488.52 386.48 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m508.68 454.94 25.94 3.59-6.09-19.39z" />
-                        <path class="grdc-2" d="m519.54 415.16 22.73 17.71-13.01 11.03z" />
-                        <path class="grdc-2" d="m517.17 399.31 15.45 29.11-15.13 2.63z" />
-                        <path class="grdc-2" d="m504.56 389.26 16.17 28.35-15.06 3.36z" />
-                        <path class="grdc-2" d="m505.86 449 24.7-11.53-11.3-14.2z" />
-                        <path class="grdc-2" d="m499.59 396.63 19.44-24.09-14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m484.34 200.66 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m480.27 224.65 26 2.72-6.42-19.18z" />
-                        <path class="grdc-2" d="m472.15 185.5 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m490.44 184.51 23.03 16.94-12.81 11.48z" />
-                        <path class="grdc-2" d="m519.32 196.38 15.95 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m506.52 186.76 16.67 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m508.87 246.44 24.5-12.37-11.55-13.82z" />
-                        <path class="grdc-2" d="m494.35 245.1 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m479.24 440.57 60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m462.77 430.7 18.78 25.06 3.87-20.45z" />
-                    <path class="grdc-2" d="m496.04 418.67 21.58 20.28-13.63 9.49z" />
-                    <path class="grdc-1" d="m484.34 379.88 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m480.27 403.87 26 2.72-6.42-19.18z" />
-                        <path class="grdc-2" d="m472.15 364.72 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m519.32 375.6 15.95 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m506.52 365.98 16.67 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m508.87 425.66 24.5-12.37-11.55-13.81z" />
-                        <path class="grdc-2" d="m494.35 424.32 24.79-11.17-11.19-14.36z" />
-                    </g>
-                    <path class="grdc-1" d="m466.53 538.54 72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m478.6 421.45 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m462.13 411.58 18.78 25.07 3.87-20.45z" />
-                        <path class="grdc-2" d="m509.62 403.86 21.05 21.32-13.86 8.82z" />
-                        <path class="grdc-2" d="m495.4 399.55 21.58 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m495.4 460.29 21.58-20.28-13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m482.6 461.54 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m478.99 485.68 26.04 1.76-6.78-18.94z" />
-                        <path class="grdc-2" d="m470.13 446.83 13.61 30.83 7.47-18.43z" />
-                        <path class="grdc-2" d="m488.4 445.18 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m517.49 455.98 16.49 27.99-15.02 3.69z" />
-                        <path class="grdc-2" d="m504.52 446.83 17.18 27.18-14.92 4.41z" />
-                        <path class="grdc-2" d="m508 506.41 24.25-13.26-11.81-13.39z" />
-                        <path class="grdc-2" d="m493.45 505.6 24.58-12.07-11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m479.87 512.58 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m476.24 537.08 26.03-1.73-8.07-17.94z" />
-                        <path class="grdc-2" d="m464.7 499.61 15.7 28.86 6.15-19.35z" />
-                        <path class="grdc-2" d="m482.77 495.52 24.35 12.88-11.7 13.57z" />
-                        <path class="grdc-2" d="m512.48 502.37 18.36 25.65-14.69 5.68z" />
-                        <path class="grdc-2" d="m498.93 495 19 24.75-14.54 6.39z" />
-                        <path class="grdc-2" d="m506.55 553.83 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m477.01 586.37 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m462.21 558.57 21.94 19.52 0.93-21.11z" />
-                        <path class="grdc-2" d="m473.04 524.55 20.89 21.63-13.93 8.62z" />
-                        <path class="grdc-2" d="m487.88 546.59 22.72 17.7-13.01 11.04z" />
-                        <path class="grdc-2" d="m518.9 575.26 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m516.53 559.41 15.45 29.11-15.13 2.64z" />
-                        <path class="grdc-2" d="m503.92 549.37 16.17 28.34-15.06 3.37z" />
-                        <path class="grdc-2" d="m505.22 609.11 24.7-11.54-11.3-14.2z" />
-                        <path class="grdc-2" d="m498.95 556.73 19.44-24.09-14.43-6.89z" />
-                        <path class="grdc-2" d="m489.8 344.62 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m518.67 356.48 15.96 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m505.88 346.86 16.67 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m462.13 590.8 18.78 25.07 3.87-20.45z" />
-                        <path class="grdc-2" d="m479.5 582.81 25.52 7.4-10.01 15.96z" />
-                        <path class="grdc-2" d="m509.62 583.09 21.05 21.31-13.86 8.82z" />
-                        <path class="grdc-2" d="m495.4 578.77 21.58 20.28-13.63 9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m483.7 539.98 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m479.63 563.98 26 2.72-6.42-19.19z" />
-                        <path class="grdc-2" d="m471.51 524.82 13.01 31.32 7.83-18.16z" />
-                        <path class="grdc-2" d="m489.8 523.84 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m518.67 535.7 15.96 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m505.88 526.08 16.67 27.8-15 3.86z" />
-                        <path class="grdc-2" d="m508.23 585.76 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m493.71 584.43 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m717.12 261.35-60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m717.94 285.96-25.52-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m716.22 243.49-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m686.1 243.76-21.05 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m700.32 239.44-21.58 20.29 13.63 9.49z" />
-                        <path class="grdc-2" d="m686.1 295.87-21.05-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m700.32 300.18-21.58-20.28 13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m713.12 301.44-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m716.73 325.57-26.04 1.77 6.78-18.94z" />
-                        <path class="grdc-2" d="m707.32 285.07-23.34 16.1 12.59 11.93z" />
-                        <path class="grdc-2" d="m678.23 295.88-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m691.2 286.73-17.18 27.17 14.91 4.42z" />
-                        <path class="grdc-2" d="m687.72 346.3-24.25-13.25 11.81-13.39z" />
-                        <path class="grdc-2" d="m702.26 345.5-24.57-12.07 11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m715.85 352.47-57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m719.48 376.98-26.03-1.73 8.06-17.95z" />
-                        <path class="grdc-2" d="m712.95 335.41-24.35 12.89 11.69 13.57z" />
-                        <path class="grdc-2" d="m683.24 342.26-18.36 25.65 14.69 5.69z" />
-                        <path class="grdc-2" d="m696.79 334.9-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m689.17 393.73-23.21-16.45 12.68-11.74z" />
-                        <path class="grdc-2" d="m718.71 426.27-25.94 3.59 6.08-19.4z" />
-                        <path class="grdc-2" d="m707.84 386.48-22.72 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m687.68 454.94-25.94 3.59 6.08-19.39z" />
-                        <path class="grdc-2" d="m676.82 415.16-22.73 17.71 13.01 11.03z" />
-                        <path class="grdc-2" d="m679.18 399.31-15.44 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m691.8 389.26-16.17 28.35 15.06 3.36z" />
-                        <path class="grdc-2" d="m690.5 449-24.7-11.53 11.3-14.2z" />
-                        <path class="grdc-2" d="m696.77 396.63-19.44-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m712.02 200.66-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m716.09 224.65-26 2.72 6.42-19.18z" />
-                        <path class="grdc-2" d="m705.92 184.51-23.03 16.94 12.81 11.48z" />
-                        <path class="grdc-2" d="m677.04 196.38-15.95 28.58 15.09 3.14z" />
-                        <path class="grdc-2" d="m689.84 186.76-16.67 27.79 15 3.87z" />
-                        <path class="grdc-2" d="m687.49 246.44-24.5-12.37 11.55-13.82z" />
-                        <path class="grdc-2" d="m702.01 245.1-24.79-11.17 11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m717.12 440.57-60.33 16.72" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m717.94 465.18-25.52-7.4 10.01-15.96z" />
-                        <path class="grdc-2" d="m716.22 422.71-25.52 7.4 10.01 15.96z" />
-                        <path class="grdc-2" d="m686.1 422.98-21.05 21.31 13.86 8.83z" />
-                        <path class="grdc-2" d="m700.32 418.67-21.58 20.28 13.63 9.49z" />
-                        <path class="grdc-2" d="m686.1 475.09-21.05-21.31 13.86-8.83z" />
-                        <path class="grdc-2" d="m700.32 479.4-21.58-20.27 13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m713.12 480.66-55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m707.32 464.3-23.34 16.09 12.59 11.93z" />
-                        <path class="grdc-2" d="m678.23 475.1-16.49 27.99 15.02 3.69z" />
-                        <path class="grdc-2" d="m691.2 465.95-17.18 27.18 14.91 4.41z" />
-                        <path class="grdc-2" d="m687.72 525.52-24.25-13.25 11.81-13.39z" />
-                        <path class="grdc-2" d="m702.26 524.72-24.57-12.07 11.46-13.96z" />
-                        <path class="grdc-2" d="m712.95 514.63-24.35 12.89 11.69 13.57z" />
-                        <path class="grdc-2" d="m683.24 521.49-18.36 25.64 14.69 5.69z" />
-                        <path class="grdc-2" d="m696.79 514.12-19 24.74 14.54 6.4z" />
-                        <path class="grdc-2" d="m689.17 572.95-23.21-16.45 12.68-11.74z" />
-                        <path class="grdc-2" d="m676.82 594.38-22.73 17.71 13.01 11.04z" />
-                        <path class="grdc-2" d="m679.18 578.53-15.44 29.11 15.13 2.63z" />
-                        <path class="grdc-2" d="m691.8 568.49-16.17 28.34 15.06 3.36z" />
-                        <path class="grdc-2" d="m696.77 575.85-19.44-24.09 14.42-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m712.02 379.88-54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m716.09 403.87-26 2.72 6.42-19.18z" />
-                        <path class="grdc-2" d="m705.92 363.73-23.03 16.94 12.81 11.48z" />
-                        <path class="grdc-2" d="m677.04 375.6-15.95 28.58 15.09 3.14z" />
-                        <path class="grdc-2" d="m689.84 365.98-16.67 27.79 15 3.87z" />
-                        <path class="grdc-2" d="m687.49 425.66-24.5-12.37 11.55-13.81z" />
-                        <path class="grdc-2" d="m702.01 424.32-24.79-11.17 11.19-14.36z" />
-                    </g>
-                    <path class="grdc-1" d="m586.1 421.45 72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m598.17 304.36 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m597.35 328.98 25.51-7.41-10-15.95z" />
-                        <path class="grdc-2" d="m581.7 294.49 18.78 25.07 3.87-20.45z" />
-                        <path class="grdc-2" d="m599.07 286.5 25.52 7.4-10.01 15.96z" />
-                        <path class="grdc-2" d="m629.19 286.77 21.05 21.31-13.86 8.83z" />
-                        <path class="grdc-2" d="m614.97 282.46 21.58 20.28-13.63 9.49z" />
-                        <path class="grdc-2" d="m629.19 338.88 21.05-21.31-13.86-8.83z" />
-                        <path class="grdc-2" d="m614.97 343.2 21.58-20.28-13.63-9.5z" />
-                    </g>
-                    <path class="grdc-1" d="m602.17 344.45 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m598.57 368.58 26.03 1.77-6.78-18.94z" />
-                        <path class="grdc-2" d="m589.7 329.74 13.61 30.83 7.47-18.44z" />
-                        <path class="grdc-2" d="m607.97 328.09 23.34 16.09-12.59 11.94z" />
-                        <path class="grdc-2" d="m637.05 338.89 16.49 27.99-15.01 3.69z" />
-                        <path class="grdc-2" d="m624.09 329.74 17.18 27.18-14.92 4.41z" />
-                        <path class="grdc-2" d="m627.57 389.31 24.25-13.25-11.81-13.39z" />
-                        <path class="grdc-2" d="m613.03 388.51 24.57-12.07-11.46-13.95z" />
-                    </g>
-                    <path class="grdc-1" d="m599.44 395.49 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m595.81 419.99 26.03-1.73-8.07-17.94z" />
-                        <path class="grdc-2" d="m584.27 382.52 15.7 28.86 6.15-19.35z" />
-                        <path class="grdc-2" d="m602.34 378.43 24.35 12.88-11.69 13.57z" />
-                        <path class="grdc-2" d="m632.04 385.28 18.37 25.65-14.69 5.68z" />
-                        <path class="grdc-2" d="m618.5 377.91 19 24.74-14.54 6.4z" />
-                        <path class="grdc-2" d="m626.12 436.74 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m596.58 469.28 25.94 3.59-6.08-19.39z" />
-                        <path class="grdc-2" d="m581.78 441.48 21.94 19.51 0.93-21.1z" />
-                        <path class="grdc-2" d="m592.61 407.46 20.89 21.63-13.93 8.62z" />
-                        <path class="grdc-2" d="m607.45 429.5 22.72 17.7-13.01 11.04z" />
-                        <path class="grdc-2" d="m627.61 497.96 25.93 3.59-6.07-19.4z" />
-                        <path class="grdc-2" d="m638.47 458.17 22.73 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m636.11 442.32 15.44 29.11-15.13 2.64z" />
-                        <path class="grdc-2" d="m623.49 432.28 16.17 28.34-15.06 3.37z" />
-                        <path class="grdc-2" d="m624.79 492.02 24.7-11.54-11.3-14.2z" />
-                        <path class="grdc-2" d="m618.52 439.64 19.44-24.09-14.43-6.89z" />
-                    </g>
-                    <path class="grdc-1" d="m603.27 243.67 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m599.2 267.67 26 2.71-6.42-19.18z" />
-                        <path class="grdc-2" d="m591.08 228.51 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m609.37 227.53 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m638.25 239.39 15.95 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m625.45 229.77 16.67 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m627.8 289.45 24.5-12.37-11.55-13.81z" />
-                        <path class="grdc-2" d="m613.28 288.12 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m598.17 483.58 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-2" d="m581.7 473.71 18.78 25.07 3.87-20.45z" />
-                    <path class="grdc-2" d="m614.97 461.68 21.58 20.28-13.63 9.49z" />
-                    <path class="grdc-1" d="m603.27 422.89 54.6 39.31" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m599.2 446.89 26 2.72-6.42-19.19z" />
-                        <path class="grdc-2" d="m591.08 407.73 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m638.25 418.61 15.95 28.58-15.09 3.14z" />
-                        <path class="grdc-2" d="m625.45 408.99 16.67 27.79-15 3.87z" />
-                        <path class="grdc-2" d="m627.8 468.67 24.5-12.36-11.55-13.82z" />
-                        <path class="grdc-2" d="m613.28 467.34 24.79-11.17-11.19-14.37z" />
-                    </g>
-                    <path class="grdc-1" d="m585.46 581.55 72.4 74.08" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m597.53 464.46 60.33 16.73" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m581.06 454.59 18.78 25.07 3.87-20.45z" />
-                        <path class="grdc-2" d="m628.55 446.88 21.05 21.31-13.86 8.82z" />
-                        <path class="grdc-2" d="m614.33 442.56 21.58 20.28-13.63 9.5z" />
-                        <path class="grdc-2" d="m614.33 503.3 21.58-20.28-13.63-9.49z" />
-                    </g>
-                    <path class="grdc-1" d="m601.53 504.55 55.33 37.3" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m597.92 528.69 26.04 1.77-6.78-18.95z" />
-                        <path class="grdc-2" d="m589.06 489.84 13.61 30.83 7.47-18.43z" />
-                        <path class="grdc-2" d="m607.33 488.19 23.34 16.1-12.59 11.93z" />
-                        <path class="grdc-2" d="m636.42 499 16.48 27.99-15.01 3.68z" />
-                        <path class="grdc-2" d="m623.45 489.85 17.18 27.17-14.92 4.42z" />
-                        <path class="grdc-2" d="m626.93 549.42 24.25-13.25-11.81-13.4z" />
-                        <path class="grdc-2" d="m612.39 548.62 24.57-12.07-11.46-13.96z" />
-                    </g>
-                    <path class="grdc-1" d="m598.8 555.59 57.67 29.71" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m595.17 580.1 26.03-1.73-8.07-17.95z" />
-                        <path class="grdc-2" d="m583.63 542.62 15.7 28.86 6.15-19.35z" />
-                        <path class="grdc-2" d="m601.7 538.53 24.35 12.89-11.69 13.57z" />
-                        <path class="grdc-2" d="m631.4 545.38 18.37 25.65-14.69 5.69z" />
-                        <path class="grdc-2" d="m617.86 538.01 19 24.75-14.54 6.39z" />
-                        <path class="grdc-2" d="m625.48 596.84 23.21-16.44-12.68-11.75z" />
-                        <path class="grdc-2" d="m591.97 567.57 20.89 21.62-13.93 8.62z" />
-                        <path class="grdc-2" d="m606.81 589.6 22.72 17.71-13.01 11.04z" />
-                        <path class="grdc-2" d="m622.85 592.38 16.17 28.35-15.06 3.36z" />
-                        <path class="grdc-2" d="m617.88 599.74 19.44-24.08-14.42-6.89z" />
-                        <path class="grdc-2" d="m608.73 387.63 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m637.61 399.49 15.95 28.59-15.09 3.14z" />
-                        <path class="grdc-2" d="m624.81 389.87 16.67 27.8-15 3.87z" />
-                    </g>
-                    <path class="grdc-1" d="m602.63 583 54.6 39.31" fill="none" stroke="#0a6149" stroke-miterlimit="10"
-                        stroke-width="2px" />
-                    <g>
-                        <path class="grdc-2" d="m598.56 606.99 26 2.72-6.42-19.18z" />
-                        <path class="grdc-2" d="m590.44 567.84 13.02 31.31 7.82-18.15z" />
-                        <path class="grdc-2" d="m608.73 566.85 23.03 16.94-12.81 11.47z" />
-                        <path class="grdc-2" d="m637.61 578.71 15.95 28.59-15.09 3.14z" />
-                        <path class="grdc-2" d="m624.81 569.1 16.67 27.79-15 3.87z" />
-                    </g>
-                    <path class="grdc-3"
-                        d="m73.15 58.23v667.15c0 9-0.16 18 0 27v1.18c0 2.9 4.5 2.9 4.5 0v-667.1c0-9 0.17-18 0-27.05v-1.18c0-2.89-4.5-2.9-4.5 0z" />
-                    <path class="grdc-3"
-                        d="m230.2 58.23v667.15c0 9-0.16 18 0 27v1.18c0 2.9 4.5 2.9 4.5 0v-667.1c0-9 0.16-18 0-27.05v-1.18c0-2.89-4.5-2.9-4.5 0z" />
-                    <path class="grdc-3"
-                        d="m426.69 57.23v667.15c0 9-0.16 18 0 27v1.18c0 2.9 4.5 2.9 4.5 0v-667.1c0-9 0.17-18 0-27.05v-1.18c0-2.89-4.5-2.9-4.5 0z" />
-                    <path class="grdc-3"
-                        d="m652.49 58.23v667.15c0 9-0.16 18 0 27v1.18c0 2.9 4.5 2.9 4.5 0v-667.1c0-9 0.16-18 0-27.05v-1.18c0-2.89-4.5-2.9-4.5 0z" />
-                    <path class="grdc-3"
-                        d="m144.58 3.17v619.1c0 8.36-0.15 16.74 0 25.1v1.1c0 2.89 4.5 2.9 4.5 0v-619.1c0-8.36 0.15-16.74 0-25.1v-1.09c0-2.9-4.5-2.9-4.5 0z" />
-                    <path class="grdc-3"
-                        d="m326.92 3.17v619.1c0 8.36-0.15 16.74 0 25.1v1.1c0 2.89 4.5 2.9 4.5 0v-619.1c0-8.36 0.15-16.74 0-25.1v-1.09c0-2.9-4.5-2.9-4.5 0z" />
-                    <path class="grdc-3"
-                        d="m536.45 2.17v619.1c0 8.36-0.15 16.74 0 25.1v1.1c0 2.89 4.5 2.9 4.5 0v-619.1c0-8.36 0.15-16.74 0-25.1v-1.09c0-2.9-4.5-2.9-4.5 0z" />
-                    <g>
-                        <path class="grdc-3"
-                            d="m1200.1 762.46a35.81 35.81 0 0 1-35.81 35.81 35.81 35.81 0 0 1-35.81-35.81 35.81 35.81 0 0 1 35.81-35.81 35.81 35.81 0 0 1 35.81 35.81z" />
-                        <path class="grdc-3"
-                            d="m1253.2 767.77a35.81 35.81 0 0 1-35.81 35.81 35.81 35.81 0 0 1-35.81-35.81 35.81 35.81 0 0 1 35.81-35.81 35.81 35.81 0 0 1 35.81 35.81z" />
-                        <path class="grdc-3"
-                            d="m1415.9 767.77a35.81 35.81 0 0 1-35.81 35.81 35.81 35.81 0 0 1-35.81-35.81 35.81 35.81 0 0 1 35.81-35.81 35.81 35.81 0 0 1 35.81 35.81z" />
-                        <path class="grdc-3"
-                            d="m1491.9 767.77a35.81 35.81 0 0 1-35.81 35.81 35.81 35.81 0 0 1-35.81-35.81 35.81 35.81 0 0 1 35.81-35.81 35.81 35.81 0 0 1 35.81 35.81z" />
-                    </g>
-                    <!-- <<< Leaves -->
-                    <g id=crown>
-                        <path class="grdc-3" d="m1110.9 312.62h20v551.11h-20z" />
-                        <path class="grdc-4" d="m1072.6 287.11s9.61-63.11-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1051.6 284.17s-37.64-51.56-64.23 13.44c0 0.02 63.23 40.9 64.23-13.44z" />
-                        <path class="grdc-2"
-                            d="m1071.8 306.76s-62.35-13.66-39.19 52.64c-0.01 0 74.43-11.29 39.19-52.64z" />
-                        <path class="grdc-4" d="m1084.9 299.05s-36.66-52.26-64.48 12.22c0 0 62.44 42.08 64.48-12.22z" />
-                        <path class="grdc-4" d="m1017.6 232.17s9.6-63.1-55.06-35.71c0-0.04 16.07 73.52 55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m996.62 229.17s-37.64-51.55-64.23 13.44c0 0.04 63.23 40.93 64.23-13.44z" />
-                        <path class="grdc-2"
-                            d="m1016.8 251.79s-62.36-13.67-39.2 52.63c0.02 0 74.47-11.25 39.2-52.63z" />
-                        <path class="grdc-4" d="m1030 244.08s-36.65-52.26-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m1082.1 232.17s9.61-63.1-55-35.71c-0.05-0.04 16.02 73.52 55 35.71z" />
-                        <path class="grdc-2"
-                            d="m1061.1 229.17s-37.64-51.55-64.23 13.44c0 0.04 63.23 40.93 64.23-13.44z" />
-                        <path class="grdc-2" d="m1081.3 251.79s-62.35-13.67-39.19 52.63c0 0 74.45-11.25 39.19-52.63z" />
-                        <path class="grdc-4" d="m1094.4 244.08s-36.65-52.26-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m1054.3 169.01s9.6-63.1-55.06-35.71c0 0 16.07 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1033.3 166.09s-37.64-51.55-64.23 13.44c0 0 63.23 40.89 64.23-13.44z" />
-                        <path class="grdc-2" d="m1053.4 188.67s-62.36-13.67-39.2 52.63c0 0 74.45-11.29 39.2-52.63z" />
-                        <path class="grdc-4" d="m1066.6 180.96s-36.65-52.26-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m1091.6 127.61s9.6-63.1-55.06-35.71c0 0 16.07 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1070.6 124.69s-37.64-51.52-64.23 13.48c0 0 63.23 40.85 64.23-13.48z" />
-                        <path class="grdc-2"
-                            d="m1090.8 147.27s-62.35-13.67-39.19 52.63c-0.01 0 74.44-11.29 39.19-52.63z" />
-                        <path class="grdc-4" d="m1103.9 139.56s-36.65-52.27-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m1019.6 147.29s9.61-63.1-55-35.71c-0.05 0 16.02 73.59 55 35.71z" />
-                        <path class="grdc-2" d="m998.66 144.37s-37.64-51.55-64.23 13.44c0 0 63.23 40.89 64.23-13.44z" />
-                        <path class="grdc-2" d="m1018.8 166.95s-62.35-13.66-39.19 52.63c0 0 74.44-11.28 39.19-52.63z" />
-                        <path class="grdc-4" d="m1032 159.24s-36.65-52.26-64.48 12.21c0 0 62.44 42.09 64.48-12.21z" />
-                        <path class="grdc-4" d="m978.24 211.77s9.61-63.1-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m957.26 208.85s-37.64-51.55-64.24 13.44c0 0 63.24 40.88 64.24-13.44z" />
-                        <path class="grdc-2" d="m977.42 231.43s-62.35-13.67-39.19 52.63c0 0 74.44-11.29 39.19-52.63z" />
-                        <path class="grdc-4" d="m990.59 223.72s-36.65-52.27-64.47 12.21c0 0 62.44 42.08 64.47-12.21z" />
-                        <path class="grdc-2"
-                            d="m1133.8 215.64s-37.64-51.56-64.23 13.44c-0.05 0 63.23 40.88 64.23-13.44z" />
-                        <path class="grdc-4"
-                            d="m1115.3 198.17s9.61-63.11-55.06-35.71c0 0.03 16.08 73.59 55.06 35.71z" />
-                        <path class="grdc-2" d="m1094.4 195.28s-37.64-51.56-64.24 13.44c0 0 63.24 40.88 64.24-13.44z" />
-                        <path class="grdc-4"
-                            d="m1127.7 210.17s-36.65-52.26-64.47 12.22c0-0.03 62.44 42.05 64.47-12.22z" />
-                        <path class="grdc-4" d="m1008.1 284.39s9.61-63.1-55-35.71c-0.05 0 16.02 73.56 55 35.71z" />
-                        <path class="grdc-2" d="m987.12 281.47s-37.64-51.55-64.23 13.44c0 0 63.23 40.89 64.23-13.44z" />
-                        <path class="grdc-2" d="m1007.3 304.05s-62.35-13.66-39.19 52.63c0 0 74.45-11.28 39.19-52.63z" />
-                        <path class="grdc-4" d="m1020.5 296.34s-36.65-52.26-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m1102.2 288.47s-9.6-63.11 55.06-35.72c0 0-16.07 73.57-55.06 35.72z" />
-                        <path class="grdc-2" d="m1123.2 285.54s37.64-51.55 64.23 13.45c0 0-63.23 40.88-64.23-13.45z" />
-                        <path class="grdc-2" d="m1103 308.17s62.35-13.66 39.19 52.64c0-0.05-74.45-11.34-39.19-52.64z" />
-                        <path class="grdc-4" d="m1089.8 300.41s36.65-52.26 64.48 12.22c0 0-62.44 42.08-64.48-12.22z" />
-                        <path class="grdc-4" d="m1157.2 233.49s-9.61-63.1 55.06-35.71c0 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1178.2 230.57s37.64-51.56 64.24 13.44c0 0-63.23 40.88-64.24-13.44z" />
-                        <path class="grdc-2" d="m1158 253.17s62.35-13.66 39.19 52.64c0-0.03-74.42-11.32-39.19-52.64z" />
-                        <path class="grdc-4" d="m1144.8 245.43s36.65-52.26 64.47 12.22c0 0-62.44 42.08-64.47-12.22z" />
-                        <path class="grdc-4" d="m1092.7 233.49s-9.6-63.1 55.06-35.71c0.01 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-4"
-                            d="m1143.6 291.86s-9.61-63.11 55.05-35.71c0 0.02-16.07 73.56-55.05 35.71z" />
-                        <path class="grdc-2" d="m1113.7 230.57s37.63-51.56 64.23 13.44c0 0-63.23 40.88-64.23-13.44z" />
-                        <path class="grdc-2"
-                            d="m1093.5 253.17s62.36-13.66 39.2 52.64c0.05-0.03-74.45-11.32-39.2-52.64z" />
-                        <path class="grdc-4" d="m1080.4 245.43s36.65-52.26 64.48 12.22c0 0-62.45 42.08-64.48-12.22z" />
-                        <path class="grdc-4" d="m1120.5 170.37s-9.61-63.1 55.06-35.71c0 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1141.5 167.45s37.64-51.56 64.24 13.44c0.02 0-63.24 40.88-64.24-13.44z" />
-                        <path class="grdc-2" d="m1121.4 190.02s62.35-13.66 39.19 52.64c0 0-74.44-11.29-39.19-52.64z" />
-                        <path class="grdc-4" d="m1108.2 182.31s36.65-52.26 64.47 12.22c0 0-62.44 42.08-64.47-12.22z" />
-                        <path class="grdc-4" d="m1083.2 128.97s-9.61-63.11 55.06-35.71c0 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1104.2 126.05s37.64-51.56 64.24 13.44c0 0-63.23 40.88-64.24-13.44z" />
-                        <path class="grdc-2" d="m1084 148.62s62.35-13.66 39.19 52.64c0 0-74.44-11.29-39.19-52.64z" />
-                        <path class="grdc-4"
-                            d="m1070.8 140.91s36.65-52.26 64.47 12.22c0 0.04-62.44 42.04-64.47-12.22z" />
-                        <path class="grdc-4" d="m1155.1 148.65s-9.6-63.1 55.06-35.71c0 0-16.07 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1176.1 145.73s37.64-51.56 64.23 13.44c0 0-63.23 40.89-64.23-13.44z" />
-                        <path class="grdc-2" d="m1156 168.31s62.36-13.67 39.2 52.63c0 0-74.45-11.29-39.2-52.63z" />
-                        <path class="grdc-4"
-                            d="m1142.8 160.6s36.65-52.27 64.48 12.21c0.02 0-62.42 42.08-64.48-12.21z" />
-                        <path class="grdc-4" d="m1014.9 164.94s9.61-63.1-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m993.91 162.02s-37.64-51.55-64.24 13.44c0 0 63.24 40.88 64.24-13.44z" />
-                        <path class="grdc-4" d="m1027.2 176.88s-36.65-52.26-64.47 12.22c0 0 62.44 42.07 64.47-12.22z" />
-                        <path class="grdc-4" d="m1052.2 123.54s9.61-63.11-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1031.2 120.62s-37.64-51.56-64.24 13.44c0 0 63.23 40.88 64.24-13.44z" />
-                        <path class="grdc-2"
-                            d="m1051.4 143.17s-62.35-13.66-39.19 52.64c0 0.02 74.44-11.27 39.19-52.64z" />
-                        <path class="grdc-4" d="m1064.6 135.48s-36.65-52.26-64.47 12.22c0 0 62.44 42.08 64.47-12.22z" />
-                        <path class="grdc-4" d="m980.28 143.22s9.6-63.1-55.06-35.71c0 0 16.07 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m959.29 140.3s-37.63-51.55-64.23 13.44c0 0 63.23 40.89 64.23-13.44z" />
-                        <path class="grdc-2" d="m979.46 162.88s-62.36-13.67-39.2 52.63c0 0 74.45-11.29 39.2-52.63z" />
-                        <path class="grdc-4" d="m992.63 155.17s-36.65-52.26-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m938.88 207.7s9.6-63.11-55.06-35.71c0 0 16.07 73.56 55.06 35.71z" />
-                        <path class="grdc-4" d="m1076 194.17s9.6-63.1-55.06-35.71c0-0.05 16.07 73.52 55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1055 191.17s-37.64-51.55-64.23 13.45c0.01 0.03 63.23 40.91 64.23-13.45z" />
-                        <path class="grdc-4" d="m1081.2 166.3s-9.6-63.11 55.06-35.71c0 0-16.07 73.58-55.06 35.71z" />
-                        <path class="grdc-2" d="m1102.2 163.38s37.64-51.56 64.23 13.44c0 0-63.23 40.88-64.23-13.44z" />
-                        <path class="grdc-4"
-                            d="m1068.8 178.24s36.65-52.26 64.48 12.22c0.04 0-62.4 42.08-64.48-12.22z" />
-                        <path class="grdc-4" d="m1043.8 124.9s-9.6-63.11 55.06-35.71c0-0.02-16.07 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1064.8 121.97s37.64-51.55 64.23 13.45c0 0-63.23 40.88-64.23-13.45z" />
-                        <path class="grdc-2"
-                            d="m1044.7 144.55s62.35-13.66 39.19 52.64c0-0.02-74.45-11.29-39.19-52.64z" />
-                        <path class="grdc-4" d="m1031.5 136.84s36.65-52.26 64.48 12.22c0 0-62.44 42.11-64.48-12.22z" />
-                        <path class="grdc-4"
-                            d="m1115.8 144.58s-9.61-63.11 55.06-35.71c0.01 0-16.06 73.56-55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1116.6 164.23s62.35-13.66 39.19 52.64c-0.02 0-74.44-11.29-39.19-52.64z" />
-                        <path class="grdc-4" d="m1103.4 156.52s36.66-52.26 64.48 12.22c0 0-62.44 42.08-64.48-12.22z" />
-                        <path class="grdc-4" d="m997.92 257.25s9.61-63.11-55.05-35.72c0 0 16.07 73.57 55.05 35.72z" />
-                        <path class="grdc-2" d="m976.94 254.32s-37.64-51.55-64.23 13.45c0 0 63.23 40.88 64.23-13.45z" />
-                        <path class="grdc-4"
-                            d="m1010.3 269.17s-36.65-52.26-64.48 12.22c-0.03 0.02 62.44 42.1 64.48-12.22z" />
-                        <path class="grdc-4" d="m1035.2 215.84s9.61-63.1-55-35.71c-0.05 0.04 16.02 73.56 55 35.71z" />
-                        <path class="grdc-2" d="m1014.3 212.92s-37.64-51.55-64.23 13.44c0 0 63.23 40.89 64.23-13.44z" />
-                        <path class="grdc-2"
-                            d="m1034.4 235.5s-62.35-13.66-39.19 52.63c0 0.04 74.44-11.28 39.19-52.63z" />
-                        <path class="grdc-4" d="m1047.6 227.79s-36.65-52.26-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m963.31 235.53s9.61-63.11-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m942.33 232.6s-37.64-51.55-64.24 13.45c0 0 63.23 40.88 64.24-13.45z" />
-                        <path class="grdc-2" d="m1229.7 223.78s37.63-51.55 64.23 13.44c0 0-63.23 40.89-64.23-13.44z" />
-                        <path class="grdc-2" d="m1227.6 138.94s37.64-51.55 64.23 13.44c0 0-63.23 40.89-64.23-13.44z" />
-                        <path class="grdc-4" d="m1248 206.34s-9.61-63.1 55-35.71c0.05 0-16.02 73.54-55 35.71z" />
-                        <path class="grdc-2" d="m1269 203.42s37.64-51.55 64.23 13.44c0 0-63.23 40.89-64.23-13.44z" />
-                        <path class="grdc-4" d="m1235.7 218.29s36.65-52.26 64.48 12.21c0 0-62.4 42.08-64.48-12.21z" />
-                        <path class="grdc-2" d="m1232.4 156.59s37.64-51.55 64.23 13.44c0 0-63.23 40.88-64.23-13.44z" />
-                        <path class="grdc-4" d="m1246 137.79s-9.61-63.1 55.06-35.71c0 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1267 134.87s37.64-51.55 64.24 13.44c0 0-63.23 40.86-64.24-13.44z" />
-                        <path class="grdc-2" d="m1246.8 157.45s62.35-13.67 39.2 52.63c0 0-74.45-11.29-39.2-52.63z" />
-                        <path class="grdc-4" d="m1233.7 149.74s36.65-52.26 64.48 12.21c0 0-62.45 42.08-64.48-12.21z" />
-                        <path class="grdc-4" d="m1287.4 202.27s-9.64-63.1 55.06-35.71c0 0-16.08 73.61-55.06 35.71z" />
-                        <path class="grdc-4" d="m1228.4 251.82s-9.6-63.11 55.06-35.72c0 0-16.07 73.57-55.06 35.72z" />
-                        <path class="grdc-4" d="m1263 230.1s-9.61-63.11 55.06-35.71c0 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1284 227.17s37.64-51.55 64.24 13.45c0 0-63.24 40.88-64.24-13.45z" />
-                        <path class="grdc-2"
-                            d="m962.49 255.17s-62.35-13.66-39.2 52.64c0 0.01 74.48-11.28 39.2-52.64z" />
-                        <path class="grdc-4" d="m975.66 247.47s-36.65-52.3-64.47 12.22c0 0 62.44 42.08 64.47-12.22z" />
-                        <path class="grdc-4" d="m921.91 300s9.6-63.1-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-4" d="m1059 286.43s9.6-63.1-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1038 283.51s-37.63-51.56-64.23 13.44c-0.02 0 63.23 40.88 64.23-13.44z" />
-                        <path class="grdc-4" d="m1064.2 258.6s-9.61-63.1 55-35.71c0.05 0-16.02 73.56-55 35.71z" />
-                        <path class="grdc-2" d="m1085.2 255.68s37.64-51.51 64.23 13.49c0 0-63.23 40.84-64.23-13.49z" />
-                        <path class="grdc-4" d="m1051.8 270.55s36.65-52.26 64.48 12.21c0 0-62.44 42.08-64.48-12.21z" />
-                        <path class="grdc-4"
-                            d="m1026.9 217.17s-9.61-63.1 55.05-35.71c0 0.03-16.07 73.59-55.05 35.71z" />
-                        <path class="grdc-2" d="m1047.8 214.28s37.64-51.55 64.23 13.44c0 0-63.23 40.89-64.23-13.44z" />
-                        <path class="grdc-2" d="m1027.7 236.86s62.35-13.67 39.19 52.63c0 0-74.44-11.32-39.19-52.63z" />
-                        <path class="grdc-4"
-                            d="m1014.5 229.17s36.65-52.27 64.48 12.21c0-0.02-62.44 42.06-64.48-12.21z" />
-                        <path class="grdc-4"
-                            d="m1098.8 236.88s-9.61-63.1 55.06-35.71c0.04 0-16.06 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1099.6 256.54s62.35-13.66 39.2 52.63c0 0-74.45-11.28-39.2-52.63z" />
-                        <path class="grdc-4" d="m1086.5 248.83s36.65-52.26 64.47 12.21c0 0-62.44 42.13-64.47-12.21z" />
-                        <path class="grdc-4" d="m1113.3 131.68s9.61-63.1-55-35.71c-0.05 0 16.02 73.56 55 35.71z" />
-                        <path class="grdc-2" d="m1092.3 128.76s-37.64-51.59-64.23 13.41c0 0 63.23 40.92 64.23-13.41z" />
-                        <path class="grdc-4" d="m1125.7 143.63s-36.65-52.26-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m1150.6 90.28s9.61-63.1-55-35.71c-0.05 0 16.02 73.6 55 35.71z" />
-                        <path class="grdc-2" d="m1129.6 87.36s-37.64-51.55-64.23 13.44c0 0 63.23 40.89 64.23-13.44z" />
-                        <path class="grdc-2"
-                            d="m1149.8 109.94s-62.35-13.67-39.19 52.63c0.04 0 74.49-11.29 39.19-52.63z" />
-                        <path class="grdc-4" d="m1163 102.23s-36.65-52.26-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m1078.7 109.96s9.61-63.1-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1057.7 107.04s-37.64-51.55-64.24 13.44c0 0 63.23 40.89 64.24-13.44z" />
-                        <path class="grdc-2" d="m1077.9 129.62s-62.35-13.66-39.19 52.63c0 0 74.44-11.28 39.19-52.63z" />
-                        <path class="grdc-4"
-                            d="m1091 121.91s-36.65-52.26-64.47 12.22c0 0.04 62.44 42.04 64.47-12.22z" />
-                        <path class="grdc-4" d="m1037.3 174.44s9.6-63.1-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-4" d="m1174.4 160.87s9.6-63.11-55.06-35.71c0 0.01 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1153.4 157.95s-37.64-51.56-64.24 13.44c0 0 63.23 40.88 64.24-13.44z" />
-                        <path class="grdc-4" d="m1179.6 133.04s-9.61-63.1 55-35.71c0.05 0-16.02 73.56-55 35.71z" />
-                        <path class="grdc-2"
-                            d="m1200.6 130.17s37.64-51.55 64.23 13.44c-0.02-0.05-63.23 40.84-64.23-13.44z" />
-                        <path class="grdc-4"
-                            d="m1167.2 144.99s36.65-52.27 64.48 12.21c0-0.03-62.44 42.08-64.48-12.21z" />
-                        <path class="grdc-4" d="m1142.2 91.64s-9.61-63.1 55.06-35.71c0 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1163.2 88.72s37.64-51.55 64.23 13.45c0 0-63.23 40.87-64.23-13.45z" />
-                        <path class="grdc-2" d="m1143.1 111.29s62.35-13.66 39.19 52.64c0 0-74.44-11.29-39.19-52.64z" />
-                        <path class="grdc-4" d="m1129.9 103.58s36.65-52.26 64.48 12.22c0 0-62.44 42.08-64.48-12.22z" />
-                        <path class="grdc-4" d="m1214.2 111.32s-9.6-63.1 55.06-35.71c0 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1215 130.98s62.35-13.67 39.2 52.63c0 0-74.44-11.29-39.2-52.63z" />
-                        <path class="grdc-4" d="m1201.8 123.27s36.65-52.26 64.48 12.21c0 0-62.45 42.08-64.48-12.21z" />
-                        <path class="grdc-4" d="m1136.4 268.1s9.61-63.1-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1115.4 265.17s-37.64-51.55-64.24 13.44c0 0.01 63.24 40.9 64.24-13.44z" />
-                        <path class="grdc-4"
-                            d="m1148.8 280.05s-36.65-52.26-64.47 12.22c-0.04 0 62.4 42.08 64.47-12.22z" />
-                        <path class="grdc-4" d="m1173.7 226.7s9.61-63.1-55.06-35.71c0 0 16.12 73.56 55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1152.8 223.78s-37.64-51.55-64.24 13.44c-0.04 0 63.24 40.89 64.24-13.44z" />
-                        <path class="grdc-2" d="m1172.9 246.36s-62.35-13.66-39.2 52.63c0 0 74.45-11.29 39.2-52.63z" />
-                        <path class="grdc-4" d="m1186.1 238.65s-36.65-52.26-64.47 12.21c0 0 62.44 42.08 64.47-12.21z" />
-                        <path class="grdc-4" d="m1101.8 246.39s9.6-63.11-55.06-35.72c0 0 16.06 73.57 55.06 35.72z" />
-                        <path class="grdc-2"
-                            d="m1080.8 243.46s-37.64-51.55-64.23 13.45c0.01 0 63.23 40.88 64.23-13.45z" />
-                        <path class="grdc-2" d="m1101 266.04s-62.36-13.66-39.2 52.64c0.02 0 74.45-11.29 39.2-52.64z" />
-                        <path class="grdc-4" d="m1114.1 258.33s-36.65-52.26-64.48 12.22c0 0 62.44 42.08 64.48-12.22z" />
-                        <path class="grdc-4" d="m1060.4 310.86s9.6-63.1-55.06-35.71c0 0.02 16.07 73.56 55.06 35.71z" />
-                        <path class="grdc-4" d="m1197.5 297.29s9.61-63.11-55-35.71c-0.05 0 16.02 73.59 55 35.71z" />
-                        <path class="grdc-2" d="m1176.5 294.37s-37.64-51.56-64.23 13.44c0 0 63.23 40.88 64.23-13.44z" />
-                        <path class="grdc-4" d="m1202.6 269.46s-9.6-63.1 55.06-35.71c0 0-16.07 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1223.6 266.54s37.63-51.55 64.23 13.44c0 0-63.23 40.89-64.23-13.44z" />
-                        <path class="grdc-4" d="m1190.3 281.41s36.65-52.24 64.47 12.21c0 0-62.43 42.08-64.47-12.21z" />
-                        <path class="grdc-4" d="m1165.3 228.06s-9.6-63.1 55.06-35.71c0 0-16.07 73.56-55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1186.3 225.17s37.64-51.55 64.23 13.44c0-0.03-63.23 40.85-64.23-13.44z" />
-                        <path class="grdc-2" d="m1166.2 247.72s62.35-13.67 39.19 52.63c0 0-74.45-11.29-39.19-52.63z" />
-                        <path class="grdc-4" d="m1153 240s36.65-52.26 64.48 12.22c0 0-62.44 42.08-64.48-12.22z" />
-                        <path class="grdc-4" d="m1237.3 247.74s-9.61-63.1 55-35.71c0.05 0-16.02 73.56-55 35.71z" />
-                        <path class="grdc-2" d="m1238.1 267.4s62.35-13.66 39.19 52.63c0 0-74.44-11.29-39.19-52.63z" />
-                        <path class="grdc-4" d="m1224.9 259.69s36.65-52.26 64.48 12.21c0 0-62.44 42.08-64.48-12.21z" />
-                        <path class="grdc-4"
-                            d="m1196.5 213.17s-9.6-63.11 55.06-35.71c0-0.04-16.07 73.52-55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1217.5 210.17s37.64-51.56 64.23 13.44c0.01 0.04-63.23 40.92-64.23-13.44z" />
-                        <path class="grdc-2" d="m1197.4 232.78s62.4-13.61 39.19 52.64c0 0-74.45-11.25-39.19-52.64z" />
-                        <path class="grdc-4" d="m1184.2 225.07s36.65-52.26 64.48 12.22c0 0-62.44 42.08-64.48-12.22z" />
-                        <path class="grdc-4" d="m1166.7 285.75s-9.6-63.1 55.06-35.71c0.03 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-4"
-                            d="m1041.8 115.39s-9.61-63.1 55.06-35.71c0.03 0-16.06 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1187.7 282.83s37.64-51.55 64.24 13.44c0 0-63.23 40.9-64.24-13.44z" />
-                        <path class="grdc-2" d="m1167.5 305.41s62.35-13.67 39.2 52.63c0 0-74.45-11.29-39.2-52.63z" />
-                        <path class="grdc-4"
-                            d="m1154.3 297.7s36.65-52.27 64.48 12.21c-0.04 0-62.45 42.08-64.48-12.21z" />
-                        <path class="grdc-3" d="m1385.1 312.62h20v551.11h-20z" />
-                        <path class="grdc-4" d="m1443.4 287.11s-9.6-63.11 55.06-35.71c0 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1464.4 284.17s37.64-51.56 64.24 13.44c0 0.02-63.23 40.9-64.24-13.44z" />
-                        <path class="grdc-2" d="m1444.2 306.76s62.35-13.66 39.2 52.64c0 0-74.45-11.29-39.2-52.64z" />
-                        <path class="grdc-4" d="m1431 299.05s36.65-52.26 64.48 12.22c0 0-62.45 42.08-64.48-12.22z" />
-                        <path class="grdc-4"
-                            d="m1498.4 232.17s-9.61-63.1 55.05-35.71c0-0.04-16.07 73.52-55.05 35.71z" />
-                        <path class="grdc-2"
-                            d="m1519.4 229.17s37.64-51.55 64.23 13.44c0 0.04-63.23 40.93-64.23-13.44z" />
-                        <path class="grdc-2" d="m1499.2 251.79s62.35-13.67 39.19 52.63c0 0-74.44-11.25-39.19-52.63z" />
-                        <path class="grdc-4" d="m1486 244.08s36.65-52.26 64.48 12.21c0 0-62.44 42.08-64.48-12.21z" />
-                        <path class="grdc-4"
-                            d="m1433.9 232.17s-9.61-63.1 55.06-35.71c0-0.04-16.08 73.52-55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1454.9 229.17s37.64-51.55 64.24 13.44c0 0.04-63.23 40.93-64.24-13.44z" />
-                        <path class="grdc-2" d="m1434.7 251.79s62.35-13.67 39.19 52.63c0 0-74.44-11.25-39.19-52.63z" />
-                        <path class="grdc-4" d="m1421.5 244.08s36.65-52.26 64.47 12.21c0 0-62.44 42.08-64.47-12.21z" />
-                        <path class="grdc-4" d="m1461.8 169.01s-9.61-63.1 55-35.71c0 0-16.07 73.56-55 35.71z" />
-                        <path class="grdc-2" d="m1482.7 166.09s37.64-51.55 64.23 13.44c0 0-63.23 40.89-64.23-13.44z" />
-                        <path class="grdc-2"
-                            d="m1462.5 188.67s62.35-13.67 39.19 52.63c0.04 0-74.44-11.29-39.19-52.63z" />
-                        <path class="grdc-4" d="m1449.4 180.96s36.65-52.26 64.48 12.21c0 0-62.44 42.08-64.48-12.21z" />
-                        <path class="grdc-4" d="m1424.4 127.61s-9.61-63.1 55.05-35.71c0 0-16.07 73.56-55.05 35.71z" />
-                        <path class="grdc-2" d="m1445.4 124.69s37.64-51.52 64.23 13.48c0 0-63.23 40.85-64.23-13.48z" />
-                        <path class="grdc-2" d="m1425.2 147.27s62.35-13.67 39.19 52.63c0 0-74.44-11.29-39.19-52.63z" />
-                        <path class="grdc-4" d="m1412 139.56s36.65-52.27 64.48 12.21c0 0-62.44 42.08-64.48-12.21z" />
-                        <path class="grdc-4" d="m1496.3 147.29s-9.61-63.1 55.06-35.71c0 0-16.08 73.59-55.06 35.71z" />
-                        <path class="grdc-2" d="m1517.3 144.37s37.64-51.55 64.24 13.44c0 0-63.23 40.89-64.24-13.44z" />
-                        <path class="grdc-2" d="m1497.2 166.95s62.35-13.66 39.2 52.63c0 0-74.45-11.28-39.2-52.63z" />
-                        <path class="grdc-4" d="m1484 159.24s36.65-52.26 64.48 12.21c0 0-62.45 42.09-64.48-12.21z" />
-                        <path class="grdc-4"
-                            d="m1537.8 211.77s-9.6-63.1 55.06-35.71c-0.06 0-16.12 73.56-55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1558.8 208.85s37.63-51.55 64.23 13.44c-0.05 0-63.23 40.88-64.23-13.44z" />
-                        <path class="grdc-2" d="m1538.6 231.43s62.36-13.67 39.2 52.63c0.02 0-74.45-11.29-39.2-52.63z" />
-                        <path class="grdc-4" d="m1525.4 223.72s36.65-52.27 64.48 12.21c0 0-62.44 42.08-64.48-12.21z" />
-                        <path class="grdc-2" d="m1382.2 215.64s37.64-51.56 64.23 13.44c0 0-63.23 40.88-64.23-13.44z" />
-                        <path class="grdc-4"
-                            d="m1400.6 198.17s-9.6-63.11 55.06-35.71c0 0.03-16.07 73.59-55.06 35.71z" />
-                        <path class="grdc-2" d="m1421.6 195.28s37.63-51.56 64.23 13.44c0 0-63.23 40.88-64.23-13.44z" />
-                        <path class="grdc-4"
-                            d="m1388.3 210.17s36.65-52.26 64.48 12.22c0.01-0.03-62.44 42.05-64.48-12.22z" />
-                        <path class="grdc-4" d="m1507.9 284.39s-9.61-63.1 55.06-35.71c0 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1528.8 281.47s37.64-51.55 64.24 13.44c0 0-63.24 40.89-64.24-13.44z" />
-                        <path class="grdc-2" d="m1508.7 304.05s62.35-13.66 39.19 52.63c0 0-74.44-11.28-39.19-52.63z" />
-                        <path class="grdc-4" d="m1495.5 296.34s36.65-52.26 64.47 12.21c0 0-62.44 42.08-64.47-12.21z" />
-                        <path class="grdc-4" d="m1413.8 288.47s9.61-63.11-55.06-35.72c0 0 16.06 73.57 55.06 35.72z" />
-                        <path class="grdc-2"
-                            d="m1392.8 285.54s-37.64-51.55-64.24 13.45c0.02 0 63.24 40.88 64.24-13.45z" />
-                        <path class="grdc-2"
-                            d="m1413 308.17s-62.35-13.66-39.2 52.64c0.02-0.05 74.45-11.34 39.2-52.64z" />
-                        <path class="grdc-4" d="m1426.1 300.41s-36.65-52.26-64.47 12.22c0 0 62.44 42.08 64.47-12.22z" />
-                        <path class="grdc-4" d="m1358.8 233.49s9.61-63.1-55-35.71c0 0 16 73.56 55 35.71z" />
-                        <path class="grdc-2"
-                            d="m1337.8 230.57s-37.64-51.56-64.23 13.44c0.04 0 63.23 40.88 64.23-13.44z" />
-                        <path class="grdc-2"
-                            d="m1358 253.17s-62.35-13.66-39.19 52.64c-0.01-0.03 74.45-11.32 39.19-52.64z" />
-                        <path class="grdc-4" d="m1371.2 245.43s-36.65-52.26-64.48 12.22c0 0 62.44 42.08 64.48-12.22z" />
-                        <path class="grdc-4" d="m1423.3 233.49s9.61-63.1-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-4" d="m1372.4 291.86s9.6-63.11-55.06-35.71c0 0.02 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1402.3 230.57s-37.64-51.56-64.24 13.44c0 0 63.24 40.88 64.24-13.44z" />
-                        <path class="grdc-2"
-                            d="m1422.4 253.17s-62.35-13.66-39.19 52.64c0-0.03 74.44-11.32 39.19-52.64z" />
-                        <path class="grdc-4" d="m1435.6 245.43s-36.65-52.26-64.47 12.22c0 0 62.44 42.08 64.47-12.22z" />
-                        <path class="grdc-4" d="m1395.4 170.37s9.61-63.1-55.05-35.71c0 0 16.07 73.56 55.05 35.71z" />
-                        <path class="grdc-2" d="m1374.5 167.45s-37.64-51.56-64.23 13.44c0 0 63.23 40.88 64.23-13.44z" />
-                        <path class="grdc-2" d="m1394.6 190.02s-62.35-13.66-39.19 52.64c0 0 74.45-11.29 39.19-52.64z" />
-                        <path class="grdc-4"
-                            d="m1407.8 182.31s-36.65-52.26-64.48 12.22c0.03 0 62.48 42.08 64.48-12.22z" />
-                        <path class="grdc-4" d="m1432.8 128.97s9.61-63.11-55-35.71c0 0 16 73.56 55 35.71z" />
-                        <path class="grdc-2"
-                            d="m1411.8 126.05s-37.64-51.56-64.23 13.44c0.02 0 63.23 40.88 64.23-13.44z" />
-                        <path class="grdc-2"
-                            d="m1432 148.62s-62.35-13.66-39.19 52.64c0.01 0 74.44-11.29 39.19-52.64z" />
-                        <path class="grdc-4"
-                            d="m1445.1 140.91s-36.65-52.26-64.48 12.22c0 0.04 62.44 42.04 64.48-12.22z" />
-                        <path class="grdc-4" d="m1360.8 148.65s9.61-63.1-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1339.8 145.73s-37.64-51.56-64.24 13.44c0 0 63.23 40.89 64.24-13.44z" />
-                        <path class="grdc-2" d="m1360 168.31s-62.35-13.67-39.19 52.63c0 0 74.44-11.29 39.19-52.63z" />
-                        <path class="grdc-4" d="m1373.2 160.6s-36.65-52.27-64.47 12.21c0 0 62.44 42.08 64.47-12.21z" />
-                        <path class="grdc-4" d="m1501.1 164.94s-9.6-63.1 55.06-35.71c0 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1522.1 162.02s37.63-51.55 64.23 13.44c0 0-63.23 40.88-64.23-13.44z" />
-                        <path class="grdc-4"
-                            d="m1488.8 176.88s36.65-52.26 64.48 12.22c-0.04 0-62.48 42.07-64.48-12.22z" />
-                        <path class="grdc-4"
-                            d="m1463.8 123.54s-9.6-63.11 55.06-35.71c-0.06 0-16.06 73.56-55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1484.8 120.62s37.63-51.56 64.23 13.44c-0.03 0-63.23 40.88-64.23-13.44z" />
-                        <path class="grdc-2" d="m1464.6 143.17s62.36-13.66 39.2 52.64c0 0.02-74.45-11.27-39.2-52.64z" />
-                        <path class="grdc-4" d="m1451.4 135.48s36.65-52.26 64.48 12.22c0 0-62.44 42.08-64.48-12.22z" />
-                        <path class="grdc-4" d="m1535.7 143.22s-9.61-63.1 55-35.71c0.07 0-16.02 73.56-55 35.71z" />
-                        <path class="grdc-2" d="m1556.7 140.3s37.64-51.55 64.23 13.44c0 0-63.23 40.89-64.23-13.44z" />
-                        <path class="grdc-2" d="m1536.5 162.88s62.35-13.67 39.19 52.63c0 0-74.45-11.29-39.19-52.63z" />
-                        <path class="grdc-4" d="m1523.3 155.17s36.65-52.26 64.48 12.21c0 0-62.44 42.08-64.48-12.21z" />
-                        <path class="grdc-4" d="m1577.1 207.7s-9.61-63.11 55.05-35.71c0 0-16.07 73.56-55.05 35.71z" />
-                        <path class="grdc-4" d="m1440 194.17s-9.61-63.1 55.06-35.71c0-0.05-16.08 73.52-55.06 35.71z" />
-                        <path class="grdc-2" d="m1461 191.17s37.64-51.55 64.23 13.45c0 0.03-63.23 40.91-64.23-13.45z" />
-                        <path class="grdc-4" d="m1434.8 166.3s9.61-63.11-55.06-35.71c0.06 0 16.12 73.58 55.06 35.71z" />
-                        <path class="grdc-2" d="m1413.8 163.38s-37.64-51.56-64.24 13.44c0 0 63.23 40.88 64.24-13.44z" />
-                        <path class="grdc-4" d="m1447.2 178.24s-36.65-52.26-64.47 12.22c0 0 62.44 42.08 64.47-12.22z" />
-                        <path class="grdc-4" d="m1472.1 124.9s9.6-63.11-55.06-35.71c0-0.02 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1451.2 121.97s-37.64-51.55-64.24 13.45c0 0 63.23 40.88 64.24-13.45z" />
-                        <path class="grdc-2"
-                            d="m1471.3 144.55s-62.35-13.66-39.2 52.64c0-0.02 74.45-11.29 39.2-52.64z" />
-                        <path class="grdc-4" d="m1484.5 136.84s-36.65-52.26-64.48 12.22c0 0 62.45 42.11 64.48-12.22z" />
-                        <path class="grdc-4" d="m1400.2 144.58s9.6-63.11-55.06-35.71c0 0 16.07 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1399.4 164.23s-62.35-13.66-39.19 52.64c0 0 74.45-11.29 39.19-52.64z" />
-                        <path class="grdc-4" d="m1412.6 156.52s-36.65-52.26-64.48 12.22c0 0 62.44 42.08 64.48-12.22z" />
-                        <path class="grdc-4" d="m1518 257.25s-9.61-63.11 55.06-35.72c0 0-16.08 73.57-55.06 35.72z" />
-                        <path class="grdc-2" d="m1539 254.32s37.64-51.55 64.24 13.45c0 0-63.23 40.88-64.24-13.45z" />
-                        <path class="grdc-4" d="m1505.7 269.17s36.65-52.26 64.47 12.22c0 0.02-62.4 42.1-64.47-12.22z" />
-                        <path class="grdc-4"
-                            d="m1480.8 215.84s-9.61-63.1 55.06-35.71c-0.06 0.04-16.13 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1501.7 212.92s37.64-51.55 64.24 13.44c0 0-63.23 40.89-64.24-13.44z" />
-                        <path class="grdc-2"
-                            d="m1481.5 235.5s62.35-13.66 39.2 52.63c0.03 0.04-74.45-11.28-39.2-52.63z" />
-                        <path class="grdc-4" d="m1468.4 227.79s36.65-52.26 64.47 12.21c0 0-62.44 42.08-64.47-12.21z" />
-                        <path class="grdc-4"
-                            d="m1552.7 235.53s-9.6-63.11 55.06-35.71c0.05 0-16.07 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1573.6 232.6s37.64-51.55 64.23 13.45c0 0-63.23 40.88-64.23-13.45z" />
-                        <path class="grdc-2" d="m1286.3 223.78s-37.64-51.55-64.24 13.44c0 0 63.24 40.89 64.24-13.44z" />
-                        <path class="grdc-2" d="m1288.3 138.94s-37.63-51.55-64.23 13.44c0 0 63.23 40.89 64.23-13.44z" />
-                        <path class="grdc-4" d="m1267.9 206.34s9.6-63.1-55.06-35.71c0 0 16.07 73.54 55.06 35.71z" />
-                        <path class="grdc-2" d="m1246.9 203.42s-37.64-51.55-64.23 13.44c0 0 63.23 40.89 64.23-13.44z" />
-                        <path class="grdc-4"
-                            d="m1280.3 218.29s-36.65-52.26-64.48 12.21c-0.03 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-2" d="m1283.6 156.59s-37.64-51.55-64.23 13.44c0 0 63.23 40.88 64.23-13.44z" />
-                        <path class="grdc-4" d="m1270 137.79s9.61-63.1-55-35.71c-0.05 0 16.02 73.56 55 35.71z" />
-                        <path class="grdc-2"
-                            d="m1249 134.87s-37.64-51.55-64.23 13.44c0.02 0 63.23 40.86 64.23-13.44z" />
-                        <path class="grdc-2" d="m1269.1 157.45s-62.35-13.67-39.19 52.63c0 0 74.44-11.29 39.19-52.63z" />
-                        <path class="grdc-4" d="m1282.3 149.74s-36.65-52.26-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m1228.6 202.27s9.61-63.11-55.06-35.71c0 0 16.08 73.61 55.06 35.71z" />
-                        <path class="grdc-4" d="m1287.6 251.82s9.6-63.11-55.06-35.72c0 0 16.08 73.57 55.06 35.72z" />
-                        <path class="grdc-4" d="m1253 230.1s9.61-63.11-55-35.71c-0.05 0 16.02 73.56 55 35.71z" />
-                        <path class="grdc-2"
-                            d="m1232 227.17s-37.64-51.55-64.23 13.45c-0.01 0 63.23 40.88 64.23-13.45z" />
-                        <path class="grdc-2"
-                            d="m1553.5 255.17s62.35-13.66 39.19 52.64c0 0.01-74.45-11.28-39.19-52.64z" />
-                        <path class="grdc-4" d="m1540.3 247.47s36.65-52.3 64.46 12.22c0 0-62.42 42.08-64.46-12.22z" />
-                        <path class="grdc-4" d="m1594.1 300s-9.61-63.1 55-35.71c0.05 0-16.02 73.56-55 35.71z" />
-                        <path class="grdc-4" d="m1457 286.43s-9.61-63.1 55-35.71c0.05 0-16.02 73.56-55 35.71z" />
-                        <path class="grdc-2" d="m1478 283.51s37.64-51.56 64.23 13.44c0 0-63.23 40.88-64.23-13.44z" />
-                        <path class="grdc-4" d="m1451.8 258.6s9.6-63.1-55.06-35.71c0.06 0 16.06 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1430.8 255.68s-37.61-51.51-64.21 13.49c0 0 63.21 40.84 64.21-13.49z" />
-                        <path class="grdc-4" d="m1464.1 270.55s-36.65-52.26-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m1489.1 217.17s9.6-63.1-55.06-35.71c0 0.03 16.07 73.59 55.06 35.71z" />
-                        <path class="grdc-2" d="m1468.1 214.28s-37.64-51.55-64.23 13.44c0 0 63.23 40.89 64.23-13.44z" />
-                        <path class="grdc-2" d="m1488.3 236.86s-62.36-13.67-39.2 52.63c0 0 74.45-11.32 39.2-52.63z" />
-                        <path class="grdc-4"
-                            d="m1501.5 229.17s-36.65-52.27-64.48 12.21c0-0.02 62.44 42.06 64.48-12.21z" />
-                        <path class="grdc-4" d="m1417.2 236.88s9.61-63.1-55.05-35.71c0 0 16.07 73.56 55.05 35.71z" />
-                        <path class="grdc-2" d="m1416.3 256.54s-62.35-13.66-39.19 52.63c0 0 74.44-11.28 39.19-52.63z" />
-                        <path class="grdc-4" d="m1429.5 248.83s-36.65-52.26-64.48 12.21c0 0 62.44 42.13 64.48-12.21z" />
-                        <path class="grdc-4"
-                            d="m1402.7 131.68s-9.61-63.1 55.06-35.71c0.04 0-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1423.6 128.76s37.64-51.59 64.24 13.41c0 0-63.24 40.92-64.24-13.41z" />
-                        <path class="grdc-4"
-                            d="m1390.3 143.63s36.65-52.26 64.47 12.21c-0.02 0-62.44 42.08-64.47-12.21z" />
-                        <path class="grdc-4" d="m1365.3 90.28s-9.57-63.11 55.06-35.71c0 0-16.08 73.6-55.06 35.71z" />
-                        <path class="grdc-2" d="m1386.3 87.36s37.64-51.55 64.24 13.44c0 0-63.23 40.89-64.24-13.44z" />
-                        <path class="grdc-2" d="m1366.2 109.94s62.35-13.67 39.19 52.63c0 0-74.44-11.29-39.19-52.63z" />
-                        <path class="grdc-4" d="m1353 102.23s36.65-52.26 64.47 12.21c0 0-62.44 42.08-64.47-12.21z" />
-                        <path class="grdc-4" d="m1437.3 109.96s-9.6-63.1 55.06-35.71c0 0-16.07 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1458.3 107.04s37.63-51.55 64.23 13.44c0 0-63.23 40.89-64.23-13.44z" />
-                        <path class="grdc-2" d="m1438.1 129.62s62.36-13.66 39.2 52.63c0 0-74.45-11.28-39.2-52.63z" />
-                        <path class="grdc-4"
-                            d="m1424.9 121.91s36.65-52.26 64.48 12.22c0 0.04-62.44 42.04-64.48-12.22z" />
-                        <path class="grdc-4" d="m1478.7 174.44s-9.6-63.1 55.06-35.71c0.03 0-16.07 73.56-55.06 35.71z" />
-                        <path class="grdc-4"
-                            d="m1341.6 160.87s-9.6-63.11 55.06-35.71c0 0.01-16.07 73.56-55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1362.6 157.95s37.64-51.56 64.23 13.44c-0.03 0-63.23 40.88-64.23-13.44z" />
-                        <path class="grdc-4" d="m1336.4 133.04s9.6-63.1-55.06-35.71c0 0 16.07 73.56 55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1315.4 130.17s-37.64-51.55-64.23 13.44c0-0.05 63.23 40.84 64.23-13.44z" />
-                        <path class="grdc-4"
-                            d="m1348.8 144.99s-36.65-52.27-64.48 12.21c-0.02-0.03 62.42 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m1373.8 91.64s9.6-63.1-55.06-35.71c-0.04 0 16.06 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1352.8 88.72s-37.67-51.55-64.26 13.45c0 0 63.26 40.87 64.26-13.45z" />
-                        <path class="grdc-2" d="m1372.9 111.29s-62.35-13.66-39.19 52.64c0 0 74.45-11.29 39.19-52.64z" />
-                        <path class="grdc-4" d="m1386.1 103.58s-36.65-52.26-64.48 12.22c0 0 62.44 42.08 64.48-12.22z" />
-                        <path class="grdc-4" d="m1301.8 111.32s9.61-63.1-55.06-35.71c0.06 0 16.06 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1301 130.98s-62.35-13.67-39.19 52.63c0 0 74.44-11.29 39.19-52.63z" />
-                        <path class="grdc-4" d="m1314.1 123.27s-36.65-52.26-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m1379.6 268.1s-9.6-63.1 55.06-35.71c0 0-16.07 73.56-55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1400.6 265.17s37.63-51.55 64.23 13.44c-0.04 0.01-63.23 40.9-64.23-13.44z" />
-                        <path class="grdc-4"
-                            d="m1367.2 280.05s36.65-52.26 64.48 12.22c0.05 0-62.44 42.08-64.48-12.22z" />
-                        <path class="grdc-4" d="m1342.3 226.7s-9.6-63.1 55.06-35.71c0 0-16.07 73.56-55.06 35.71z" />
-                        <path class="grdc-2" d="m1363.2 223.78s37.64-51.55 64.23 13.44c0 0-63.23 40.89-64.23-13.44z" />
-                        <path class="grdc-2" d="m1343.1 246.36s62.36-13.66 39.2 52.63c0 0-74.45-11.29-39.2-52.63z" />
-                        <path class="grdc-4" d="m1329.9 238.65s36.65-52.26 64.48 12.21c0 0-62.44 42.08-64.48-12.21z" />
-                        <path class="grdc-4" d="m1414.2 246.39s-9.61-63.11 55-35.72c0.05 0-16.02 73.57-55 35.72z" />
-                        <path class="grdc-2" d="m1435.2 243.46s37.64-51.55 64.23 13.45c0 0-63.23 40.88-64.23-13.45z" />
-                        <path class="grdc-2" d="m1415 266.04s62.35-13.66 39.19 52.64c0 0-74.45-11.29-39.19-52.64z" />
-                        <path class="grdc-4" d="m1401.8 258.33s36.65-52.26 64.48 12.22c0 0-62.44 42.08-64.48-12.22z" />
-                        <path class="grdc-4"
-                            d="m1455.6 310.86s-9.61-63.1 55.06-35.71c0 0.02-16.08 73.56-55.06 35.71z" />
-                        <path class="grdc-4" d="m1318.5 297.29s-9.61-63.11 55.06-35.71c0 0-16.08 73.59-55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1339.5 294.37s37.64-51.56 64.24 13.44c0.04 0-63.24 40.88-64.24-13.44z" />
-                        <path class="grdc-4" d="m1313.3 269.46s9.61-63.1-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1292.3 266.54s-37.64-51.55-64.24 13.44c0 0 63.23 40.89 64.24-13.44z" />
-                        <path class="grdc-4" d="m1325.7 281.41s-36.65-52.26-64.47 12.21c0 0 62.44 42.08 64.47-12.21z" />
-                        <path class="grdc-4" d="m1350.6 228.06s9.61-63.1-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1329.7 225.17s-37.64-51.55-64.24 13.44c0-0.03 63.23 40.85 64.24-13.44z" />
-                        <path class="grdc-2" d="m1349.8 247.72s-62.35-13.67-39.2 52.63c0 0 74.45-11.29 39.2-52.63z" />
-                        <path class="grdc-4" d="m1363 240s-36.65-52.26-64.47 12.22c0 0 62.44 42.08 64.47-12.22z" />
-                        <path class="grdc-4" d="m1278.7 247.74s9.6-63.1-55.06-35.71c0 0 16.12 73.56 55.06 35.71z" />
-                        <path class="grdc-2" d="m1277.9 267.4s-62.35-13.66-39.19 52.63c0 0 74.45-11.29 39.19-52.63z" />
-                        <path class="grdc-4" d="m1291.1 259.69s-36.65-52.26-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                        <path class="grdc-4" d="m1319.4 213.17s9.6-63.11-55.06-35.71c0-0.04 16.08 73.52 55.06 35.71z" />
-                        <path class="grdc-2"
-                            d="m1298.4 210.17s-37.64-51.56-64.24 13.44c0 0.04 63.23 40.92 64.24-13.44z" />
-                        <path class="grdc-2" d="m1318.6 232.78s-62.35-13.66-39.2 52.64c0 0 74.45-11.25 39.2-52.64z" />
-                        <path class="grdc-4"
-                            d="m1331.8 225.07s-36.65-52.26-64.48 12.22c0.01 0 62.48 42.08 64.48-12.22z" />
-                        <path class="grdc-4" d="m1349.3 285.75s9.61-63.1-55.06-35.71c0 0 16.08 73.56 55.06 35.71z" />
-                        <path class="grdc-4" d="m1474.2 115.39s9.61-63.1-55.05-35.71c0 0 16.07 73.56 55.05 35.71z" />
-                        <path class="grdc-2" d="m1328.3 282.83s-37.64-51.55-64.23 13.44c0 0 63.23 40.9 64.23-13.44z" />
-                        <path class="grdc-2" d="m1348.5 305.41s-62.35-13.67-39.19 52.63c0 0 74.49-11.29 39.19-52.63z" />
-                        <path class="grdc-4" d="m1361.6 297.7s-36.66-52.27-64.48 12.21c0 0 62.44 42.08 64.48-12.21z" />
-                    </g>
-                    <!-- >>>Leaves -->
-                    <path class="grdc-2" d="m1487.8 682.45s-18.57-322.71-188.33-221c0-0.04 169.76 103.41 188.33 221z" />
-                    <path class="grdc-2" d="m1511.7 672.72s30.94-328-137-302.37c-0.04 0 144.96 195.39 137 302.37z" />
-                    <path class="grdc-2" d="m1544 682.45s18.57-322.71 188.33-221c0-0.04-169.76 103.41-188.33 221z" />
-                    <path class="grdc-2" d="m1520.1 672.72s-30.94-328 137-302.37c0.04 0-144.96 195.39-137 302.37z" />
-                    <path class="grdc-2" d="m1515.1 620.71s39.89-300.76 9-338.78c-0.05 0-70.11 149.72-9 338.78z" />
-                    <path class="grdc-5" d="m1390.3 379.67s94 65 106 174" />
-                    <path class="grdc-5" d="m1523.8 310.17-11.6 265.15" fill="none" stroke="#bbcfc0"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-5" d="m1644.8 376.17s-91.21 85.7-126.1 204.35" />
-                    <path class="grdc-5" d="m1314.8 461.17s123 36 151 138" />
-                    <path class="grdc-5" d="m1711.8 460.17s-86 7-153 155" />
-                    <path class="grdc-3"
-                        d="m1331.9 765.11a35.81 35.81 0 0 1-35.81 35.81 35.81 35.81 0 0 1-35.81-35.81 35.81 35.81 0 0 1 35.81-35.81 35.81 35.81 0 0 1 35.81 35.81z" />
-                    <path class="grdc-6" d="m1091.4 762.02h406.71v101.68h-406.71z" fill="#074054" />
-                    <path class="grdc-7" d="m1087.4 753.02h406.71v101.68h-406.71z" fill="none" stroke="#70323b"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-6" d="m1420.6 643.54h174.18v207.77h-174.18z" fill="#074054" />
-                    <path class="grdc-5" d="m1434.6 638.54h174.18v207.77h-174.18z" fill="none" stroke="#bbcfc0"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-4" d="m1442.8 847.78h145.88v16.8h-145.88z" fill="#bbcfc0" />
-                    <path class="grdc-4" d="m810.77 763.96s-30.34-4.33-26-39.87c0 0 45.93 7.8 26 39.87z" />
-                    <path class="grdc-4" d="m811.02 763.96s30.34-4.33 26-39.87c0 0-45.93 7.8-26 39.87z" />
-                    <path class="grdc-2" d="m803.83 770.89s-30.33-4.33-26-39.86c0 0 45.94 7.8 26 39.86z" />
-                    <path class="grdc-2" d="m822.29 770.89s30.33-4.33 26-39.86c0 0-45.93 7.8-26 39.86z" />
-                    <path class="grdc-2" d="m813.12 771.78s-26-16.16-7.79-47c0 0.05 38.93 25.65 7.79 47z" />
-                    <path class="grdc-4" d="m887.9 763.96s-30.33-4.33-26-39.87c0 0 45.94 7.8 26 39.87z" />
-                    <path class="grdc-4" d="m888.16 763.96s30.33-4.33 26-39.87c0 0-45.93 7.8-26 39.87z" />
-                    <path class="grdc-2" d="m880.97 770.89s-30.34-4.33-26-39.86c0 0 45.93 7.8 26 39.86z" />
-                    <path class="grdc-2" d="m899.43 770.89s30.33-4.33 26-39.86c0 0-45.94 7.8-26 39.86z" />
-                    <path class="grdc-2" d="m890.26 771.78s-26-16.16-7.79-47c0 0.05 38.93 25.65 7.79 47z" />
-                    <path class="grdc-4" d="m964.84 763.96s-30.34-4.33-26-39.87c0 0 45.93 7.8 26 39.87z" />
-                    <path class="grdc-4" d="m965.1 763.96s30.33-4.33 26-39.87c0 0-45.94 7.8-26 39.87z" />
-                    <path class="grdc-2" d="m957.9 770.89s-30.33-4.33-26-39.86c0 0 45.94 7.8 26 39.86z" />
-                    <path class="grdc-2" d="m976.36 770.89s30.34-4.33 26-39.86c0 0-45.93 7.8-26 39.86z" />
-                    <path class="grdc-2" d="m967.19 771.78s-26-16.16-7.79-47c0 0.05 38.93 25.65 7.79 47z" />
-                    <path class="grdc-4" d="m1042 763.96s-30.33-4.33-26-39.87c0 0 45.94 7.8 26 39.87z" />
-                    <path class="grdc-4" d="m1042.2 763.96s30.34-4.33 26-39.87c0 0-45.93 7.8-26 39.87z" />
-                    <path class="grdc-2" d="m1035 770.89s-30.33-4.33-26-39.86c0 0 45.93 7.8 26 39.86z" />
-                    <path class="grdc-2" d="m1053.5 770.89s30.33-4.33 26-39.86c0 0-45.94 7.8-26 39.86z" />
-                    <path class="grdc-2" d="m1044.3 771.78s-26-16.16-7.79-47c0 0.05 38.93 25.65 7.79 47z" />
-                    <path class="grdc-4" d="m735.36 763.96s-30.33-4.33-26-39.87c0 0 45.94 7.8 26 39.87z" />
-                    <path class="grdc-4" d="m735.62 763.96s30.33-4.33 26-39.87c0 0-45.93 7.8-26 39.87z" />
-                    <path class="grdc-2" d="m728.43 770.89s-30.34-4.33-26-39.86c0 0 45.93 7.8 26 39.86z" />
-                    <path class="grdc-2" d="m746.89 770.89s30.33-4.33 26-39.86c0 0-45.94 7.8-26 39.86z" />
-                    <path class="grdc-2" d="m737.77 771.78s-26-16.16-7.79-47c-0.05 0.05 38.88 25.65 7.79 47z" />
-                    <path class="grdc-4" d="m692.97 762.03h390.04v65.24h-390.04z" fill="#bbcfc0" />
-                    <path class="grdc-1" d="m684.64 770.36h390.04v65.24h-390.04z" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-6" d="m43.54 722.32h675.49v141.07h-675.49z" fill="#074054" />
-                    <path class="grdc-5" d="m37.84 710.61h675.49v141.07h-675.49z" fill="none" stroke="#bbcfc0"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <g fill="#d15b40">
-                        <path class="grdc-8" d="m35.17 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m74.17 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m114.17 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m154.17 440.17h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="#d15b40">
-                        <path class="grdc-8" d="m209.17 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m248.17 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m288.17 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m328.17 440.17h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="#d15b40">
-                        <path class="grdc-8" d="m384.17 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m423.17 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m463.17 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m503.17 440.17h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="#d15b40">
-                        <path class="grdc-8" d="m558.17 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m597.17 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m637.17 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m677.17 440.17h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2px">
-                        <path class="grdc-5" d="m30.67 435.67h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m69.67 435.67h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m109.67 435.67h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m149.67 435.67h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2px">
-                        <path class="grdc-5" d="m204.67 435.67h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m243.67 435.67h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m283.67 435.67h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m323.67 435.67h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2px">
-                        <path class="grdc-5" d="m379.67 435.67h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m418.67 435.67h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m458.67 435.67h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m498.67 435.67h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2px">
-                        <path class="grdc-5" d="m553.67 435.67h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m592.67 435.67h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m632.67 435.67h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m672.67 435.67h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="#d15b40">
-                        <path class="grdc-8" d="m1066.2 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m1105.2 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m1145.2 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m1185.2 440.17h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="#d15b40">
-                        <path class="grdc-8" d="m1240.2 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m1279.2 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m1319.2 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m1359.2 440.17h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="#d15b40">
-                        <path class="grdc-8" d="m1415.2 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m1454.2 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m1494.2 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m1534.2 440.17h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="#d15b40">
-                        <path class="grdc-8" d="m1589.2 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m1628.2 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m1668.2 440.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-8" d="m1708.2 440.17h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2px">
-                        <path class="grdc-5" d="m1070.2 436.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m1109.2 436.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m1149.2 436.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m1189.2 436.17h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2px">
-                        <path class="grdc-5" d="m1244.2 436.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m1283.2 436.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m1323.2 436.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m1363.2 436.17h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2px">
-                        <path class="grdc-5" d="m1419.2 436.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m1458.2 436.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m1498.2 436.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m1538.2 436.17h28.6v425.3h-28.6z" />
-                    </g>
-                    <g fill="none" stroke="#bbcfc0" stroke-miterlimit="10" stroke-width="2px">
-                        <path class="grdc-5" d="m1593.2 436.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m1632.2 436.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m1672.2 436.17h28.6v425.3h-28.6z" />
-                        <path class="grdc-5" d="m1712.2 436.17h28.6v425.3h-28.6z" />
-                    </g>
-                    <path class="grdc-8"
-                        d="m731.91 328.17c3.421-83.876 72.414-150.11 156.36-150.11s152.94 66.237 156.36 150.11h0.14v538h-313v-538z" />
-                    <path class="grdc-4" d="m727.99 450.8h313.87v26.52h-313.87z" fill="#bbcfc0" />
-                    <path class="grdc-1" d="m731.99 442.8h313.87v26.52h-313.87z" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-4" d="m727.99 737.26h313.87v26.52h-313.87z" fill="#bbcfc0" />
-                    <path class="grdc-4" transform="rotate(39)" d="m886.13-93.412h358.09v26.52h-358.09z"
-                        fill="#bbcfc0" />
-                    <path class="grdc-1" transform="rotate(39)" d="m887.15-103.17h358.09v26.52h-358.09z" fill="none"
-                        stroke="#0a6149" stroke-miterlimit="10" stroke-width="2px" />
-                    <path class="grdc-1" d="m730.46 745.26h313.87v26.52h-313.87z" fill="none" stroke="#0a6149"
-                        stroke-miterlimit="10" stroke-width="2px" />
-                </svg>
 
 
 
